@@ -326,6 +326,7 @@ function renderFeed() {
   if (state.calDateFilter) {
     blogs = blogs.filter(b => b.date === state.calDateFilter);
   }
+  blogs = blogs.slice().sort((a, b) => b.date.localeCompare(a.date));
 
   $('blogFeed').innerHTML = blogs.map(blog => {
     const date = fmtDate(blog.date);
