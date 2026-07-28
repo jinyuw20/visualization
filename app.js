@@ -112,23 +112,22 @@ function closeListenDialog() {
   document.body.style.overflow = '';
 }
 
-$('speakerBtn').addEventListener('click', () => {
-  if (state.openBlog) {
-    const blog = state.openBlog;
-    if (state.isPlaying) stopSession();
-    state.queue = [{ ...blog, wc: wordCount(blog.content) }];
-    state.totalWords = state.queue[0].wc;
-    state.currentIndex = 0;
-    state.isPlaying = true;
-    state.isPaused = false;
-    showMiniPlayer();
-    $('mpTitle').textContent = blog.title;
-    showToast(`🎧 Reading: ${blog.title}`);
-    playArticle(0);
-  } else {
-    openListenDialog();
-  }
-});
+$('speakerBtn').addEventListener('click', openListenDialog);
+
+window.readArticle = function(id) {
+  const blog = window.BLOG_REGISTRY.find(b => b.id === id);
+  if (!blog) return;
+  if (state.isPlaying) stopSession();
+  state.queue = [{ ...blog, wc: wordCount(blog.content) }];
+  state.totalWords = state.queue[0].wc;
+  state.currentIndex = 0;
+  state.isPlaying = true;
+  state.isPaused = false;
+  showMiniPlayer();
+  $('mpTitle').textContent = blog.title;
+  showToast(`🎧 Reading: ${blog.title}`);
+  playArticle(0);
+};
 $('cancelListenBtn').addEventListener('click', closeListenDialog);
 $('listenOverlay').addEventListener('click', e => {
   if (e.target === $('listenOverlay')) closeListenDialog();
@@ -330,16 +329,23 @@ function renderFeed() {
 
   $('blogFeed').innerHTML = blogs.map(blog => {
     const date = fmtDate(blog.date);
+    const paragraphs = blog.content
+      .split(/\n+/)
+      .filter(p => p.trim())
+      .map(p => `<p>${p.trim()}</p>`)
+      .join('');
     return `
-      <article class="post-card" onclick="openBlog('${blog.id}')">
+      <article class="post-card">
         <div class="post-cat">${blog.category}</div>
         <h2 class="post-title">${blog.title}</h2>
         <div class="post-date">${date}</div>
         <hr class="post-hr">
-        <p class="post-excerpt">${blog.excerpt}</p>
+        <div class="post-body">${paragraphs}</div>
         <div class="post-footer">
-          <span class="post-more">Read more →</span>
-          <span class="post-comments">0 Comments</span>
+          <button class="post-listen-btn" onclick="readArticle('${blog.id}')">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+            Listen · ~${listenMins(blog.content)} min
+          </button>
         </div>
       </article>
     `;
