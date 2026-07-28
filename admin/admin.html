@@ -623,7 +623,6 @@
 
         <!-- Actions -->
         <div class="form-actions">
-          <button class="btn-publish" id="btnPublish">✦ Publish to Blog</button>
           <button class="btn-save" id="btnSave">💾 Save to File</button>
           <button class="btn-clear" id="btnClear">✕ Clear</button>
         </div>
@@ -867,20 +866,6 @@
       return { id, ...d };
     }
 
-    /* ── Publish ───────────────────────────────────────────────── */
-    $('btnPublish').addEventListener('click', () => {
-      if (!validate()) {
-        showToast('⚠️ Please fill in all required fields', 'error');
-        return;
-      }
-      const post = buildPost();
-      const saved = loadSaved();
-      saved.unshift(post);
-      savePosts(saved);
-      renderSavedList();
-      showToast('✅ Published! Open the blog to see your article.', 'success');
-    });
-
     /* ── Filename builder ──────────────────────────────────────── */
     function buildFilename(post) {
       const slug = post.title
@@ -956,6 +941,33 @@
       }
     });
 
+    /* ── Manifest updater ──────────────────────────────────────── */
+    async function updateManifest(dirHandle, filename) {
+      let entries = [];
+      try {
+        const mfh = await dirHandle.getFileHandle('manifest.js');
+        const text = await (await mfh.getFile()).text();
+        const m = text.match(/\[([^\]]*)\]/s);
+        if (m) {
+          entries = m[1].split(',')
+            .map(s => s.trim().replace(/^["']|["']$/g, ''))
+            .filter(Boolean);
+        }
+      } catch { /* manifest doesn't exist yet */ }
+
+      if (!entries.includes(filename)) {
+        entries.push(filename);
+        entries.sort();
+      }
+
+      const content = 'window.BLOG_MANIFEST = [\n' +
+        entries.map(f => '  "' + f + '"').join(',\n') +
+        '\n];\n';
+      const mfh = await dirHandle.getFileHandle('manifest.js', { create: true });
+      const w = await mfh.createWritable();
+      await w.write(content); await w.close();
+    }
+
     /* ── Save to file ──────────────────────────────────────────── */
     $('btnSave').addEventListener('click', async () => {
       if (!validate()) { showToast('⚠️ Please fill in all required fields', 'error'); return; }
@@ -973,7 +985,8 @@
             const fh = await dirHandle.getFileHandle(filename, { create: true });
             const w = await fh.createWritable();
             await w.write(js); await w.close();
-            showToast(`✅ Saved ${filename} → ${dirHandle.name}/`, 'success');
+            await updateManifest(dirHandle, filename);
+            showToast(`✅ Saved ${filename} + manifest updated`, 'success');
             return;
           }
         } catch (e) { /* fall through */ }
@@ -988,12 +1001,11 @@
           });
           const w = await fh.createWritable();
           await w.write(js); await w.close();
-          showToast(`✅ Saved ${filename}`, 'success');
+          showToast(`✅ Saved ${filename} — set blogs folder to also auto-update manifest`, 'success');
         } catch (e) {
           if (e.name !== 'AbortError') showToast('Save cancelled', '');
         }
       } else {
-        // Last resort: blob download
         const blob = new Blob([js], { type: 'application/javascript' });
         const a = document.createElement('a');
         a.href = URL.createObjectURL(blob); a.download = filename; a.click();
