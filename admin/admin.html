@@ -201,6 +201,53 @@
 
     .btn-download:hover { border-color: var(--accent3); color: var(--accent3); background: rgba(67,217,162,0.07); }
 
+    .btn-save {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      padding: 0.75rem 1.1rem;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      border-radius: 40px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.18s;
+    }
+    .btn-save:hover { border-color: var(--accent); color: var(--accent); background: rgba(108,99,255,0.07); }
+
+    .folder-row {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+    .folder-status {
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      flex: 1;
+      min-width: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .folder-status.set { color: var(--accent3); }
+    .btn-set-folder {
+      background: none;
+      border: 1px dashed var(--border);
+      border-radius: 6px;
+      padding: 0.3rem 0.7rem;
+      font-size: 0.76rem;
+      color: var(--text-dim);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.15s;
+      flex-shrink: 0;
+    }
+    .btn-set-folder:hover { border-color: var(--accent3); color: var(--accent3); }
+
     .btn-clear {
       display: flex;
       align-items: center;
@@ -490,16 +537,6 @@
 </head>
 <body>
 
-  <header>
-    <div class="header-inner">
-      <div class="logo">
-        <div class="logo-icon">📚</div>
-        MiniChat Reads
-      </div>
-      <a href="index.html" class="back-link">← Back to Blog</a>
-    </div>
-  </header>
-
   <main>
 
     <div class="admin-page-header">
@@ -587,8 +624,14 @@
         <!-- Actions -->
         <div class="form-actions">
           <button class="btn-publish" id="btnPublish">✦ Publish to Blog</button>
-          <button class="btn-download" id="btnDownload">⬇ Download .js</button>
+          <button class="btn-save" id="btnSave">💾 Save to File</button>
           <button class="btn-clear" id="btnClear">✕ Clear</button>
+        </div>
+
+        <!-- Folder indicator -->
+        <div class="folder-row">
+          <span class="folder-status" id="folderStatus">No default folder set</span>
+          <button class="btn-set-folder" id="btnSetFolder">📁 Set blogs folder</button>
         </div>
 
       </div>
@@ -838,35 +881,132 @@
       showToast('✅ Published! Open the blog to see your article.', 'success');
     });
 
-    /* ── Download .js ──────────────────────────────────────────── */
-    $('btnDownload').addEventListener('click', () => {
-      if (!validate()) {
-        showToast('⚠️ Please fill in all required fields', 'error');
-        return;
+    /* ── Filename builder ──────────────────────────────────────── */
+    function buildFilename(post) {
+      const slug = post.title
+        .toLowerCase()
+        .replace(/[|:#!?'"]/g, '')
+        .replace(/\s+/g, '-')
+        .replace(/[^a-z0-9-]/g, '')
+        .replace(/-+/g, '-')
+        .replace(/^-|-$/g, '')
+        .slice(0, 60);
+      return `${post.date}-${slug}.js`;
+    }
+
+    function buildJS(post) {
+      const id = `${post.date}-${slugify(post.title)}`;
+      const safe = post.content.replace(/`/g, '\\`').replace(/\${/g, '\\${');
+      return `window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];\nwindow.BLOG_REGISTRY.push({\n  id: ${JSON.stringify(id)},\n  title: ${JSON.stringify(post.title)},\n  author: ${JSON.stringify(post.author)},\n  date: ${JSON.stringify(post.date)},\n  category: ${JSON.stringify(post.category)},\n  tags: ${JSON.stringify(post.tags)},\n  excerpt: ${JSON.stringify(post.excerpt)},\n  content: \`${safe}\`\n});\n`;
+    }
+
+    /* ── IndexedDB for directory handle ────────────────────────── */
+    async function openDB() {
+      return new Promise((res, rej) => {
+        const r = indexedDB.open('minichat-admin', 1);
+        r.onupgradeneeded = e => e.target.result.createObjectStore('handles');
+        r.onsuccess = e => res(e.target.result);
+        r.onerror = rej;
+      });
+    }
+    async function saveDirHandle(handle) {
+      const db = await openDB();
+      return new Promise((res, rej) => {
+        const tx = db.transaction('handles', 'readwrite');
+        tx.objectStore('handles').put(handle, 'blogsDir');
+        tx.oncomplete = res; tx.onerror = rej;
+      });
+    }
+    async function loadDirHandle() {
+      try {
+        const db = await openDB();
+        return new Promise((res, rej) => {
+          const tx = db.transaction('handles', 'readonly');
+          const r = tx.objectStore('handles').get('blogsDir');
+          r.onsuccess = e => res(e.target.result || null);
+          r.onerror = rej;
+        });
+      } catch { return null; }
+    }
+
+    /* ── Show folder status on load ────────────────────────────── */
+    async function refreshFolderStatus() {
+      const handle = await loadDirHandle();
+      if (handle) {
+        $('folderStatus').textContent = `📂 Default folder: ${handle.name}/`;
+        $('folderStatus').classList.add('set');
+      } else {
+        $('folderStatus').textContent = 'No default folder set';
+        $('folderStatus').classList.remove('set');
       }
-      downloadPost(buildPost());
+    }
+
+    /* ── Set blogs folder ──────────────────────────────────────── */
+    $('btnSetFolder').addEventListener('click', async () => {
+      if (!('showDirectoryPicker' in window)) {
+        showToast('Directory picker not supported in this browser', 'error'); return;
+      }
+      try {
+        const handle = await window.showDirectoryPicker({ mode: 'readwrite' });
+        await saveDirHandle(handle);
+        await refreshFolderStatus();
+        showToast(`📂 Blogs folder set to "${handle.name}"`, 'success');
+      } catch (e) {
+        if (e.name !== 'AbortError') showToast('Could not set folder', 'error');
+      }
+    });
+
+    /* ── Save to file ──────────────────────────────────────────── */
+    $('btnSave').addEventListener('click', async () => {
+      if (!validate()) { showToast('⚠️ Please fill in all required fields', 'error'); return; }
+      const post = buildPost();
+      const filename = buildFilename(post);
+      const js = buildJS(post);
+
+      // Try saved directory handle first
+      const dirHandle = await loadDirHandle();
+      if (dirHandle) {
+        try {
+          const perm = await dirHandle.queryPermission({ mode: 'readwrite' });
+          const granted = perm === 'granted' || await dirHandle.requestPermission({ mode: 'readwrite' }) === 'granted';
+          if (granted) {
+            const fh = await dirHandle.getFileHandle(filename, { create: true });
+            const w = await fh.createWritable();
+            await w.write(js); await w.close();
+            showToast(`✅ Saved ${filename} → ${dirHandle.name}/`, 'success');
+            return;
+          }
+        } catch (e) { /* fall through */ }
+      }
+
+      // Fall back to save picker with pre-populated name
+      if ('showSaveFilePicker' in window) {
+        try {
+          const fh = await window.showSaveFilePicker({
+            suggestedName: filename,
+            types: [{ description: 'JavaScript', accept: { 'application/javascript': ['.js'] } }]
+          });
+          const w = await fh.createWritable();
+          await w.write(js); await w.close();
+          showToast(`✅ Saved ${filename}`, 'success');
+        } catch (e) {
+          if (e.name !== 'AbortError') showToast('Save cancelled', '');
+        }
+      } else {
+        // Last resort: blob download
+        const blob = new Blob([js], { type: 'application/javascript' });
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob); a.download = filename; a.click();
+        URL.revokeObjectURL(a.href);
+        showToast(`⬇ Downloaded ${filename}`, 'success');
+      }
     });
 
     function downloadPost(post) {
-      const safeContent = post.content.replace(/`/g, '\\`').replace(/\${/g, '\\${');
-      const js = `window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
-window.BLOG_REGISTRY.push({
-  id: "${post.id}",
-  title: ${JSON.stringify(post.title)},
-  author: ${JSON.stringify(post.author)},
-  date: "${post.date}",
-  category: ${JSON.stringify(post.category)},
-  tags: ${JSON.stringify(post.tags)},
-  excerpt: ${JSON.stringify(post.excerpt)},
-  content: \`${safeContent}\`
-});
-`;
-      const filename = slugify(post.title) + '.js';
-      const blob = new Blob([js], { type: 'application/javascript' });
+      const filename = buildFilename(post);
+      const blob = new Blob([buildJS(post)], { type: 'application/javascript' });
       const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = filename;
-      a.click();
+      a.href = URL.createObjectURL(blob); a.download = filename; a.click();
       URL.revokeObjectURL(a.href);
       showToast(`⬇ Downloaded ${filename}`, 'success');
     }
@@ -966,10 +1106,10 @@ window.BLOG_REGISTRY.push({
     }
 
     /* ── Init ──────────────────────────────────────────────────── */
-    // Set today's date
     $('fieldDate').value = new Date().toISOString().slice(0, 10);
     renderPreview();
     renderSavedList();
+    refreshFolderStatus();
   </script>
 
 </body>
