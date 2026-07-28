@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sukee Tea Time</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Menu">&#9776;</button>
+    <span class="site-name">Sukee Tea Time</span>
+    <button class="speaker-btn" id="speakerBtn" aria-label="Listen mode">🔊</button>
+  </header>
+
+  <!-- Sidebar -->
+  <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-head">
+      <span class="sidebar-head-title">Sukee Tea Time</span>
+      <button class="sidebar-close" id="sidebarClose">✕</button>
+    </div>
+    <div class="sidebar-body">
+      <div class="sidebar-label">Browse</div>
+      <ul class="sidebar-nav" id="sidebarNav"></ul>
+      <div class="sidebar-divider"></div>
+      <a href="admin.html" class="sidebar-write">✦ Write an Article</a>
+    </div>
+  </aside>
+
+  <!-- Main feed -->
+  <main id="blogFeed"></main>
+
+  <footer>
+    <p>Sukee Tea Time &mdash; <a href="admin.html">Write an Article</a></p>
+  </footer>
+
+  <!-- Listen Dialog -->
+  <div class="dialog-overlay" id="listenOverlay">
+    <div class="listen-dialog">
+      <span class="dialog-icon">🎧</span>
+      <h2>Listen Mode</h2>
+      <p>How long would you like to listen?</p>
+      <div class="time-opts">
+        <button class="time-opt active" data-min="10">10 min</button>
+        <button class="time-opt" data-min="15">15 min</button>
+        <button class="time-opt" data-min="30">30 min</button>
+      </div>
+      <button class="btn-start" id="startListenBtn">▶ Start Listening</button>
+      <button class="btn-cancel" id="cancelListenBtn">Cancel</button>
+    </div>
+  </div>
+
+  <!-- Mini Player -->
+  <div class="mini-player" id="miniPlayer">
+    <div class="mp-info">
+      <span class="mp-label">🎧 Now Reading</span>
+      <div class="mp-title" id="mpTitle">—</div>
+      <div class="mp-progress"><div class="mp-bar" id="mpBar"></div></div>
+    </div>
+    <div class="mp-controls">
+      <button class="mp-btn" id="mpPause">⏸</button>
+      <button class="mp-btn mp-skip" id="mpSkip">⏭ Skip</button>
+      <button class="mp-btn" id="mpStop">■ Stop</button>
+    </div>
+  </div>
+
+  <!-- Article Modal -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" role="dialog" aria-modal="true">
+      <div class="modal-gold-bar"></div>
+      <div class="modal-inner">
+        <button class="modal-close" id="modalClose">✕</button>
+        <div class="modal-cat" id="modalCategory"></div>
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <div class="modal-byline" id="modalByline"></div>
+        <button class="modal-listen-btn" id="modalListenBtn">🎧 Read this article aloud</button>
+        <hr class="modal-divider">
+        <div class="modal-body" id="modalContent"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <!-- Blog files -->
+  <script src="blogs/2026-01-05-chat-eye-protection.js"></script>
+  <script src="blogs/2026-01-11-chat-take-time-to-relax.js"></script>
+  <script src="blogs/2026-01-18-chat-2026-vision-board.js"></script>
+  <script src="blogs/2026-01-18-chat-dinner-at-a-three-michelin-starred-restaurant.js"></script>
+  <script src="blogs/2026-01-22-chat-get-to-know-a-city.js"></script>
+  <script src="blogs/2026-01-25-chat-career-fast-food-or-michelin.js"></script>
+  <script src="blogs/2026-04-28-chat-ai-stress.js"></script>
+  <script src="blogs/2026-05-26-chat-the-art-of-less.js"></script>
+  <script src="blogs/2026-05-27-chat-mini-trash-can.js"></script>
+  <script src="blogs/2026-07-08-meaning-of-work.js"></script>
+  <script src="blogs/2026-07-09-a-stone-on-the-street.js"></script>
+  <script src="blogs/2026-07-27-time-as-a-solution.js"></script>
+
+  <script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin — MiniChat Reads</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* ── Admin layout ─────────────────────────────────────────── */
+    .admin-page-header {
+      margin-bottom: 1.75rem;
+    }
+
+    .admin-page-header h1 {
+      font-size: 1.5rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.2rem;
+    }
+
+    .admin-page-header p {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    .admin-layout {
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      gap: 1.5rem;
+      align-items: start;
+    }
+
+    /* ── Form panel ───────────────────────────────────────────── */
+    .form-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .field {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    label {
+      font-size: 0.73rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--text-dim);
+    }
+
+    label span.req { color: var(--accent2); margin-left: 2px; }
+
+    input[type="text"],
+    input[type="date"],
+    select,
+    textarea {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xs);
+      color: var(--text);
+      font-family: var(--font);
+      font-size: 0.9rem;
+      padding: 0.65rem 0.85rem;
+      width: 100%;
+      transition: border-color 0.18s, box-shadow 0.18s;
+      -webkit-appearance: none;
+      appearance: none;
+    }
+
+    input[type="text"]:focus,
+    input[type="date"]:focus,
+    select:focus,
+    textarea:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(108,99,255,0.15);
+    }
+
+    input::placeholder,
+    textarea::placeholder { color: var(--text-dim); }
+
+    select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23555e7a' d='M6 8L0 0h12z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.85rem center;
+      padding-right: 2.2rem;
+      cursor: pointer;
+    }
+
+    select option { background: var(--surface2); color: var(--text); }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+      line-height: 1.6;
+    }
+
+    #fieldContent {
+      min-height: 260px;
+      font-size: 0.88rem;
+      line-height: 1.7;
+    }
+
+    .field-footer {
+      display: flex;
+      justify-content: flex-end;
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      margin-top: 0.15rem;
+    }
+
+    .char-count.warn { color: var(--accent2); }
+
+    /* Stats bar */
+    .stats-bar {
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .stat-chip {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 40px;
+      padding: 0.3rem 0.75rem;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .stat-chip strong { color: var(--text); font-weight: 700; }
+
+    /* Divider */
+    .form-divider {
+      height: 1px;
+      background: var(--border-subtle);
+      margin: 0.25rem 0;
+    }
+
+    /* Action buttons */
+    .form-actions {
+      display: flex;
+      gap: 0.65rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-publish {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.45rem;
+      padding: 0.75rem 1rem;
+      background: linear-gradient(135deg, var(--accent), #9b8fff);
+      color: #fff;
+      border: none;
+      border-radius: 40px;
+      font-size: 0.92rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.15s, box-shadow 0.15s, opacity 0.15s;
+      box-shadow: 0 4px 18px rgba(108,99,255,0.28);
+    }
+
+    .btn-publish:hover { transform: translateY(-1px); box-shadow: 0 6px 22px rgba(108,99,255,0.38); }
+    .btn-publish:active { transform: translateY(0); }
+
+    .btn-download {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      padding: 0.75rem 1.1rem;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      border-radius: 40px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.18s;
+    }
+
+    .btn-download:hover { border-color: var(--accent3); color: var(--accent3); background: rgba(67,217,162,0.07); }
+
+    .btn-clear {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.4rem;
+      padding: 0.75rem 1rem;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      border-radius: 40px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.18s;
+    }
+
+    .btn-clear:hover { border-color: var(--accent2); color: var(--accent2); }
+
+    /* ── Preview panel ────────────────────────────────────────── */
+    .preview-panel {
+      position: sticky;
+      top: 72px;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .preview-tabs {
+      display: flex;
+      gap: 0.35rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 40px;
+      padding: 0.3rem;
+      width: fit-content;
+    }
+
+    .preview-tab {
+      padding: 0.35rem 0.9rem;
+      border-radius: 40px;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.18s;
+    }
+
+    .preview-tab.active {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .preview-card-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+    }
+
+    .preview-card-box .preview-label {
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-dim);
+      margin-bottom: 0.9rem;
+    }
+
+    /* Card preview uses the same .blog-card styles from style.css */
+    .preview-card-box .blog-card {
+      cursor: default;
+      pointer-events: none;
+    }
+
+    .preview-card-box .blog-card:hover {
+      transform: none;
+      border-color: var(--border);
+      box-shadow: var(--card-shadow);
+    }
+
+    .preview-card-box .blog-card:hover::before { opacity: 0; }
+
+    /* Article preview */
+    .preview-article-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      max-height: 460px;
+      overflow-y: auto;
+      display: none;
+    }
+
+    .preview-article-box.active { display: block; }
+
+    .preview-article-box .art-title {
+      font-size: 1.15rem;
+      font-weight: 800;
+      margin-bottom: 0.3rem;
+      line-height: 1.3;
+    }
+
+    .preview-article-box .art-meta {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-bottom: 1.25rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .preview-article-box .art-body {
+      font-size: 0.9rem;
+      line-height: 1.8;
+      color: var(--text);
+    }
+
+    .preview-article-box .art-body p { margin-bottom: 1rem; }
+    .preview-article-box .art-body p:last-child { margin-bottom: 0; }
+
+    /* Empty state */
+    .preview-empty {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+    }
+
+    .preview-empty .empty-icon {
+      font-size: 2rem;
+      display: block;
+      margin-bottom: 0.5rem;
+      opacity: 0.4;
+    }
+
+    /* ── Saved posts section ──────────────────────────────────── */
+    .saved-section {
+      margin-top: 2.5rem;
+    }
+
+    .saved-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.1rem;
+    }
+
+    .saved-header h2 {
+      font-size: 1.15rem;
+      font-weight: 800;
+    }
+
+    .saved-count {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 40px;
+      padding: 0.2rem 0.65rem;
+      font-weight: 600;
+    }
+
+    .saved-empty {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2.5rem;
+      text-align: center;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+    }
+
+    .saved-empty .empty-icon { font-size: 1.75rem; display: block; margin-bottom: 0.5rem; opacity: 0.35; }
+
+    .saved-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .saved-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 1rem 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .saved-item-info { flex: 1; min-width: 0; }
+
+    .saved-item-title {
+      font-size: 0.92rem;
+      font-weight: 700;
+      margin-bottom: 0.2rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .saved-item-meta {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .saved-item-actions {
+      display: flex;
+      gap: 0.4rem;
+      flex-shrink: 0;
+    }
+
+    .icon-btn {
+      width: 34px;
+      height: 34px;
+      border-radius: var(--radius-xs);
+      border: 1px solid var(--border);
+      background: var(--surface2);
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: all 0.15s;
+    }
+
+    .icon-btn:hover { background: var(--surface3); }
+    .icon-btn.edit:hover { border-color: var(--accent); color: var(--accent); }
+    .icon-btn.dl:hover { border-color: var(--accent3); color: var(--accent3); }
+    .icon-btn.del:hover { border-color: var(--accent2); color: var(--accent2); background: rgba(255,101,132,0.08); }
+
+    /* Validation states */
+    .field input.error,
+    .field textarea.error,
+    .field select.error {
+      border-color: var(--accent2);
+      box-shadow: 0 0 0 3px rgba(255,101,132,0.12);
+    }
+
+    .error-msg {
+      font-size: 0.72rem;
+      color: var(--accent2);
+      margin-top: 0.15rem;
+    }
+
+    /* ── Back button in header ────────────────────────────────── */
+    .back-link {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      margin-left: auto;
+      text-decoration: none;
+      padding: 0.4rem 0.85rem;
+      border: 1px solid var(--border);
+      border-radius: 40px;
+      background: var(--surface);
+      transition: all 0.18s;
+    }
+
+    .back-link:hover { color: var(--text); border-color: var(--accent); opacity: 1; }
+
+    /* ── Responsive ───────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .admin-layout { grid-template-columns: 1fr; }
+      .preview-panel { position: static; }
+    }
+
+    @media (max-width: 600px) {
+      .form-row { grid-template-columns: 1fr; gap: 1rem; }
+      .form-panel { padding: 1.25rem; }
+      .form-actions { flex-direction: column; }
+      .btn-publish, .btn-download, .btn-clear { width: 100%; }
+      .saved-item { flex-direction: column; align-items: flex-start; gap: 0.75rem; }
+      .saved-item-actions { width: 100%; }
+      .icon-btn { flex: 1; height: 36px; width: auto; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <div class="logo-icon">📚</div>
+        MiniChat Reads
+      </div>
+      <a href="index.html" class="back-link">← Back to Blog</a>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="admin-page-header">
+      <h1>Write an Article</h1>
+      <p>Fill in the form — your post publishes directly to the blog and can be downloaded as a file.</p>
+    </div>
+
+    <div class="admin-layout">
+
+      <!-- ── FORM ── -->
+      <div class="form-panel">
+
+        <!-- Title -->
+        <div class="field">
+          <label for="fieldTitle">Title <span class="req">*</span></label>
+          <input type="text" id="fieldTitle" placeholder="Enter article title…" maxlength="120" autocomplete="off">
+        </div>
+
+        <!-- Author + Date -->
+        <div class="form-row">
+          <div class="field">
+            <label for="fieldAuthor">Author <span class="req">*</span></label>
+            <input type="text" id="fieldAuthor" placeholder="Your name" autocomplete="off">
+          </div>
+          <div class="field">
+            <label for="fieldDate">Date</label>
+            <input type="date" id="fieldDate">
+          </div>
+        </div>
+
+        <!-- Category + Custom category -->
+        <div class="form-row">
+          <div class="field">
+            <label for="fieldCategory">Category <span class="req">*</span></label>
+            <select id="fieldCategory">
+              <option value="">Select category…</option>
+              <option>Wellness</option>
+              <option>Science</option>
+              <option>Technology</option>
+              <option>Health</option>
+              <option>Environment</option>
+              <option>Philosophy</option>
+              <option>History</option>
+              <option>Culture</option>
+              <option value="__custom__">Custom…</option>
+            </select>
+          </div>
+          <div class="field" id="customCatField" style="display:none">
+            <label for="fieldCustomCat">Custom Category <span class="req">*</span></label>
+            <input type="text" id="fieldCustomCat" placeholder="e.g. Travel">
+          </div>
+          <div class="field" id="tagsField">
+            <label for="fieldTags">Tags</label>
+            <input type="text" id="fieldTags" placeholder="tag1, tag2, tag3">
+          </div>
+        </div>
+
+        <!-- Excerpt -->
+        <div class="field">
+          <label for="fieldExcerpt">Excerpt <span class="req">*</span></label>
+          <textarea id="fieldExcerpt" rows="2" maxlength="220" placeholder="One or two sentences that hook the reader…"></textarea>
+          <div class="field-footer">
+            <span id="excerptCount" class="char-count">0 / 220</span>
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div class="field">
+          <label for="fieldContent">Content <span class="req">*</span></label>
+          <textarea id="fieldContent" placeholder="Write your article here. Use blank lines to separate paragraphs.&#10;&#10;Start writing…"></textarea>
+          <div class="field-footer">
+            <span id="contentCount" class="char-count">0 words</span>
+          </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-bar" id="statsBar">
+          <div class="stat-chip">🎧 Listen time <strong id="statListen">—</strong></div>
+          <div class="stat-chip">📝 Words <strong id="statWords">—</strong></div>
+          <div class="stat-chip">⏱ Read time <strong id="statRead">—</strong></div>
+        </div>
+
+        <div class="form-divider"></div>
+
+        <!-- Actions -->
+        <div class="form-actions">
+          <button class="btn-publish" id="btnPublish">✦ Publish to Blog</button>
+          <button class="btn-download" id="btnDownload">⬇ Download .js</button>
+          <button class="btn-clear" id="btnClear">✕ Clear</button>
+        </div>
+
+      </div>
+
+      <!-- ── PREVIEW ── -->
+      <div class="preview-panel">
+
+        <div class="preview-tabs">
+          <button class="preview-tab active" data-tab="card">Card</button>
+          <button class="preview-tab" data-tab="article">Article</button>
+        </div>
+
+        <!-- Card preview -->
+        <div class="preview-card-box" id="previewCardBox">
+          <div class="preview-label">Preview</div>
+          <div id="previewCard">
+            <div class="preview-empty">
+              <span class="empty-icon">🖊</span>
+              Start typing to see a live preview
+            </div>
+          </div>
+        </div>
+
+        <!-- Article preview -->
+        <div class="preview-article-box" id="previewArticleBox">
+          <div id="previewArticle">
+            <div class="preview-empty">
+              <span class="empty-icon">📄</span>
+              Start typing to see the article preview
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── SAVED POSTS ── -->
+    <section class="saved-section">
+      <div class="saved-header">
+        <h2>My Posts</h2>
+        <span class="saved-count" id="savedCount">0 saved</span>
+      </div>
+      <div id="savedList"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>MiniChat Reads Admin &mdash; posts save to your browser &mdash; download .js to persist permanently</p>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+
+  <script>
+    /* ── Constants ─────────────────────────────────────────────── */
+    const WPM = 150;
+    const STORAGE_KEY = 'MINICHAT_LOCAL_BLOGS';
+    const CATEGORIES = ['Wellness','Science','Technology','Health','Environment','Philosophy','History','Culture'];
+
+    /* ── Helpers ───────────────────────────────────────────────── */
+    const $ = id => document.getElementById(id);
+
+    function wordCount(text) {
+      return text.trim() ? text.trim().split(/\s+/).length : 0;
+    }
+
+    function slugify(str) {
+      return str.toLowerCase()
+        .replace(/[^\w\s-]/g, '')
+        .replace(/\s+/g, '-')
+        .replace(/-+/g, '-')
+        .trim()
+        .slice(0, 60);
+    }
+
+    function getCategory() {
+      const sel = $('fieldCategory').value;
+      return sel === '__custom__' ? $('fieldCustomCat').value.trim() : sel;
+    }
+
+    function getFormData() {
+      return {
+        title:    $('fieldTitle').value.trim(),
+        author:   $('fieldAuthor').value.trim(),
+        date:     $('fieldDate').value || new Date().toISOString().slice(0,10),
+        category: getCategory(),
+        tags:     $('fieldTags').value.split(',').map(t => t.trim()).filter(Boolean),
+        excerpt:  $('fieldExcerpt').value.trim(),
+        content:  $('fieldContent').value.trim(),
+      };
+    }
+
+    function loadSaved() {
+      return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+    }
+
+    function savePosts(posts) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(posts));
+    }
+
+    /* ── Toast ─────────────────────────────────────────────────── */
+    let toastTimer;
+    function showToast(msg, type = '') {
+      const el = $('toast');
+      el.innerHTML = msg;
+      el.style.borderColor = type === 'error' ? 'rgba(255,101,132,0.4)'
+                           : type === 'success' ? 'rgba(67,217,162,0.4)' : '';
+      el.classList.add('show');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => el.classList.remove('show'), 3200);
+    }
+
+    /* ── Live preview ──────────────────────────────────────────── */
+    function renderPreview() {
+      const d = getFormData();
+      const wc = wordCount(d.content);
+      const listenMins = wc ? `~${Math.ceil(wc / WPM)} min` : '—';
+      const readMins   = wc ? `~${Math.ceil(wc / 200)} min` : '—';
+
+      // Stats
+      $('statListen').textContent = listenMins;
+      $('statWords').textContent  = wc ? wc.toLocaleString() : '—';
+      $('statRead').textContent   = readMins;
+
+      const date = d.date
+        ? new Date(d.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+        : '';
+
+      // Card preview
+      const hasContent = d.title || d.excerpt || d.category;
+      const catClass = d.category ? `cat-${d.category}` : '';
+      $('previewCard').innerHTML = hasContent ? `
+        <article class="blog-card">
+          ${d.category ? `<span class="card-category ${catClass}">${d.category}</span>` : ''}
+          <h3 class="card-title">${d.title || '<span style="color:var(--text-dim)">No title yet…</span>'}</h3>
+          <p class="card-excerpt">${d.excerpt || '<span style="color:var(--text-dim)">No excerpt yet…</span>'}</p>
+          <div class="card-meta">
+            <span>${d.author || '—'}</span>
+            ${date ? `<span class="card-meta-dot"></span><span>${date}</span>` : ''}
+            ${wc ? `<span class="read-time" style="margin-left:auto">🎧 ${listenMins}</span>` : ''}
+          </div>
+        </article>
+      ` : `<div class="preview-empty"><span class="empty-icon">🖊</span>Start typing to see a live preview</div>`;
+
+      // Article preview
+      const paragraphs = d.content
+        ? d.content.split(/\n+/).filter(p => p.trim()).map(p => `<p>${p.trim()}</p>`).join('')
+        : '';
+
+      $('previewArticle').innerHTML = d.title || d.content ? `
+        ${d.category ? `<span class="card-category ${catClass}" style="margin-bottom:0.75rem;display:inline-flex">${d.category}</span>` : ''}
+        <div class="art-title">${d.title || '—'}</div>
+        <div class="art-meta">${d.author ? `By ${d.author}` : ''}${date ? ` · ${date}` : ''}${wc ? ` · 🎧 ${listenMins}` : ''}</div>
+        <div class="art-body">${paragraphs || '<p style="color:var(--text-dim)">Start writing the article content…</p>'}</div>
+      ` : `<div class="preview-empty"><span class="empty-icon">📄</span>Start typing to see the article preview</div>`;
+    }
+
+    /* ── Excerpt counter ───────────────────────────────────────── */
+    $('fieldExcerpt').addEventListener('input', function() {
+      const len = this.value.length;
+      const el = $('excerptCount');
+      el.textContent = `${len} / 220`;
+      el.classList.toggle('warn', len > 180);
+      renderPreview();
+    });
+
+    /* ── Content counter ───────────────────────────────────────── */
+    $('fieldContent').addEventListener('input', function() {
+      const wc = wordCount(this.value);
+      $('contentCount').textContent = `${wc.toLocaleString()} word${wc !== 1 ? 's' : ''}`;
+      renderPreview();
+    });
+
+    /* ── All other inputs trigger preview ──────────────────────── */
+    ['fieldTitle','fieldAuthor','fieldDate','fieldTags','fieldCustomCat'].forEach(id => {
+      const el = $(id);
+      if (el) el.addEventListener('input', renderPreview);
+    });
+
+    /* ── Category select ───────────────────────────────────────── */
+    $('fieldCategory').addEventListener('change', function() {
+      const isCustom = this.value === '__custom__';
+      $('customCatField').style.display = isCustom ? 'block' : 'none';
+      $('tagsField').style.display      = isCustom ? 'none'  : 'block';
+      renderPreview();
+    });
+
+    /* ── Preview tabs ──────────────────────────────────────────── */
+    document.querySelectorAll('.preview-tab').forEach(tab => {
+      tab.addEventListener('click', function() {
+        document.querySelectorAll('.preview-tab').forEach(t => t.classList.remove('active'));
+        this.classList.add('active');
+        const target = this.dataset.tab;
+        $('previewCardBox').style.display    = target === 'card'    ? 'block' : 'none';
+        $('previewArticleBox').classList.toggle('active', target === 'article');
+      });
+    });
+
+    /* ── Validation ────────────────────────────────────────────── */
+    function validate() {
+      const d = getFormData();
+      const errors = [];
+
+      [['fieldTitle','title'],['fieldAuthor','author']].forEach(([id, key]) => {
+        if (!d[key]) errors.push(id);
+      });
+
+      if (!d.category) errors.push('fieldCategory');
+      if (!d.excerpt)  errors.push('fieldExcerpt');
+      if (!d.content || wordCount(d.content) < 20) errors.push('fieldContent');
+
+      // Clear old errors
+      document.querySelectorAll('.error').forEach(el => el.classList.remove('error'));
+      document.querySelectorAll('.error-msg').forEach(el => el.remove());
+
+      errors.forEach(id => {
+        const el = $(id);
+        if (!el) return;
+        el.classList.add('error');
+        const msg = document.createElement('span');
+        msg.className = 'error-msg';
+        msg.textContent = id === 'fieldContent' ? 'Minimum 20 words required' : 'This field is required';
+        el.parentNode.appendChild(msg);
+      });
+
+      return errors.length === 0;
+    }
+
+    /* ── Build post object ─────────────────────────────────────── */
+    function buildPost() {
+      const d = getFormData();
+      const id = `custom-${slugify(d.title)}-${Date.now()}`;
+      return { id, ...d };
+    }
+
+    /* ── Publish ───────────────────────────────────────────────── */
+    $('btnPublish').addEventListener('click', () => {
+      if (!validate()) {
+        showToast('⚠️ Please fill in all required fields', 'error');
+        return;
+      }
+      const post = buildPost();
+      const saved = loadSaved();
+      saved.unshift(post);
+      savePosts(saved);
+      renderSavedList();
+      showToast('✅ Published! Open the blog to see your article.', 'success');
+    });
+
+    /* ── Download .js ──────────────────────────────────────────── */
+    $('btnDownload').addEventListener('click', () => {
+      if (!validate()) {
+        showToast('⚠️ Please fill in all required fields', 'error');
+        return;
+      }
+      downloadPost(buildPost());
+    });
+
+    function downloadPost(post) {
+      const safeContent = post.content.replace(/`/g, '\\`').replace(/\${/g, '\\${');
+      const js = `window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
+window.BLOG_REGISTRY.push({
+  id: "${post.id}",
+  title: ${JSON.stringify(post.title)},
+  author: ${JSON.stringify(post.author)},
+  date: "${post.date}",
+  category: ${JSON.stringify(post.category)},
+  tags: ${JSON.stringify(post.tags)},
+  excerpt: ${JSON.stringify(post.excerpt)},
+  content: \`${safeContent}\`
+});
+`;
+      const filename = slugify(post.title) + '.js';
+      const blob = new Blob([js], { type: 'application/javascript' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(a.href);
+      showToast(`⬇ Downloaded ${filename}`, 'success');
+    }
+
+    /* ── Clear form ────────────────────────────────────────────── */
+    $('btnClear').addEventListener('click', () => {
+      if (!confirm('Clear all fields?')) return;
+      ['fieldTitle','fieldAuthor','fieldCategory','fieldCustomCat','fieldTags','fieldExcerpt','fieldContent'].forEach(id => {
+        const el = $(id);
+        if (el) el.value = id === 'fieldDate' ? new Date().toISOString().slice(0,10) : '';
+      });
+      $('fieldDate').value = new Date().toISOString().slice(0,10);
+      $('excerptCount').textContent = '0 / 220';
+      $('contentCount').textContent = '0 words';
+      $('customCatField').style.display = 'none';
+      $('tagsField').style.display = 'block';
+      document.querySelectorAll('.error').forEach(el => el.classList.remove('error'));
+      document.querySelectorAll('.error-msg').forEach(el => el.remove());
+      renderPreview();
+      showToast('Form cleared');
+    });
+
+    /* ── Load post into form for editing ───────────────────────── */
+    function loadPostIntoForm(post) {
+      $('fieldTitle').value   = post.title;
+      $('fieldAuthor').value  = post.author;
+      $('fieldDate').value    = post.date;
+      $('fieldExcerpt').value = post.excerpt;
+      $('fieldContent').value = post.content;
+      $('fieldTags').value    = (post.tags || []).join(', ');
+
+      if (CATEGORIES.includes(post.category)) {
+        $('fieldCategory').value = post.category;
+        $('customCatField').style.display = 'none';
+        $('tagsField').style.display = 'block';
+      } else {
+        $('fieldCategory').value = '__custom__';
+        $('fieldCustomCat').value = post.category;
+        $('customCatField').style.display = 'block';
+        $('tagsField').style.display = 'none';
+      }
+
+      $('excerptCount').textContent = `${post.excerpt.length} / 220`;
+      const wc = wordCount(post.content);
+      $('contentCount').textContent = `${wc.toLocaleString()} word${wc !== 1 ? 's' : ''}`;
+      renderPreview();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      showToast('Post loaded into form — edit and re-publish.');
+    }
+
+    /* ── Delete ────────────────────────────────────────────────── */
+    function deletePost(id) {
+      if (!confirm('Delete this post from the browser?')) return;
+      const saved = loadSaved().filter(p => p.id !== id);
+      savePosts(saved);
+      renderSavedList();
+      showToast('Post removed from browser storage');
+    }
+
+    /* ── Render saved list ─────────────────────────────────────── */
+    function renderSavedList() {
+      const saved = loadSaved();
+      $('savedCount').textContent = `${saved.length} saved`;
+
+      if (!saved.length) {
+        $('savedList').innerHTML = `
+          <div class="saved-empty">
+            <span class="empty-icon">📭</span>
+            No posts yet — publish one above and it will appear here.
+          </div>`;
+        return;
+      }
+
+      $('savedList').innerHTML = `<div class="saved-list">${saved.map(p => {
+        const wc = wordCount(p.content);
+        const listenMins = Math.ceil(wc / WPM);
+        const date = new Date(p.date + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+        const catClass = p.category ? `cat-${p.category}` : '';
+        return `
+          <div class="saved-item" data-id="${p.id}">
+            <div class="saved-item-info">
+              <div class="saved-item-title">${p.title}</div>
+              <div class="saved-item-meta">
+                <span class="card-category ${catClass}" style="font-size:0.65rem;padding:0.18rem 0.5rem">${p.category}</span>
+                <span>${date}</span>
+                <span>·</span>
+                <span>${wc.toLocaleString()} words · 🎧 ~${listenMins} min</span>
+              </div>
+            </div>
+            <div class="saved-item-actions">
+              <button class="icon-btn edit" title="Load into editor" onclick="loadPostIntoForm(${JSON.stringify(p).replace(/"/g,'&quot;')})">✏️</button>
+              <button class="icon-btn dl"  title="Download .js file" onclick="downloadPost(${JSON.stringify(p).replace(/"/g,'&quot;')})">⬇</button>
+              <button class="icon-btn del" title="Delete" onclick="deletePost('${p.id}')">🗑</button>
+            </div>
+          </div>`;
+      }).join('')}</div>`;
+    }
+
+    /* ── Init ──────────────────────────────────────────────────── */
+    // Set today's date
+    $('fieldDate').value = new Date().toISOString().slice(0, 10);
+    renderPreview();
+    renderSavedList();
+  </script>
+
+</body>
+</html>
