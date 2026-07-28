@@ -15,7 +15,13 @@
   <header>
     <button class="hamburger" id="hamburgerBtn" aria-label="Menu">&#9776;</button>
     <span class="site-name">Sukee Tea Time</span>
-    <button class="speaker-btn" id="speakerBtn" aria-label="Listen mode">🔊</button>
+    <button class="speaker-btn" id="speakerBtn" aria-label="Read article aloud">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+        <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+        <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+      </svg>
+    </button>
   </header>
 
   <!-- Sidebar -->
@@ -33,6 +39,9 @@
     </div>
   </aside>
 
+  <!-- Calendar -->
+  <div class="calendar-widget" id="calendarWidget"></div>
+
   <!-- Main feed -->
   <main id="blogFeed"></main>
 
@@ -45,7 +54,10 @@
     <div class="listen-dialog">
       <span class="dialog-icon">🎧</span>
       <h2>Listen Mode</h2>
-      <p>How long would you like to listen?</p>
+      <p>Pick categories and duration for your session.</p>
+      <div class="cat-filter-label">Categories</div>
+      <div class="cat-filter-chips" id="catFilterChips"></div>
+      <div class="cat-filter-label">Session length</div>
       <div class="time-opts">
         <button class="time-opt active" data-min="10">10 min</button>
         <button class="time-opt" data-min="15">15 min</button>
@@ -79,7 +91,6 @@
         <div class="modal-cat" id="modalCategory"></div>
         <h2 class="modal-title" id="modalTitle"></h2>
         <div class="modal-byline" id="modalByline"></div>
-        <button class="modal-listen-btn" id="modalListenBtn">🎧 Read this article aloud</button>
         <hr class="modal-divider">
         <div class="modal-body" id="modalContent"></div>
       </div>

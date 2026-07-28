@@ -8,6 +8,10 @@ const state = {
   totalWords: 0,
   filterCategory: 'All',
   openBlog: null,
+  calYear: new Date().getFullYear(),
+  calMonth: new Date().getMonth(),
+  calDateFilter: null,
+  listenCats: null, // null = all categories
 };
 
 const WPM = 150;
@@ -72,8 +76,33 @@ window.filterBy = function(cat) {
   renderSidebar();
 };
 
+/* === Category chips for listen dialog === */
+function renderCatChips() {
+  const cats = [...new Set(window.BLOG_REGISTRY.map(b => b.category))].sort();
+  $('catFilterChips').innerHTML = cats.map(c => {
+    const active = state.listenCats === null || state.listenCats.includes(c);
+    return `<button class="cat-chip${active ? ' active' : ''}" onclick="toggleListenCat('${c}')">${c}</button>`;
+  }).join('');
+}
+
+window.toggleListenCat = function(cat) {
+  const cats = [...new Set(window.BLOG_REGISTRY.map(b => b.category))].sort();
+  if (state.listenCats === null) {
+    // Switch from "all" to all-except-clicked
+    state.listenCats = cats.filter(c => c !== cat);
+  } else if (state.listenCats.includes(cat)) {
+    state.listenCats = state.listenCats.filter(c => c !== cat);
+    if (state.listenCats.length === 0) state.listenCats = null; // back to all
+  } else {
+    state.listenCats = [...state.listenCats, cat];
+    if (state.listenCats.length === cats.length) state.listenCats = null; // all selected = null
+  }
+  renderCatChips();
+};
+
 /* === Listen Dialog === */
 function openListenDialog() {
+  renderCatChips();
   $('listenOverlay').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
@@ -82,7 +111,23 @@ function closeListenDialog() {
   document.body.style.overflow = '';
 }
 
-$('speakerBtn').addEventListener('click', openListenDialog);
+$('speakerBtn').addEventListener('click', () => {
+  if (state.openBlog) {
+    const blog = state.openBlog;
+    if (state.isPlaying) stopSession();
+    state.queue = [{ ...blog, wc: wordCount(blog.content) }];
+    state.totalWords = state.queue[0].wc;
+    state.currentIndex = 0;
+    state.isPlaying = true;
+    state.isPaused = false;
+    showMiniPlayer();
+    $('mpTitle').textContent = blog.title;
+    showToast(`🎧 Reading: ${blog.title}`);
+    playArticle(0);
+  } else {
+    openListenDialog();
+  }
+});
 $('cancelListenBtn').addEventListener('click', closeListenDialog);
 $('listenOverlay').addEventListener('click', e => {
   if (e.target === $('listenOverlay')) closeListenDialog();
@@ -104,7 +149,10 @@ $('startListenBtn').addEventListener('click', () => {
 /* === Queue Builder === */
 function buildQueue(minutes) {
   const target = minutes * WPM;
-  const shuffled = [...window.BLOG_REGISTRY].sort(() => Math.random() - 0.5);
+  const pool = state.listenCats
+    ? window.BLOG_REGISTRY.filter(b => state.listenCats.includes(b.category))
+    : window.BLOG_REGISTRY;
+  const shuffled = (pool.length > 0 ? pool : window.BLOG_REGISTRY).slice().sort(() => Math.random() - 0.5);
   const queue = [];
   let total = 0;
   for (const b of shuffled) {
@@ -271,9 +319,12 @@ $('mpStop').addEventListener('click', stopSession);
 
 /* === Blog Feed === */
 function renderFeed() {
-  const blogs = state.filterCategory === 'All'
+  let blogs = state.filterCategory === 'All'
     ? window.BLOG_REGISTRY
     : window.BLOG_REGISTRY.filter(b => b.category === state.filterCategory);
+  if (state.calDateFilter) {
+    blogs = blogs.filter(b => b.date === state.calDateFilter);
+  }
 
   $('blogFeed').innerHTML = blogs.map(blog => {
     const date = fmtDate(blog.date);
@@ -329,24 +380,69 @@ $('modalClose').addEventListener('click', closeBlog);
 $('modalOverlay').addEventListener('click', e => { if (e.target === $('modalOverlay')) closeBlog(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeBlog(); });
 
-/* === Read single article from modal === */
-$('modalListenBtn').addEventListener('click', () => {
-  closeBlog();
-  const blog = state.openBlog;
-  if (!blog) return;
-  if (state.isPlaying) stopSession();
+/* === Calendar === */
+const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 
-  state.queue = [{ ...blog, wc: wordCount(blog.content) }];
-  state.totalWords = state.queue[0].wc;
-  state.currentIndex = 0;
-  state.isPlaying = true;
-  state.isPaused = false;
+function articlesDateSet() {
+  return new Set(window.BLOG_REGISTRY.map(b => b.date));
+}
 
-  showMiniPlayer();
-  $('mpTitle').textContent = blog.title;
-  showToast(`🎧 Reading: ${blog.title}`);
-  playArticle(0);
-});
+function renderCalendar() {
+  const { calYear, calMonth, calDateFilter } = state;
+  const articleDates = articlesDateSet();
+  const today = new Date();
+  const todayStr = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
+  const firstWeekday = new Date(calYear, calMonth, 1).getDay();
+  const daysInMonth = new Date(calYear, calMonth + 1, 0).getDate();
+
+  let html = `
+    <div class="cal-header">
+      <button class="cal-nav" onclick="calPrev()">&#8249;</button>
+      <span class="cal-month-label">${MONTH_NAMES[calMonth]} ${calYear}</span>
+      <button class="cal-nav" onclick="calNext()">&#8250;</button>
+    </div>
+    <div class="cal-grid">
+      <div class="cal-day-label">Su</div>
+      <div class="cal-day-label">Mo</div>
+      <div class="cal-day-label">Tu</div>
+      <div class="cal-day-label">We</div>
+      <div class="cal-day-label">Th</div>
+      <div class="cal-day-label">Fr</div>
+      <div class="cal-day-label">Sa</div>
+  `;
+  for (let i = 0; i < firstWeekday; i++) html += `<div class="cal-cell"></div>`;
+  for (let d = 1; d <= daysInMonth; d++) {
+    const ds = `${calYear}-${String(calMonth+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+    const hasArt = articleDates.has(ds);
+    const isSel = calDateFilter === ds;
+    const isToday = ds === todayStr;
+    html += `<div class="cal-cell${hasArt ? ' has-article' : ''}${isSel ? ' selected' : ''}${isToday ? ' today' : ''}"
+                  ${hasArt ? `onclick="filterByDate('${ds}')"` : ''}>
+      <span>${d}</span>${hasArt ? '<span class="cal-dot"></span>' : ''}
+    </div>`;
+  }
+  html += `</div>`;
+  if (calDateFilter) {
+    html += `<button class="cal-clear" onclick="filterByDate(null)">✕ Show all articles</button>`;
+  }
+  $('calendarWidget').innerHTML = html;
+}
+
+window.calPrev = function() {
+  if (state.calMonth === 0) { state.calMonth = 11; state.calYear--; }
+  else state.calMonth--;
+  renderCalendar();
+};
+window.calNext = function() {
+  if (state.calMonth === 11) { state.calMonth = 0; state.calYear++; }
+  else state.calMonth++;
+  renderCalendar();
+};
+window.filterByDate = function(ds) {
+  state.calDateFilter = ds;
+  renderCalendar();
+  renderFeed();
+};
 
 /* === Init === */
 function init() {
@@ -363,6 +459,7 @@ function init() {
     }
   });
 
+  renderCalendar();
   renderFeed();
   renderSidebar();
 }

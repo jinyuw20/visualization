@@ -545,6 +545,145 @@ footer a:hover { color: var(--gold-dark); }
 }
 .toast.show { transform: translateX(-50%) translateY(0); }
 
+/* === Calendar === */
+.calendar-widget {
+  max-width: 680px;
+  margin: 1.25rem auto 0;
+  padding: 1rem 1.5rem;
+  background: var(--surface);
+}
+
+.cal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.cal-month-label {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: var(--text);
+  letter-spacing: 0.02em;
+}
+
+.cal-nav {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+}
+.cal-nav:hover { border-color: var(--gold); color: var(--gold); }
+
+.cal-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 2px;
+}
+
+.cal-day-label {
+  font-family: var(--sans);
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-light);
+  text-align: center;
+  padding: 0.2rem 0 0.4rem;
+}
+
+.cal-cell {
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  color: var(--text-light);
+  gap: 2px;
+}
+
+.cal-cell.has-article {
+  cursor: pointer;
+  color: var(--text);
+  font-weight: 600;
+}
+.cal-cell.has-article:hover { background: rgba(196,154,40,0.1); color: var(--gold); }
+.cal-cell.selected { background: var(--gold); color: white; }
+.cal-cell.selected:hover { background: var(--gold-dark); color: white; }
+.cal-cell.today:not(.selected) { outline: 1.5px solid var(--gold); outline-offset: -1px; border-radius: 50%; }
+
+.cal-dot {
+  width: 4px;
+  height: 4px;
+  background: var(--gold);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.cal-cell.selected .cal-dot { background: rgba(255,255,255,0.7); }
+
+.cal-clear {
+  display: block;
+  width: 100%;
+  margin-top: 0.65rem;
+  padding: 0.45rem;
+  background: none;
+  border: 1px dashed rgba(196,154,40,0.45);
+  border-radius: 6px;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--gold);
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.15s;
+}
+.cal-clear:hover { background: rgba(196,154,40,0.08); }
+
+/* === Category chips (listen dialog) === */
+.cat-filter-label {
+  font-family: var(--sans);
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-light);
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.cat-filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.cat-chip {
+  padding: 0.32rem 0.7rem;
+  border: 1.5px solid var(--border);
+  border-radius: 20px;
+  background: none;
+  font-family: var(--sans);
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.cat-chip:hover:not(.active) { border-color: var(--gold); color: var(--gold); }
+.cat-chip.active { border-color: var(--gold); background: var(--gold); color: white; }
+
 /* === Scrollbar === */
 ::-webkit-scrollbar { width: 5px; }
 ::-webkit-scrollbar-track { background: transparent; }
