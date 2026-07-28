@@ -8,6 +8,7 @@ const state = {
   totalWords: 0,
   filterCategory: 'All',
   openBlog: null,
+  calOpen: false,
   calYear: new Date().getFullYear(),
   calMonth: new Date().getMonth(),
   calDateFilter: null,
@@ -388,45 +389,65 @@ function articlesDateSet() {
 }
 
 function renderCalendar() {
-  const { calYear, calMonth, calDateFilter } = state;
+  const { calYear, calMonth, calDateFilter, calOpen } = state;
   const articleDates = articlesDateSet();
   const today = new Date();
   const todayStr = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
   const firstWeekday = new Date(calYear, calMonth, 1).getDay();
   const daysInMonth = new Date(calYear, calMonth + 1, 0).getDate();
+  const filterLabel = calDateFilter ? ` · ${calDateFilter.slice(5).replace('-','/')}` : '';
 
   let html = `
-    <div class="cal-header">
-      <button class="cal-nav" onclick="calPrev()">&#8249;</button>
-      <span class="cal-month-label">${MONTH_NAMES[calMonth]} ${calYear}</span>
-      <button class="cal-nav" onclick="calNext()">&#8250;</button>
-    </div>
-    <div class="cal-grid">
-      <div class="cal-day-label">Su</div>
-      <div class="cal-day-label">Mo</div>
-      <div class="cal-day-label">Tu</div>
-      <div class="cal-day-label">We</div>
-      <div class="cal-day-label">Th</div>
-      <div class="cal-day-label">Fr</div>
-      <div class="cal-day-label">Sa</div>
+    <button class="cal-toggle" onclick="toggleCalendar()">
+      <span class="cal-toggle-label">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        Calendar${filterLabel}
+      </span>
+      <span class="cal-chevron">${calOpen ? '▲' : '▼'}</span>
+    </button>
   `;
-  for (let i = 0; i < firstWeekday; i++) html += `<div class="cal-cell"></div>`;
-  for (let d = 1; d <= daysInMonth; d++) {
-    const ds = `${calYear}-${String(calMonth+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
-    const hasArt = articleDates.has(ds);
-    const isSel = calDateFilter === ds;
-    const isToday = ds === todayStr;
-    html += `<div class="cal-cell${hasArt ? ' has-article' : ''}${isSel ? ' selected' : ''}${isToday ? ' today' : ''}"
-                  ${hasArt ? `onclick="filterByDate('${ds}')"` : ''}>
-      <span>${d}</span>${hasArt ? '<span class="cal-dot"></span>' : ''}
-    </div>`;
+
+  if (calOpen) {
+    html += `<div class="cal-body">
+      <div class="cal-header">
+        <button class="cal-nav" onclick="calPrev()">&#8249;</button>
+        <span class="cal-month-label">${MONTH_NAMES[calMonth]} ${calYear}</span>
+        <button class="cal-nav" onclick="calNext()">&#8250;</button>
+      </div>
+      <div class="cal-grid">
+        <div class="cal-day-label">Su</div>
+        <div class="cal-day-label">Mo</div>
+        <div class="cal-day-label">Tu</div>
+        <div class="cal-day-label">We</div>
+        <div class="cal-day-label">Th</div>
+        <div class="cal-day-label">Fr</div>
+        <div class="cal-day-label">Sa</div>
+    `;
+    for (let i = 0; i < firstWeekday; i++) html += `<div class="cal-cell"></div>`;
+    for (let d = 1; d <= daysInMonth; d++) {
+      const ds = `${calYear}-${String(calMonth+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+      const hasArt = articleDates.has(ds);
+      const isSel = calDateFilter === ds;
+      const isToday = ds === todayStr;
+      html += `<div class="cal-cell${hasArt ? ' has-article' : ''}${isSel ? ' selected' : ''}${isToday ? ' today' : ''}"
+                    ${hasArt ? `onclick="filterByDate('${ds}')"` : ''}>
+        <span>${d}</span>${hasArt ? '<span class="cal-dot"></span>' : ''}
+      </div>`;
+    }
+    html += `</div>`;
+    if (calDateFilter) {
+      html += `<button class="cal-clear" onclick="filterByDate(null)">✕ Show all articles</button>`;
+    }
+    html += `</div>`;
   }
-  html += `</div>`;
-  if (calDateFilter) {
-    html += `<button class="cal-clear" onclick="filterByDate(null)">✕ Show all articles</button>`;
-  }
+
   $('calendarWidget').innerHTML = html;
 }
+
+window.toggleCalendar = function() {
+  state.calOpen = !state.calOpen;
+  renderCalendar();
+};
 
 window.calPrev = function() {
   if (state.calMonth === 0) { state.calMonth = 11; state.calYear--; }
