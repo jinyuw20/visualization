@@ -279,7 +279,6 @@ function skipArticle() {
   if (next >= state.queue.length) {
     finishSession();
   } else {
-    showToast('⏭ Skipped');
     setTimeout(() => playArticle(next), 300);
   }
 }
@@ -297,7 +296,6 @@ function finishSession() {
   clearInterval(progressInterval);
   $('mpBar').style.width = '100%';
   state.isPlaying = false;
-  showToast('✅ Session complete!');
   setTimeout(hideMiniPlayer, 2000);
 }
 
