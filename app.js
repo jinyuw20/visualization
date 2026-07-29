@@ -12,6 +12,7 @@ const state = {
   calYear: new Date().getFullYear(),
   calMonth: new Date().getMonth(),
   calDateFilter: null,
+  calYearFilter: null,
   listenCats: null, // null = all categories
 };
 
@@ -331,6 +332,9 @@ function renderFeed() {
   let blogs = state.filterCategory === 'All'
     ? deduped()
     : deduped().filter(b => b.category === state.filterCategory);
+  if (state.calYearFilter) {
+    blogs = blogs.filter(b => b.date.startsWith(state.calYearFilter));
+  }
   if (state.calDateFilter) {
     blogs = blogs.filter(b => b.date === state.calDateFilter);
   }
@@ -408,7 +412,10 @@ function renderCalendar() {
   const todayStr = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
   const firstWeekday = new Date(calYear, calMonth, 1).getDay();
   const daysInMonth = new Date(calYear, calMonth + 1, 0).getDate();
-  const filterLabel = calDateFilter ? ` · ${calDateFilter.slice(5).replace('-','/')}` : '';
+  const { calYearFilter } = state;
+  const filterLabel = calDateFilter
+    ? ` · ${calDateFilter.slice(5).replace('-','/')}`
+    : calYearFilter ? ` · ${calYearFilter}` : '';
 
   let html = `
     <button class="cal-toggle" onclick="toggleCalendar()">
@@ -451,6 +458,24 @@ function renderCalendar() {
     if (calDateFilter) {
       html += `<button class="cal-clear" onclick="filterByDate(null)">✕ Show all articles</button>`;
     }
+
+    // Year carousel
+    const yearMap = new Map();
+    deduped().forEach(b => {
+      const y = b.date.slice(0, 4);
+      yearMap.set(y, (yearMap.get(y) || 0) + 1);
+    });
+    const years = [...yearMap.keys()].sort((a, b) => b - a);
+    html += `<div class="cal-year-carousel" id="calYearCarousel">`;
+    if (calYearFilter) {
+      html += `<button class="cal-year-btn cal-year-clear" onclick="filterByYear(null)">✕ All years</button>`;
+    }
+    years.forEach(y => {
+      const active = calYearFilter === y ? ' active' : '';
+      html += `<button class="cal-year-btn${active}" onclick="filterByYear('${y}')">${y} <span class="cal-year-count">${yearMap.get(y)}</span></button>`;
+    });
+    html += `</div>`;
+
     html += `</div>`;
   }
 
@@ -476,6 +501,27 @@ window.filterByDate = function(ds) {
   state.calDateFilter = ds;
   renderCalendar();
   renderFeed();
+};
+
+window.filterByYear = function(year) {
+  state.calYearFilter = year;
+  state.calDateFilter = null; // clear day filter when switching years
+  if (year) {
+    state.calYear = parseInt(year);
+    // Jump to first month that has an article in this year, or January
+    const months = deduped()
+      .filter(b => b.date.startsWith(year))
+      .map(b => parseInt(b.date.slice(5, 7)) - 1);
+    state.calMonth = months.length ? Math.min(...months) : 0;
+  }
+  renderCalendar();
+  renderFeed();
+
+  // Scroll the active year chip into view after render
+  requestAnimationFrame(() => {
+    const active = document.querySelector('.cal-year-btn.active');
+    if (active) active.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+  });
 };
 
 /* === Init === */

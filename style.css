@@ -699,6 +699,46 @@ footer a:hover { color: var(--gold-dark); }
 }
 .cal-clear:hover { background: rgba(196,154,40,0.08); }
 
+/* Year carousel */
+.cal-year-carousel {
+  display: flex;
+  gap: 0.3rem;
+  overflow-x: auto;
+  padding: 0.55rem 0 0.1rem;
+  margin-top: 0.5rem;
+  border-top: 1px solid var(--border-subtle);
+  scrollbar-width: none;
+}
+.cal-year-carousel::-webkit-scrollbar { display: none; }
+.cal-year-btn {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.28rem 0.65rem;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: none;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.cal-year-btn:hover { border-color: var(--gold); color: var(--gold-dark); background: rgba(196,154,40,0.07); }
+.cal-year-btn.active { background: var(--gold); color: #fff; border-color: var(--gold); }
+.cal-year-count {
+  font-size: 0.65rem;
+  font-weight: 700;
+  opacity: 0.75;
+}
+.cal-year-clear {
+  border-style: dashed;
+  color: var(--text-light);
+}
+
 /* === Category chips (listen dialog) === */
 .cat-filter-label {
   font-family: var(--sans);
