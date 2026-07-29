@@ -152,7 +152,7 @@ $('startListenBtn').addEventListener('click', () => {
 /* === Queue Builder === */
 function buildQueue(minutes) {
   const target = minutes * WPM;
-  const eligible = window.BLOG_REGISTRY.filter(b => b.autoRead !== false);
+  const eligible = deduped().filter(b => b.autoRead !== false);
   const pool = state.listenCats
     ? eligible.filter(b => state.listenCats.includes(b.category))
     : eligible;
@@ -321,10 +321,16 @@ $('mpSkip').addEventListener('click', skipArticle);
 $('mpStop').addEventListener('click', stopSession);
 
 /* === Blog Feed === */
+function deduped() {
+  const m = new Map();
+  (window.BLOG_REGISTRY || []).forEach(b => m.set(b.id, b));
+  return [...m.values()];
+}
+
 function renderFeed() {
   let blogs = state.filterCategory === 'All'
-    ? window.BLOG_REGISTRY
-    : window.BLOG_REGISTRY.filter(b => b.category === state.filterCategory);
+    ? deduped()
+    : deduped().filter(b => b.category === state.filterCategory);
   if (state.calDateFilter) {
     blogs = blogs.filter(b => b.date === state.calDateFilter);
   }
