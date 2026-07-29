@@ -39,6 +39,12 @@ let toastTimer;
 function showToast(msg) {
   const el = $('toast');
   el.textContent = msg;
+  const player = $('miniPlayer');
+  if (player && player.classList.contains('active')) {
+    el.style.bottom = (player.offsetHeight + 12) + 'px';
+  } else {
+    el.style.bottom = '';
+  }
   el.classList.add('show');
   clearTimeout(toastTimer);
   toastTimer = setTimeout(() => el.classList.remove('show'), 3200);
