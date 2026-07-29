@@ -485,6 +485,7 @@ function renderCalendar() {
 window.toggleCalendar = function() {
   state.calOpen = !state.calOpen;
   renderCalendar();
+  if (state.calOpen) requestAnimationFrame(initCarouselDrag);
 };
 
 window.calPrev = function() {
@@ -521,8 +522,29 @@ window.filterByYear = function(year) {
   requestAnimationFrame(() => {
     const active = document.querySelector('.cal-year-btn.active');
     if (active) active.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    initCarouselDrag();
   });
 };
+
+/* === Year carousel drag-to-scroll === */
+function initCarouselDrag() {
+  const el = document.getElementById('calYearCarousel');
+  if (!el) return;
+  let startX, startScroll, dragging = false;
+  el.addEventListener('mousedown', e => {
+    dragging = true;
+    startX = e.pageX - el.offsetLeft;
+    startScroll = el.scrollLeft;
+    el.style.userSelect = 'none';
+  });
+  el.addEventListener('mouseleave', () => { dragging = false; });
+  el.addEventListener('mouseup', () => { dragging = false; el.style.userSelect = ''; });
+  el.addEventListener('mousemove', e => {
+    if (!dragging) return;
+    e.preventDefault();
+    el.scrollLeft = startScroll - (e.pageX - el.offsetLeft - startX);
+  });
+}
 
 /* === Init === */
 function init() {

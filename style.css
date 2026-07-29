@@ -704,11 +704,15 @@ footer a:hover { color: var(--gold-dark); }
   display: flex;
   gap: 0.3rem;
   overflow-x: auto;
-  padding: 0.55rem 0 0.1rem;
-  margin-top: 0.5rem;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  padding: 0.55rem 1.5rem 0.1rem;
+  margin: 0.5rem -1.5rem 0;
   border-top: 1px solid var(--border-subtle);
   scrollbar-width: none;
+  cursor: grab;
 }
+.cal-year-carousel:active { cursor: grabbing; }
 .cal-year-carousel::-webkit-scrollbar { display: none; }
 .cal-year-btn {
   flex-shrink: 0;
