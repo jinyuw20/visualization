@@ -111,10 +111,92 @@
       line-height: 1.6;
     }
 
-    #fieldContent {
+    /* Rich text editor */
+    .editor-wrap {
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xs);
+      overflow: hidden;
+      background: var(--surface2);
+      transition: border-color 0.18s, box-shadow 0.18s;
+    }
+    .editor-wrap:focus-within {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(108,99,255,0.15);
+    }
+    .editor-wrap.error { border-color: var(--accent2); box-shadow: 0 0 0 3px rgba(255,101,132,0.12); }
+    .editor-toolbar {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.1rem;
+      padding: 0.35rem 0.45rem;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+    }
+    .tb-btn {
+      min-width: 28px;
+      height: 26px;
+      padding: 0 5px;
+      border: none;
+      border-radius: 4px;
+      background: transparent;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      transition: all 0.12s;
+      font-family: var(--font);
+      white-space: nowrap;
+    }
+    .tb-btn:hover { background: var(--surface2); color: var(--text); }
+    .tb-sep { width: 1px; height: 16px; background: var(--border); margin: 0 0.15rem; flex-shrink: 0; }
+    .tb-color-wrap { position: relative; }
+    .tb-color-btn {
+      min-width: 28px; height: 26px; padding: 0 5px;
+      border: none; border-radius: 4px; background: transparent;
+      cursor: pointer; display: flex; align-items: center; gap: 3px;
+      font-size: 0.72rem; font-weight: 700; color: var(--text-muted);
+      transition: background 0.12s;
+    }
+    .tb-color-btn:hover { background: var(--surface2); }
+    .color-dot { width: 12px; height: 12px; border-radius: 50%; border: 1px solid rgba(0,0,0,0.15); background: #000; flex-shrink: 0; }
+    .color-palette {
+      position: absolute; top: calc(100% + 4px); left: 0; z-index: 300;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 8px; padding: 0.45rem;
+      display: none; grid-template-columns: repeat(4, 22px);
+      gap: 0.28rem; box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    }
+    .color-palette.open { display: grid; }
+    .color-swatch {
+      width: 22px; height: 22px; border-radius: 4px;
+      border: 1px solid rgba(0,0,0,0.12); cursor: pointer;
+      transition: transform 0.1s;
+    }
+    .color-swatch:hover { transform: scale(1.2); }
+    #fieldContent[contenteditable] {
       min-height: 260px;
+      padding: 0.75rem 0.85rem;
       font-size: 0.88rem;
       line-height: 1.7;
+      color: var(--text);
+      outline: none;
+      background: transparent;
+    }
+    #fieldContent[contenteditable]:empty::before {
+      content: attr(data-placeholder);
+      color: var(--text-dim);
+      pointer-events: none;
+    }
+    #fieldContent h2 { font-size: 1.1rem; font-weight: 700; margin: 0.6rem 0 0.3rem; }
+    #fieldContent ul, #fieldContent ol { padding-left: 1.5rem; margin: 0.4rem 0; }
+    #fieldContent blockquote {
+      border-left: 3px solid var(--accent);
+      padding: 0.2rem 0 0.2rem 0.85rem;
+      color: var(--text-muted); margin: 0.4rem 0;
     }
 
     .field-footer {
@@ -605,8 +687,35 @@
 
         <!-- Content -->
         <div class="field">
-          <label for="fieldContent">Content <span class="req">*</span></label>
-          <textarea id="fieldContent" placeholder="Write your article here. Use blank lines to separate paragraphs.&#10;&#10;Start writing…"></textarea>
+          <label>Content <span class="req">*</span></label>
+          <div class="editor-wrap" id="editorWrap">
+            <div class="editor-toolbar">
+              <button class="tb-btn" onclick="exec('bold')" title="Bold"><b>B</b></button>
+              <button class="tb-btn" onclick="exec('italic')" title="Italic"><i style="font-style:italic">I</i></button>
+              <button class="tb-btn" onclick="exec('underline')" title="Underline"><u>U</u></button>
+              <button class="tb-btn" onclick="exec('strikeThrough')" title="Strikethrough"><s>S</s></button>
+              <div class="tb-sep"></div>
+              <button class="tb-btn" onclick="execBlock('h2')" title="Heading">H2</button>
+              <button class="tb-btn" onclick="execBlock('p')" title="Normal paragraph">¶</button>
+              <button class="tb-btn" onclick="exec('formatBlock','blockquote')" title="Quote">"</button>
+              <div class="tb-sep"></div>
+              <div class="tb-color-wrap" id="colorWrap">
+                <button class="tb-color-btn" onclick="toggleColorPalette(event)" title="Text color">
+                  A <span class="color-dot" id="colorDot"></span>
+                </button>
+                <div class="color-palette" id="colorPalette"></div>
+              </div>
+              <div class="tb-sep"></div>
+              <button class="tb-btn" onclick="exec('insertUnorderedList')" title="Bullet list">• list</button>
+              <button class="tb-btn" onclick="exec('insertOrderedList')" title="Numbered list">1. list</button>
+              <div class="tb-sep"></div>
+              <button class="tb-btn" onclick="exec('removeFormat')" title="Clear formatting" style="font-size:0.68rem">✕ fmt</button>
+            </div>
+            <div id="fieldContent"
+                 contenteditable="true"
+                 data-placeholder="Write your article here…"
+                 oninput="onContentInput()"></div>
+          </div>
           <div class="field-footer">
             <span id="contentCount" class="char-count">0 words</span>
           </div>
@@ -693,8 +802,15 @@
     /* ── Helpers ───────────────────────────────────────────────── */
     const $ = id => document.getElementById(id);
 
-    function wordCount(text) {
-      return text.trim() ? text.trim().split(/\s+/).length : 0;
+    function stripHtml(html) {
+      const d = document.createElement('div');
+      d.innerHTML = html;
+      return d.textContent || d.innerText || '';
+    }
+
+    function wordCount(html) {
+      const plain = stripHtml(html).trim();
+      return plain ? plain.split(/\s+/).length : 0;
     }
 
     function slugify(str) {
@@ -712,14 +828,17 @@
     }
 
     function getFormData() {
+      const rawHtml = $('fieldContent').innerHTML.trim();
+      const content = rawHtml === '<br>' ? '' : rawHtml;
       return {
-        title:    $('fieldTitle').value.trim(),
-        author:   $('fieldAuthor').value.trim(),
-        date:     $('fieldDate').value || new Date().toISOString().slice(0,10),
-        category: getCategory(),
-        tags:     $('fieldTags').value.split(',').map(t => t.trim()).filter(Boolean),
-        excerpt:  $('fieldExcerpt').value.trim(),
-        content:  $('fieldContent').value.trim(),
+        title:       $('fieldTitle').value.trim(),
+        author:      $('fieldAuthor').value.trim(),
+        date:        $('fieldDate').value || new Date().toISOString().slice(0,10),
+        category:    getCategory(),
+        tags:        $('fieldTags').value.split(',').map(t => t.trim()).filter(Boolean),
+        excerpt:     $('fieldExcerpt').value.trim(),
+        content,
+        contentType: 'html',
       };
     }
 
@@ -797,12 +916,47 @@
       renderPreview();
     });
 
-    /* ── Content counter ───────────────────────────────────────── */
-    $('fieldContent').addEventListener('input', function() {
-      const wc = wordCount(this.value);
+    /* ── Rich text editor ──────────────────────────────────────── */
+    const COLORS = [
+      '#000000','#444444','#888888','#ffffff',
+      '#c0392b','#e67e22','#c49a28','#27ae60',
+      '#1565c0','#6a1b9a','#e91e63','#00838f',
+    ];
+
+    (function initColorPalette() {
+      $('colorPalette').innerHTML = COLORS.map(c =>
+        `<div class="color-swatch" style="background:${c}" title="${c}" onclick="applyColor('${c}')"></div>`
+      ).join('');
+    })();
+
+    function exec(cmd, value) {
+      document.execCommand(cmd, false, value || null);
+      $('fieldContent').focus();
+    }
+
+    function execBlock(tag) {
+      document.execCommand('formatBlock', false, '<' + tag + '>');
+      $('fieldContent').focus();
+    }
+
+    function applyColor(color) {
+      $('colorDot').style.background = color;
+      exec('foreColor', color);
+      $('colorPalette').classList.remove('open');
+    }
+
+    function toggleColorPalette(e) {
+      e.stopPropagation();
+      $('colorPalette').classList.toggle('open');
+    }
+
+    document.addEventListener('click', () => $('colorPalette').classList.remove('open'));
+
+    function onContentInput() {
+      const wc = wordCount($('fieldContent').innerHTML);
       $('contentCount').textContent = `${wc.toLocaleString()} word${wc !== 1 ? 's' : ''}`;
       renderPreview();
-    });
+    }
 
     /* ── All other inputs trigger preview ──────────────────────── */
     ['fieldTitle','fieldAuthor','fieldDate','fieldTags','fieldCustomCat'].forEach(id => {
@@ -845,14 +999,23 @@
       // Clear old errors
       document.querySelectorAll('.error').forEach(el => el.classList.remove('error'));
       document.querySelectorAll('.error-msg').forEach(el => el.remove());
+      $('editorWrap').classList.remove('error');
 
       errors.forEach(id => {
+        if (id === 'fieldContent') {
+          $('editorWrap').classList.add('error');
+          const msg = document.createElement('span');
+          msg.className = 'error-msg';
+          msg.textContent = 'Minimum 20 words required';
+          $('editorWrap').parentNode.appendChild(msg);
+          return;
+        }
         const el = $(id);
         if (!el) return;
         el.classList.add('error');
         const msg = document.createElement('span');
         msg.className = 'error-msg';
-        msg.textContent = id === 'fieldContent' ? 'Minimum 20 words required' : 'This field is required';
+        msg.textContent = 'This field is required';
         el.parentNode.appendChild(msg);
       });
 
@@ -881,8 +1044,10 @@
 
     function buildJS(post) {
       const id = `${post.date}-${slugify(post.title)}`;
-      const safe = post.content.replace(/`/g, '\\`').replace(/\${/g, '\\${');
-      return `window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];\nwindow.BLOG_REGISTRY.push({\n  id: ${JSON.stringify(id)},\n  title: ${JSON.stringify(post.title)},\n  author: ${JSON.stringify(post.author)},\n  date: ${JSON.stringify(post.date)},\n  category: ${JSON.stringify(post.category)},\n  tags: ${JSON.stringify(post.tags)},\n  excerpt: ${JSON.stringify(post.excerpt)},\n  content: \`${safe}\`\n});\n`;
+      const obj = { id, title: post.title, author: post.author, date: post.date,
+                    category: post.category, tags: post.tags, excerpt: post.excerpt,
+                    content: post.content, contentType: post.contentType || 'html' };
+      return `window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];\nwindow.BLOG_REGISTRY.push(${JSON.stringify(obj, null, 2)});\n`;
     }
 
     /* ── IndexedDB for directory handle ────────────────────────── */
@@ -1052,10 +1217,10 @@
     /* ── Clear form ────────────────────────────────────────────── */
     $('btnClear').addEventListener('click', () => {
       if (!confirm('Clear all fields?')) return;
-      ['fieldTitle','fieldAuthor','fieldCategory','fieldCustomCat','fieldTags','fieldExcerpt','fieldContent'].forEach(id => {
-        const el = $(id);
-        if (el) el.value = id === 'fieldDate' ? new Date().toISOString().slice(0,10) : '';
+      ['fieldTitle','fieldAuthor','fieldCategory','fieldCustomCat','fieldTags','fieldExcerpt'].forEach(id => {
+        const el = $(id); if (el) el.value = '';
       });
+      $('fieldContent').innerHTML = '';
       $('fieldDate').value = new Date().toISOString().slice(0,10);
       $('excerptCount').textContent = '0 / 220';
       $('contentCount').textContent = '0 words';
@@ -1073,7 +1238,12 @@
       $('fieldAuthor').value  = post.author;
       $('fieldDate').value    = post.date;
       $('fieldExcerpt').value = post.excerpt;
-      $('fieldContent').value = post.content;
+      if (post.contentType === 'html') {
+        $('fieldContent').innerHTML = post.content;
+      } else {
+        $('fieldContent').innerHTML = (post.content || '')
+          .split(/\n+/).filter(p => p.trim()).map(p => `<p>${p.trim()}</p>`).join('');
+      }
       $('fieldTags').value    = (post.tags || []).join(', ');
 
       if (CATEGORIES.includes(post.category)) {

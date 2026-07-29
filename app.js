@@ -21,12 +21,24 @@ const WPM = 150;
 const $ = id => document.getElementById(id);
 
 /* === Utilities === */
-function wordCount(text) {
-  return text.trim() ? text.trim().split(/\s+/).length : 0;
+function stripHtml(html) {
+  const d = document.createElement('div');
+  d.innerHTML = html;
+  return d.textContent || d.innerText || '';
 }
 
-function listenMins(text) {
-  return Math.ceil(wordCount(text) / WPM);
+function wordCount(content) {
+  const plain = stripHtml(content).trim();
+  return plain ? plain.split(/\s+/).length : 0;
+}
+
+function listenMins(content) {
+  return Math.ceil(wordCount(content) / WPM);
+}
+
+function contentToHtml(blog) {
+  if (blog.contentType === 'html') return blog.content;
+  return blog.content.split(/\n+/).filter(p => p.trim()).map(p => `<p>${p.trim()}</p>`).join('');
 }
 
 function fmtDate(iso) {
@@ -219,7 +231,7 @@ function playArticle(index) {
   updateMiniPlayer();
   startProgress(article.wc);
 
-  const text = `${article.title}. By ${article.author}. ${article.content}`;
+  const text = `${article.title}. By ${article.author}. ${stripHtml(article.content)}`;
   speak(text, () => {
     if (state.isPlaying && !state.isPaused) {
       setTimeout(() => playArticle(index + 1), 600);
@@ -319,18 +331,14 @@ function renderFeed() {
 
   $('blogFeed').innerHTML = blogs.map(blog => {
     const date = fmtDate(blog.date);
-    const paragraphs = blog.content
-      .split(/\n+/)
-      .filter(p => p.trim())
-      .map(p => `<p>${p.trim()}</p>`)
-      .join('');
+    const bodyHtml = contentToHtml(blog);
     return `
       <article class="post-card">
         <div class="post-cat">${blog.category}</div>
         <h2 class="post-title">${blog.title}</h2>
         <div class="post-date">${date}</div>
         <hr class="post-hr">
-        <div class="post-body">${paragraphs}</div>
+        <div class="post-body">${bodyHtml}</div>
         <div class="post-footer">
           <button class="post-listen-btn" onclick="readArticle('${blog.id}')">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
@@ -358,12 +366,7 @@ window.openBlog = function(id) {
     <span>🎧 ~${listenMins(blog.content)} min</span>
   `;
 
-  const paragraphs = blog.content
-    .split(/\n+/)
-    .filter(p => p.trim())
-    .map(p => `<p>${p.trim()}</p>`)
-    .join('');
-  $('modalContent').innerHTML = paragraphs;
+  $('modalContent').innerHTML = contentToHtml(blog);
 
   $('modalOverlay').classList.add('open');
   document.body.style.overflow = 'hidden';
