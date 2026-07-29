@@ -548,9 +548,9 @@ footer a:hover { color: var(--gold-dark); }
 /* === Toast === */
 .toast {
   position: fixed;
-  bottom: 80px;
+  top: 66px;
   left: 50%;
-  transform: translateX(-50%) translateY(140%);
+  transform: translateX(-50%) translateY(-160%);
   background: #1f1e1c;
   border: 1px solid rgba(196,154,40,0.35);
   border-radius: 40px;
@@ -790,7 +790,6 @@ footer a:hover { color: var(--gold-dark); }
   }
 
   .toast {
-    bottom: 100px;
     max-width: calc(100vw - 2.5rem);
     white-space: normal;
     text-align: center;
