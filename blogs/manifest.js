@@ -97,8 +97,8 @@ window.BLOG_MANIFEST = [
   "2026-05-27-chat-mini-trash-can.js",
   "2026-07-08-meaning-of-work.js",
   "2026-07-09-a-stone-on-the-street.js",
+  "2026-07-13-dont-tell-me-adhd-is-a-disorder.js",
   "2026-07-26-enjoyable-routine.js",
-  "2026-07-26-enjoyable-routine-2.js",
   "2026-07-27-time-as-a-solution.js",
   "2026-07-28-good-enough-in-time-with-ai.js",
   "2026-07-29-clothes-hard-to-wear-out.js"
