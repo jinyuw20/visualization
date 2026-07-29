@@ -300,12 +300,14 @@ function finishSession() {
 /* === Mini Player UI === */
 function showMiniPlayer() {
   $('miniPlayer').classList.add('active');
+  document.body.classList.add('player-active');
   $('mpBar').style.width = '0%';
   $('mpPause').textContent = '⏸';
 }
 
 function hideMiniPlayer() {
   $('miniPlayer').classList.remove('active');
+  document.body.classList.remove('player-active');
   $('mpBar').style.width = '0%';
 }
 

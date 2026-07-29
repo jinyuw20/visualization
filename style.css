@@ -177,6 +177,7 @@ header {
 
 /* === Main Feed === */
 main { max-width: 680px; margin: 0 auto; padding: 1.75rem 0 6rem; }
+body.player-active main { padding-bottom: 5.5rem; }
 
 .post-card {
   background: var(--surface);
@@ -742,24 +743,25 @@ footer a:hover { color: var(--gold-dark); }
 /* === Mobile === */
 @media (max-width: 600px) {
   main { padding: 0.75rem 0 6rem; }
+  body.player-active main { padding-bottom: 11rem; }
 
   .post-card { padding: 1.5rem 1.25rem; margin-bottom: 0.6rem; }
   .post-title { font-size: 1.25rem; }
   .post-body { font-size: 0.93rem; line-height: 1.75; }
 
-  /* Listen dialog: sheet from bottom, fits above player */
+  /* Listen dialog: centered, clears header + mini player */
   .dialog-overlay {
-    align-items: flex-end;
-    padding: 0;
+    align-items: center;
+    padding: 1rem;
   }
   .listen-dialog {
     max-width: 100%;
-    max-height: calc(100dvh - 5rem);
-    border-radius: 20px 20px 0 0;
-    padding: 1.75rem 1.25rem calc(env(safe-area-inset-bottom) + 2rem);
-    transform: translateY(24px);
+    max-height: calc(100dvh - 9rem);
+    border-radius: 12px;
+    padding: 1.5rem 1.25rem 1.5rem;
+    transform: translateY(16px) scale(0.97);
   }
-  .dialog-overlay.open .listen-dialog { transform: translateY(0); }
+  .dialog-overlay.open .listen-dialog { transform: translateY(0) scale(1); }
   .time-opt { font-size: 0.85rem; padding: 0.7rem 0.4rem; }
 
   /* Mini player: stack vertically so title never overlaps controls */
