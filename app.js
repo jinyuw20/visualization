@@ -131,7 +131,6 @@ window.readArticle = function(id) {
   state.isPaused = false;
   showMiniPlayer();
   $('mpTitle').textContent = blog.title;
-  showToast(`🎧 Reading: ${blog.title}`);
   playArticle(0);
 };
 $('cancelListenBtn').addEventListener('click', closeListenDialog);
