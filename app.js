@@ -152,10 +152,11 @@ $('startListenBtn').addEventListener('click', () => {
 /* === Queue Builder === */
 function buildQueue(minutes) {
   const target = minutes * WPM;
+  const eligible = window.BLOG_REGISTRY.filter(b => b.autoRead !== false);
   const pool = state.listenCats
-    ? window.BLOG_REGISTRY.filter(b => state.listenCats.includes(b.category))
-    : window.BLOG_REGISTRY;
-  const shuffled = (pool.length > 0 ? pool : window.BLOG_REGISTRY).slice().sort(() => Math.random() - 0.5);
+    ? eligible.filter(b => state.listenCats.includes(b.category))
+    : eligible;
+  const shuffled = (pool.length > 0 ? pool : eligible).slice().sort(() => Math.random() - 0.5);
   const queue = [];
   let total = 0;
   for (const b of shuffled) {
@@ -327,14 +328,20 @@ function renderFeed() {
   if (state.calDateFilter) {
     blogs = blogs.filter(b => b.date === state.calDateFilter);
   }
-  blogs = blogs.slice().sort((a, b) => b.date.localeCompare(a.date));
+  blogs = blogs.slice().sort((a, b) => {
+    if (b.pinned !== a.pinned) return b.pinned ? 1 : -1;
+    return b.date.localeCompare(a.date);
+  });
 
   $('blogFeed').innerHTML = blogs.map(blog => {
     const date = fmtDate(blog.date);
     const bodyHtml = contentToHtml(blog);
     return `
-      <article class="post-card">
-        <div class="post-cat">${blog.category}</div>
+      <article class="post-card${blog.pinned ? ' post-card--pinned' : ''}">
+        <div class="post-cat-row">
+          <span class="post-cat">${blog.category}</span>
+          ${blog.pinned ? '<span class="post-pin-badge">📌 Pinned</span>' : ''}
+        </div>
         <h2 class="post-title">${blog.title}</h2>
         <div class="post-date">${date}</div>
         <hr class="post-hr">

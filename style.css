@@ -188,6 +188,24 @@ body.player-active main { padding-bottom: 5.5rem; }
   -webkit-tap-highlight-color: transparent;
 }
 .post-card:hover { box-shadow: 0 3px 16px rgba(0,0,0,0.09); }
+.post-card--pinned { border-left: 3px solid var(--gold); }
+
+.post-cat-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+.post-cat-row .post-cat { margin-bottom: 0; }
+
+.post-pin-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gold);
+  opacity: 0.75;
+}
 
 .post-cat {
   font-family: var(--sans);
@@ -196,7 +214,6 @@ body.player-active main { padding-bottom: 5.5rem; }
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--gold);
-  margin-bottom: 0.5rem;
 }
 
 .post-title {
