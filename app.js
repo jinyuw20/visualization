@@ -252,7 +252,6 @@ function startSession() {
   state.isPaused = false;
 
   showMiniPlayer();
-  showToast(`🎧 Starting ${state.selectedDuration}-min session — ${queue.length} article${queue.length > 1 ? 's' : ''}`);
   playArticle(0);
 }
 
