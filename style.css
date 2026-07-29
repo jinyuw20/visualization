@@ -756,7 +756,7 @@ footer a:hover { color: var(--gold-dark); }
     max-width: 100%;
     max-height: calc(100dvh - 5rem);
     border-radius: 20px 20px 0 0;
-    padding: 1.75rem 1.25rem max(1.5rem, env(safe-area-inset-bottom));
+    padding: 1.75rem 1.25rem calc(env(safe-area-inset-bottom) + 2rem);
     transform: translateY(24px);
   }
   .dialog-overlay.open .listen-dialog { transform: translateY(0); }
