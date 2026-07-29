@@ -176,8 +176,8 @@ header {
 .sidebar-write:hover { background: var(--gold-dark); opacity: 1; }
 
 /* === Main Feed === */
-main { max-width: 680px; margin: 0 auto; padding: 1.75rem 0 6rem; }
-body.player-active main { padding-bottom: 5.5rem; }
+main { max-width: 680px; margin: 0 auto; padding: 1.75rem 0 calc(6rem + env(safe-area-inset-bottom)); }
+body.player-active main { padding-bottom: calc(5.5rem + env(safe-area-inset-bottom)); }
 
 .post-card {
   background: var(--surface);
@@ -742,8 +742,8 @@ footer a:hover { color: var(--gold-dark); }
 
 /* === Mobile === */
 @media (max-width: 600px) {
-  main { padding: 0.75rem 0 6rem; }
-  body.player-active main { padding-bottom: 11rem; }
+  main { padding: 0.75rem 0 calc(6rem + env(safe-area-inset-bottom)); }
+  body.player-active main { padding-bottom: calc(11rem + env(safe-area-inset-bottom)); }
 
   .post-card { padding: 1.5rem 1.25rem; margin-bottom: 0.6rem; }
   .post-title { font-size: 1.25rem; }
