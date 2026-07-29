@@ -929,15 +929,23 @@
     /* ── Set blogs folder ──────────────────────────────────────── */
     $('btnSetFolder').addEventListener('click', async () => {
       if (!('showDirectoryPicker' in window)) {
-        showToast('Directory picker not supported in this browser', 'error'); return;
+        showToast('⚠️ Auto-save needs Chrome or Edge — Safari does not support folder access.', 'error');
+        return;
       }
       try {
         const handle = await window.showDirectoryPicker({ mode: 'readwrite' });
+        // Must be the blogs/ folder — verify manifest.js is inside it
+        try {
+          await handle.getFileHandle('manifest.js');
+        } catch {
+          showToast('⚠️ manifest.js not found — select the blogs/ folder, not the project root.', 'error');
+          return;
+        }
         await saveDirHandle(handle);
         await refreshFolderStatus();
-        showToast(`📂 Blogs folder set to "${handle.name}"`, 'success');
+        showToast(`✅ Blogs folder set: "${handle.name}"`, 'success');
       } catch (e) {
-        if (e.name !== 'AbortError') showToast('Could not set folder', 'error');
+        if (e.name !== 'AbortError') showToast('Could not set folder: ' + e.message, 'error');
       }
     });
 
@@ -947,13 +955,16 @@
       try {
         const mfh = await dirHandle.getFileHandle('manifest.js');
         const text = await (await mfh.getFile()).text();
-        const m = text.match(/\[([^\]]*)\]/s);
+        // Extract entries from array literal
+        const m = text.match(/window\.BLOG_MANIFEST\s*=\s*\[([\s\S]*?)\]/);
         if (m) {
           entries = m[1].split(',')
             .map(s => s.trim().replace(/^["']|["']$/g, ''))
-            .filter(Boolean);
+            .filter(s => s.endsWith('.js'));
         }
-      } catch { /* manifest doesn't exist yet */ }
+      } catch (e) {
+        throw new Error('Could not read manifest.js: ' + e.message);
+      }
 
       if (!entries.includes(filename)) {
         entries.push(filename);
@@ -965,7 +976,8 @@
         '\n];\n';
       const mfh = await dirHandle.getFileHandle('manifest.js', { create: true });
       const w = await mfh.createWritable();
-      await w.write(content); await w.close();
+      await w.write(content);
+      await w.close();
     }
 
     /* ── Save to file ──────────────────────────────────────────── */
@@ -975,24 +987,34 @@
       const filename = buildFilename(post);
       const js = buildJS(post);
 
-      // Try saved directory handle first
+      // ── Path A: saved directory handle (Chrome/Edge) ──
       const dirHandle = await loadDirHandle();
       if (dirHandle) {
         try {
-          const perm = await dirHandle.queryPermission({ mode: 'readwrite' });
-          const granted = perm === 'granted' || await dirHandle.requestPermission({ mode: 'readwrite' }) === 'granted';
-          if (granted) {
-            const fh = await dirHandle.getFileHandle(filename, { create: true });
-            const w = await fh.createWritable();
-            await w.write(js); await w.close();
-            await updateManifest(dirHandle, filename);
-            showToast(`✅ Saved ${filename} + manifest updated`, 'success');
+          let perm = await dirHandle.queryPermission({ mode: 'readwrite' });
+          if (perm !== 'granted') {
+            perm = await dirHandle.requestPermission({ mode: 'readwrite' });
+          }
+          if (perm !== 'granted') {
+            showToast('⚠️ Permission denied for blogs folder — click "Set blogs folder" again.', 'error');
             return;
           }
-        } catch (e) { /* fall through */ }
+          // Write blog file
+          const fh = await dirHandle.getFileHandle(filename, { create: true });
+          const w = await fh.createWritable();
+          await w.write(js);
+          await w.close();
+          // Update manifest
+          await updateManifest(dirHandle, filename);
+          showToast(`✅ Saved ${filename} and manifest updated!`, 'success');
+          return;
+        } catch (e) {
+          showToast('❌ Save failed: ' + e.message, 'error');
+          return;
+        }
       }
 
-      // Fall back to save picker with pre-populated name
+      // ── Path B: no folder set — use save picker ──
       if ('showSaveFilePicker' in window) {
         try {
           const fh = await window.showSaveFilePicker({
@@ -1000,17 +1022,21 @@
             types: [{ description: 'JavaScript', accept: { 'application/javascript': ['.js'] } }]
           });
           const w = await fh.createWritable();
-          await w.write(js); await w.close();
-          showToast(`✅ Saved ${filename} — set blogs folder to also auto-update manifest`, 'success');
+          await w.write(js);
+          await w.close();
+          showToast(`✅ Saved. Now click "Set blogs folder" so manifest auto-updates next time.`, 'success');
         } catch (e) {
-          if (e.name !== 'AbortError') showToast('Save cancelled', '');
+          if (e.name !== 'AbortError') showToast('Save failed: ' + e.message, 'error');
         }
       } else {
+        // ── Path C: download fallback (Safari without FSA) ──
         const blob = new Blob([js], { type: 'application/javascript' });
         const a = document.createElement('a');
-        a.href = URL.createObjectURL(blob); a.download = filename; a.click();
+        a.href = URL.createObjectURL(blob);
+        a.download = filename;
+        a.click();
         URL.revokeObjectURL(a.href);
-        showToast(`⬇ Downloaded ${filename}`, 'success');
+        showToast(`⬇ Downloaded ${filename} — use Chrome/Edge for auto manifest update.`, 'success');
       }
     });
 
