@@ -278,6 +278,9 @@ main { max-width: 680px; margin: 0 auto; padding: 1.75rem 0 6rem; }
   transform: translateY(16px) scale(0.97);
   transition: transform 0.22s cubic-bezier(0.34, 1.2, 0.64, 1);
   box-shadow: 0 24px 64px rgba(0,0,0,0.22);
+  max-height: calc(100dvh - 4rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 .dialog-overlay.open .listen-dialog { transform: translateY(0) scale(1); }
 
@@ -352,7 +355,7 @@ main { max-width: 680px; margin: 0 auto; padding: 1.75rem 0 6rem; }
   right: 0;
   background: #1f1e1c;
   z-index: 200;
-  padding: 0.8rem 1.25rem;
+  padding: 0.7rem 1.25rem max(0.7rem, env(safe-area-inset-bottom));
   display: none;
   align-items: center;
   gap: 1rem;
@@ -742,21 +745,50 @@ footer a:hover { color: var(--gold-dark); }
 
   .post-card { padding: 1.5rem 1.25rem; margin-bottom: 0.6rem; }
   .post-title { font-size: 1.25rem; }
-  .post-excerpt { font-size: 0.93rem; line-height: 1.75; }
+  .post-body { font-size: 0.93rem; line-height: 1.75; }
 
-  .modal-overlay { padding: 0; align-items: flex-end; overflow: hidden; }
-  .modal { max-height: 92dvh; overflow-y: auto; overscroll-behavior: contain; }
-  .modal-inner { padding: 1.5rem 1.25rem 2rem; }
-  .modal-title { font-size: 1.3rem; }
-  .modal-close { top: 0.75rem; right: 0.75rem; }
-
-  .listen-dialog { padding: 2rem 1.5rem 1.5rem; }
+  /* Listen dialog: sheet from bottom, fits above player */
+  .dialog-overlay {
+    align-items: flex-end;
+    padding: 0;
+  }
+  .listen-dialog {
+    max-width: 100%;
+    max-height: calc(100dvh - 5rem);
+    border-radius: 20px 20px 0 0;
+    padding: 1.75rem 1.25rem max(1.5rem, env(safe-area-inset-bottom));
+    transform: translateY(24px);
+  }
+  .dialog-overlay.open .listen-dialog { transform: translateY(0); }
   .time-opt { font-size: 0.85rem; padding: 0.7rem 0.4rem; }
 
-  .mp-btn { padding: 0.38rem 0.55rem; font-size: 0.76rem; }
+  /* Mini player: stack vertically so title never overlaps controls */
+  .mini-player {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.25rem;
+    padding: 0.6rem 1rem max(0.6rem, env(safe-area-inset-bottom));
+  }
+  .mp-info { flex: none; }
+  .mp-title {
+    white-space: normal;
+    font-size: 0.82rem;
+    line-height: 1.35;
+  }
+  .mp-controls {
+    display: flex;
+    gap: 0.4rem;
+    margin-top: 0.25rem;
+  }
+  .mp-btn {
+    flex: 1;
+    text-align: center;
+    padding: 0.42rem 0.4rem;
+    font-size: 0.76rem;
+  }
 
   .toast {
-    bottom: 86px;
+    bottom: calc(100px + env(safe-area-inset-bottom));
     max-width: calc(100vw - 2.5rem);
     white-space: normal;
     text-align: center;
