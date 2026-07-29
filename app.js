@@ -35,14 +35,6 @@ function fmtDate(iso) {
 }
 
 /* === Toast === */
-let toastTimer;
-function showToast(msg) {
-  const el = $('toast');
-  el.textContent = msg;
-  el.classList.add('show');
-  clearTimeout(toastTimer);
-  toastTimer = setTimeout(() => el.classList.remove('show'), 3200);
-}
 
 /* === Sidebar === */
 function openSidebar() {
@@ -175,7 +167,7 @@ function buildQueue(minutes) {
 /* === Speech === */
 function speak(text, onEnd) {
   if (!window.speechSynthesis) {
-    showToast('⚠️ Speech not supported in this browser');
+    console.warn('Speech not supported in this browser');
     return null;
   }
   window.speechSynthesis.cancel();
