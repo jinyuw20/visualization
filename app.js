@@ -260,7 +260,7 @@ function pauseSession() {
     state.isPaused = false;
     window.speechSynthesis.resume();
     $('mpPause').textContent = '⏸';
-    startProgress(state.queue[state.currentIndex]?.wc || 0);
+    startProgress((state.queue[state.currentIndex] || {}).wc || 0);
   } else {
     state.isPaused = true;
     window.speechSynthesis.pause();
