@@ -373,6 +373,11 @@ function updateSentinel() {
     if (feedObserver) { feedObserver.disconnect(); feedObserver = null; }
     return;
   }
+  // Fallback for browsers without IntersectionObserver (iOS < 12.1)
+  if (typeof IntersectionObserver === 'undefined') {
+    appendFeedPage(); // just render all remaining
+    return;
+  }
   if (!sentinel) {
     sentinel = document.createElement('div');
     sentinel.id = 'feedSentinel';
@@ -585,18 +590,22 @@ function initCarouselDrag() {
 
 /* === Init === */
 function init() {
+  window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
+
   if (window.speechSynthesis) {
     window.speechSynthesis.getVoices();
     window.speechSynthesis.onvoiceschanged = () => {};
   }
 
   // Merge localStorage posts
-  const custom = JSON.parse(localStorage.getItem('MINICHAT_LOCAL_BLOGS') || '[]');
-  custom.forEach(blog => {
-    if (!window.BLOG_REGISTRY.find(b => b.id === blog.id)) {
-      window.BLOG_REGISTRY.push(blog);
-    }
-  });
+  try {
+    const custom = JSON.parse(localStorage.getItem('MINICHAT_LOCAL_BLOGS') || '[]');
+    custom.forEach(blog => {
+      if (!window.BLOG_REGISTRY.find(b => b.id === blog.id)) {
+        window.BLOG_REGISTRY.push(blog);
+      }
+    });
+  } catch (e) {}
 
   renderCalendar();
   renderFeed();
