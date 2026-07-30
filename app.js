@@ -312,6 +312,7 @@ function pauseSession() {
 function skipArticle() {
   if (!state.isPlaying) return;
   clearInterval(progressInterval);
+  state.isPlaying = false; // block onend auto-advance while cancelling
   window.speechSynthesis.cancel();
   state.isPaused = false;
   $('mpPause').textContent = '⏸';
@@ -319,7 +320,10 @@ function skipArticle() {
   if (next >= state.queue.length) {
     finishSession();
   } else {
-    setTimeout(() => playArticle(next), 300);
+    setTimeout(() => {
+      state.isPlaying = true;
+      playArticle(next);
+    }, 300);
   }
 }
 
