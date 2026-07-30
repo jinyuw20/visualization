@@ -546,6 +546,9 @@ body.player-active main { padding-bottom: 5.5rem; }
 .modal-body p { margin-bottom: 1.25rem; }
 .modal-body p:last-child { margin-bottom: 0; }
 
+/* === Feed sentinel (infinite scroll trigger) === */
+#feedSentinel { height: 1px; }
+
 /* === Footer === */
 footer {
   text-align: center;
