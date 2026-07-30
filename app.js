@@ -13,6 +13,7 @@ const state = {
   calMonth: new Date().getMonth(),
   calDateFilter: null,
   calYearFilter: null,
+  searchQuery: '',
   listenCats: null, // null = all categories
 };
 
@@ -64,6 +65,24 @@ function closeSidebar() {
 $('hamburgerBtn').addEventListener('click', openSidebar);
 $('sidebarClose').addEventListener('click', closeSidebar);
 $('sidebarBackdrop').addEventListener('click', closeSidebar);
+
+$('sidebarSearch').addEventListener('input', function() {
+  state.searchQuery = this.value.trim();
+  $('sidebarSearchClear').style.display = state.searchQuery ? 'flex' : 'none';
+  const label = $('sidebarBrowseLabel');
+  if (label) label.textContent = state.searchQuery ? 'Filter by category' : 'Browse';
+  renderFeed();
+});
+
+$('sidebarSearchClear').addEventListener('click', function() {
+  $('sidebarSearch').value = '';
+  state.searchQuery = '';
+  this.style.display = 'none';
+  const label = $('sidebarBrowseLabel');
+  if (label) label.textContent = 'Browse';
+  $('sidebarSearch').focus();
+  renderFeed();
+});
 
 function renderSidebar() {
   const cats = ['All', ...new Set(window.BLOG_REGISTRY.map(b => b.category))].sort();
@@ -399,6 +418,16 @@ function renderFeed() {
   }
   if (state.calDateFilter) {
     blogs = blogs.filter(b => b.date === state.calDateFilter);
+  }
+  if (state.searchQuery) {
+    const q = state.searchQuery.toLowerCase();
+    blogs = blogs.filter(b =>
+      (b.title || '').toLowerCase().includes(q) ||
+      (b.excerpt || '').toLowerCase().includes(q) ||
+      (b.author || '').toLowerCase().includes(q) ||
+      (b.category || '').toLowerCase().includes(q) ||
+      stripHtml(b.content || '').toLowerCase().includes(q)
+    );
   }
   feedBlogs = blogs.slice().sort((a, b) => {
     if (b.pinned !== a.pinned) return b.pinned ? 1 : -1;
