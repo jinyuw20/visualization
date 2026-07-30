@@ -29,6 +29,27 @@ function stripHtml(html) {
   return d.textContent || d.innerText || '';
 }
 
+function escHtml(str) {
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function highlightStr(str, query) {
+  if (!query) return escHtml(str);
+  const esc = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return escHtml(str).replace(new RegExp('(' + esc + ')', 'gi'), '<mark class="search-hl">$1</mark>');
+}
+
+function searchSnippet(blog, query) {
+  const plain = stripHtml(blog.content || '');
+  const lower = plain.toLowerCase();
+  const idx = lower.indexOf(query.toLowerCase());
+  if (idx === -1) return null;
+  const start = Math.max(0, idx - 80);
+  const end = Math.min(plain.length, idx + query.length + 80);
+  const raw = (start > 0 ? '…' : '') + plain.slice(start, end) + (end < plain.length ? '…' : '');
+  return highlightStr(raw, query);
+}
+
 function wordCount(content) {
   const plain = stripHtml(content).trim();
   return plain ? plain.split(/\s+/).length : 0;
@@ -354,14 +375,24 @@ function deduped() {
 
 function blogCardHtml(blog) {
   const date = fmtDate(blog.date);
-  const bodyHtml = contentToHtml(blog);
+  const q = state.searchQuery;
+  const titleHtml = q ? highlightStr(blog.title, q) : escHtml(blog.title);
+  let bodyHtml;
+  if (q) {
+    const snippet = searchSnippet(blog, q);
+    bodyHtml = snippet
+      ? '<p class="search-snippet">' + snippet + '</p>'
+      : '<p class="search-snippet">' + highlightStr((blog.excerpt || stripHtml(blog.content || '').slice(0, 160)), q) + '…</p>';
+  } else {
+    bodyHtml = contentToHtml(blog);
+  }
   return `
     <article class="post-card${blog.pinned ? ' post-card--pinned' : ''}">
       <div class="post-cat-row">
-        <span class="post-cat">${blog.category}</span>
+        <span class="post-cat">${escHtml(blog.category)}</span>
         ${blog.pinned ? '<span class="post-pin-badge">📌 Pinned</span>' : ''}
       </div>
-      <h2 class="post-title">${blog.title}</h2>
+      <h2 class="post-title">${titleHtml}</h2>
       <div class="post-date">${date}</div>
       <hr class="post-hr">
       <div class="post-body">${bodyHtml}</div>

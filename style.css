@@ -172,6 +172,25 @@ header {
 }
 .sidebar-search-clear:hover { color: var(--text); }
 
+mark.search-hl {
+  background: #ffe066;
+  color: inherit;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+@media (prefers-color-scheme: dark) {
+  mark.search-hl { background: #b8860b; color: #fff; }
+}
+:root[data-theme="dark"] mark.search-hl { background: #b8860b; color: #fff; }
+:root[data-theme="light"] mark.search-hl { background: #ffe066; color: inherit; }
+
+.search-snippet {
+  font-size: 0.88rem;
+  color: var(--text-dim);
+  line-height: 1.55;
+  margin: 0;
+}
+
 .sidebar-label {
   font-family: var(--sans);
   font-size: 0.65rem;
