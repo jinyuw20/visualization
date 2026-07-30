@@ -333,6 +333,45 @@ body.player-active main { padding-bottom: 5.5rem; }
 }
 .post-listen-btn:hover { border-color: var(--gold); color: var(--gold); background: rgba(196,154,40,0.06); }
 
+.post-share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: none;
+  border: none;
+  padding: 0.35rem 0.6rem;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 0.15s;
+  margin-left: 0.25rem;
+}
+.post-share-btn:hover { color: var(--gold); }
+
+#appToast {
+  position: fixed;
+  bottom: 5rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(8px);
+  background: #222;
+  color: #fff;
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  padding: 0.5rem 1.1rem;
+  border-radius: 20px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s, transform 0.18s;
+  white-space: nowrap;
+  z-index: 9999;
+}
+#appToast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
 /* === Listen Dialog === */
 .dialog-overlay {
   position: fixed;
@@ -844,6 +883,19 @@ footer a:hover { color: var(--gold-dark); }
 }
 .cat-chip:hover:not(.active) { border-color: var(--gold); color: var(--gold); }
 .cat-chip.active { border-color: var(--gold); background: var(--gold); color: white; }
+
+.cat-chip-ctrl {
+  padding: 0.32rem 0.7rem;
+  border: 1.5px dashed var(--border);
+  border-radius: 20px;
+  background: none;
+  font-family: var(--sans);
+  font-size: 0.76rem;
+  color: var(--text-dim);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.cat-chip-ctrl:hover { border-color: var(--gold); color: var(--gold); }
 
 /* === Scrollbar === */
 ::-webkit-scrollbar { width: 5px; }

@@ -70,6 +70,39 @@ function fmtDate(iso) {
 }
 
 /* === Toast === */
+function showToast(msg) {
+  var t = document.getElementById('appToast');
+  if (!t) {
+    t = document.createElement('div');
+    t.id = 'appToast';
+    document.body.appendChild(t);
+  }
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(t._timer);
+  t._timer = setTimeout(function() { t.classList.remove('show'); }, 2000);
+}
+
+/* === Share === */
+window.shareArticle = function(id) {
+  var url = location.href.split('#')[0] + '#' + id;
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(url).catch(function() { copyFallback(url); });
+  } else {
+    copyFallback(url);
+  }
+  showToast('Link copied!');
+};
+function copyFallback(text) {
+  var ta = document.createElement('textarea');
+  ta.value = text;
+  ta.style.cssText = 'position:fixed;opacity:0;top:0;left:0';
+  document.body.appendChild(ta);
+  ta.focus();
+  ta.select();
+  try { document.execCommand('copy'); } catch(e) {}
+  document.body.removeChild(ta);
+}
 
 /* === Sidebar === */
 function openSidebar() {
@@ -125,23 +158,28 @@ window.filterBy = function(cat) {
 /* === Category chips for listen dialog === */
 function renderCatChips() {
   const cats = [...new Set(window.BLOG_REGISTRY.map(b => b.category))].sort();
-  $('catFilterChips').innerHTML = cats.map(c => {
+  const allSelected = state.listenCats === null;
+  const ctrl = `<button class="cat-chip-ctrl" onclick="toggleAllCats()">${allSelected ? 'Clear all' : 'Select all'}</button>`;
+  $('catFilterChips').innerHTML = ctrl + cats.map(c => {
     const active = state.listenCats === null || state.listenCats.includes(c);
     return `<button class="cat-chip${active ? ' active' : ''}" onclick="toggleListenCat('${c}')">${c}</button>`;
   }).join('');
 }
 
+window.toggleAllCats = function() {
+  state.listenCats = state.listenCats === null ? [] : null;
+  renderCatChips();
+};
+
 window.toggleListenCat = function(cat) {
   const cats = [...new Set(window.BLOG_REGISTRY.map(b => b.category))].sort();
   if (state.listenCats === null) {
-    // Switch from "all" to all-except-clicked
     state.listenCats = cats.filter(c => c !== cat);
   } else if (state.listenCats.includes(cat)) {
     state.listenCats = state.listenCats.filter(c => c !== cat);
-    if (state.listenCats.length === 0) state.listenCats = null; // back to all
   } else {
     state.listenCats = [...state.listenCats, cat];
-    if (state.listenCats.length === cats.length) state.listenCats = null; // all selected = null
+    if (state.listenCats.length === cats.length) state.listenCats = null;
   }
   renderCatChips();
 };
@@ -405,6 +443,10 @@ function blogCardHtml(blog) {
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
           Listen · ~${listenMins(blog.content)} min
         </button>
+        <button class="post-share-btn" onclick="shareArticle('${blog.id}')" title="Copy link">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+          Share
+        </button>
       </div>
     </article>
   `;
@@ -493,11 +535,13 @@ window.openBlog = function(id) {
 
   $('modalOverlay').classList.add('open');
   document.body.style.overflow = 'hidden';
+  history.replaceState(null, '', location.pathname + location.search + '#' + blog.id);
 };
 
 function closeBlog() {
   $('modalOverlay').classList.remove('open');
   document.body.style.overflow = '';
+  history.replaceState(null, '', location.pathname + location.search);
 }
 
 $('modalClose').addEventListener('click', closeBlog);
@@ -674,6 +718,12 @@ function init() {
   renderCalendar();
   renderFeed();
   renderSidebar();
+
+  const hash = window.location.hash.slice(1);
+  if (hash) {
+    const blog = deduped().find(function(b) { return b.id === hash; });
+    if (blog) openBlog(hash);
+  }
 }
 
 init();
