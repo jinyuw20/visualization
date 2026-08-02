@@ -86,10 +86,12 @@ function showToast(msg) {
 /* === Share === */
 window.shareArticle = function(id) {
   var url = location.href.split('#')[0] + '#' + id;
+  var blog = (window.BLOG_REGISTRY || []).find(function(b) { return b.id === id; });
+  var text = blog ? blog.title + '\n' + url : url;
   if (navigator.clipboard) {
-    navigator.clipboard.writeText(url).catch(function() { copyFallback(url); });
+    navigator.clipboard.writeText(text).catch(function() { copyFallback(text); });
   } else {
-    copyFallback(url);
+    copyFallback(text);
   }
   showToast('Link copied!');
 };
