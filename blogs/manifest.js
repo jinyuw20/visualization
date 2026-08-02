@@ -350,5 +350,6 @@ window.BLOG_MANIFEST = [
   "2026-07-28-good-enough-in-time-with-ai.js",
   "2026-07-29-memorizing-father-in-law.js",
   "2026-07-29-clothes-hard-to-wear-out.js",
-  "2026-07-30-dislike-more-and-cherish-less.js"
+  "2026-07-30-dislike-more-and-cherish-less.js",
+  "2026-07-31-lucky-monkey-and-surprised-turkey.js"
 ];
