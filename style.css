@@ -650,6 +650,49 @@ body.player-active main { padding-bottom: 5.5rem; }
 .modal-body p { margin-bottom: 1.25rem; }
 .modal-body p:last-child { margin-bottom: 0; }
 
+/* === Code blocks === */
+pre {
+  background: #1e1e2e;
+  color: #cdd6f4;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  overflow-x: auto;
+  font-family: 'SF Mono', 'Fira Code', Consolas, 'Courier New', monospace;
+  font-size: 0.83rem;
+  line-height: 1.65;
+  margin: 1rem 0;
+  white-space: pre;
+  tab-size: 2;
+}
+pre code {
+  background: none;
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  border-radius: 0;
+}
+code {
+  font-family: 'SF Mono', 'Fira Code', Consolas, 'Courier New', monospace;
+  font-size: 0.86em;
+  background: rgba(0,0,0,0.07);
+  padding: 0.12em 0.38em;
+  border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  code:not(pre code) { background: rgba(255,255,255,0.12); }
+}
+:root[data-theme="dark"] code:not(pre code) { background: rgba(255,255,255,0.12); }
+:root[data-theme="light"] code:not(pre code) { background: rgba(0,0,0,0.07); }
+
+/* === Article images === */
+.modal-body img, .post-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 1rem auto;
+}
+
 /* === Feed sentinel (infinite scroll trigger) === */
 #feedSentinel { height: 1px; }
 
