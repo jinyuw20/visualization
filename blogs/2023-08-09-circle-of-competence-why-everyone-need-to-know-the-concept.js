@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   "id": "2023-08-09-circle-of-competence-why-everyone-needs-to-know-the-concept",
-  "title": "Circle of Competence: Why Everyone Needs to Know the Concept",
+  "title": "Circle of Competence: Why Everyone Needs to Understand This Concept",
   "author": "Sukee Parker",
   "date": "2023-08-09",
   "category": "Philosophy",
