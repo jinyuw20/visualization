@@ -83,11 +83,52 @@ function showToast(msg) {
   t._timer = setTimeout(function() { t.classList.remove('show'); }, 2000);
 }
 
+/* === Image extraction === */
+function firstImageUrl(blog) {
+  if (!blog.content) return '';
+  const m = blog.content.match(/<img[^>]+src="([^"]+)"/);
+  if (!m) return '';
+  const src = m[1];
+  // Make absolute: if already absolute leave it, otherwise resolve from page origin
+  if (/^https?:\/\//.test(src)) return src;
+  const base = location.href.split('#')[0].replace(/[^/]+$/, '');
+  return base + src;
+}
+
+/* === Open Graph meta update === */
+function updateOgMeta(blog, url) {
+  const set = (id, val) => { const el = document.getElementById(id); if (el) el.setAttribute('content', val); };
+  const img = firstImageUrl(blog);
+  const desc = blog.excerpt || stripHtml(blog.content || '').slice(0, 160);
+  set('ogTitle', blog.title);       set('twTitle', blog.title);
+  set('ogDescription', desc);       set('twDescription', desc);
+  set('ogUrl', url);
+  set('ogImage', img);              set('twImage', img);
+  document.title = blog.title + ' — Sukee Tea Time';
+}
+
+function resetOgMeta() {
+  const def = 'Sukee Tea Time';
+  const desc = 'Reflections on life, wellness, and everyday moments.';
+  ['ogTitle','twTitle'].forEach(id => { const el = document.getElementById(id); if (el) el.setAttribute('content', def); });
+  ['ogDescription','twDescription'].forEach(id => { const el = document.getElementById(id); if (el) el.setAttribute('content', desc); });
+  ['ogImage','twImage'].forEach(id => { const el = document.getElementById(id); if (el) el.setAttribute('content', ''); });
+  document.title = def;
+}
+
 /* === Share === */
 window.shareArticle = function(id) {
   var url = location.href.split('#')[0] + '#' + id;
   var blog = (window.BLOG_REGISTRY || []).find(function(b) { return b.id === id; });
-  var text = blog ? blog.title + '\n' + url : url;
+  if (!blog) { copyFallback(url); showToast('Link copied!'); return; }
+  var img = firstImageUrl(blog);
+  var desc = blog.excerpt || stripHtml(blog.content || '').slice(0, 160);
+  // Use native share sheet when available (mobile)
+  if (navigator.share) {
+    navigator.share({ title: blog.title, text: desc, url: url }).catch(function() {});
+    return;
+  }
+  var text = blog.title + '\n' + url;
   if (navigator.clipboard) {
     navigator.clipboard.writeText(text).catch(function() { copyFallback(text); });
   } else {
@@ -549,13 +590,16 @@ window.openBlog = function(id) {
 
   $('modalOverlay').classList.add('open');
   document.body.style.overflow = 'hidden';
+  const shareUrl = location.href.split('#')[0] + '#' + blog.id;
   history.replaceState(null, '', location.pathname + location.search + '#' + blog.id);
+  updateOgMeta(blog, shareUrl);
 };
 
 function closeBlog() {
   $('modalOverlay').classList.remove('open');
   document.body.style.overflow = '';
   history.replaceState(null, '', location.pathname + location.search);
+  resetOgMeta();
 }
 
 $('modalClose').addEventListener('click', closeBlog);
