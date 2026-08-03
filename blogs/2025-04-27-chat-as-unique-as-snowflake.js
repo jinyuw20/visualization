@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-04-27-chat-as-unique-as-snowflake",
-  title: "Chat | As Unique as Snowflake",
+  title: "As Unique as Snowflake",
   author: "Sukee Parker",
   date: "2025-04-27",
   category: "Chat",

@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-06-29-chat-happy-copycats",
-  title: "Chat | Happy Copycats",
+  title: "Happy Copycats",
   author: "Sukee Parker",
   date: "2025-06-29",
   category: "Chat",

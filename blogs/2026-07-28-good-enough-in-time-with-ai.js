@@ -5,7 +5,7 @@ window.BLOG_REGISTRY.push({
   author: "Sukee Parker",
   date: "2026-07-28",
   category: "Philosophy",
-  tags: ["Well Being","Productivity","Minimalism"],
+  tags: ["Well Being", "Productivity", "Minimalism"],
   excerpt: "Focus on the what's matters and knowing when to stop",
   content: `With the advent of AI, tasks that once seemed daunting have become remarkably simple. However, the challenge lies in determining when to halt our efforts and declare our work satisfactory. We must strike a balance between pushing ourselves to the limit and taking time to relax and enjoy the process.
 

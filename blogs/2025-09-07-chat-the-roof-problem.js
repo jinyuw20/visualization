@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-09-07-chat-the-roof-problem",
-  title: "Chat | The Roof Problem",
+  title: "The Roof Problem",
   author: "Sukee Parker",
   date: "2025-09-07",
   category: "Chat",

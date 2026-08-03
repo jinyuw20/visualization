@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-01-28-chat-how-to-manage-social-circles-efficiently",
-  title: "Chat | How to Manage Social Circles Efficiently",
+  title: "How to Manage Social Circles Efficiently",
   author: "Sukee Parker",
   date: "2024-01-28",
   category: "Chat",

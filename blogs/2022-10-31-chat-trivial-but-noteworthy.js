@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2022-10-31-chat-trivial-but-noteworthy",
-  title: "Chat | Trivial But Noteworthy",
+  title: "Trivial But Noteworthy",
   author: "Sukee Parker",
   date: "2022-10-31",
   category: "Philosophy",

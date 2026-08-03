@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-09-15-chat-how-to-be-a-fun-person-to-work-with",
-  title: "Chat | How to Be a Fun Person to Work With",
+  title: "How to Be a Fun Person to Work With",
   author: "Sukee Parker",
   date: "2024-09-15",
   category: "Chat",

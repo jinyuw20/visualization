@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2020-04-05-chat-life-wisdom-from-india",
-  title: "Chat | Life Wisdom from India",
+  title: "Life Wisdom from India",
   author: "Sukee Parker",
   date: "2020-04-05",
   category: "Philosophy",

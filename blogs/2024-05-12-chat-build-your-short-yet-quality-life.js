@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-05-12-chat-build-your-short-yet-quality-life",
-  title: "Chat | Build Short Yet Quality Life",
+  title: "Build Short Yet Quality Life",
   author: "Sukee Parker",
   date: "2024-05-12",
   category: "Chat",

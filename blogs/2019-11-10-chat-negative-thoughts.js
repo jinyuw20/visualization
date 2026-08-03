@@ -1,10 +1,10 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2019-11-10-chat-negative-thoughts",
-  title: "Chat | Negative Thoughts",
+  title: "Negative Thoughts",
   author: "Sukee Parker",
   date: "2019-11-10",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Mental Health", "Mindset", "Positivity"],
   excerpt: "Rather than trying to suppress negative thoughts — which often intensifies them — the more effective approach is to fill the mind with positive imagery that naturally crowds them out.",
   content: `Worry, fear, regret, self-blame — these are common visitors. The question is what to do with them.

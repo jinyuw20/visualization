@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-12-21-chat-self-imposed-limitations",
-  title: "Chat | Self-Imposed Limitations: Is Your Mind in a Cage?",
+  title: "Self-Imposed Limitations: Is Your Mind in a Cage?",
   author: "Sukee Parker",
   date: "2025-12-21",
   category: "Chat",

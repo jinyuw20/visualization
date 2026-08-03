@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "How to Create a Feeling of Accomplishment for Yourself",
   author: "Sukee Parker",
   date: "2003-12-07",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Mindset", "Productivity"],
   excerpt: "When no amount of effort seems to move the needle, the problem may not be effort — it may be where you are looking for results.",
   content: `No matter how hard we try, there are times when we cannot achieve our goals or get recognized for our efforts. A manager who does not notice your work, an audience that does not engage, peers who show no interest — these situations create genuine feelings of helplessness.

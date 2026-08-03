@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-07-04-chat-how-to-create-a-sketching-animation",
-  title: "Chat | How to Create a Sketching Animation",
+  title: "How to Create a Sketching Animation",
   author: "Sukee Parker",
   date: "2024-07-04",
   category: "Chat",

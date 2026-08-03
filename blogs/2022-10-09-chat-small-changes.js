@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2022-10-09-chat-small-changes",
-  title: "Chat | Small Changes",
+  title: "Small Changes",
   author: "Sukee Parker",
   date: "2022-10-09",
   category: "Lifestyle",

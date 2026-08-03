@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-05-18-chat-if-you-dont-like-it-change-it",
-  title: "Chat | If You Don't Like it, Change it",
+  title: "If You Don't Like it, Change it",
   author: "Sukee Parker",
   date: "2025-05-18",
   category: "Chat",

@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-07-14-chat-goal-setting-with-the-wheel-of-life",
-  title: "Chat | Goal Setting with the Wheel of Life",
+  title: "Goal Setting with the Wheel of Life",
   author: "Sukee Parker",
   date: "2024-07-14",
   category: "Chat",

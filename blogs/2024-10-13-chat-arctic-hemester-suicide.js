@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-10-13-chat-arctic-hemester-suicide",
-  title: "Chat | Arctic Hemester' Suicide?",
+  title: "Arctic Hemester' Suicide?",
   author: "Sukee Parker",
   date: "2024-10-13",
   category: "Chat",

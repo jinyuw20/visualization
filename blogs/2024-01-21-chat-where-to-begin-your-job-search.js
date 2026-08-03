@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-01-21-chat-where-to-begin-your-job-search",
-  title: "Chat | Where to Begin Your Job Search",
+  title: "Where to Begin Your Job Search",
   author: "Sukee Parker",
   date: "2024-01-21",
   category: "Chat",

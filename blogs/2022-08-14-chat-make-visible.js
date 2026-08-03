@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2022-08-14-chat-make-visible",
-  title: "Chat | Make Visible",
+  title: "Make Visible",
   author: "Sukee Parker",
   date: "2022-08-14",
   category: "Productivity",

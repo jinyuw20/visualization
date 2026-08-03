@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "Mullen Herb Tea",
   author: "Sukee Parker",
   date: "1995-02-12",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Tea", "Health"],
   excerpt: "An exploration of mullein herb tea and its traditional uses for respiratory health, combined with a reflection on the wisdom of rest.",
   content: `Mullein (毛蕊花) is an herbal remedy traditionally used to address cough, upper respiratory tract issues, bronchitis, and other respiratory symptoms. It is frequently combined with other herbs that treat colds and coughs. Chinese traditional medicine recommends consuming mullein tea during autumn when weather patterns become dry.

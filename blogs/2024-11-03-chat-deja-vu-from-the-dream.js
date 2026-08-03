@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-11-03-chat-deja-vu-from-the-dream",
-  title: "Chat | Deja Vu from the Dream",
+  title: "Deja Vu from the Dream",
   author: "Sukee Parker",
   date: "2024-11-03",
   category: "Chat",

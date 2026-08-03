@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2021-01-01-chat-breath-the-zen",
-  title: "Chat | Breath the Zen",
+  title: "Breath the Zen",
   author: "Sukee Parker",
   date: "2021-01-01",
   category: "Philosophy",

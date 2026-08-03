@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2022-01-01-chat-dive-into-deep-immersions",
-  title: "Chat | Dive into Deep Immersions",
+  title: "Dive into Deep Immersions",
   author: "Sukee Parker",
   date: "2022-01-01",
   category: "Philosophy",

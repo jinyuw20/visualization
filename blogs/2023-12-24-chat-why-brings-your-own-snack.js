@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2023-12-24-chat-why-brings-your-own-snack",
-  title: "Chat | Why Brings Your Own Snack",
+  title: "Why Brings Your Own Snack",
   author: "Sukee Parker",
   date: "2023-12-24",
   category: "Health",

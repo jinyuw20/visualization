@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-11-02-chat-how-to-prevent-locusts-swarm",
-  title: "Chat | How to Prevent Locusts Swarm?",
+  title: "How to Prevent Locusts Swarm?",
   author: "Sukee Parker",
   date: "2025-11-02",
   category: "Chat",

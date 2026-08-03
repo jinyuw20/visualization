@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-01-01-chat-365-teatime-ideas",
-  title: "Chat | 365 Teatime Ideas",
+  title: "365 Teatime Ideas",
   author: "Sukee Parker",
   date: "2024-01-01",
   category: "Chat",

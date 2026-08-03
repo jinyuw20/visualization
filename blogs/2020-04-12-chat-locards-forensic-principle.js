@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2020-04-12-chat-locards-forensic-principle",
-  title: "Chat | Locard's Forensic Principle",
+  title: "Locard's Forensic Principle",
   author: "Sukee Parker",
   date: "2020-04-12",
   category: "Philosophy",

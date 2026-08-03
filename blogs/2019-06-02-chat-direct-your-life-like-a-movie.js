@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2019-06-02-chat-direct-your-life-like-a-movie",
-  title: "Chat | Direct Your Life Like a Movie",
+  title: "Direct Your Life Like a Movie",
   author: "Sukee Parker",
   date: "2019-06-02",
   category: "Philosophy",

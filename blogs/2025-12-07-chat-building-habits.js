@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-12-07-chat-building-habits",
-  title: "Chat | How to Use Habits to Build a Life System",
+  title: "How to Use Habits to Build a Life System",
   author: "Sukee Parker",
   date: "2025-12-07",
   category: "Chat",

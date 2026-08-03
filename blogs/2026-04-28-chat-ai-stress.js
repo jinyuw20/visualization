@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2026-04-28-chat-ai-stress",
-  title: "Chat | AI Stress",
+  title: "AI Stress",
   author: "Sukee Parker",
   date: "2026-04-28",
   category: "Technology",

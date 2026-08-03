@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-03-02-chat-show-not-tell",
-  title: "Chat | Show Not Tell",
+  title: "Show Not Tell",
   author: "Sukee Parker",
   date: "2025-03-02",
   category: "Chat",

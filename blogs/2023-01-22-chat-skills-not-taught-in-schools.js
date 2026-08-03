@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2023-01-22-chat-skills-not-taught-in-schools",
-  title: "Chat | Skills Not Taught In Schools",
+  title: "Skills Not Taught In Schools",
   author: "Sukee Parker",
   date: "2023-01-22",
   category: "Philosophy",

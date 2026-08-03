@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2021-09-11-chat-family-first",
-  title: "Chat | Family First",
+  title: "Family First",
   author: "Sukee Parker",
   date: "2021-09-11",
   category: "Lifestyle",

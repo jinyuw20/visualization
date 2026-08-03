@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-08-04-chat-digital-decluttering-with-apple-notes",
-  title: "Chat | Digital Decluttering with Apple Notes",
+  title: "Digital Decluttering with Apple Notes",
   author: "Sukee Parker",
   date: "2024-08-04",
   category: "Productivity",

@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "Pantry Choices",
   author: "Sukee Parker",
   date: "2010-03-14",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Food", "Health"],
   excerpt: "Mindful pantry selections — what to look for, what to avoid, and a couple of Trader Joe's finds worth knowing about.",
   content: `Pantry choices are worth thinking through carefully. The criteria I use: non-GMO, low sugar, low fat, low carb, organic where possible, non-inflammatory, and made with simple natural ingredients. Preferred oils are olive or avocado — not corn or sunflower. No artificial flavors, preservatives, or corn syrups. And it still needs to taste good.

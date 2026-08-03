@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2021-07-18-chat-others-promise",
-  title: "Chat | Other's Promise",
+  title: "Other's Promise",
   author: "Sukee Parker",
   date: "2021-07-18",
   category: "Productivity",

@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "Losing Weight",
   author: "Sukee Parker",
   date: "2021-01-10",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Health", "Weight Loss", "Wellness"],
   excerpt: "80% of weight loss plans fail within 12 months. Understanding why helps address the real obstacles.",
   content: `Weight loss products and services represent an enormous market with continuous discussion. According to Global News Wire, "the world market is growing by $254.9 billion in 2021 and will reach $377.3 billion by 2026 with a compound annual growth rate (CAGR) of 8.2%."

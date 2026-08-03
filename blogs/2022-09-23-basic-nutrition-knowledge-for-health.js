@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "Basic Nutrition Knowledge for Health",
   author: "Sukee Parker",
   date: "2022-09-23",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Nutrition", "Health", "Wellness"],
   excerpt: "Notes from a nutrition consulting session covered by health insurance. Practical basics: 2000 calories, vegetable sequencing, sugar reduction, and step targets.",
   content: `Notes from a nutrition consulting session covered by health insurance — a useful reminder that many insurance plans cover preventive nutrition consultations.

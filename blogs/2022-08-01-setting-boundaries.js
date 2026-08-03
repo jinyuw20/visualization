@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "Setting Boundaries: Why Is It Important?",
   author: "Sukee Parker",
   date: "2022-08-01",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Boundaries", "Self-care", "Relationships"],
   excerpt: "During emergencies, we must put on our masks before helping others. Boundaries work the same way — self-care is the foundation for supporting others effectively.",
   content: `Boundaries are necessary limits we establish to protect our time and energy.

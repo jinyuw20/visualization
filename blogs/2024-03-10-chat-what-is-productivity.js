@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-03-10-chat-what-is-productivity",
-  title: "Chat | What is productivity? What does it mean to be productive?",
+  title: "What is productivity? What does it mean to be productive?",
   author: "Sukee Parker",
   date: "2024-03-10",
   category: "Chat",

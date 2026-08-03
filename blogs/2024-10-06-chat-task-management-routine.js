@@ -1,11 +1,11 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-10-06-chat-task-management-routine",
-  title: "Chat | Task Management Routine",
+  title: "Task Management Routine",
   author: "Sukee Parker",
   date: "2024-10-06",
   category: "Productivity",
-  tags: ["Task Management", "Productivity", "Zeigarnik Effect", "To-Do List"],
+  tags: ["Task Management", "Productivity", "To-Do List"],
   excerpt: "The Zeigarnik effect: incomplete tasks remain more memorable than finished ones, creating mental stress. A systematic approach to to-do list management removes that burden.",
   content: `The Zeigarnik effect: incomplete tasks remain more memorable than finished ones. This psychological phenomenon creates mental stress, making task management essential for productivity.
 

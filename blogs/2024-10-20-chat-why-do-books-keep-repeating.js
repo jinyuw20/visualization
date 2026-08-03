@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-10-20-chat-why-do-books-keep-repeating",
-  title: "Chat | Why Do Books Keep Repeating?",
+  title: "Why Do Books Keep Repeating?",
   author: "Sukee Parker",
   date: "2024-10-20",
   category: "Chat",

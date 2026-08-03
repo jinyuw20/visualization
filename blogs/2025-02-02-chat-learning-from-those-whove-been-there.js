@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-02-02-chat-learning-from-those-whove-been-there",
-  title: "Chat | Learning from Those Who've Been There",
+  title: "Learning from Those Who've Been There",
   author: "Sukee Parker",
   date: "2025-02-02",
   category: "Chat",

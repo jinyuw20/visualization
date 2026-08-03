@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2019-03-03-chat-over-organized",
-  title: "Chat | Over-organized",
+  title: "Over-organized",
   author: "Sukee Parker",
   date: "2019-03-03",
   category: "Productivity",

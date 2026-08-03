@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-10-04-chat-project-ukultra",
-  title: "Chat | Project UKUltra",
+  title: "Project UKUltra",
   author: "Sukee Parker",
   date: "2024-10-04",
   category: "Chat",

@@ -5,7 +5,7 @@ window.BLOG_REGISTRY.push({
   author: "Sukee Parker",
   date: "2023-11-11",
   category: "Things To Do",
-  tags: ["Veterans Day", "Military", "Holiday", "Gratitude"],
+  tags: ["Military", "Holiday", "Gratitude"],
   excerpt: "Every year on November 11, we remember and honor those who put their lives on the line to serve the country.",
   content: `"Every year on November 11, we remember and honor those who put their lives on the line to serve the country."
 

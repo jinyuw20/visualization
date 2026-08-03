@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "Zen Food",
   author: "Sukee Parker",
   date: "2022-11-13",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Zen", "Vegan", "Nutrition"],
   excerpt: "Zen food is a plant-based diet used by Buddhist monks for thousands of years, designed to show care for others and respect for nature with no waste.",
   content: `Zen food is "a plant-based diet that has been used by Buddhist Monks for thousands of years."

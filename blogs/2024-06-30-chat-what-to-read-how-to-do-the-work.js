@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-06-30-chat-what-to-read-how-to-do-the-work",
-  title: "Chat | What to Read: How to Do the Work",
+  title: "What to Read: How to Do the Work",
   author: "Sukee Parker",
   date: "2024-06-30",
   category: "Books",

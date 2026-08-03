@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2026-01-22-chat-get-to-know-a-city",
-  title: "Chat | Get to Know a City",
+  title: "Get to Know a City",
   author: "Sukee Parker",
   date: "2026-01-22",
   category: "Travel",

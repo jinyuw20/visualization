@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-12-28-chat-the-taste-of-korean-cuisine-bom-in-new-york",
-  title: "Chat | The Taste of Korean Cuisine - Bom in New York",
+  title: "The Taste of Korean Cuisine - Bom in New York",
   author: "Sukee Parker",
   date: "2025-12-28",
   category: "Chat",

@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2020-06-28-chat-feel-the-life",
-  title: "Chat | Feel the Life",
+  title: "Feel the Life",
   author: "Sukee Parker",
   date: "2020-06-28",
   category: "Philosophy",

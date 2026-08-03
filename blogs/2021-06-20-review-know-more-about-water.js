@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "Review | Know More about Water",
   author: "Sukee Parker",
   date: "2021-06-20",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Health", "Water", "Environment"],
   excerpt: "Two things worth knowing about your water utility: when conservation affects your annual cost, and how to check your water quality report.",
   content: `Water is something most people use without thinking much about. Becoming an informed consumer takes less effort than expected — and can have real financial and health benefits.

@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "Losing the Bigger Pictures",
   author: "Sukee Parker",
   date: "2023-08-06",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Health", "Holistic Thinking", "Systems"],
   excerpt: "A patient struggled with sleep issues, stomach discomfort, and high blood pressure. Multiple specialists, no resolution. Traditional Chinese medicine, treating the whole system, succeeded where symptom-focused approaches failed.",
   content: `A patient struggled with sleep issues, stomach discomfort, and high blood pressure. Multiple specialists were consulted — cardiologist, gastroenterologist, endocrinologist — but none could address the underlying interconnected problems.

@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-07-07-chat-visualization",
-  title: "Chat | Visualization",
+  title: "Visualization",
   author: "Sukee Parker",
   date: "2024-07-07",
   category: "Chat",

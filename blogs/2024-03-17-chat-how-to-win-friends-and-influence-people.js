@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-03-17-chat-how-to-win-friends-and-influence-people",
-  title: "Chat | How to Win Friends and Influence People",
+  title: "How to Win Friends and Influence People",
   author: "Sukee Parker",
   date: "2024-03-17",
   category: "Books",

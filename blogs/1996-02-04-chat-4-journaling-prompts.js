@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "4 Journaling Prompts",
   author: "Sukee Parker",
   date: "1996-02-04",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Journaling", "Mindfulness"],
   excerpt: "Journaling is a time for reflection — the more varied the prompts, the broader the scope of contemplation.",
   content: `Journaling is a time for reflection. As the brain exercises, the more diverse the prompts we use, the more we expand our scope of contemplation.

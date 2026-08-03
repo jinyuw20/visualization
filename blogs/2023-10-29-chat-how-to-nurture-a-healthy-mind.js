@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2023-10-29-chat-how-to-nurture-a-healthy-mind",
-  title: "Chat | How to Nurture a Healthy Mind (Video)",
+  title: "How to Nurture a Healthy Mind (Video)",
   author: "Sukee Parker",
   date: "2023-10-29",
   category: "Health",

@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2023-05-07-chat-what-do-we-buy-and-why",
-  title: "Chat | What Do We Buy and Why",
+  title: "What Do We Buy and Why",
   author: "Sukee Parker",
   date: "2023-05-07",
   category: "Lifestyle",

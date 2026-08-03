@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2026-01-18-chat-2026-vision-board",
-  title: "Chat | 2026 Vision Board",
+  title: "2026 Vision Board",
   author: "Sukee Parker",
   date: "2026-01-18",
   category: "Personal Growth",

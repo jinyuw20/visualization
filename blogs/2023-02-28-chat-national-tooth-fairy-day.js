@@ -1,10 +1,10 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2023-02-28-chat-national-tooth-fairy-day",
-  title: "Chat | National Tooth Fairy Day",
+  title: "National Tooth Fairy Day",
   author: "Sukee Parker",
   date: "2023-02-28",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Dental Health", "Wellness", "Family"],
   excerpt: "National Tooth Fairy Day (February 28 and August 22) — the childhood tradition plus practical dental hygiene guidance beyond the folklore.",
   content: `National Tooth Fairy Day is celebrated twice a year: February 28 and August 22.

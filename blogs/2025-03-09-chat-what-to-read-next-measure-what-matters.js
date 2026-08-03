@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-03-09-chat-what-to-read-next-measure-what-matters",
-  title: "Chat | What to Read Next: Measure What Matters",
+  title: "What to Read Next: Measure What Matters",
   author: "Sukee Parker",
   date: "2025-03-09",
   category: "Books",

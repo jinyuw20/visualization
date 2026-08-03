@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "Leaving the Worries to God",
   author: "Sukee Parker",
   date: "2022-11-06",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Faith", "Anxiety", "Peace"],
   excerpt: "A colleague shared: 'When I learned to give all my troubles to God, I could focus on what I can and love to do.' A Christian perspective on coping with life's inevitable difficulties.",
   content: `A colleague shared something that stayed: "When I learned to give all my troubles to God, I could focus on what I can and love to do."

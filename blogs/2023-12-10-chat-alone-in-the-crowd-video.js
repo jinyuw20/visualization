@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2023-12-10-chat-alone-in-the-crowd-video",
-  title: "Chat | Alone in the Crowd (Video)",
+  title: "Alone in the Crowd (Video)",
   author: "Sukee Parker",
   date: "2023-12-10",
   category: "Chat",

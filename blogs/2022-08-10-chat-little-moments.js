@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2022-08-10-chat-little-moments",
-  title: "Chat | Little Moments, Little Presents",
+  title: "Little Moments, Little Presents",
   author: "Sukee Parker",
   date: "2022-08-10",
   category: "Philosophy",

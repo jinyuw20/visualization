@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-12-14-chat-the-social-wealth",
-  title: "Chat | The Social Wealth: Why Your Circle is the Key to a Better Life",
+  title: "The Social Wealth: Why Your Circle is the Key to a Better Life",
   author: "Sukee Parker",
   date: "2025-12-14",
   category: "Chat",

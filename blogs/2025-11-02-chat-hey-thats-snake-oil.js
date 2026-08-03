@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-11-02-chat-hey-thats-snake-oil",
-  title: "Chat | Hey, That's Snake Oil!",
+  title: "Hey, That's Snake Oil!",
   author: "Sukee Parker",
   date: "2025-11-02",
   category: "Chat",

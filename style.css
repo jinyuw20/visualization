@@ -309,6 +309,24 @@ body.player-active main { padding-bottom: 5.5rem; }
 .post-body p { margin-bottom: 1.1rem; }
 .post-body p:last-child { margin-bottom: 0; }
 
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 0.85rem;
+}
+.post-tag {
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--border);
+  border-radius: 20px;
+  padding: 0.18rem 0.55rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
 .post-footer {
   display: flex;
   align-items: center;
@@ -639,7 +657,14 @@ body.player-active main { padding-bottom: 5.5rem; }
 }
 .modal-listen-btn:hover { background: rgba(196,154,40,0.18); }
 
-.modal-divider { border: none; border-top: 1px solid var(--border); margin-bottom: 1.75rem; }
+.modal-divider { border: none; border-top: 1px solid var(--border); margin-bottom: 1.25rem; }
+
+#modalTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 1.25rem;
+}
 
 .modal-body {
   font-size: 1rem;
@@ -647,6 +672,12 @@ body.player-active main { padding-bottom: 5.5rem; }
   color: var(--text);
   text-align: justify;
 }
+.modal-body a, .post-body a {
+  color: var(--gold);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.modal-body a:hover, .post-body a:hover { opacity: 0.75; }
 .modal-body p { margin-bottom: 1.25rem; }
 .modal-body p:last-child { margin-bottom: 0; }
 

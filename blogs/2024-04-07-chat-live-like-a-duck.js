@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-04-07-chat-live-like-a-duck",
-  title: "Chat | Live like a Duck",
+  title: "Live like a Duck",
   author: "Sukee Parker",
   date: "2024-04-07",
   category: "Chat",

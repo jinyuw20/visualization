@@ -5,7 +5,7 @@ window.BLOG_REGISTRY.push({
   author: "Sukee Parker",
   date: "2021-09-21",
   category: "Lifestyle",
-  tags: ["World Peace Day", "Activities", "Culture"],
+  tags: ["Activities", "Culture"],
   excerpt: "International Day of Peace is observed annually on September 21, devoted to strengthening the ideals of peace, both within and among all nations and peoples.",
   content: `The International Day of Peace is observed annually on September 21.
 

@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-04-25-chat-blessed-life",
-  title: "Chat | Blessed Life",
+  title: "Blessed Life",
   author: "Sukee Parker",
   date: "2025-04-25",
   category: "Chat",

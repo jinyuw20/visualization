@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "National Day of Unplugging",
   author: "Sukee Parker",
   date: "2023-03-03",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Digital Detox", "Mindfulness", "Tech"],
   excerpt: "Reboot launched the first National Day of Unplugging in 2010 as a 24-hour digital detox, drawing inspiration from the Jewish Sabbath concept of disconnecting and reconnecting with what matters.",
   content: `National Day of Unplugging is observed annually on the first Friday in March.

@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-05-04-say-away-from-those-ignorant-and-fearless-dangers",
-  title: "Chat | Say Away from Those Ignorant and Fearless Dangers",
+  title: "Say Away from Those Ignorant and Fearless Dangers",
   author: "Sukee Parker",
   date: "2025-05-04",
   category: "Chat",

@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-01-26-chat-discover-soundscape",
-  title: "Chat | Discover Soundscape",
+  title: "Discover Soundscape",
   author: "Sukee Parker",
   date: "2025-01-26",
   category: "Chat",

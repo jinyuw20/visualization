@@ -1,10 +1,10 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2022-06-19-chat-fraud-and-scam",
-  title: "Chat | Fraud and Scam",
+  title: "Fraud and Scam",
   author: "Sukee Parker",
   date: "2022-06-19",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Fraud", "Security", "Awareness"],
   excerpt: "Ignore unsolicited contact from strangers via text or phone. Delete the message and mark it as spam — don't engage.",
   content: `Practical guidance for protecting yourself from common scams and frauds: ignore unsolicited contact from strangers via text or phone. "Delete the message and mark it as spam" rather than engaging with suspicious callers.

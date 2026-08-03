@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-06-16-chat-money-wise-how-to-become-financially-savvy",
-  title: "Chat | Money Wise: How to Become Financially Savvy",
+  title: "Money Wise: How to Become Financially Savvy",
   author: "Sukee Parker",
   date: "2024-06-16",
   category: "Finance",

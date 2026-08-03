@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "Manifestation Mantra",
   author: "Sukee Parker",
   date: "2016-09-18",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Mindfulness", "Zen"],
   excerpt: "Words that flow smoothly like cool water — purifying and nurturing the inner self.",
   content: `I came across a collection of manifestation mantras recently and found the language surprisingly moving. The words flowed smoothly like cool water, purifying and nurturing the inner self.

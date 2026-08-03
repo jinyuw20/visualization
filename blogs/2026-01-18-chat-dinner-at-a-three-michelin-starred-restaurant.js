@@ -1,10 +1,10 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2026-01-18-chat-dinner-at-a-three-michelin-starred-restaurant",
-  title: "Chat | Dinner at a Three Michelin-Starred Restaurant",
+  title: "Dinner at a Three Michelin-Starred Restaurant",
   author: "Sukee Parker",
   date: "2026-01-18",
-  category: "Food & Travel",
+  category: "Food",
   tags: ["food", "dining", "travel", "nyc"],
   excerpt: "I finally checked a major item off my bucket list: dinner at the three-Michelin-starred Jungsik.",
   content: `I finally checked a major item off my bucket list: dinner at the three-Michelin-starred Jungsik. They do an incredible job of blending traditional Korean flavors with French techniques. The highlight was the octopus — tender on the inside and crispy on the outside. It's hands-down the best octopus I've ever eaten.

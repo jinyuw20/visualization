@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-02-15-chat-a-letter-understand-stoic",
-  title: "Chat | A Letter: Understand Stoic",
+  title: "A Letter: Understand Stoic",
   author: "Sukee Parker",
   date: "2024-02-15",
   category: "Philosophy",

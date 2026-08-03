@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2023-11-19-chat-how-to-stop-regretting",
-  title: "Chat | How to Stop Regretting",
+  title: "How to Stop Regretting",
   author: "Sukee Parker",
   date: "2023-11-19",
   category: "Chat",

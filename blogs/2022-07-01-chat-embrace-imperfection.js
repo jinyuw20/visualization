@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2022-07-01-chat-embrace-imperfection",
-  title: "Chat | Embrace Imperfection",
+  title: "Embrace Imperfection",
   author: "Sukee Parker",
   date: "2022-07-01",
   category: "Philosophy",

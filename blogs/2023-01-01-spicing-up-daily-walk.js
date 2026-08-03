@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "Spicing Up Daily Walk",
   author: "Sukee Parker",
   date: "2023-01-01",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Walking", "Exercise", "Habits"],
   excerpt: "Twelve strategies for making the 10,000-step routine more engaging and sustainable — from walking with family to using iNaturalist to identify local species.",
   content: `Twelve strategies for making daily walking more engaging and sustainable:

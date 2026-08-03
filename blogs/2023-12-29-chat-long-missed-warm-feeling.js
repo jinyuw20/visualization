@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2023-12-29-chat-long-missed-warm-feeling",
-  title: "Chat | Long Missed Warm Feeling",
+  title: "Long Missed Warm Feeling",
   author: "Sukee Parker",
   date: "2023-12-29",
   category: "Chat",

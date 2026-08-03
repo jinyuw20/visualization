@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "Thought | The Art of Slowing Down",
   author: "Sukee Parker",
   date: "2019-08-25",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Mindfulness", "Patience", "Lifestyle"],
   excerpt: "Waiting is a natural aspect of life. Boiling water takes time. Learning takes time. The art is not in going faster — it is in being present enough to appreciate what is already here.",
   content: `It is natural to chase quick results in life, but sometimes things don't go as wished — no matter how much effort we put in.

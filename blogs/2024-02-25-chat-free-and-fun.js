@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-02-25-chat-free-and-fun",
-  title: "Chat | Free and Fun",
+  title: "Free and Fun",
   author: "Sukee Parker",
   date: "2024-02-25",
   category: "Chat",

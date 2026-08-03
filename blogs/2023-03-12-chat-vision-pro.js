@@ -1,10 +1,10 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2023-03-12-chat-vision-pro",
-  title: "Chat | Vision Pro: The Social and Mental Health Concerns",
+  title: "Vision Pro: The Social and Mental Health Concerns",
   author: "Sukee Parker",
   date: "2023-03-12",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Technology", "Mental Health", "Social Media"],
   excerpt: "Extended use of immersive devices like Apple's Vision Pro could intensify social isolation, reward instant gratification, and reduce productive focus. A case for slow living.",
   content: `Examining potential negative effects of Apple's Vision Pro technology on human wellbeing.

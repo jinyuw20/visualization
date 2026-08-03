@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-04-15-chat-why-do-we-talk",
-  title: "Chat | Why Do We Talk?",
+  title: "Why Do We Talk?",
   author: "Sukee Parker",
   date: "2024-04-15",
   category: "Chat",

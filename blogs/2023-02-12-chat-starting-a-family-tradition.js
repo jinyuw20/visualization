@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2023-02-12-chat-starting-a-family-tradition",
-  title: "Chat | Starting a Family Tradition",
+  title: "Starting a Family Tradition",
   author: "Sukee Parker",
   date: "2023-02-12",
   category: "Lifestyle",

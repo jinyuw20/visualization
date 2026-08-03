@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-04-06-chat-words-carrying-emotions",
-  title: "Chat | Words Carrying Emotions",
+  title: "Words Carrying Emotions",
   author: "Sukee Parker",
   date: "2025-04-06",
   category: "Chat",

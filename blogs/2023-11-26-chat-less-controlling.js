@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2023-11-26-chat-less-controlling",
-  title: "Chat | Less Controlling",
+  title: "Less Controlling",
   author: "Sukee Parker",
   date: "2023-11-26",
   category: "Chat",

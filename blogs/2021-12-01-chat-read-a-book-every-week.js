@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2021-12-01-chat-read-a-book-every-week",
-  title: "Chat | Read a Book Every Week",
+  title: "Read a Book Every Week",
   author: "Sukee Parker",
   date: "2021-12-01",
   category: "Books",

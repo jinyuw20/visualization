@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2023-07-02-chat-minimalist-living-item-list",
-  title: "Chat | Minimalist Living Item List",
+  title: "Minimalist Living Item List",
   author: "Sukee Parker",
   date: "2023-07-02",
   category: "Lifestyle",

@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-02-09-chat-where-to-live-after-retirement",
-  title: "Chat | Where to Live After Retirement",
+  title: "Where to Live After Retirement",
   author: "Sukee Parker",
   date: "2025-02-09",
   category: "Chat",

@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2022-03-20-chat-winner-and-learner",
-  title: "Chat | Winner and Learner: A New Way of Looking at Competition",
+  title: "Winner and Learner: A New Way of Looking at Competition",
   author: "Sukee Parker",
   date: "2022-03-20",
   category: "Philosophy",

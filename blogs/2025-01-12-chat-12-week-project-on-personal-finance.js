@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-01-12-chat-12-week-project-on-personal-finance",
-  title: "Chat | 12 Week Project on Personal Finance",
+  title: "12 Week Project on Personal Finance",
   author: "Sukee Parker",
   date: "2025-01-12",
   category: "Finance",

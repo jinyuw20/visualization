@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-09-29-chat-journaling-a-tool-more-for-meditation-than-productivity",
-  title: "Chat | Journaling - A Tool More for Meditation than Productivity",
+  title: "Journaling - A Tool More for Meditation than Productivity",
   author: "Sukee Parker",
   date: "2024-09-29",
   category: "Chat",

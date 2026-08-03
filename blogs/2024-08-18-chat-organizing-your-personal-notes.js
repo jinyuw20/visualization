@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-08-18-chat-organizing-your-personal-notes",
-  title: "Chat | How to Organize All Your Personal Notes with Four Folders",
+  title: "How to Organize All Your Personal Notes with Four Folders",
   author: "Sukee Parker",
   date: "2024-08-18",
   category: "Productivity",

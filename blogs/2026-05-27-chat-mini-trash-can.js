@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2026-05-27-chat-mini-trash-can",
-  title: "Chat | Mini Trash Can",
+  title: "Mini Trash Can",
   author: "Sukee Parker",
   date: "2026-05-27",
   category: "Lifestyle",

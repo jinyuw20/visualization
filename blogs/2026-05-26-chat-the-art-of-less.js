@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2026-05-26-chat-the-art-of-less",
-  title: "Chat | The Art of Less",
+  title: "The Art of Less",
   author: "Sukee Parker",
   date: "2026-05-26",
   category: "Lifestyle",

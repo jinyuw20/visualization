@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2019-12-29-chat-the-life-projects",
-  title: "Chat | The Life Projects",
+  title: "The Life Projects",
   author: "Sukee Parker",
   date: "2019-12-29",
   category: "Productivity",

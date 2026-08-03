@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-11-30-chat-what-to-read-the-five-types-of-wealth",
-  title: "Chat | What to Read: The Five Types of Wealth",
+  title: "What to Read: The Five Types of Wealth",
   author: "Sukee Parker",
   date: "2025-11-30",
   category: "Books",

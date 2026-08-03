@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-08-03-chat-things-moms-should-know",
-  title: "Chat | Things Moms Should Know",
+  title: "Things Moms Should Know",
   author: "Sukee Parker",
   date: "2025-08-03",
   category: "Chat",

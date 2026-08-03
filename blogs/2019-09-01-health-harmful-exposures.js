@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "Health | Harmful Exposures",
   author: "Sukee Parker",
   date: "2019-09-01",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Health", "Chemicals", "Environment"],
   excerpt: "Many everyday products contain chemicals capable of disrupting hormones and causing significant health issues. Understanding these ten substances helps protect personal wellness.",
   content: `Many everyday products contain chemicals capable of disrupting hormones and causing significant health issues. Understanding these substances helps protect personal wellness.

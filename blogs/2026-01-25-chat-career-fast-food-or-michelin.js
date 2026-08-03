@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2026-01-25-chat-career-fast-food-or-michelin",
-  title: "Chat | Career: Fast Food or Michelin",
+  title: "Career: Fast Food or Michelin",
   author: "Sukee Parker",
   date: "2026-01-25",
   category: "Career",

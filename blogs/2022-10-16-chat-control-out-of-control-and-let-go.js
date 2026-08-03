@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2022-10-16-chat-control-out-of-control-and-let-go",
-  title: "Chat | Control, Out of Control and Let Go",
+  title: "Control, Out of Control and Let Go",
   author: "Sukee Parker",
   date: "2022-10-16",
   category: "Philosophy",

@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "Weight Loss",
   author: "Sukee Parker",
   date: "2022-05-28",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Health", "Nutrition", "Habits"],
   excerpt: "Every food is good — even a chocolate cookie. We just need to control the portions.",
   content: `"Choose the right food. Every food is good, even a chocolate cookie. We just need to control the portions."

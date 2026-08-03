@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-07-21-chat-how-to-perform-a-monthly-review",
-  title: "Chat | How to Perform a Monthly Review",
+  title: "How to Perform a Monthly Review",
   author: "Sukee Parker",
   date: "2024-07-21",
   category: "Productivity",

@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2021-02-21-chat-invisible-handcuffs",
-  title: "Chat | Invisible Handcuffs",
+  title: "Invisible Handcuffs",
   author: "Sukee Parker",
   date: "2021-02-21",
   category: "Philosophy",

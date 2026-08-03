@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-07-20-chat-what-to-study-in-the-age-of-ai",
-  title: "Chat | What to Study in the Age of AI",
+  title: "What to Study in the Age of AI",
   author: "Sukee Parker",
   date: "2025-07-20",
   category: "Chat",

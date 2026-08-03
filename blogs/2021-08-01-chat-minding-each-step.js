@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2021-08-01-chat-minding-each-step",
-  title: "Chat | Minding Each Step",
+  title: "Minding Each Step",
   author: "Sukee Parker",
   date: "2021-08-01",
   category: "Lifestyle",

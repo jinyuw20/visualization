@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "Health | UV Protection with Food",
   author: "Sukee Parker",
   date: "2019-09-15",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Health", "Nutrition", "Skin"],
   excerpt: "While sunscreen remains essential, certain foods can complement your skin's defense against UV rays through natural protective compounds.",
   content: `Sunny days require extra care for our skin. While most people use sunscreens to shield against the sun, certain foods can also help protect us from harmful rays.

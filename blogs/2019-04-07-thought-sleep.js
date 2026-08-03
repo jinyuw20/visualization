@@ -4,7 +4,7 @@ window.BLOG_REGISTRY.push({
   title: "Thought | Sleep",
   author: "Sukee Parker",
   date: "2019-04-07",
-  category: "Wellness",
+  category: "Healthy",
   tags: ["Sleep", "Subconscious", "Mindset"],
   excerpt: "We dedicate roughly one-third of our lives to sleep. Neville Goddard taught that the emotional state we enter sleep with programs the subconscious — and becomes our future experience.",
   content: `Benjamin Franklin's adage about early rising frames the importance of sleep in shaping our lives. Neville Goddard identified three pathways to the subconscious: feelings, sleep, and prayer. Sleep deserves particular priority since we dedicate roughly one-third of our lives to it.

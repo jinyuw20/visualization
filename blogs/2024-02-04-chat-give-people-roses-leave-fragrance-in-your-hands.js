@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2024-02-04-chat-give-people-roses-leave-fragrance-in-your-hands",
-  title: "Chat | Give People Roses, Leave Fragrance in Your Hands",
+  title: "Give People Roses, Leave Fragrance in Your Hands",
   author: "Sukee Parker",
   date: "2024-02-04",
   category: "Chat",

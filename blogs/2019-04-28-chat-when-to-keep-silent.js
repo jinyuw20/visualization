@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2019-04-28-chat-when-to-keep-silent",
-  title: "Chat | When to Keep Silent",
+  title: "When to Keep Silent",
   author: "Sukee Parker",
   date: "2019-04-28",
   category: "Philosophy",

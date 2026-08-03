@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2025-10-05-chat-the-minimalist-spending-habit",
-  title: "Chat | How a Minimalist Spending Habit Can Free You Up from Tedious Budgeting",
+  title: "How a Minimalist Spending Habit Can Free You Up from Tedious Budgeting",
   author: "Sukee Parker",
   date: "2025-10-05",
   category: "Finance",

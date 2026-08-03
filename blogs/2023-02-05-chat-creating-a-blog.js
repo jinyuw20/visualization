@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2023-02-05-chat-creating-a-blog",
-  title: "Chat | Creating a Blog",
+  title: "Creating a Blog",
   author: "Sukee Parker",
   date: "2023-02-05",
   category: "Lifestyle",

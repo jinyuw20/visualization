@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
   id: "2023-02-19-chat-life-planning",
-  title: "Chat | Life Planning",
+  title: "Life Planning",
   author: "Sukee Parker",
   date: "2023-02-19",
   category: "Philosophy",
