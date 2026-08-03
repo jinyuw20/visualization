@@ -11,7 +11,6 @@ window.BLOG_META = {
     "Life Story",
     "Lifestyle",
     "Music",
-    "Personal Growth",
     "Philosophy",
     "Productivity",
     "Psychology",
