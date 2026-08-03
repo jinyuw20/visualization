@@ -515,6 +515,11 @@ window.BLOG_META = {
       "date": "2026-04-28"
     },
     {
+      "id": "2026-02-16-living-in-your-own-world",
+      "title": "Living in Your Own World",
+      "date": "2026-02-16"
+    },
+    {
       "id": "2026-01-25-chat-career-fast-food-or-michelin",
       "title": "Career: Fast Food or Michelin",
       "date": "2026-01-25"
@@ -1060,7 +1065,7 @@ window.BLOG_META = {
       "date": "2023-08-10"
     },
     {
-      "id": "2023-08-09-circle-of-competence-why-everyone-need-to-know-the-concept",
+      "id": "2023-08-09-circle-of-competence-why-everyone-needs-to-know-the-concept",
       "title": "Circle of Competence: Why Everyone Needs to Know the Concept",
       "date": "2023-08-09"
     },
