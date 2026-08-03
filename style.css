@@ -623,7 +623,7 @@ body.player-active main { padding-bottom: 5.5rem; }
 }
 .modal-title {
   font-family: var(--display);
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 700;
   line-height: 1.25;
   margin-bottom: 0.5rem;
@@ -667,7 +667,7 @@ body.player-active main { padding-bottom: 5.5rem; }
 }
 
 .modal-body {
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.85;
   color: var(--text);
   text-align: justify;

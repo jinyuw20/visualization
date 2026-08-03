@@ -453,7 +453,7 @@ $('mpSkip').addEventListener('click', skipArticle);
 $('mpStop').addEventListener('click', stopSession);
 
 /* === Blog Feed === */
-const PAGE_SIZE = 20;
+const PAGE_SIZE = 10;
 let feedBlogs = [];
 let feedRendered = 0;
 let feedObserver = null;
@@ -485,8 +485,7 @@ function blogCardHtml(blog) {
       ? '<p class="search-snippet">' + snippet + '</p>'
       : '<p class="search-snippet">' + highlightStr((blog.excerpt || stripHtml(blog.content || '').slice(0, 160)), q) + '…</p>';
   } else {
-    const excerpt = blog.excerpt || stripHtml(blog.content || '').slice(0, 200);
-    bodyHtml = '<p class="post-excerpt">' + escHtml(excerpt) + (blog.excerpt ? '' : '…') + '</p>';
+    bodyHtml = contentToHtml(blog);
   }
   return `
     <article class="post-card${blog.pinned ? ' post-card--pinned' : ''}">
@@ -590,8 +589,13 @@ window.openBlog = function(id) {
     <span>·</span>
     <span>${fmtDate(blog.date)}</span>
     <span>·</span>
-    <span>🎧 ~${listenMins(blog)} min</span>
+    <span>~${listenMins(blog)} min read</span>
   `;
+
+  const listenBtn = $('modalListenBtn');
+  if (listenBtn) {
+    listenBtn.onclick = () => readArticle(blog.id);
+  }
 
   $('modalContent').innerHTML = contentToHtml(blog);
 
