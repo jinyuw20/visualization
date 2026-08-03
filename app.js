@@ -562,6 +562,13 @@ $('modalClose').addEventListener('click', closeBlog);
 $('modalOverlay').addEventListener('click', e => { if (e.target === $('modalOverlay')) closeBlog(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeBlog(); });
 
+window.addEventListener('hashchange', function() {
+  const id = window.location.hash.slice(1);
+  if (!id) { closeBlog(); return; }
+  const blog = deduped().find(b => b.id === id);
+  if (blog) openBlog(id);
+});
+
 /* === Calendar === */
 const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 
