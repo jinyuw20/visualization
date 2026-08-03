@@ -11,7 +11,6 @@ window.BLOG_META = {
     "Life Story",
     "Lifestyle",
     "Music",
-    "Personal Growth",
     "Philosophy",
     "Productivity",
     "Psychology",
@@ -1083,6 +1082,11 @@ window.BLOG_META = {
       "id": "2023-08-02-shakespeares-writing-and-steve-jobss-talking",
       "title": "Shakespeare's Writing and Steve Jobs's Talking",
       "date": "2023-08-02"
+    },
+    {
+      "id": "2023-07-25-framework-thinking",
+      "title": "Framework Thinking",
+      "date": "2023-07-25"
     },
     {
       "id": "2023-07-20-exercise-injury",

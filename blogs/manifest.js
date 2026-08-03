@@ -225,6 +225,7 @@ window.BLOG_MANIFEST = [
   "2023-07-04-chatgpt-how-ai-can-improve-productivity.js",
   "2023-07-16-things-to-do-national-ice-cream-day.js",
   "2023-07-20-exercise-injury.js",
+  "2023-07-25-framework-thinking.js", 
   "2023-08-02-shakespeares-writing-and-steve-jobss-talking.js",
   "2023-08-06-losing-the-bigger-pictures.js",
   "2023-08-07-the-cost-of-being-different.js",
