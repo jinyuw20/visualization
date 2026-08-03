@@ -55,18 +55,24 @@ function wordCount(content) {
   return plain ? plain.split(/\s+/).length : 0;
 }
 
-function listenMins(content) {
-  return Math.ceil(wordCount(content) / WPM);
+function listenMins(blog) {
+  return Math.ceil((blog._wc !== undefined ? blog._wc : wordCount(blog.content || '')) / WPM);
 }
 
 function contentToHtml(blog) {
-  if (blog.contentType === 'html') return blog.content;
+  if (blog.contentType === 'html') {
+    return blog.content.replace(/<img(?![^>]*\bloading=)/g, '<img loading="lazy"');
+  }
   return blog.content.split(/\n+/).filter(p => p.trim()).map(p => `<p>${p.trim()}</p>`).join('');
 }
 
+const _fmtDateCache = new Map();
 function fmtDate(iso) {
+  if (_fmtDateCache.has(iso)) return _fmtDateCache.get(iso);
   const d = new Date(iso + 'T00:00:00');
-  return `${d.getMonth() + 1}/${d.getDate()}/${d.getFullYear()}`;
+  const r = `${d.getMonth() + 1}/${d.getDate()}/${d.getFullYear()}`;
+  _fmtDateCache.set(iso, r);
+  return r;
 }
 
 /* === Toast === */
@@ -282,7 +288,7 @@ function buildQueue(minutes) {
   const queue = [];
   let total = 0;
   for (const b of shuffled) {
-    const wc = wordCount(b.content);
+    const wc = b._wc !== undefined ? b._wc : wordCount(b.content);
     queue.push({ ...b, wc });
     total += wc;
     if (total >= target) break;
@@ -290,7 +296,7 @@ function buildQueue(minutes) {
   if (total < target) {
     for (const b of shuffled) {
       if (queue.find(q => q.id === b.id)) continue;
-      const wc = wordCount(b.content);
+      const wc = b._wc !== undefined ? b._wc : wordCount(b.content);
       queue.push({ ...b, wc });
       total += wc;
       if (total >= target) break;
@@ -452,10 +458,13 @@ let feedBlogs = [];
 let feedRendered = 0;
 let feedObserver = null;
 
+let _dedupedCache = null;
 function deduped() {
+  if (_dedupedCache) return _dedupedCache;
   const m = new Map();
   (window.BLOG_REGISTRY || []).forEach(b => m.set(b.id, b));
-  return [...m.values()];
+  _dedupedCache = [...m.values()];
+  return _dedupedCache;
 }
 
 function tagPillsHtml(tags, query) {
@@ -476,7 +485,8 @@ function blogCardHtml(blog) {
       ? '<p class="search-snippet">' + snippet + '</p>'
       : '<p class="search-snippet">' + highlightStr((blog.excerpt || stripHtml(blog.content || '').slice(0, 160)), q) + '…</p>';
   } else {
-    bodyHtml = contentToHtml(blog);
+    const excerpt = blog.excerpt || stripHtml(blog.content || '').slice(0, 200);
+    bodyHtml = '<p class="post-excerpt">' + escHtml(excerpt) + (blog.excerpt ? '' : '…') + '</p>';
   }
   return `
     <article class="post-card${blog.pinned ? ' post-card--pinned' : ''}">
@@ -492,7 +502,7 @@ function blogCardHtml(blog) {
       <div class="post-footer">
         <button class="post-listen-btn" onclick="readArticle('${blog.id}')">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
-          Listen · ~${listenMins(blog.content)} min
+          Listen · ~${listenMins(blog)} min
         </button>
         <button class="post-share-btn" onclick="shareArticle('${blog.id}')" title="Copy link">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
@@ -580,7 +590,7 @@ window.openBlog = function(id) {
     <span>·</span>
     <span>${fmtDate(blog.date)}</span>
     <span>·</span>
-    <span>🎧 ~${listenMins(blog.content)} min</span>
+    <span>🎧 ~${listenMins(blog)} min</span>
   `;
 
   $('modalContent').innerHTML = contentToHtml(blog);
@@ -779,6 +789,9 @@ function init() {
       }
     });
   } catch (e) {}
+
+  // Pre-compute word counts once so listenMins() never calls stripHtml per render
+  deduped().forEach(b => { if (b._wc === undefined) b._wc = wordCount(b.content || ''); });
 
   renderCalendar();
   renderFeed();

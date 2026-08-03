@@ -115,29 +115,9 @@
   </div>
 
 
-  <!-- Manifest drives all blog loading — add new posts to blogs/manifest.js -->
-  <script src="blogs/manifest.js"></script>
-  <script>
-    window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
-    (function() {
-      function loadScript(src) {
-        return new Promise(function(resolve) {
-          var s = document.createElement('script');
-          s.src = src;
-          s.onload = resolve;
-          s.onerror = resolve;
-          var t = setTimeout(resolve, 5000); // never hang on one slow file
-          s.onload = function() { clearTimeout(t); resolve(); };
-          document.head.appendChild(s);
-        });
-      }
-      Promise.all((window.BLOG_MANIFEST || []).map(function(f) {
-        return loadScript('blogs/' + f);
-      })).then(function() {
-        loadScript('app.js');
-      });
-    })();
-  </script>
+  <!-- All posts bundled into one file by the pre-commit hook (was 365 separate requests) -->
+  <script src="blogs/registry.js" defer></script>
+  <script src="app.js" defer></script>
 
 </body>
 </html>
