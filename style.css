@@ -315,11 +315,18 @@ body.player-active main { padding-bottom: 5.5rem; }
   margin-bottom: 0.35rem;
 }
 
+.post-meta-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
 .post-date {
   font-family: var(--sans);
   font-size: 0.78rem;
   color: var(--text-muted);
-  margin-bottom: 1rem;
 }
 
 .post-hr { border: none; border-top: 1px solid var(--border); margin-bottom: 1rem; }
@@ -335,6 +342,9 @@ body.player-active main { padding-bottom: 5.5rem; }
 .post-body p:last-child { margin-bottom: 0; }
 
 .post-tags {
+  display: contents; /* tags flow directly into the meta-row */
+}
+#modalTags .post-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem;
@@ -359,44 +369,34 @@ body.player-active main { padding-bottom: 5.5rem; }
   color: #fff;
 }
 
-.post-footer {
-  display: flex;
-  align-items: center;
-  padding-top: 0.75rem;
-  border-top: 1px solid var(--border);
-}
-
-.post-listen-btn {
+.post-listen-mini {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  background: none;
-  border: 1px solid var(--border);
+  gap: 0.3rem;
+  background: rgba(196,154,40,0.1);
+  border: none;
   border-radius: 20px;
-  padding: 0.35rem 0.85rem;
+  padding: 0.15rem 0.5rem;
   font-family: var(--sans);
-  font-size: 0.78rem;
+  font-size: 0.68rem;
   font-weight: 600;
-  color: var(--text-muted);
+  color: var(--gold-dark);
   cursor: pointer;
-  transition: all 0.15s;
+  transition: background 0.15s;
+  white-space: nowrap;
 }
-.post-listen-btn:hover { border-color: var(--gold); color: var(--gold); background: rgba(196,154,40,0.06); }
+.post-listen-mini:hover { background: rgba(196,154,40,0.22); }
 
 .post-share-btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
   background: none;
   border: none;
-  padding: 0.35rem 0.6rem;
-  font-family: var(--sans);
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--text-muted);
+  padding: 0.15rem 0.3rem;
+  color: var(--text-light);
   cursor: pointer;
   transition: color 0.15s;
-  margin-left: 0.25rem;
+  margin-left: auto;
 }
 .post-share-btn:hover { color: var(--gold); }
 
