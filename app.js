@@ -664,10 +664,14 @@ function skipArticle() {
   }
 }
 
+let _suppressHashChange = false;
 function _closeModalUI() {
   $('modalOverlay').classList.remove('open');
   document.body.style.overflow = '';
+  _suppressHashChange = true;
   history.replaceState(null, '', location.pathname + location.search);
+  // Reset guard after any queued hashchange events have fired
+  setTimeout(() => { _suppressHashChange = false; }, 100);
   resetOgMeta();
   clearSpeechHighlight();
   state.openBlog = null;
@@ -915,6 +919,7 @@ $('modalOverlay').addEventListener('click', e => { if (e.target === $('modalOver
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeBlog(); });
 
 window.addEventListener('hashchange', function() {
+  if (_suppressHashChange) return;
   const id = window.location.hash.slice(1);
   if (!id) { closeBlog(); return; }
   const blog = deduped().find(b => b.id === id);
