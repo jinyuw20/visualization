@@ -568,7 +568,7 @@ body.player-active main { padding-bottom: 5.5rem; }
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 3rem 1rem 2rem;
+  padding: 2rem 0 0;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.22s;
@@ -578,7 +578,7 @@ body.player-active main { padding-bottom: 5.5rem; }
 
 .modal {
   background: var(--surface);
-  max-width: 680px;
+  max-width: 100%;
   width: 100%;
   position: relative;
   transform: translateY(20px);
@@ -589,7 +589,14 @@ body.player-active main { padding-bottom: 5.5rem; }
 
 .modal-gold-bar { background: var(--gold); height: 4px; }
 
-.modal-inner { padding: 2.25rem 2.5rem; }
+.modal-inner { padding: 1.75rem 1.25rem; }
+
+/* Speech highlighting */
+.speech-active {
+  background: rgba(196,154,40,0.18);
+  border-radius: 3px;
+  transition: background 0.25s;
+}
 
 .modal-close {
   position: absolute;

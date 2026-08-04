@@ -328,6 +328,48 @@ function speak(text, onEnd) {
   return utt;
 }
 
+/* === Speech highlighting === */
+function clearSpeechHighlight() {
+  document.querySelectorAll('#modalContent .speech-active').forEach(el => {
+    el.classList.remove('speech-active');
+  });
+}
+
+function setupSpeechHighlight(article, utt, fullText) {
+  const overlay = $('modalOverlay');
+  if (!overlay || !overlay.classList.contains('open')) return;
+  if (!state.openBlog || state.openBlog.id !== article.id) return;
+
+  // Character offset where content begins in the spoken text
+  const prefixLen = (article.title + '. By ' + article.author + '. ').length;
+
+  // Build a char-range map for each block element in the modal
+  const blocks = document.querySelectorAll('#modalContent p, #modalContent li');
+  const ranges = [];
+  let pos = prefixLen;
+  blocks.forEach(el => {
+    const len = (el.textContent || '').length;
+    ranges.push({ start: pos, end: pos + len, el });
+    pos += len + 1;
+  });
+
+  let lastActive = null;
+  utt.onboundary = (e) => {
+    const ci = e.charIndex;
+    for (const r of ranges) {
+      if (ci >= r.start && ci < r.end) {
+        if (lastActive !== r.el) {
+          if (lastActive) lastActive.classList.remove('speech-active');
+          r.el.classList.add('speech-active');
+          r.el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          lastActive = r.el;
+        }
+        break;
+      }
+    }
+  };
+}
+
 /* === Progress === */
 let progressInterval = null;
 let articleStartTime = null;
@@ -361,11 +403,13 @@ function playArticle(index) {
   startProgress(article.wc);
 
   const text = `${article.title}. By ${article.author}. ${stripHtml(article.content)}`;
-  speak(text, () => {
+  const utt = speak(text, () => {
+    clearSpeechHighlight();
     if (state.isPlaying && !state.isPaused) {
       setTimeout(() => playArticle(index + 1), 600);
     }
   });
+  if (utt) setupSpeechHighlight(article, utt, text);
 }
 
 function startSession() {
@@ -420,6 +464,7 @@ function stopSession() {
   state.queue = [];
   clearInterval(progressInterval);
   window.speechSynthesis.cancel();
+  clearSpeechHighlight();
   hideMiniPlayer();
 }
 
@@ -427,6 +472,7 @@ function finishSession() {
   clearInterval(progressInterval);
   $('mpBar').style.width = '100%';
   state.isPlaying = false;
+  clearSpeechHighlight();
   setTimeout(hideMiniPlayer, 2000);
 }
 
@@ -614,6 +660,7 @@ function closeBlog() {
   document.body.style.overflow = '';
   history.replaceState(null, '', location.pathname + location.search);
   resetOgMeta();
+  clearSpeechHighlight();
 }
 
 $('modalClose').addEventListener('click', closeBlog);
