@@ -240,7 +240,7 @@ window.shareArticle = function(id) {
   if (!blog) { copyFallback(url); showToast(t('linkCopied')); return; }
   var img = firstImageUrl(blog);
   var desc = blog.excerpt || stripHtml(blog.content || '').slice(0, 160);
-  var shareText = blog.title + '\n\n' + desc;
+  var shareText = blog.title + '\n' + desc;
   if (navigator.share) {
     navigator.share({ title: blog.title, text: shareText, url: url }).catch(function() {});
     return;
@@ -891,8 +891,10 @@ window.openBlog = function(id) {
     `<button class="modal-listen-mini" onclick="readArticle('${blog.id}')">` +
       `<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>` +
       ` ~${mins} min` +
-    `</button>` +
-    tagPillsHtml(blog.tags, '');
+    `</button>`;
+
+  const tagsEl = document.getElementById('modalTags');
+  if (tagsEl) tagsEl.innerHTML = tagPillsHtml(blog.tags, '');
 
   $('modalContent').innerHTML = contentToHtml(blog);
 
