@@ -5219,7 +5219,7 @@ Differentiation is available to everyone. Full accounting for its consequences i
 });
 window.BLOG_REGISTRY.push({
   "id": "2023-08-09-circle-of-competence-why-everyone-needs-to-know-the-concept",
-  "title": "Circle of Competence: Why Everyone Needs to Understand This Concept",
+  "title": "Circle of Competence",
   "author": "Sukee Parker",
   "date": "2023-08-09",
   "category": "Philosophy",
