@@ -703,12 +703,10 @@ body.player-active main { padding-bottom: 5.5rem; }
   height: 36px;
   border-radius: 50%;
   cursor: pointer;
-  font-size: 0.95rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--sans);
-  font-weight: 700;
+  text-decoration: none;
   transition: background 0.15s;
 }
 .modal-close:hover { background: rgba(196,154,40,0.2); }

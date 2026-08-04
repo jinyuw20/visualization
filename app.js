@@ -912,7 +912,7 @@ function closeBlog() {
   _closeModalUI();
 }
 
-$('modalClose').addEventListener('click', closeBlog);
+$('modalClose').addEventListener('click', function(e) { e.preventDefault(); closeBlog(); });
 $('modalOverlay').addEventListener('click', e => { if (e.target === $('modalOverlay')) closeBlog(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeBlog(); });
 
