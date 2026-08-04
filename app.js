@@ -664,14 +664,12 @@ function skipArticle() {
   }
 }
 
-let _suppressHashChange = false;
 function _closeModalUI() {
   $('modalOverlay').classList.remove('open');
   document.body.style.overflow = '';
-  _suppressHashChange = true;
-  history.replaceState(null, '', location.pathname + location.search);
-  // Reset guard after any queued hashchange events have fired
-  setTimeout(() => { _suppressHashChange = false; }, 100);
+  if (window.location.hash) {
+    history.replaceState(null, '', location.pathname + location.search);
+  }
   resetOgMeta();
   clearSpeechHighlight();
   state.openBlog = null;
@@ -919,9 +917,9 @@ $('modalOverlay').addEventListener('click', e => { if (e.target === $('modalOver
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeBlog(); });
 
 window.addEventListener('hashchange', function() {
-  if (_suppressHashChange) return;
   const id = window.location.hash.slice(1);
-  if (!id) { closeBlog(); return; }
+  if (!id) return; // hash removed by _closeModalUI — modal is already closing
+  if (state.openBlog && state.openBlog.id === id) return; // already showing this article
   const blog = deduped().find(b => b.id === id);
   if (blog) openBlog(id);
 });
