@@ -61,7 +61,9 @@ function listenMins(blog) {
 
 function contentToHtml(blog) {
   if (blog.contentType === 'html') {
-    return blog.content.replace(/<img(?![^>]*\bloading=)/g, '<img loading="lazy"');
+    return blog.content
+      .replace(/&nbsp;/g, ' ')
+      .replace(/<img(?![^>]*\bloading=)/g, '<img loading="lazy"');
   }
   return blog.content.split(/\n+/).filter(p => p.trim()).map(p => `<p>${p.trim()}</p>`).join('');
 }
