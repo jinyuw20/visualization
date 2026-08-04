@@ -279,21 +279,21 @@ $('hamburgerBtn').addEventListener('click', openSidebar);
 $('sidebarClose').addEventListener('click', closeSidebar);
 $('sidebarBackdrop').addEventListener('click', closeSidebar);
 
-$('sidebarSearch').addEventListener('input', function() {
+$('mainSearch').addEventListener('input', function() {
   state.searchQuery = this.value.trim();
-  $('sidebarSearchClear').style.display = state.searchQuery ? 'flex' : 'none';
+  $('mainSearchClear').style.display = state.searchQuery ? 'flex' : 'none';
   const label = $('sidebarBrowseLabel');
   if (label) label.textContent = state.searchQuery ? t('filterLbl') : t('browseLbl');
   renderFeed();
 });
 
-$('sidebarSearchClear').addEventListener('click', function() {
-  $('sidebarSearch').value = '';
+$('mainSearchClear').addEventListener('click', function() {
+  $('mainSearch').value = '';
   state.searchQuery = '';
   this.style.display = 'none';
   const label = $('sidebarBrowseLabel');
   if (label) label.textContent = t('browseLbl');
-  $('sidebarSearch').focus();
+  $('mainSearch').focus();
   renderFeed();
 });
 
@@ -730,7 +730,7 @@ let feedObserver = null;
 const _dedupedCaches = { en: null, zh: null };
 function deduped() {
   const lang = state.lang;
-  if (_dedupedCaches[lang]) return _dedupedCaches[lang];
+  if (_dedupedCaches[lang] !== null) return _dedupedCaches[lang];
   const m = new Map();
   activeRegistry().forEach(b => m.set(b.id, b));
   _dedupedCaches[lang] = [...m.values()];
@@ -1053,7 +1053,7 @@ function applyLang() {
   // Toggle button shows what you switch TO
   $('langToggle').textContent = lang === 'zh' ? 'EN' : '中文';
   // Sidebar
-  $('sidebarSearch').placeholder = t('searchPlaceholder');
+  $('mainSearch').placeholder = t('searchPlaceholder');
   const browseLabel = $('sidebarBrowseLabel');
   if (browseLabel) browseLabel.textContent = state.searchQuery ? t('filterLbl') : t('browseLbl');
   // Listen dialog
@@ -1085,6 +1085,8 @@ function setLang(lang) {
   state.lang = lang;
   state.filterCategory = 'All';
   state.listenCats = null;
+  state.calYearFilter = null;
+  state.calDateFilter = null;
   // Sync listen language with UI language (unless already on mix)
   if (state.listenLang !== 'mix') state.listenLang = lang;
   // Invalidate per-language caches
