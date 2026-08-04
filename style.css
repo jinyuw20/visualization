@@ -687,8 +687,10 @@ body.player-active main { padding-bottom: 5.5rem; }
 .modal-body a:hover, .post-body a:hover { opacity: 0.75; }
 .modal-body p { margin-bottom: 1.25rem; }
 .modal-body p:last-child { margin-bottom: 0; }
-.modal-body ul, .modal-body ol { padding-left: 1.5rem; margin-bottom: 1.25rem; }
-.modal-body li { margin-bottom: 0.4rem; }
+.modal-body ul, .modal-body ol { padding-left: 2rem !important; margin-bottom: 1.25rem; list-style-position: outside; }
+.modal-body ul { list-style-type: disc; }
+.modal-body ol { list-style-type: decimal; }
+.modal-body li { margin-bottom: 0.4rem; padding-left: 0.25rem; }
 
 /* === Code blocks === */
 pre {
