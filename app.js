@@ -8,6 +8,7 @@ const state = {
   isSession: false, // true when multi-article timed session (vs single readArticle)
   totalWords: 0,
   lang: 'en',
+  listenLang: 'en', // 'en' | 'zh' | 'mix'
   filterCategory: 'All',
   openBlog: null,
   calOpen: false,
@@ -54,6 +55,10 @@ const STRINGS = {
     linkCopied: 'Link copied!',
     clearAll: 'Clear all',
     selectAll: 'Select all',
+    contentLbl: 'Reading Language',
+    langOptEn: 'English',
+    langOptZh: 'Chinese',
+    langOptMix: 'Mix',
   },
   zh: {
     searchPlaceholder: '搜索文章…',
@@ -86,6 +91,10 @@ const STRINGS = {
     linkCopied: '链接已复制！',
     clearAll: '取消全选',
     selectAll: '全选',
+    contentLbl: '收听语言',
+    langOptEn: '英文',
+    langOptZh: '中文',
+    langOptMix: '中英混合',
   },
 };
 
@@ -98,6 +107,21 @@ function activeRegistry() {
   return state.lang === 'zh'
     ? (window.BLOG_REGISTRY_ZH || [])
     : (window.BLOG_REGISTRY || []);
+}
+
+// Returns the pool of blogs to draw the listen queue from, based on state.listenLang
+function listenPool() {
+  if (state.listenLang === 'mix') {
+    // Combine both registries; each language has its own IDs so no collision expected
+    return [
+      ...new Map((window.BLOG_REGISTRY || []).map(b => [b.id, b])).values(),
+      ...new Map((window.BLOG_REGISTRY_ZH || []).map(b => [b.id, b])).values(),
+    ];
+  }
+  if (state.listenLang === 'zh') {
+    return [...new Map((window.BLOG_REGISTRY_ZH || []).map(b => [b.id, b])).values()];
+  }
+  return [...new Map((window.BLOG_REGISTRY || []).map(b => [b.id, b])).values()];
 }
 
 /* === DOM === */
@@ -292,7 +316,7 @@ window.filterBy = function(cat) {
 
 /* === Category chips for listen dialog === */
 function renderCatChips() {
-  const cats = [...new Set(activeRegistry().map(b => b.category))].sort();
+  const cats = [...new Set(listenPool().map(b => b.category))].sort();
   const allSelected = state.listenCats === null;
   const ctrl = `<button class="cat-chip-ctrl" onclick="toggleAllCats()">${allSelected ? t('clearAll') : t('selectAll')}</button>`;
   $('catFilterChips').innerHTML = ctrl + cats.map(c => {
@@ -307,7 +331,7 @@ window.toggleAllCats = function() {
 };
 
 window.toggleListenCat = function(cat) {
-  const cats = [...new Set(activeRegistry().map(b => b.category))].sort();
+  const cats = [...new Set(listenPool().map(b => b.category))].sort();
   if (state.listenCats === null) {
     state.listenCats = cats.filter(c => c !== cat);
   } else if (state.listenCats.includes(cat)) {
@@ -319,8 +343,19 @@ window.toggleListenCat = function(cat) {
   renderCatChips();
 };
 
+function renderListenLangOpts() {
+  document.querySelectorAll('#listenLangOpts .time-opt').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === state.listenLang);
+    const key = btn.dataset.lang === 'en' ? 'langOptEn'
+              : btn.dataset.lang === 'zh' ? 'langOptZh'
+              : 'langOptMix';
+    btn.textContent = t(key);
+  });
+}
+
 /* === Listen Dialog === */
 function openListenDialog() {
+  renderListenLangOpts();
   renderCatChips();
   $('listenOverlay').classList.add('open');
   document.body.style.overflow = 'hidden';
@@ -358,6 +393,15 @@ document.querySelectorAll('.time-opt').forEach(btn => {
   });
 });
 
+document.querySelectorAll('#listenLangOpts .time-opt').forEach(btn => {
+  btn.addEventListener('click', () => {
+    state.listenLang = btn.dataset.lang;
+    state.listenCats = null; // reset category filter when content language changes
+    renderListenLangOpts();
+    renderCatChips();
+  });
+});
+
 $('startListenBtn').addEventListener('click', () => {
   closeListenDialog();
   startSession();
@@ -366,7 +410,7 @@ $('startListenBtn').addEventListener('click', () => {
 /* === Queue Builder === */
 function buildQueue(minutes) {
   const target = minutes * WPM;
-  const eligible = deduped().filter(b => b.autoRead !== false);
+  const eligible = listenPool().filter(b => b.autoRead !== false);
   const pool = state.listenCats
     ? eligible.filter(b => state.listenCats.includes(b.category))
     : eligible;
@@ -885,7 +929,7 @@ function renderCalendar() {
     html += `<div class="cal-body">
       <div class="cal-header">
         <button class="cal-nav" onclick="calPrev()">&#8249;</button>
-        <span class="cal-month-label">${t('calMonths')[calMonth]} ${calYear}</span>
+        <span class="cal-month-label">${state.lang === 'zh' ? `${calYear}年${calMonth + 1}月` : `${t('calMonths')[calMonth]} ${calYear}`}</span>
         <button class="cal-nav" onclick="calNext()">&#8250;</button>
       </div>
       <div class="cal-grid">
@@ -1008,12 +1052,14 @@ function applyLang() {
   $('listenDialogTitle').textContent = t('listenTitle');
   $('listenDialogSubtitle').textContent = t('listenSubtitle');
   $('listenCatLabel').textContent = t('catsLbl');
+  $('listenContentLbl').textContent = t('contentLbl');
   $('listenDurLabel').textContent = t('durLbl');
   $('startListenBtn').textContent = t('startBtn');
   $('cancelListenBtn').textContent = t('cancelBtn');
-  document.querySelectorAll('.time-opt').forEach(btn => {
+  document.querySelectorAll('.time-opt[data-min]').forEach(btn => {
     btn.textContent = t('minFmt', parseInt(btn.dataset.min));
   });
+  renderListenLangOpts();
   // Mini player
   $('mpLabel').textContent = t('nowReading');
   $('mpSkip').textContent = t('skipBtn');
@@ -1031,6 +1077,8 @@ function setLang(lang) {
   state.lang = lang;
   state.filterCategory = 'All';
   state.listenCats = null;
+  // Sync listen language with UI language (unless already on mix)
+  if (state.listenLang !== 'mix') state.listenLang = lang;
   // Invalidate per-language caches
   _dedupedCaches.en = null;
   _dedupedCaches.zh = null;
@@ -1064,6 +1112,7 @@ function init() {
   } else {
     state.lang = localStorage.getItem('minichat_lang') || 'en';
   }
+  state.listenLang = state.lang; // default listen language matches UI language
 
   if (window.speechSynthesis) {
     window.speechSynthesis.getVoices();
