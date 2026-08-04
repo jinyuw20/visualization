@@ -713,7 +713,6 @@ body.player-active main { padding-bottom: 5.5rem; }
   display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
   transition: background 0.15s;
 }
 .modal-close:hover { background: rgba(196,154,40,0.2); }
@@ -767,7 +766,7 @@ body.player-active main { padding-bottom: 5.5rem; }
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .modal-divider { border: none; border-top: 1px solid var(--border); margin-bottom: 1.25rem; }
 

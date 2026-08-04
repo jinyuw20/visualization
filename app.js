@@ -924,10 +924,7 @@ function closeBlog() {
   _closeModalUI();
 }
 
-$('modalClose').addEventListener('click', function(e) {
-  e.preventDefault(); // same-page hash change doesn't navigate — close the modal instead
-  closeBlog();
-});
+$('modalClose').addEventListener('click', closeBlog);
 $('modalOverlay').addEventListener('click', e => { if (e.target === $('modalOverlay')) closeBlog(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeBlog(); });
 
