@@ -115,6 +115,18 @@
         <div id="modalTags"></div>
         <div class="modal-body" id="modalContent"></div>
       </div>
+      <!-- Session controls bar — shown only during timed reading -->
+      <div class="session-bar" id="sessionBar" style="display:none">
+        <div class="session-bar-progress"><div class="session-bar-fill" id="sessionBarFill"></div></div>
+        <div class="session-bar-body">
+          <span class="session-bar-track" id="sessionBarTrack"></span>
+          <div class="session-bar-controls">
+            <button class="sb-btn" id="sbPause">⏸</button>
+            <button class="sb-btn sb-skip" id="sbSkip">⏭ Next</button>
+            <button class="sb-btn sb-stop" id="sbStop">■ Stop</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 

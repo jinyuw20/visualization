@@ -5,6 +5,7 @@ const state = {
   currentIndex: 0,
   isPlaying: false,
   isPaused: false,
+  isSession: false, // true when multi-article timed session (vs single readArticle)
   totalWords: 0,
   filterCategory: 'All',
   openBlog: null,
@@ -391,8 +392,32 @@ function startProgress(articleWc) {
     const pct = Math.min(elapsed / articleSec, 1);
     const prevWords = state.queue.slice(0, state.currentIndex).reduce((s, q) => s + q.wc, 0);
     const done = prevWords + articleWc * pct;
-    $('mpBar').style.width = Math.min((done / state.totalWords) * 100, 100) + '%';
+    const totalPct = Math.min((done / state.totalWords) * 100, 100);
+    if (state.isSession) {
+      $('sessionBarFill').style.width = totalPct + '%';
+    } else {
+      $('mpBar').style.width = totalPct + '%';
+    }
   }, 500);
+}
+
+/* === Session bar UI === */
+function showSessionBar() {
+  const bar = $('sessionBar');
+  if (bar) { bar.style.display = 'block'; }
+  $('sessionBarFill').style.width = '0%';
+  updateSessionBar();
+}
+
+function hideSessionBar() {
+  const bar = $('sessionBar');
+  if (bar) bar.style.display = 'none';
+  $('sessionBarFill').style.width = '0%';
+}
+
+function updateSessionBar() {
+  $('sessionBarTrack').textContent = `Article ${state.currentIndex + 1} of ${state.queue.length}`;
+  $('sbPause').textContent = state.isPaused ? '▶' : '⏸';
 }
 
 /* === Playback === */
@@ -404,8 +429,14 @@ function playArticle(index) {
   state.currentIndex = index;
   const article = state.queue[index];
 
-  $('mpTitle').textContent = article.title;
-  updateMiniPlayer();
+  if (state.isSession) {
+    // Open (or update) the modal with this article
+    openBlog(article.id);
+    updateSessionBar();
+  } else {
+    $('mpTitle').textContent = article.title;
+    updateMiniPlayer();
+  }
   startProgress(article.wc);
 
   _currentSpeechArticle = article;
@@ -424,13 +455,16 @@ function playArticle(index) {
 function startSession() {
   if (state.isPlaying) stopSession();
   const { queue, total } = buildQueue(state.selectedDuration);
+  if (!queue.length) return;
   state.queue = queue;
   state.totalWords = total;
   state.currentIndex = 0;
   state.isPlaying = true;
   state.isPaused = false;
+  state.isSession = true;
 
-  showMiniPlayer();
+  // playArticle will call openBlog to show the modal; show bar first so it's visible when modal opens
+  showSessionBar();
   playArticle(0);
 }
 
@@ -439,13 +473,21 @@ function pauseSession() {
   if (state.isPaused) {
     state.isPaused = false;
     window.speechSynthesis.resume();
-    $('mpPause').textContent = '⏸';
+    if (state.isSession) {
+      $('sbPause').textContent = '⏸';
+    } else {
+      $('mpPause').textContent = '⏸';
+    }
     startProgress((state.queue[state.currentIndex] || {}).wc || 0);
   } else {
     state.isPaused = true;
     window.speechSynthesis.pause();
     clearInterval(progressInterval);
-    $('mpPause').textContent = '▶';
+    if (state.isSession) {
+      $('sbPause').textContent = '▶';
+    } else {
+      $('mpPause').textContent = '▶';
+    }
   }
 }
 
@@ -455,7 +497,11 @@ function skipArticle() {
   state.isPlaying = false; // block onend auto-advance while cancelling
   window.speechSynthesis.cancel();
   state.isPaused = false;
-  $('mpPause').textContent = '⏸';
+  if (state.isSession) {
+    $('sbPause').textContent = '⏸';
+  } else {
+    $('mpPause').textContent = '⏸';
+  }
   const next = state.currentIndex + 1;
   if (next >= state.queue.length) {
     finishSession();
@@ -467,22 +513,48 @@ function skipArticle() {
   }
 }
 
+function _closeModalUI() {
+  $('modalOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+  history.replaceState(null, '', location.pathname + location.search);
+  resetOgMeta();
+  clearSpeechHighlight();
+  state.openBlog = null;
+}
+
 function stopSession() {
+  const wasSession = state.isSession;
   state.isPlaying = false;
   state.isPaused = false;
+  state.isSession = false;
   state.queue = [];
   clearInterval(progressInterval);
   window.speechSynthesis.cancel();
   clearSpeechHighlight();
-  hideMiniPlayer();
+  if (wasSession) {
+    hideSessionBar();
+    _closeModalUI();
+  } else {
+    hideMiniPlayer();
+  }
 }
 
 function finishSession() {
   clearInterval(progressInterval);
-  $('mpBar').style.width = '100%';
+  const wasSession = state.isSession;
   state.isPlaying = false;
+  state.isSession = false;
   clearSpeechHighlight();
-  setTimeout(hideMiniPlayer, 2000);
+  if (wasSession) {
+    $('sessionBarFill').style.width = '100%';
+    setTimeout(() => {
+      hideSessionBar();
+      _closeModalUI();
+    }, 2000);
+  } else {
+    $('mpBar').style.width = '100%';
+    setTimeout(hideMiniPlayer, 2000);
+  }
 }
 
 /* === Mini Player UI === */
@@ -506,6 +578,9 @@ function updateMiniPlayer() {
 $('mpPause').addEventListener('click', pauseSession);
 $('mpSkip').addEventListener('click', skipArticle);
 $('mpStop').addEventListener('click', stopSession);
+$('sbPause').addEventListener('click', pauseSession);
+$('sbSkip').addEventListener('click', skipArticle);
+$('sbStop').addEventListener('click', stopSession);
 $('mpTitle').addEventListener('click', function() {
   const article = _currentSpeechArticle || (state.queue[state.currentIndex]);
   if (article) openBlog(article.id);
@@ -674,11 +749,17 @@ window.openBlog = function(id) {
 };
 
 function closeBlog() {
-  $('modalOverlay').classList.remove('open');
-  document.body.style.overflow = '';
-  history.replaceState(null, '', location.pathname + location.search);
-  resetOgMeta();
-  clearSpeechHighlight();
+  if (state.isPlaying && state.isSession) {
+    // Closing the modal during a session stops the session entirely
+    state.isPlaying = false;
+    state.isSession = false;
+    state.isPaused = false;
+    state.queue = [];
+    clearInterval(progressInterval);
+    window.speechSynthesis.cancel();
+    hideSessionBar();
+  }
+  _closeModalUI();
 }
 
 $('modalClose').addEventListener('click', closeBlog);

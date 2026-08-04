@@ -605,6 +605,72 @@ body.player-active main { padding-bottom: 5.5rem; }
   transition: background 0.25s;
 }
 
+/* === Session bar (timed reading controls at bottom of modal) === */
+.session-bar {
+  position: sticky;
+  bottom: 0;
+  background: var(--surface);
+  border-top: 2px solid var(--gold);
+  padding: 0.6rem 1.25rem 0.85rem;
+  z-index: 10;
+}
+.session-bar-progress {
+  height: 3px;
+  background: rgba(196,154,40,0.18);
+  border-radius: 3px;
+  margin-bottom: 0.6rem;
+  overflow: hidden;
+}
+.session-bar-fill {
+  height: 100%;
+  background: var(--gold);
+  border-radius: 3px;
+  width: 0%;
+  transition: width 0.5s linear;
+}
+.session-bar-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+.session-bar-track {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.session-bar-controls {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.sb-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.3rem 0.65rem;
+  background: rgba(196,154,40,0.1);
+  border: 1px solid rgba(196,154,40,0.3);
+  color: var(--gold);
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-family: var(--sans);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+  white-space: nowrap;
+}
+.sb-btn:hover { background: rgba(196,154,40,0.2); }
+.sb-stop {
+  background: rgba(200,50,50,0.07);
+  border-color: rgba(200,50,50,0.28);
+  color: #c83232;
+}
+.sb-stop:hover { background: rgba(200,50,50,0.14); }
+
 .modal-close {
   position: absolute;
   top: 1rem;
