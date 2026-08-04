@@ -456,13 +456,29 @@ function speak(text, onEnd) {
   const utt = new SpeechSynthesisUtterance(text);
   utt.rate = 0.92;
   utt.pitch = 1.0;
+
+  const isChinese = /[一-鿿㐀-䶿]/.test(text);
   const voices = window.speechSynthesis.getVoices();
-  const pick = voices.find(v =>
-    v.name.includes('Samantha') || v.name.includes('Daniel') ||
-    v.name.includes('Google UK') || v.name.includes('Karen') ||
-    v.lang === 'en-US' || v.lang.startsWith('en')
-  );
-  if (pick) utt.voice = pick;
+
+  if (isChinese) {
+    utt.lang = 'zh-CN';
+    const pick = voices.find(v => v.lang === 'zh-CN' || v.lang === 'zh-TW' || v.lang.startsWith('zh'))
+               || voices.find(v => v.name.toLowerCase().includes('chinese')
+                               || v.name.toLowerCase().includes('mandarin')
+                               || v.name.includes('Ting-Ting')
+                               || v.name.includes('Mei-Jia')
+                               || v.name.includes('Sin-Ji'));
+    if (pick) utt.voice = pick;
+  } else {
+    utt.lang = 'en-US';
+    const pick = voices.find(v =>
+      v.name.includes('Samantha') || v.name.includes('Daniel') ||
+      v.name.includes('Google UK') || v.name.includes('Karen') ||
+      v.lang === 'en-US' || v.lang.startsWith('en')
+    );
+    if (pick) utt.voice = pick;
+  }
+
   utt.onend = onEnd;
   utt.onerror = e => { if (e.error !== 'interrupted') onEnd(); };
   _currentUtt = utt;
@@ -1131,8 +1147,9 @@ function init() {
   }
 
   if (window.speechSynthesis) {
+    // Pre-load voices; some browsers (Chrome) populate them asynchronously
     window.speechSynthesis.getVoices();
-    window.speechSynthesis.onvoiceschanged = () => {};
+    window.speechSynthesis.onvoiceschanged = () => { window.speechSynthesis.getVoices(); };
   }
 
   // Merge localStorage posts (English registry only)
