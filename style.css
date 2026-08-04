@@ -346,10 +346,17 @@ body.player-active main { padding-bottom: 5.5rem; }
   font-weight: 600;
   color: var(--text-muted);
   background: var(--border);
+  border: none;
   border-radius: 20px;
   padding: 0.18rem 0.55rem;
   letter-spacing: 0.02em;
   white-space: nowrap;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.post-tag:hover {
+  background: var(--gold);
+  color: #fff;
 }
 
 .post-footer {

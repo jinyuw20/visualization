@@ -758,9 +758,20 @@ function deduped() {
 function tagPillsHtml(tags, query) {
   if (!tags || !tags.length) return '';
   return '<div class="post-tags">' +
-    tags.map(t => '<span class="post-tag">' + (query ? highlightStr(t, query) : escHtml(t)) + '</span>').join('') +
+    tags.map(tag => `<button class="post-tag" onclick="filterByTag(${JSON.stringify(tag)})">${query ? highlightStr(tag, query) : escHtml(tag)}</button>`).join('') +
     '</div>';
 }
+
+window.filterByTag = function(tag) {
+  closeBlog();
+  $('mainSearch').value = tag;
+  state.searchQuery = tag;
+  $('mainSearchClear').style.display = 'flex';
+  const label = $('sidebarBrowseLabel');
+  if (label) label.textContent = t('filterLbl');
+  renderFeed();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+};
 
 function blogCardHtml(blog) {
   const date = fmtDate(blog.date);
