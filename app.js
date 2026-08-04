@@ -924,7 +924,7 @@ function closeBlog() {
   _closeModalUI();
 }
 
-$('modalClose').addEventListener('click', closeBlog);
+// modalClose opens talk.sukeeteatime.com in a new tab (target="_blank")
 $('modalOverlay').addEventListener('click', e => { if (e.target === $('modalOverlay')) closeBlog(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeBlog(); });
 
