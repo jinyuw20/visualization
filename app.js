@@ -308,6 +308,9 @@ function buildQueue(minutes) {
 }
 
 /* === Speech === */
+let _currentUtt = null;
+let _currentSpeechArticle = null;
+
 function speak(text, onEnd) {
   if (!window.speechSynthesis) {
     console.warn('Speech not supported in this browser');
@@ -326,6 +329,7 @@ function speak(text, onEnd) {
   if (pick) utt.voice = pick;
   utt.onend = onEnd;
   utt.onerror = e => { if (e.error !== 'interrupted') onEnd(); };
+  _currentUtt = utt;
   window.speechSynthesis.speak(utt);
   return utt;
 }
@@ -404,8 +408,11 @@ function playArticle(index) {
   updateMiniPlayer();
   startProgress(article.wc);
 
+  _currentSpeechArticle = article;
   const text = `${article.title}. By ${article.author}. ${stripHtml(article.content)}`;
   const utt = speak(text, () => {
+    _currentUtt = null;
+    _currentSpeechArticle = null;
     clearSpeechHighlight();
     if (state.isPlaying && !state.isPaused) {
       setTimeout(() => playArticle(index + 1), 600);
@@ -499,6 +506,10 @@ function updateMiniPlayer() {
 $('mpPause').addEventListener('click', pauseSession);
 $('mpSkip').addEventListener('click', skipArticle);
 $('mpStop').addEventListener('click', stopSession);
+$('mpTitle').addEventListener('click', function() {
+  const article = _currentSpeechArticle || (state.queue[state.currentIndex]);
+  if (article) openBlog(article.id);
+});
 
 /* === Blog Feed === */
 const PAGE_SIZE = 10;
@@ -655,6 +666,11 @@ window.openBlog = function(id) {
   const shareUrl = location.href.split('#')[0] + '#' + blog.id;
   history.replaceState(null, '', location.pathname + location.search + '#' + blog.id);
   updateOgMeta(blog, shareUrl);
+
+  // If this article is currently being read aloud, activate highlighting in the modal
+  if (_currentUtt && _currentSpeechArticle && _currentSpeechArticle.id === blog.id) {
+    setupSpeechHighlight(_currentSpeechArticle, _currentUtt, '');
+  }
 };
 
 function closeBlog() {

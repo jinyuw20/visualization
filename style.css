@@ -522,7 +522,12 @@ body.player-active main { padding-bottom: 5.5rem; }
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: rgba(255,255,255,0.4);
 }
+.mp-title:hover { text-decoration-color: white; }
 .mp-progress {
   height: 2px;
   background: rgba(255,255,255,0.12);
