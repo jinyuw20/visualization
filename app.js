@@ -912,7 +912,7 @@ function closeBlog() {
   _closeModalUI();
 }
 
-$('modalClose').addEventListener('click', function(e) { e.preventDefault(); closeBlog(); });
+// modalClose is an <a href="https://talk.sukeeteatime.com/"> — let it navigate naturally
 $('modalOverlay').addEventListener('click', e => { if (e.target === $('modalOverlay')) closeBlog(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeBlog(); });
 
