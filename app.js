@@ -240,11 +240,12 @@ window.shareArticle = function(id) {
   if (!blog) { copyFallback(url); showToast(t('linkCopied')); return; }
   var img = firstImageUrl(blog);
   var desc = blog.excerpt || stripHtml(blog.content || '').slice(0, 160);
+  var shareText = blog.title + '\n\n' + desc;
   if (navigator.share) {
-    navigator.share({ title: blog.title, text: desc, url: url }).catch(function() {});
+    navigator.share({ title: blog.title, text: shareText, url: url }).catch(function() {});
     return;
   }
-  var text = blog.title + '\n' + url;
+  var text = blog.title + '\n' + desc + '\n' + url;
   if (navigator.clipboard) {
     navigator.clipboard.writeText(text).catch(function() { copyFallback(text); });
   } else {
@@ -793,19 +794,20 @@ function blogCardHtml(blog) {
         ${blog.pinned ? '<span class="post-pin-badge">📌 Pinned</span>' : ''}
       </div>
       <h2 class="post-title">${titleHtml}</h2>
-      <div class="post-meta-row">
-        <span class="post-date">${date}</span>
-        <button class="post-listen-mini" onclick="readArticle('${blog.id}')">
-          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
-          ~${listenMins(blog)} min
-        </button>
-        ${tagPillsHtml(blog.tags, q)}
-        <button class="post-share-btn" onclick="shareArticle('${blog.id}')" title="Copy link">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
-        </button>
-      </div>
+      <div class="post-date">${date}</div>
       <hr class="post-hr">
       <div class="post-body">${bodyHtml}</div>
+      ${tagPillsHtml(blog.tags, q)}
+      <div class="post-footer">
+        <button class="post-listen-btn" onclick="readArticle('${blog.id}')">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+          ${t('listenCardBtn', listenMins(blog))}
+        </button>
+        <button class="post-share-btn" onclick="shareArticle('${blog.id}')" title="Copy link">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+          ${t('shareBtnText')}
+        </button>
+      </div>
     </article>
   `;
 }
@@ -882,19 +884,17 @@ window.openBlog = function(id) {
 
   $('modalCategory').textContent = blog.category;
   $('modalTitle').textContent = blog.title;
-  $('modalByline').innerHTML = t('byline', blog.author, fmtDate(blog.date), listenMins(blog));
 
-  const listenBtn = $('modalListenBtn');
-  if (listenBtn) {
-    listenBtn.onclick = () => readArticle(blog.id);
-    const lbText = $('modalListenBtnText');
-    if (lbText) lbText.textContent = t('modalListenBtn');
-  }
+  const mins = listenMins(blog);
+  $('modalByline').innerHTML =
+    t('byline', blog.author, fmtDate(blog.date), mins) +
+    `<button class="modal-listen-mini" onclick="readArticle('${blog.id}')">` +
+      `<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>` +
+      ` ~${mins} min` +
+    `</button>` +
+    tagPillsHtml(blog.tags, '');
 
   $('modalContent').innerHTML = contentToHtml(blog);
-
-  const tagsEl = document.getElementById('modalTags');
-  if (tagsEl) tagsEl.innerHTML = tagPillsHtml(blog.tags, '');
 
   $('modalOverlay').classList.add('open');
   document.body.style.overflow = 'hidden';
@@ -1104,9 +1104,8 @@ function applyLang() {
   // Session bar
   $('sbSkip').textContent = t('sbNext');
   $('sbStop').textContent = t('sbStop');
-  // Modal listen button text
-  const lbText = $('modalListenBtnText');
-  if (lbText) lbText.textContent = t('modalListenBtn');
+  // Re-render open modal byline (contains listen mini + tags, language-sensitive)
+  if (state.openBlog) openBlog(state.openBlog.id);
 }
 
 function setLang(lang) {
