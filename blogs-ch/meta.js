@@ -1,5 +1,11 @@
 window.BLOG_META_ZH = {
   "categories": [],
   "tags": [],
-  "posts": []
+  "posts": [
+    {
+      "id": "2023-06-18-understand-minimalism",
+      "title": "理解极简主义",
+      "date": "2023-06-18"
+    }
+  ]
 };
