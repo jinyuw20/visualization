@@ -13,7 +13,7 @@ html { scroll-behavior: smooth; }
   --border: #e5e1d8;
   --serif: 'Lora', Georgia, 'Times New Roman', serif;
   --display: 'Playfair Display', Georgia, serif;
-  --sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --sans: 'Inter', 'Noto Sans SC', system-ui, -apple-system, sans-serif;
 }
 
 body {
@@ -22,6 +22,15 @@ body {
   color: var(--text);
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
+}
+
+body.lang-zh {
+  font-family: 'Noto Sans SC', system-ui, sans-serif;
+}
+body.lang-zh .modal-body,
+body.lang-zh .post-body {
+  font-family: 'Noto Sans SC', system-ui, sans-serif;
+  line-height: 2;
 }
 
 /* === Header === */
@@ -53,6 +62,22 @@ header {
 .hamburger { font-size: 1.3rem; letter-spacing: -1px; }
 .speaker-btn { font-size: 1.2rem; }
 .hamburger:hover, .speaker-btn:hover { background: rgba(255,255,255,0.18); }
+
+.lang-toggle {
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.35);
+  color: white;
+  border-radius: 5px;
+  padding: 0.22rem 0.55rem;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: background 0.15s;
+  margin-right: auto;
+}
+.lang-toggle:hover { background: rgba(255,255,255,0.28); }
 
 .site-name {
   flex: 1;

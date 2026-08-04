@@ -7,6 +7,7 @@ const state = {
   isPaused: false,
   isSession: false, // true when multi-article timed session (vs single readArticle)
   totalWords: 0,
+  lang: 'en',
   filterCategory: 'All',
   openBlog: null,
   calOpen: false,
@@ -19,6 +20,85 @@ const state = {
 };
 
 const WPM = 150;
+
+/* === i18n === */
+const STRINGS = {
+  en: {
+    searchPlaceholder: 'Search articles…',
+    browseLbl: 'Browse',
+    filterLbl: 'Filter by category',
+    allArticles: 'All Articles',
+    shareBtnText: 'Share',
+    calendarLbl: 'Calendar',
+    calDays: ['Su','Mo','Tu','We','Th','Fr','Sa'],
+    calMonths: ['January','February','March','April','May','June','July','August','September','October','November','December'],
+    calShowAll: '✕ Show all articles',
+    allYears: '✕ All years',
+    listenTitle: 'Listen Mode',
+    listenSubtitle: 'Pick categories and duration for your session.',
+    catsLbl: 'Categories',
+    durLbl: 'Session length',
+    minFmt: n => `${n} min`,
+    startBtn: '▶ Start Listening',
+    cancelBtn: 'Cancel',
+    modalListenBtn: 'Listen',
+    byline: (author, date, mins) =>
+      `<span>By ${escHtml(author)}</span><span>·</span><span>${date}</span><span>·</span><span>~${mins} min read</span>`,
+    listenCardBtn: mins => `Listen · ~${mins} min`,
+    nowReading: '🎧 Now Reading',
+    skipBtn: '⏭ Skip',
+    stopBtn: '■ Stop',
+    sbNext: '⏭ Next',
+    sbStop: '■ Stop',
+    sbTrack: (i, n) => `Article ${i} of ${n}`,
+    linkCopied: 'Link copied!',
+    clearAll: 'Clear all',
+    selectAll: 'Select all',
+  },
+  zh: {
+    searchPlaceholder: '搜索文章…',
+    browseLbl: '浏览',
+    filterLbl: '按分类筛选',
+    allArticles: '所有文章',
+    shareBtnText: '分享',
+    calendarLbl: '日历',
+    calDays: ['日','一','二','三','四','五','六'],
+    calMonths: ['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'],
+    calShowAll: '✕ 显示所有文章',
+    allYears: '✕ 所有年份',
+    listenTitle: '收听模式',
+    listenSubtitle: '选择分类和时长，开始您的收听。',
+    catsLbl: '分类',
+    durLbl: '时长',
+    minFmt: n => `${n}分钟`,
+    startBtn: '▶ 开始收听',
+    cancelBtn: '取消',
+    modalListenBtn: '收听',
+    byline: (author, date, mins) =>
+      `<span>作者：${escHtml(author)}</span><span>·</span><span>${date}</span><span>·</span><span>约${mins}分钟</span>`,
+    listenCardBtn: mins => `收听 · 约${mins}分钟`,
+    nowReading: '🎧 正在收听',
+    skipBtn: '⏭ 跳过',
+    stopBtn: '■ 停止',
+    sbNext: '⏭ 下一篇',
+    sbStop: '■ 停止',
+    sbTrack: (i, n) => `第${i}篇 / 共${n}篇`,
+    linkCopied: '链接已复制！',
+    clearAll: '取消全选',
+    selectAll: '全选',
+  },
+};
+
+function t(key, ...args) {
+  const val = STRINGS[state.lang][key];
+  return typeof val === 'function' ? val(...args) : val;
+}
+
+function activeRegistry() {
+  return state.lang === 'zh'
+    ? (window.BLOG_REGISTRY_ZH || [])
+    : (window.BLOG_REGISTRY || []);
+}
 
 /* === DOM === */
 const $ = id => document.getElementById(id);
@@ -71,10 +151,13 @@ function contentToHtml(blog) {
 
 const _fmtDateCache = new Map();
 function fmtDate(iso) {
-  if (_fmtDateCache.has(iso)) return _fmtDateCache.get(iso);
+  const key = iso + ':' + state.lang;
+  if (_fmtDateCache.has(key)) return _fmtDateCache.get(key);
   const d = new Date(iso + 'T00:00:00');
-  const r = `${d.getMonth() + 1}/${d.getDate()}/${d.getFullYear()}`;
-  _fmtDateCache.set(iso, r);
+  const r = state.lang === 'zh'
+    ? `${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日`
+    : `${d.getMonth() + 1}/${d.getDate()}/${d.getFullYear()}`;
+  _fmtDateCache.set(key, r);
   return r;
 }
 
@@ -127,12 +210,12 @@ function resetOgMeta() {
 
 /* === Share === */
 window.shareArticle = function(id) {
-  var url = location.href.split('#')[0] + '#' + id;
-  var blog = (window.BLOG_REGISTRY || []).find(function(b) { return b.id === id; });
-  if (!blog) { copyFallback(url); showToast('Link copied!'); return; }
+  var langParam = state.lang === 'zh' ? '?lang=zh' : '';
+  var url = location.origin + location.pathname + langParam + '#' + id;
+  var blog = activeRegistry().find(function(b) { return b.id === id; });
+  if (!blog) { copyFallback(url); showToast(t('linkCopied')); return; }
   var img = firstImageUrl(blog);
   var desc = blog.excerpt || stripHtml(blog.content || '').slice(0, 160);
-  // Use native share sheet when available (mobile)
   if (navigator.share) {
     navigator.share({ title: blog.title, text: desc, url: url }).catch(function() {});
     return;
@@ -143,7 +226,7 @@ window.shareArticle = function(id) {
   } else {
     copyFallback(text);
   }
-  showToast('Link copied!');
+  showToast(t('linkCopied'));
 };
 function copyFallback(text) {
   var ta = document.createElement('textarea');
@@ -176,7 +259,7 @@ $('sidebarSearch').addEventListener('input', function() {
   state.searchQuery = this.value.trim();
   $('sidebarSearchClear').style.display = state.searchQuery ? 'flex' : 'none';
   const label = $('sidebarBrowseLabel');
-  if (label) label.textContent = state.searchQuery ? 'Filter by category' : 'Browse';
+  if (label) label.textContent = state.searchQuery ? t('filterLbl') : t('browseLbl');
   renderFeed();
 });
 
@@ -185,17 +268,17 @@ $('sidebarSearchClear').addEventListener('click', function() {
   state.searchQuery = '';
   this.style.display = 'none';
   const label = $('sidebarBrowseLabel');
-  if (label) label.textContent = 'Browse';
+  if (label) label.textContent = t('browseLbl');
   $('sidebarSearch').focus();
   renderFeed();
 });
 
 function renderSidebar() {
-  const cats = ['All', ...new Set(window.BLOG_REGISTRY.map(b => b.category))].sort();
+  const cats = ['All', ...new Set(activeRegistry().map(b => b.category))].sort();
   $('sidebarNav').innerHTML = cats.map(c => `
     <li>
       <button class="${c === state.filterCategory ? 'active' : ''}"
-              onclick="filterBy('${c}')">${c === 'All' ? 'All Articles' : c}</button>
+              onclick="filterBy('${c}')">${c === 'All' ? t('allArticles') : c}</button>
     </li>
   `).join('');
 }
@@ -209,9 +292,9 @@ window.filterBy = function(cat) {
 
 /* === Category chips for listen dialog === */
 function renderCatChips() {
-  const cats = [...new Set(window.BLOG_REGISTRY.map(b => b.category))].sort();
+  const cats = [...new Set(activeRegistry().map(b => b.category))].sort();
   const allSelected = state.listenCats === null;
-  const ctrl = `<button class="cat-chip-ctrl" onclick="toggleAllCats()">${allSelected ? 'Clear all' : 'Select all'}</button>`;
+  const ctrl = `<button class="cat-chip-ctrl" onclick="toggleAllCats()">${allSelected ? t('clearAll') : t('selectAll')}</button>`;
   $('catFilterChips').innerHTML = ctrl + cats.map(c => {
     const active = state.listenCats === null || state.listenCats.includes(c);
     return `<button class="cat-chip${active ? ' active' : ''}" onclick="toggleListenCat('${c}')">${c}</button>`;
@@ -224,7 +307,7 @@ window.toggleAllCats = function() {
 };
 
 window.toggleListenCat = function(cat) {
-  const cats = [...new Set(window.BLOG_REGISTRY.map(b => b.category))].sort();
+  const cats = [...new Set(activeRegistry().map(b => b.category))].sort();
   if (state.listenCats === null) {
     state.listenCats = cats.filter(c => c !== cat);
   } else if (state.listenCats.includes(cat)) {
@@ -250,7 +333,7 @@ function closeListenDialog() {
 $('speakerBtn').addEventListener('click', openListenDialog);
 
 window.readArticle = function(id) {
-  const blog = window.BLOG_REGISTRY.find(b => b.id === id);
+  const blog = activeRegistry().find(b => b.id === id);
   if (!blog) return;
   if (state.isPlaying) stopSession();
   state.queue = [{ ...blog, wc: wordCount(blog.content) }];
@@ -416,7 +499,7 @@ function hideSessionBar() {
 }
 
 function updateSessionBar() {
-  $('sessionBarTrack').textContent = `Article ${state.currentIndex + 1} of ${state.queue.length}`;
+  $('sessionBarTrack').textContent = t('sbTrack', state.currentIndex + 1, state.queue.length);
   $('sbPause').textContent = state.isPaused ? '▶' : '⏸';
 }
 
@@ -592,13 +675,14 @@ let feedBlogs = [];
 let feedRendered = 0;
 let feedObserver = null;
 
-let _dedupedCache = null;
+const _dedupedCaches = { en: null, zh: null };
 function deduped() {
-  if (_dedupedCache) return _dedupedCache;
+  const lang = state.lang;
+  if (_dedupedCaches[lang]) return _dedupedCaches[lang];
   const m = new Map();
-  (window.BLOG_REGISTRY || []).forEach(b => m.set(b.id, b));
-  _dedupedCache = [...m.values()];
-  return _dedupedCache;
+  activeRegistry().forEach(b => m.set(b.id, b));
+  _dedupedCaches[lang] = [...m.values()];
+  return _dedupedCaches[lang];
 }
 
 function tagPillsHtml(tags, query) {
@@ -635,11 +719,11 @@ function blogCardHtml(blog) {
       <div class="post-footer">
         <button class="post-listen-btn" onclick="readArticle('${blog.id}')">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
-          Listen · ~${listenMins(blog)} min
+          ${t('listenCardBtn', listenMins(blog))}
         </button>
         <button class="post-share-btn" onclick="shareArticle('${blog.id}')" title="Copy link">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
-          Share
+          ${t('shareBtnText')}
         </button>
       </div>
     </article>
@@ -712,23 +796,19 @@ function renderFeed() {
 
 /* === Article Modal === */
 window.openBlog = function(id) {
-  const blog = window.BLOG_REGISTRY.find(b => b.id === id);
+  const blog = activeRegistry().find(b => b.id === id);
   if (!blog) return;
   state.openBlog = blog;
 
   $('modalCategory').textContent = blog.category;
   $('modalTitle').textContent = blog.title;
-  $('modalByline').innerHTML = `
-    <span>By ${blog.author}</span>
-    <span>·</span>
-    <span>${fmtDate(blog.date)}</span>
-    <span>·</span>
-    <span>~${listenMins(blog)} min read</span>
-  `;
+  $('modalByline').innerHTML = t('byline', blog.author, fmtDate(blog.date), listenMins(blog));
 
   const listenBtn = $('modalListenBtn');
   if (listenBtn) {
     listenBtn.onclick = () => readArticle(blog.id);
+    const lbText = $('modalListenBtnText');
+    if (lbText) lbText.textContent = t('modalListenBtn');
   }
 
   $('modalContent').innerHTML = contentToHtml(blog);
@@ -774,10 +854,9 @@ window.addEventListener('hashchange', function() {
 });
 
 /* === Calendar === */
-const MONTH_NAMES = ['January','February','March','April','May','June','July','August','September','October','November','December'];
 
 function articlesDateSet() {
-  return new Set(window.BLOG_REGISTRY.map(b => b.date));
+  return new Set(activeRegistry().map(b => b.date));
 }
 
 function renderCalendar() {
@@ -796,7 +875,7 @@ function renderCalendar() {
     <button class="cal-toggle" onclick="toggleCalendar()">
       <span class="cal-toggle-label">
         <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-        Calendar${filterLabel}
+        ${t('calendarLbl')}${filterLabel}
       </span>
       <span class="cal-chevron">${calOpen ? '▲' : '▼'}</span>
     </button>
@@ -806,17 +885,11 @@ function renderCalendar() {
     html += `<div class="cal-body">
       <div class="cal-header">
         <button class="cal-nav" onclick="calPrev()">&#8249;</button>
-        <span class="cal-month-label">${MONTH_NAMES[calMonth]} ${calYear}</span>
+        <span class="cal-month-label">${t('calMonths')[calMonth]} ${calYear}</span>
         <button class="cal-nav" onclick="calNext()">&#8250;</button>
       </div>
       <div class="cal-grid">
-        <div class="cal-day-label">Su</div>
-        <div class="cal-day-label">Mo</div>
-        <div class="cal-day-label">Tu</div>
-        <div class="cal-day-label">We</div>
-        <div class="cal-day-label">Th</div>
-        <div class="cal-day-label">Fr</div>
-        <div class="cal-day-label">Sa</div>
+        ${t('calDays').map(d => `<div class="cal-day-label">${d}</div>`).join('')}
     `;
     for (let i = 0; i < firstWeekday; i++) html += `<div class="cal-cell"></div>`;
     for (let d = 1; d <= daysInMonth; d++) {
@@ -831,7 +904,7 @@ function renderCalendar() {
     }
     html += `</div>`;
     if (calDateFilter) {
-      html += `<button class="cal-clear" onclick="filterByDate(null)">✕ Show all articles</button>`;
+      html += `<button class="cal-clear" onclick="filterByDate(null)">${t('calShowAll')}</button>`;
     }
 
     // Year carousel
@@ -843,7 +916,7 @@ function renderCalendar() {
     const years = [...yearMap.keys()].sort((a, b) => b - a);
     html += `<div class="cal-year-carousel" id="calYearCarousel">`;
     if (calYearFilter) {
-      html += `<button class="cal-year-btn cal-year-clear" onclick="filterByYear(null)">✕ All years</button>`;
+      html += `<button class="cal-year-btn cal-year-clear" onclick="filterByYear(null)">${t('allYears')}</button>`;
     }
     years.forEach(y => {
       const active = calYearFilter === y ? ' active' : '';
@@ -921,16 +994,83 @@ function initCarouselDrag() {
   });
 }
 
+/* === Language === */
+function applyLang() {
+  const lang = state.lang;
+  document.body.classList.toggle('lang-zh', lang === 'zh');
+  // Toggle button shows what you switch TO
+  $('langToggle').textContent = lang === 'zh' ? 'EN' : '中文';
+  // Sidebar
+  $('sidebarSearch').placeholder = t('searchPlaceholder');
+  const browseLabel = $('sidebarBrowseLabel');
+  if (browseLabel) browseLabel.textContent = state.searchQuery ? t('filterLbl') : t('browseLbl');
+  // Listen dialog
+  $('listenDialogTitle').textContent = t('listenTitle');
+  $('listenDialogSubtitle').textContent = t('listenSubtitle');
+  $('listenCatLabel').textContent = t('catsLbl');
+  $('listenDurLabel').textContent = t('durLbl');
+  $('startListenBtn').textContent = t('startBtn');
+  $('cancelListenBtn').textContent = t('cancelBtn');
+  document.querySelectorAll('.time-opt').forEach(btn => {
+    btn.textContent = t('minFmt', parseInt(btn.dataset.min));
+  });
+  // Mini player
+  $('mpLabel').textContent = t('nowReading');
+  $('mpSkip').textContent = t('skipBtn');
+  $('mpStop').textContent = t('stopBtn');
+  // Session bar
+  $('sbSkip').textContent = t('sbNext');
+  $('sbStop').textContent = t('sbStop');
+  // Modal listen button text
+  const lbText = $('modalListenBtnText');
+  if (lbText) lbText.textContent = t('modalListenBtn');
+}
+
+function setLang(lang) {
+  if (lang === state.lang) return;
+  state.lang = lang;
+  state.filterCategory = 'All';
+  state.listenCats = null;
+  // Invalidate per-language caches
+  _dedupedCaches.en = null;
+  _dedupedCaches.zh = null;
+  localStorage.setItem('minichat_lang', lang);
+  // Sync URL lang param
+  const url = new URL(location.href);
+  if (lang === 'zh') url.searchParams.set('lang', 'zh');
+  else url.searchParams.delete('lang');
+  url.hash = '';
+  history.replaceState(null, '', url.toString());
+  // Pre-compute word counts for newly active registry
+  deduped().forEach(b => { if (b._wc === undefined) b._wc = wordCount(b.content || ''); });
+  applyLang();
+  renderCalendar();
+  renderFeed();
+  renderSidebar();
+}
+
+$('langToggle').addEventListener('click', () => setLang(state.lang === 'en' ? 'zh' : 'en'));
+
 /* === Init === */
 function init() {
   window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
+  window.BLOG_REGISTRY_ZH = window.BLOG_REGISTRY_ZH || [];
+
+  // Detect language from URL param or localStorage, default to 'en'
+  const urlLang = new URLSearchParams(location.search).get('lang');
+  if (urlLang === 'zh' || urlLang === 'en') {
+    state.lang = urlLang;
+    localStorage.setItem('minichat_lang', urlLang);
+  } else {
+    state.lang = localStorage.getItem('minichat_lang') || 'en';
+  }
 
   if (window.speechSynthesis) {
     window.speechSynthesis.getVoices();
     window.speechSynthesis.onvoiceschanged = () => {};
   }
 
-  // Merge localStorage posts
+  // Merge localStorage posts (English registry only)
   try {
     const custom = JSON.parse(localStorage.getItem('MINICHAT_LOCAL_BLOGS') || '[]');
     custom.forEach(blog => {
@@ -940,9 +1080,10 @@ function init() {
     });
   } catch (e) {}
 
-  // Pre-compute word counts once so listenMins() never calls stripHtml per render
+  // Pre-compute word counts for active registry
   deduped().forEach(b => { if (b._wc === undefined) b._wc = wordCount(b.content || ''); });
 
+  applyLang();
   renderCalendar();
   renderFeed();
   renderSidebar();

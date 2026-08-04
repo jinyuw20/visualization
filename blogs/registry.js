@@ -6129,20 +6129,19 @@ Texas's position in the path of totality made April 8, 2024, a memorable day for
 A reminder that some of the most remarkable things require no planning, no purchasing, and no expertise. Just presence and attention.`
 });
 window.BLOG_REGISTRY.push({
-  id: "2024-04-11-music-gautier-capucon-cello",
-  title: "Music | Gautier Capuçon's Cello",
-  author: "Sukee Parker",
-  date: "2024-04-11",
-  category: "Music",
-  tags: ["Music", "Cello", "Classical", "Yo-Yo Ma", "Gautier Capucon"],
-  excerpt: "Attending a Vienna Symphony Orchestra performance at the Großer Musikvereinssaal, featuring world-renowned cellist Gautier Capuçon. Yo-Yo Ma currently holds the ranking of 'the world's number one cellist.'",
-  content: `A Vienna Symphony Orchestra performance at the Großer Musikvereinssaal featured world-renowned cellist Gautier Capuçon, conducted by Petr Popelka.
-
-The Vienna Symphony Orchestra, "Founded in 1900," differs from the more famous Vienna Philharmonic (established 1842), which performs the celebrated New Year's Concert.
-
-For further musical enrichment: Hauser and Yo-Yo Ma are both worth exploring. Yo-Yo Ma currently holds the ranking of "the world's number one cellist."
-
-A live cello performance in a great hall is one of those experiences that rewires your relationship to the instrument.`
+  "id": "2024-04-11-music-gautier-capuons-cello",
+  "title": "Music | Gautier Capuçon's Cello",
+  "author": "Sukee Parker",
+  "date": "2024-04-11",
+  "category": "Music",
+  "tags": [
+    "Cello"
+  ],
+  "excerpt": "Attending a Vienna Symphony Orchestra performance at the Großer Musikvereinssaal, featuring world-renowned cellist Gautier Capuçon. Yo-Yo Ma currently holds the ranking of 'the world's number one cellist.'",
+  "content": "<p>The Vienna Symphony Orchestra, founded in 1900, performed at the prestigious Großer Musikvereinssaal. Renowned cellist Gautier Capuçon graced the stage, accompanied by the conductor Petr Popelka.</p><p>Unlike the renowned Vienna Philharmonic, established in 1842 and celebrated for its New Year’s Concert, the Vienna Symphony Orchestra offers a distinct musical experience.</p><p>For further musical exploration, Hauser and Yo-Yo Ma are both exceptional artists. Yo-Yo Ma currently holds the esteemed title of “the world’s number one cellist.”</p><p>A live cello performance in a grand hall can be a transformative experience, profoundly altering your perception of the music instrument.</p>",
+  "contentType": "html",
+  "autoRead": true,
+  "pinned": false
 });
 window.BLOG_REGISTRY.push({
   id: "2024-04-14-things-to-do-national-garden-day",

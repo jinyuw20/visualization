@@ -18,7 +18,7 @@
   <meta name="twitter:image" id="twImage" content="">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;1,400&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;1,400&family=Noto+Sans+SC:wght@400;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -27,6 +27,7 @@
   <header>
     <button class="hamburger" id="hamburgerBtn" aria-label="Menu">&#9776;</button>
     <span class="site-name">Sukee Tea Time</span>
+    <button class="lang-toggle" id="langToggle" aria-label="Switch language">中文</button>
     <button class="speaker-btn" id="speakerBtn" aria-label="Read article aloud">
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
         <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
@@ -69,11 +70,11 @@
   <div class="dialog-overlay" id="listenOverlay">
     <div class="listen-dialog">
       <span class="dialog-icon">🎧</span>
-      <h2>Listen Mode</h2>
-      <p>Pick categories and duration for your session.</p>
-      <div class="cat-filter-label">Categories</div>
+      <h2 id="listenDialogTitle">Listen Mode</h2>
+      <p id="listenDialogSubtitle">Pick categories and duration for your session.</p>
+      <div class="cat-filter-label" id="listenCatLabel">Categories</div>
       <div class="cat-filter-chips" id="catFilterChips"></div>
-      <div class="cat-filter-label">Session length</div>
+      <div class="cat-filter-label" id="listenDurLabel">Session length</div>
       <div class="time-opts">
         <button class="time-opt active" data-min="10">10 min</button>
         <button class="time-opt" data-min="15">15 min</button>
@@ -87,7 +88,7 @@
   <!-- Mini Player -->
   <div class="mini-player" id="miniPlayer">
     <div class="mp-info">
-      <span class="mp-label">🎧 Now Reading</span>
+      <span class="mp-label" id="mpLabel">🎧 Now Reading</span>
       <div class="mp-title" id="mpTitle">—</div>
       <div class="mp-progress"><div class="mp-bar" id="mpBar"></div></div>
     </div>
@@ -109,7 +110,7 @@
         <div class="modal-byline" id="modalByline"></div>
         <button class="modal-listen-btn" id="modalListenBtn">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
-          Listen
+          <span id="modalListenBtnText">Listen</span>
         </button>
         <hr class="modal-divider">
         <div id="modalTags"></div>
@@ -133,6 +134,7 @@
 
   <!-- All posts bundled into one file by the pre-commit hook (was 365 separate requests) -->
   <script src="blogs/registry.js" defer></script>
+  <script src="blogs-ch/registry.js" defer></script>
   <script src="app.js" defer></script>
 
 </body>
