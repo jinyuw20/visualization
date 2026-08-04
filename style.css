@@ -573,11 +573,13 @@ body.player-active main { padding-bottom: 5.5rem; }
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding: 2rem 0 0;
+  padding: 2rem 0 3rem;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.22s;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
 }
 .modal-overlay.open { opacity: 1; pointer-events: all; }
 
