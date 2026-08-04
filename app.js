@@ -325,8 +325,14 @@ function renderCatChips() {
   }).join('');
 }
 
+function saveCatPref() {
+  localStorage.setItem('minichat_listen_cats',
+    state.listenCats === null ? 'all' : JSON.stringify(state.listenCats));
+}
+
 window.toggleAllCats = function() {
   state.listenCats = state.listenCats === null ? [] : null;
+  saveCatPref();
   renderCatChips();
 };
 
@@ -340,6 +346,7 @@ window.toggleListenCat = function(cat) {
     state.listenCats = [...state.listenCats, cat];
     if (state.listenCats.length === cats.length) state.listenCats = null;
   }
+  saveCatPref();
   renderCatChips();
 };
 
@@ -385,9 +392,9 @@ $('listenOverlay').addEventListener('click', e => {
   if (e.target === $('listenOverlay')) closeListenDialog();
 });
 
-document.querySelectorAll('.time-opt').forEach(btn => {
+document.querySelectorAll('.time-opt[data-min]').forEach(btn => {
   btn.addEventListener('click', () => {
-    document.querySelectorAll('.time-opt').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.time-opt[data-min]').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     state.selectedDuration = parseInt(btn.dataset.min);
   });
@@ -397,6 +404,7 @@ document.querySelectorAll('#listenLangOpts .time-opt').forEach(btn => {
   btn.addEventListener('click', () => {
     state.listenLang = btn.dataset.lang;
     state.listenCats = null; // reset category filter when content language changes
+    saveCatPref();
     renderListenLangOpts();
     renderCatChips();
   });
@@ -1113,6 +1121,12 @@ function init() {
     state.lang = localStorage.getItem('minichat_lang') || 'en';
   }
   state.listenLang = state.lang; // default listen language matches UI language
+
+  // Restore saved category preference
+  const savedCats = localStorage.getItem('minichat_listen_cats');
+  if (savedCats && savedCats !== 'all') {
+    try { state.listenCats = JSON.parse(savedCats); } catch (e) {}
+  }
 
   if (window.speechSynthesis) {
     window.speechSynthesis.getVoices();
