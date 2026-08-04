@@ -924,7 +924,10 @@ function closeBlog() {
   _closeModalUI();
 }
 
-// modalClose is an <a href="https://talk.sukeeteatime.com/"> — let it navigate naturally
+$('modalClose').addEventListener('click', function(e) {
+  e.preventDefault(); // same-page hash change doesn't navigate — close the modal instead
+  closeBlog();
+});
 $('modalOverlay').addEventListener('click', e => { if (e.target === $('modalOverlay')) closeBlog(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeBlog(); });
 
