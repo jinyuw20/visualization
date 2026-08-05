@@ -479,6 +479,11 @@ window.BLOG_META = {
       "date": "2026-07-21"
     },
     {
+      "id": "2026-07-20-cat-in-my-life",
+      "title": "Cat in My Life",
+      "date": "2026-07-20"
+    },
+    {
       "id": "2026-07-14-people-rule-rule-from-people",
       "title": "People Rule, Rule from People",
       "date": "2026-07-14"

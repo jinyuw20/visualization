@@ -349,6 +349,7 @@ window.BLOG_MANIFEST = [
   "2026-07-13-dont-tell-me-adhd-is-a-disorder.js",
   "2026-07-13-the-art-of-being-a-mother-in-law.js",
   "2026-07-14-people-rule-rule-from-people.js",
+  "2026-07-20-cat-in-my-life.js",
   "2026-07-21-take-actions.js",
   "2026-07-22-bridgewater-culture.js",
   "2026-07-23-green-onions-in-the-garden.js",
@@ -365,6 +366,6 @@ window.BLOG_MANIFEST = [
   "2026-08-02-organizing-principles-with-excel.js",
   "2026-08-02-opening-a-restaurant.js", 
   "2026-08-03-scheduled-slack-messages.js", 
-  "2026-08-04-mom-effort.js",
+  "2026-08-04-moms-effort.js",
   "2026-08-05-the-blue-whale-challenge.js"
 ];
