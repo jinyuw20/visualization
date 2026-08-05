@@ -765,13 +765,15 @@ function tagPillsHtml(tags, query) {
 
 window.filterByTag = function(tag) {
   closeBlog();
+  state.filterCategory = 'All';
   $('mainSearch').value = tag;
   state.searchQuery = tag;
   $('mainSearchClear').style.display = 'flex';
   const label = $('sidebarBrowseLabel');
   if (label) label.textContent = t('filterLbl');
+  renderSidebar();
   renderFeed();
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  document.documentElement.scrollTop = 0;
 };
 
 function blogCardHtml(blog) {

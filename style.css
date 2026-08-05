@@ -45,7 +45,7 @@ header {
   padding: 0 0.75rem;
 }
 
-.hamburger, .speaker-btn {
+.hamburger, .speaker-btn, .tea-chat-btn {
   background: none;
   border: none;
   color: white;
@@ -58,10 +58,11 @@ header {
   border-radius: 50%;
   transition: background 0.15s;
   flex-shrink: 0;
+  text-decoration: none;
 }
 .hamburger { font-size: 1.3rem; letter-spacing: -1px; }
 .speaker-btn { font-size: 1.2rem; }
-.hamburger:hover, .speaker-btn:hover { background: rgba(255,255,255,0.18); }
+.hamburger:hover, .speaker-btn:hover, .tea-chat-btn:hover { background: rgba(255,255,255,0.18); }
 
 .lang-toggle {
   background: rgba(255,255,255,0.15);
@@ -703,6 +704,7 @@ body.player-active main { padding-bottom: 5.5rem; }
   position: absolute;
   top: 1rem;
   right: 1rem;
+  z-index: 10;
   background: rgba(196,154,40,0.1);
   border: none;
   color: var(--gold);

@@ -389,6 +389,11 @@ window.BLOG_META = {
   ],
   "posts": [
     {
+      "id": "2026-08-05-the-blue-whale-challenge",
+      "title": "The Blue Whale Challenge",
+      "date": "2026-08-05"
+    },
+    {
       "id": "2026-08-03-scheduled-slack-messages",
       "title": "Scheduled Slack Messages",
       "date": "2026-08-03"
