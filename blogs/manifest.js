@@ -365,5 +365,6 @@ window.BLOG_MANIFEST = [
   "2026-08-02-organizing-principles-with-excel.js",
   "2026-08-02-opening-a-restaurant.js", 
   "2026-08-03-scheduled-slack-messages.js", 
-  "2026-08-05-the-blue-whale-challenge"
+  "2026-08-04-mom-effort.js",
+  "2026-08-05-the-blue-whale-challenge.js"
 ];
