@@ -15,11 +15,11 @@ Traditional Chinese medicine, which considers the entire body as an interconnect
 
 The observation extends beyond medicine:
 
-**In academia:** Compartmentalized fields limit problem-solving capacity. The most interesting problems exist at the intersections between disciplines — where none of the specialists feel at home.
+<b>In academia:</b> Compartmentalized fields limit problem-solving capacity. The most interesting problems exist at the intersections between disciplines — where none of the specialists feel at home.
 
-**In business:** Cross-departmental collaboration between development, marketing, sales, and operations teams is essential. When each department optimizes for its own metrics without understanding the whole, the system underperforms even when each part performs.
+<b>In business:</b> Cross-departmental collaboration between development, marketing, sales, and operations teams is essential. When each department optimizes for its own metrics without understanding the whole, the system underperforms even when each part performs.
 
-**In decision-making:** Incremental minor decisions can accumulate into significant negative outcomes — a principle related to the slippery slope. Maintaining long-term perspective is essential even when each individual choice seems small.
+<b>In decision-making:</b> Incremental minor decisions can accumulate into significant negative outcomes — a principle related to the slippery slope. Maintaining long-term perspective is essential even when each individual choice seems small.
 
 The bigger picture is not always visible from inside the specialized view. Sometimes you have to step back to see what the parts are doing to the whole.`
 });

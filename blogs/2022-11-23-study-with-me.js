@@ -11,15 +11,15 @@ window.BLOG_REGISTRY.push({
 
 Learning is a constructive response to uncertainty — more productive than worry, more actionable than abstract thinking, more grounding than either.
 
-**Two key decisions after committing to learning:**
+<b>Two key decisions after committing to learning:</b>
 
-**What to study**
+<b>What to study</b>
 Pursue subjects that bring happiness, expand knowledge, or enhance life. Learning is most sustainable when it connects to genuine curiosity or real application — not obligation.
 
-**How to approach it**
+<b>How to approach it</b>
 Maintaining focus during study sessions is essential for maximizing educational benefits. Distracted study produces little retention. Concentrated effort in shorter sessions outperforms long, interrupted ones.
 
-**Tool:** The Minee 3 Timer supports focused study sessions. Timed blocks with clear breaks create structure without rigidity.
+<b>Tool:</b> The Minee 3 Timer supports focused study sessions. Timed blocks with clear breaks create structure without rigidity.
 
 The invitation is simple: set aside time, choose something worth learning, and begin. The act of learning itself — not just the knowledge acquired — builds the habit of learning.`
 });

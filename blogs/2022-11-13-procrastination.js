@@ -9,24 +9,24 @@ window.BLOG_REGISTRY.push({
   excerpt: "Procrastination is 'a self-regulation failure characterized by the irrational delay of tasks.' Five causes — and a four-step approach that actually helps.",
   content: `Procrastination is "a self-regulation failure characterized by the irrational delay of tasks." It persists despite its negative consequences because it addresses a real psychological need in the short term.
 
-**Five causes:**
+<b>Five causes:</b>
 
-**1. Present Bias**
+<b>1. Present Bias</b>
 Prioritizing immediate gratification over future rewards. Tim Urban's concept of the "instant gratification monkey" captures this perfectly — a part of the brain that hijacks rational decision-making to pursue what feels good now.
 
-**2. Losing Focus Due to Indolence**
+<b>2. Losing Focus Due to Indolence</b>
 Social media and passive information consumption blur priorities and waste time. Distraction isn't laziness — it's the path of least resistance in an environment designed for it.
 
-**3. Dreaming**
+<b>3. Dreaming</b>
 Creative individuals get caught imagining possibilities rather than acting on them. Adam Grant's research on "original thinkers" shows that some procrastination can enable better thinking — but it becomes a trap when dreaming substitutes for doing.
 
-**4. Perfectionism**
+<b>4. Perfectionism</b>
 Waiting for the perfect moment, the perfect preparation. Nothing is truly perfect, and this belief prevents completion.
 
-**5. Lack of Priority**
+<b>5. Lack of Priority</b>
 Without clear goals, people become distracted and overwhelmed by competing demands.
 
-**A four-step approach:**
+<b>A four-step approach:</b>
 1. Set Goals — be specific about what matters
 2. Make a Plan — schedule it, keep an idea notebook
 3. Focus on the Plan — practice deep work without interruption

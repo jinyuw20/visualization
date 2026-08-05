@@ -9,23 +9,23 @@ window.BLOG_REGISTRY.push({
   excerpt: "Ten essential frameworks: SWOT, Gantt Charts, Tuckman's model, Kotter's 8-Step, 7 Cs, Pyramid Principle, AIDA Model, McKinsey's 7S, Six Sigma DMAIC, and Design Thinking.",
   content: `Ten essential frameworks for management consulting professionals:
 
-1. **Strategic Planning** — SWOT Analysis and Porter's Five Forces evaluate competitive environments and internal/external business factors.
+1. <b>Strategic Planning</b> — SWOT Analysis and Porter's Five Forces evaluate competitive environments and internal/external business factors.
 
-2. **Project Management** — Gantt Charts "create a visual timeline of the execution workflow, facilitating project planning and progress tracking."
+2. <b>Project Management</b> — Gantt Charts "create a visual timeline of the execution workflow, facilitating project planning and progress tracking."
 
-3. **Team Development** — Tuckman's model describes five natural team progression stages from formation through completion.
+3. <b>Team Development</b> — Tuckman's model describes five natural team progression stages from formation through completion.
 
-4. **Change Management** — Kotter's 8-Step approach for implementing organizational transformation systematically.
+4. <b>Change Management</b> — Kotter's 8-Step approach for implementing organizational transformation systematically.
 
-5. **Communication** — The 7 Cs framework emphasizing clarity, conciseness, and professionalism in messaging.
+5. <b>Communication</b> — The 7 Cs framework emphasizing clarity, conciseness, and professionalism in messaging.
 
-6. **Decision-Making** — The Pyramid Principle for "logically structuring communication and arguments" effectively.
+6. <b>Decision-Making</b> — The Pyramid Principle for "logically structuring communication and arguments" effectively.
 
-7. **Sales & Marketing** — The AIDA Model (Attention, Interest, Desire, Action) for campaign development.
+7. <b>Sales & Marketing</b> — The AIDA Model (Attention, Interest, Desire, Action) for campaign development.
 
-8. **Organizational Development** — McKinsey's 7S Framework examining strategy, structure, systems, shared values, style, staff, and skills.
+8. <b>Organizational Development</b> — McKinsey's 7S Framework examining strategy, structure, systems, shared values, style, staff, and skills.
 
-9. **Quality Management** — Six Sigma's DMAIC methodology for process improvement and defect reduction.
+9. <b>Quality Management</b> — Six Sigma's DMAIC methodology for process improvement and defect reduction.
 
-10. **Innovation** — Design Thinking: a user-centered iterative approach to product development.`
+10. <b>Innovation</b> — Design Thinking: a user-centered iterative approach to product development.`
 });

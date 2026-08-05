@@ -9,7 +9,7 @@ window.BLOG_REGISTRY.push({
   excerpt: "Enhance tea time through digital sketching using Keynote software — select an image, upload it, lock it in place, trace over it, then add animation to bring the sketch to life.",
   content: `A creative approach to enhancing tea time through digital sketching using Keynotes software.
 
-**The process:**
+<b>The process:</b>
 1. Select an online image
 2. Upload it to Keynotes
 3. Lock the image in place

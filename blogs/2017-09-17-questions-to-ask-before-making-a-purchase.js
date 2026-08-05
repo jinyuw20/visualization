@@ -9,22 +9,22 @@ window.BLOG_REGISTRY.push({
   excerpt: "Six questions that slow down impulse decisions and make spending more intentional.",
   content: `Before committing to a purchase, pause and work through these six questions:
 
-**1. Do I really need this?**
+<b>1. Do I really need this?</b>
 Distinguish between a genuine need and a passing want. This one question eliminates a surprising number of purchases.
 
-**2. Is this the best product I can afford?**
+<b>2. Is this the best product I can afford?</b>
 Quality matters over time. A better item used for years costs less than a cheaper one replaced repeatedly.
 
-**3. Is this the best price available? Is it worth it?**
+<b>3. Is this the best price available? Is it worth it?</b>
 Check multiple retailers, compare online, and look for sales or discounts before deciding.
 
-**4. How often will I actually use it?**
+<b>4. How often will I actually use it?</b>
 Frequent use justifies ownership. Occasional use might be better served by borrowing or renting.
 
-**5. What are the long-term costs?**
+<b>5. What are the long-term costs?</b>
 Beyond the purchase price: maintenance, accessories, energy consumption, subscriptions. The real cost of ownership is often higher than the sticker price.
 
-**6. What is the return policy?**
+<b>6. What is the return policy?</b>
 For expensive or electronic purchases especially, knowing the terms of return provides important protection if the item disappoints.
 
 Six questions, asked consistently, make spending more deliberate and regret less frequent.`

@@ -9,13 +9,13 @@ window.BLOG_REGISTRY.push({
   excerpt: "Digital decluttering as a minimalist response to information overload. Organize Apple Notes into year-based folders with four subfolders — projects, knowledge, journals, contacts.",
   content: `Digital decluttering as a minimalist response to information overload. Practical strategies for managing notes effectively in Apple Notes:
 
-**Organization system:**
+<b>Organization system:</b>
 - Year-based folders with four subfolders: projects, knowledge, journals, contacts
 - Regularly delete outdated items
 - Leverage Apple Notes' tagging system for easy retrieval
 - Name items chronologically for automatic sorting
 
-**Key practices:**
+<b>Key practices:</b>
 - "Convert lists into checklists to make your notes actionable"
 - Consolidate similar notes
 - Maintain regular decluttering routines

@@ -9,13 +9,13 @@ window.BLOG_REGISTRY.push({
   excerpt: "'Habits are the building blocks of the life system' — once actions become automatic, goals are accomplished with minimal effort. Three strategies: simplicity, action bundling, and tracking systems.",
   content: `"Habits are the building blocks of the life system" — they enable people to accomplish goals with minimal effort once actions become automatic.
 
-**Three strategies for habit formation:**
+<b>Three strategies for habit formation:</b>
 
-**Simplicity** — Start with manageable changes. Limit simultaneous habit modifications to no more than five. The temptation to overhaul everything at once is the enemy of sustained change.
+<b>Simplicity</b> — Start with manageable changes. Limit simultaneous habit modifications to no more than five. The temptation to overhaul everything at once is the enemy of sustained change.
 
-**Action bundling** — Combine multiple beneficial practices into single activities. Example: incorporating exercise, audiobooks, and sunlight exposure into a morning walk.
+<b>Action bundling</b> — Combine multiple beneficial practices into single activities. Example: incorporating exercise, audiobooks, and sunlight exposure into a morning walk.
 
-**Tracking systems** — Implement effective monitoring mechanisms that demonstrate progress and provide motivation during the establishment phase.
+<b>Tracking systems</b> — Implement effective monitoring mechanisms that demonstrate progress and provide motivation during the establishment phase.
 
 Once habits integrate into daily routines, external tracking becomes unnecessary because these behaviors become intrinsic to one's identity.
 

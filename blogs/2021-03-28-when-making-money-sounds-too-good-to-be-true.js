@@ -13,7 +13,7 @@ The problem: "The problem is not the price difference but is how you can get the
 
 Promoters focus on gross profit while ignoring actual business expenses — particularly customer acquisition costs. This is the expense that dominates e-commerce economics. It's not a coincidence that Facebook built its entire revenue model around this exact cost.
 
-**What gets hidden in these presentations:**
+<b>What gets hidden in these presentations:</b>
 - Customer acquisition costs (often $30–$100+ per customer in paid advertising)
 - Return rates and refund costs
 - Storage and fulfillment fees

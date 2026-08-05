@@ -9,13 +9,13 @@ window.BLOG_REGISTRY.push({
   excerpt: "Regular writing helps improve self-awareness, emotional well-being, and communication skills. 'The key to a helpful journal is consistency, honesty with oneself, and offloading our minds.'",
   content: `Regular writing helps improve self-awareness, emotional well-being, and communication skills by allowing us to "release negative experiences and move forward with a positive attitude."
 
-**Three journal types:**
+<b>Three journal types:</b>
 
-**Thought journals** — Diaries, blogs, stream-of-consciousness writing.
+<b>Thought journals</b> — Diaries, blogs, stream-of-consciousness writing.
 
-**Experience journals** — Travel, gratitude, nature journals that document the world outside.
+<b>Experience journals</b> — Travel, gratitude, nature journals that document the world outside.
 
-**Self-management journals** — Bullet journals, habit trackers, planning systems.
+<b>Self-management journals</b> — Bullet journals, habit trackers, planning systems.
 
 "The key to a helpful journal is consistency, honesty with oneself, and offloading our minds."
 

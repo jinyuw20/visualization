@@ -11,13 +11,13 @@ window.BLOG_REGISTRY.push({
 
 Four essential components of effective parenting:
 
-**Encouragement** — Helps children overcome obstacles and achieve growth.
+<b>Encouragement</b> — Helps children overcome obstacles and achieve growth.
 
-**Care** — Provides comfort and establishes trust through consistent presence.
+<b>Care</b> — Provides comfort and establishes trust through consistent presence.
 
-**Support** — Offers structure and guidance while allowing independent learning.
+<b>Support</b> — Offers structure and guidance while allowing independent learning.
 
-**Love** — Binds these elements together, creating relationships based on understanding and acceptance.
+<b>Love</b> — Binds these elements together, creating relationships based on understanding and acceptance.
 
 When children grow up in such nurturing environments, they develop into confident individuals who feel valued and capable. They also learn to extend these same qualities to others, fostering a broader cycle of kindness and empathy throughout society.`
 });

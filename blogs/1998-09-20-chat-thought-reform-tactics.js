@@ -11,14 +11,14 @@ window.BLOG_REGISTRY.push({
 
 Eight components are commonly identified:
 
-1. **Isolation** — cutting off the individual from outside perspectives and support.
-2. **Control of information** — determining what the person is allowed to see, hear, or read.
-3. **Induced dependency** — making the individual reliant on the group or authority for basic needs and approval.
-4. **Demand for purity** — setting impossible standards that keep the person perpetually striving and guilty.
-5. **Confession sessions** — extracting personal disclosures that can later be used as leverage.
-6. **Sacred science** — presenting the group's doctrine as absolute truth, beyond question.
-7. **Language loading** — using specialized vocabulary that limits independent thought.
-8. **Doctrine over person** — dismissing personal experience when it conflicts with the group's teachings.
+1. <b>Isolation</b> — cutting off the individual from outside perspectives and support.
+2. <b>Control of information</b> — determining what the person is allowed to see, hear, or read.
+3. <b>Induced dependency</b> — making the individual reliant on the group or authority for basic needs and approval.
+4. <b>Demand for purity</b> — setting impossible standards that keep the person perpetually striving and guilty.
+5. <b>Confession sessions</b> — extracting personal disclosures that can later be used as leverage.
+6. <b>Sacred science</b> — presenting the group's doctrine as absolute truth, beyond question.
+7. <b>Language loading</b> — using specialized vocabulary that limits independent thought.
+8. <b>Doctrine over person</b> — dismissing personal experience when it conflicts with the group's teachings.
 
 These tactics exploit human vulnerabilities — the need for belonging, the desire for clarity during confusion. Understanding them is the first defense.
 

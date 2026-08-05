@@ -9,16 +9,16 @@ window.BLOG_REGISTRY.push({
   excerpt: "Four key areas for professional development in the age of AI: soft skills, professional AI integration, building AI-driven systems, and interdisciplinary exploration.",
   content: `Addressing anxiety about career relevance amid rapid AI advancement: four key areas for professional development.
 
-**Soft Skills**
+<b>Soft Skills</b>
 "Critical thinking, problem-solving, emotional intelligence, leadership, communication, and storytelling" remain valuable despite technological progress. Creating YouTube videos or other public content can strengthen the ability to articulate ideas clearly.
 
-**Professional AI Integration**
+<b>Professional AI Integration</b>
 Explore how artificial intelligence can enhance your specific field — business analytics, healthcare diagnostics, financial services, or creative industries. Rather than fearing obsolescence, integrate.
 
-**Building AI-Driven Systems**
+<b>Building AI-Driven Systems</b>
 Foundational technical knowledge (Python, SQL, software engineering) is essential for those entering tech roles. Even while leveraging AI tools, understanding the foundations enables better use of them.
 
-**Interdisciplinary Exploration**
+<b>Interdisciplinary Exploration</b>
 Emerging fields like quantum computing, robotics, and neuroscience represent future innovation opportunities that intersect with AI development.
 
 Adaptation through strategic skill-building — rather than passive worry about automation — is the available path forward.`

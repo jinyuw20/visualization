@@ -13,7 +13,7 @@ Words trigger sensory and emotional responses — "sour" activates taste, "warm"
 
 Rather than simply calling a meal "delicious," describing it as "warm and comforting" creates a richer experience. Feeling-driven language helps audiences visualize and emotionally engage with content, adding texture and temperature to communication.
 
-**Emotionally grounding vocabulary:**
+<b>Emotionally grounding vocabulary:</b>
 Warm, cozy, safe, reassuring, gentle, calm, soothing, soft, light, peaceful, grounding, steady, supportive, familiar, kindly.
 
 Each word fosters environments where people feel valued and at ease.

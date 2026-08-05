@@ -11,20 +11,20 @@ window.BLOG_REGISTRY.push({
 
 A morning routine means intentional actions taken during the first one to two hours after waking. Routinized mornings increase productivity through focus — the day's direction is set before most challenges arise.
 
-**Three areas an effective morning routine should address:**
+<b>Three areas an effective morning routine should address:</b>
 
-**Health**
+<b>Health</b>
 Incorporate exercise, hydration, and nutritious meals to build positive energy. The body's state shapes the mind's state.
 
-**Daily Preparation**
+<b>Daily Preparation</b>
 Clarify priorities and goals to maintain focus throughout the day. Know what matters before the day's demands begin competing for attention.
 
-**Meaningful Work**
+<b>Meaningful Work</b>
 Dedicate time to important long-term projects that require sustained commitment. These are the things that never get done unless protected by intentional scheduling.
 
-**Success prerequisite:** Prepare a to-do list before bed. This conserves decision-making energy for morning action rather than morning planning.
+<b>Success prerequisite:</b> Prepare a to-do list before bed. This conserves decision-making energy for morning action rather than morning planning.
 
-**A personal morning routine (5:50 AM start):**
+<b>A personal morning routine (5:50 AM start):</b>
 - 20 minutes: hygiene and exercise
 - 20 minutes: self-reflection with tea
 - 90 minutes: learning and blogging

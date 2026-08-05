@@ -11,7 +11,7 @@ window.BLOG_REGISTRY.push({
 
 Life consists of cherishing unique moments, yet this natural tendency pulls us away from them constantly.
 
-**Three memories of genuine presence:**
+<b>Three memories of genuine presence:</b>
 - Watching bamboo curtains dance in summer heat without air conditioning — the specific texture of that particular afternoon
 - Discovering a magazine with the "fresh smell of ink" at a small library — the sensory particularity that makes a moment real
 - Spotting an elegantly dressed woman at a bamboo park on a cold winter day — the surprise of beauty in an ordinary place

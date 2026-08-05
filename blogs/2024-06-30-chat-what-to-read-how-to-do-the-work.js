@@ -13,13 +13,13 @@ An invitation to find peace before starting the day: "Do you feel excited and lo
 
 The book functions as a "practical guide for self-healing, recognizing destructive patterns, processing past trauma, and creating a healthier, more fulfilling life."
 
-**Key practices:**
+<b>Key practices:</b>
 - Self-awareness and mindfulness
 - Journaling
 - Breathwork
 - Nervous system regulation
 
-**Central themes:** Personal accountability, boundary-setting, and holistic wellness.
+<b>Central themes:</b> Personal accountability, boundary-setting, and holistic wellness.
 
 "Healing is not an end state; it is a lifelong journey" — personal growth requires ongoing, consistent effort toward emotional balance and inner peace.`
 });

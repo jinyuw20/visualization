@@ -11,10 +11,10 @@ window.BLOG_REGISTRY.push({
 
 Using Austin Water as an example:
 
-**Cost**
+<b>Cost</b>
 Water conservation is particularly important from mid-November through mid-February. During this three-month winter period, Austin Water estimates usage to calculate the following year's capacity and pricing. Minimizing waste during this window helps avoid inflated annual costs. Using more water than necessary in winter can result in higher charges throughout the entire following year.
 
-**Quality**
+<b>Quality</b>
 Verify water safety by consulting your water quality report, which is publicly available for most municipal utilities. The report confirms the presence or absence of potentially harmful substances, including PFAS, lead levels, and other contaminants.
 
 These reports are typically published annually. Reading yours takes about ten minutes and provides a clear picture of what's actually coming out of your tap.

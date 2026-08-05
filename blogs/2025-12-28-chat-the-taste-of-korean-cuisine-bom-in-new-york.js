@@ -9,16 +9,16 @@ window.BLOG_REGISTRY.push({
   excerpt: "Bōm (봄 = 'spring') — a Michelin-starred Korean restaurant at 17 West 19th Street in New York, nested within Oiji Mi. An interactive U-shaped table around the chef's station, approximately $270/person.",
   content: `Bōm, a Michelin-starred Korean restaurant at 17 West 19th Street in New York City, nested within another Michelin establishment called Oiji Mi. "봄" means spring in Korean, representing "hope and renewal."
 
-**The experience:**
+<b>The experience:</b>
 An interactive U-shaped table arrangement where guests sit around the chef's cooking station, observing culinary preparation firsthand. A Korean BBQ grill at the table's center showcases signature sizzling meat preparation.
 
-**Culinary approach:**
+<b>Culinary approach:</b>
 Luxury ingredients like caviar, Wagyu beef, and truffle combined with traditional Korean cooking methods. Fermented pastes — gochujang (chili paste), doenjang (soybean paste), and ganjang (soy sauce) — create deep umami flavors. Kimchi features prominently.
 
-**Price:** Approximately $270 per person.
+<b>Price:</b> Approximately $270 per person.
 
-**At-home alternative:**
+<b>At-home alternative:</b>
 Purchase A5 Wagyu from warehouse clubs and grill with rice, soybean paste, and caviar. Or explore local Korean restaurants for bibimbap and tofu stew.
 
-**Caviar nutrition:** Rich in omega-3 fatty acids (DHA and EPA) supporting cardiovascular and brain health, plus vitamin B12 and selenium for immune function.`
+<b>Caviar nutrition:</b> Rich in omega-3 fatty acids (DHA and EPA) supporting cardiovascular and brain health, plus vitamin B12 and selenium for immune function.`
 });

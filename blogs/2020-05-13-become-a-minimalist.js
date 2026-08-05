@@ -11,18 +11,18 @@ window.BLOG_REGISTRY.push({
 
 "Quality over quantity" thinking generates contentment by decreasing maintenance demands and avoiding the overthinking that causes unnecessary anxiety.
 
-**Items to minimize:**
+<b>Items to minimize:</b>
 - Living spaces: Remove excess pillows, rugs, and unread books
 - Wardrobes: Eliminate unworn clothing and adopt simple styling
 - Kitchens: Discard expired products and duplicate tools
 - Gifts: Photograph items before donating them; prefer experience-based presents
 - Relationships: Invest time with genuinely supportive people
 
-**Refusal principles:**
+<b>Refusal principles:</b>
 - Practice "one in, one out" purchasing to prevent accumulation
 - Purchase the high-quality first option rather than compromising repeatedly and buying again
 
-**Personal update (2023):**
+<b>Personal update (2023):</b>
 After practicing minimalism since 2022, I recommend completing the 30-day minimalism challenge — dispose of one item on day one, two on day two, and so on, reaching 465 items by month's end. Creating a personal minimal list and consulting theminimalists.com as a resource both help. These practices foster greater inner awareness and personal freedom.
 
 Less stuff, more life.`

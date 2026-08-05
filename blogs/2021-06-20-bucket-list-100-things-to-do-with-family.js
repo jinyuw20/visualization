@@ -13,15 +13,15 @@ The philosophy: bring joy to immediate loved ones rather than focusing solely on
 
 A selection of the 100 activities across categories:
 
-**Adventure:** Hot air balloon rides, skiing, sailing, kayaking, white water rafting
-**Life celebrations:** Graduations, weddings, milestone birthdays
-**Daily joys:** Ice cream outings, watching sunrises, stargazing
-**Travel:** Visiting all 7 continents, staying in castles, exploring national parks
-**Home:** Game nights, cooking together, planting a garden
-**Culture:** Museum visits, concerts, theater performances
-**Challenge:** Running a race together, learning a new skill as a family
-**Service:** Volunteering, helping neighbors, supporting a cause together
-**Food:** Trying international cuisines, dining at a special restaurant
+<b>Adventure:</b> Hot air balloon rides, skiing, sailing, kayaking, white water rafting
+<b>Life celebrations:</b> Graduations, weddings, milestone birthdays
+<b>Daily joys:</b> Ice cream outings, watching sunrises, stargazing
+<b>Travel:</b> Visiting all 7 continents, staying in castles, exploring national parks
+<b>Home:</b> Game nights, cooking together, planting a garden
+<b>Culture:</b> Museum visits, concerts, theater performances
+<b>Challenge:</b> Running a race together, learning a new skill as a family
+<b>Service:</b> Volunteering, helping neighbors, supporting a cause together
+<b>Food:</b> Trying international cuisines, dining at a special restaurant
 
 As of December 2022, I had completed 94 of the 100 activities — 91% completion. Sailing and stargazing were among the most memorable.
 

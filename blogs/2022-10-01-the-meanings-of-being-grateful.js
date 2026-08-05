@@ -11,17 +11,17 @@ window.BLOG_REGISTRY.push({
 
 Gratitude is more than an emotion — it is a practice with multiple dimensions:
 
-**As an Attitude**
+<b>As an Attitude</b>
 Gratefulness involves recognizing inner feelings without demanding external change. Rather than lamenting what's absent, this approach centers on accepting and valuing what already exists. Not toxic positivity — genuine attention to what is present.
 
-**As Self-Reflection**
+<b>As Self-Reflection</b>
 Practicing thankfulness reveals our core values and life priorities. When we feel grateful for a friend's listening ear, we learn we value understanding — and may extend similar compassion to others. What we're grateful for tells us who we are.
 
-**As Expression**
+<b>As Expression</b>
 The University of Pennsylvania's positive psychology initiative encourages writing thank-you notes. Expressing gratitude builds meaningful human connections and acknowledges those who contribute to our happiness. The recipient matters — but so does the act of articulating it.
 
-**As Reminder**
+<b>As Reminder</b>
 Gratitude reconnects us with life's positive elements and what truly matters. When everything feels wrong, the practice of naming what is right recalibrates perspective.
 
-**A challenge:** Identify one thing to appreciate daily over the coming week and observe whether this practice shifts your perspective. The evidence suggests it does.`
+<b>A challenge:</b> Identify one thing to appreciate daily over the coming week and observe whether this practice shifts your perspective. The evidence suggests it does.`
 });

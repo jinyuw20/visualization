@@ -11,13 +11,13 @@ window.BLOG_REGISTRY.push({
 
 Three reasons money is spiritual:
 
-**Emotional spending reflects values**
+<b>Emotional spending reflects values</b>
 Purchases reflect personal values and bring happiness beyond mere functionality. What we spend on reveals what we believe matters.
 
-**Money-making as service**
+<b>Money-making as service</b>
 Financial earnings represent the tangible value and positive impact of one's work. Earning money is not extraction — it's exchange.
 
-**Wealth building through restraint and generosity**
+<b>Wealth building through restraint and generosity</b>
 Accumulating resources by living within means, then sharing with others after meeting personal needs. The spiritual dimension of wealth is not in its accumulation but in how it flows.
 
 Recommended: an interview with Rabbi Daniel Lapin on prosperity and Jewish financial traditions for deeper perspective on money's relationship to meaning.`

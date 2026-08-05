@@ -11,17 +11,17 @@ window.BLOG_REGISTRY.push({
 
 The Wheel of Life framework is a visual assessment tool covering six life dimensions:
 
-**Family** — "Prioritize spending more quality time with our loved ones by planning regular outings or activities."
+<b>Family</b> — "Prioritize spending more quality time with our loved ones by planning regular outings or activities."
 
-**Finance** — Creating budgets to save for significant purchases, supporting values of security and independence.
+<b>Finance</b> — Creating budgets to save for significant purchases, supporting values of security and independence.
 
-**Health** — Committing to exercise and balanced nutrition for physical vitality.
+<b>Health</b> — Committing to exercise and balanced nutrition for physical vitality.
 
-**Work** — Pursuing professional development to enhance skills and satisfaction.
+<b>Work</b> — Pursuing professional development to enhance skills and satisfaction.
 
-**Interests** — Dedicating weekly time to hobbies like journaling or reading.
+<b>Interests</b> — Dedicating weekly time to hobbies like journaling or reading.
 
-**Personal Development** — Continuous learning and self-reflection.
+<b>Personal Development</b> — Continuous learning and self-reflection.
 
 Meaningful goal-setting connects achievements to personal values, making "the journey just as rewarding as the destination when your goals reflect what you truly value."
 

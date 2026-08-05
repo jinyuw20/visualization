@@ -9,20 +9,20 @@ window.BLOG_REGISTRY.push({
   excerpt: "Tea time serves as an opportunity to 'slow down, relax, and find inner peace' — three primary benefits: stress relief, social connection, and health.",
   content: `Tea time is an opportunity to "slow down, relax, and find inner peace" while supporting health priorities and personal reflection.
 
-**Three primary benefits:**
+<b>Three primary benefits:</b>
 
-**Stress Relief & Mindfulness**
+<b>Stress Relief & Mindfulness</b>
 Tea time functions as a meditative practice, allowing individuals to escape daily chaos and cultivate present-moment awareness.
 
-**Social Connection**
+<b>Social Connection</b>
 Tea naturally facilitates meaningful conversations, strengthening relationships and fostering new ideas among friends and family members.
 
-**Health Benefits**
+<b>Health Benefits</b>
 Drawing from traditional Chinese philosophy, tea possesses anti-inflammatory properties, supports digestion, boosts immunity, and calms the mind through its antioxidants and nutrients.
 
 Tea also carries cultural significance — tea rituals worldwide shape cultural identities in ways that extend far beyond the beverage itself.
 
-**Two ideal tea times:**
+<b>Two ideal tea times:</b>
 - A morning break for planning and refreshment
 - A 3 PM social break to restore energy for the remainder of the day`
 });

@@ -9,19 +9,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "A structured monthly review process using five key questions: review the plan, what worked well, challenges, improvement areas, and SMART goal setting for the next month.",
   content: `Reflection is the engine of productivity management. A structured monthly review using five key questions:
 
-**1. Review the Plan**
+<b>1. Review the Plan</b>
 "Reiterate our values and goals, and ensure that the actions and plans are aligned with the objectives."
 
-**2. What Works Well**
+<b>2. What Works Well</b>
 Identify achievements, successful strategies, and factors contributing to productive days versus less productive ones.
 
-**3. Challenges**
+<b>3. Challenges</b>
 Examine obstacles encountered and brainstorm alternative approaches for future situations.
 
-**4. Improvement Areas**
+<b>4. Improvement Areas</b>
 Integrate lessons from both successes and setbacks into upcoming plans.
 
-**5. Goal Setting**
+<b>5. Goal Setting</b>
 Establish new objectives for the coming month using the SMART framework (specific, measurable, achievable, relevant, and time-bound), aligned with quarterly OKRs.
 
 Consistent monthly reflection creates a "cycle of continuous learning, which will help you consistently improve and achieve your goals." The review itself is the compounding mechanism.`

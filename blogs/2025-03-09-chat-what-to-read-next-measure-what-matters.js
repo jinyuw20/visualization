@@ -9,19 +9,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "John Doerr's OKRs (Objectives and Key Results) — a structured goal-setting framework. Key distinction: OKRs push toward significant improvement and innovation; KPIs just track organizational health.",
   content: `John Doerr's *Measure What Matters* introduces OKRs (Objectives and Key Results) as "a structured goal-setting framework" designed to align organizations toward measurable achievement.
 
-**Two components:**
+<b>Two components:</b>
 
-**Objectives** — provide directional clarity.
-**Key Results** — deliver "specific, quantifiable outcomes that indicate progress."
+<b>Objectives</b> — provide directional clarity.
+<b>Key Results</b> — deliver "specific, quantifiable outcomes that indicate progress."
 
 Unlike vague aspirations or task lists, OKRs demand "clear definitions and measurable benchmarks."
 
-**OKRs vs. KPIs:**
+<b>OKRs vs. KPIs:</b>
 KPIs track organizational health. OKRs "push teams toward significant improvement and innovation." This distinction matters: health maintenance versus ambitious advancement.
 
-**CFRs** (Conversations, Feedback, and Recognition) complement OKRs by fostering ongoing growth rather than static evaluations.
+<b>CFRs</b> (Conversations, Feedback, and Recognition) complement OKRs by fostering ongoing growth rather than static evaluations.
 
-**Core principles:** Focus, alignment, commitment, tracking, and stretching.
+<b>Core principles:</b> Focus, alignment, commitment, tracking, and stretching.
 
 OKRs encourage autonomy and agility rather than top-down control — driving meaningful progress in business, social impact, and personal development.`
 });

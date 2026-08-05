@@ -11,10 +11,10 @@ window.BLOG_REGISTRY.push({
 
 Four primary practices for maintaining mental wellness:
 
-**Journaling**
+<b>Journaling</b>
 A therapeutic writing exercise that helps declutter the mind and manage worries by expressing them tangibly.
 
-**Meditation**
+<b>Meditation</b>
 Multiple techniques serve different needs:
 - Concentration meditation (focusing on breath or objects)
 - Transcendental meditation (silent mantra repetition)
@@ -24,10 +24,10 @@ Multiple techniques serve different needs:
 - Body scans (mindful physical awareness)
 - Progressive muscular relaxation (tension relief)
 
-**Visualization**
+<b>Visualization</b>
 Creating mental images to foster relaxation and mentally rehearse desired outcomes.
 
-**Mindfulness**
+<b>Mindfulness</b>
 Maintaining nonjudgmental awareness of thoughts and emotions moment-to-moment, emphasizing present-moment living without judgment.
 
 Each practice serves distinct purposes in enhancing self-awareness and overall well-being.`

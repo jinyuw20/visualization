@@ -9,7 +9,7 @@ window.BLOG_REGISTRY.push({
   excerpt: "Corporate benefits and tax advantages make commuting smarter than most people realize — if you know what to ask for.",
   content: `Commuting costs add up fast. What many people miss is that both employers and the tax code offer real relief — if you know where to look.
 
-**Corporate Benefits**
+<b>Corporate Benefits</b>
 
 Employees using public transit, vanpools, or bicycles may be eligible for company subsidies or pre-tax payment options covering:
 - Transit passes and tickets
@@ -19,7 +19,7 @@ Employees using public transit, vanpools, or bicycles may be eligible for compan
 
 Some employers also provide complimentary electric vehicle charging at the workplace.
 
-**Tax Benefits**
+<b>Tax Benefits</b>
 
 Commute costs can be paid with pre-tax dollars through corporate benefit arrangements, reducing taxable income. Check with your HR or benefits team to see what is available — many employees leave this money on the table simply because they did not ask.
 

@@ -11,7 +11,7 @@ window.BLOG_REGISTRY.push({
 
 The initiative encourages residents to build emergency preparedness kits by temporarily waiving state sales tax on essential disaster-preparation items.
 
-**Items commonly exempted from sales tax:**
+<b>Items commonly exempted from sales tax:</b>
 - Batteries
 - Flashlights
 - Generators
@@ -21,7 +21,7 @@ The initiative encourages residents to build emergency preparedness kits by temp
 
 This holiday makes it more affordable for families to prepare for natural disasters including hurricanes, floods, and wildfires. It also serves as an annual community reminder about proactive emergency planning.
 
-**Why this matters:**
+<b>Why this matters:</b>
 Emergency preparedness is one of those investments that feels unnecessary until the moment it becomes essential. Having supplies on hand before a storm or disaster — not while scrambling during one — makes an enormous difference in outcomes.
 
 For Texas-specific details on qualifying items and dollar limits, check the Texas Comptroller's official information page.`

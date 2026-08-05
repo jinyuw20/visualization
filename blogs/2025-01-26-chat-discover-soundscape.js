@@ -11,7 +11,7 @@ window.BLOG_REGISTRY.push({
 
 These audio experiences are increasingly popular for relaxation, focus, meditation, and sleep. They help listeners "slow down, stay present, and reconnect with your environment — even if you're indoors."
 
-**Where to explore soundscapes:**
+<b>Where to explore soundscapes:</b>
 Spotify, YouTube, Calm, Noisli
 
 A simple tea break can evolve into discovering calming soundscape practices — and these two pair naturally together.`

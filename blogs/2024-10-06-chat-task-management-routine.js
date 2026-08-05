@@ -9,15 +9,15 @@ window.BLOG_REGISTRY.push({
   excerpt: "The Zeigarnik effect: incomplete tasks remain more memorable than finished ones, creating mental stress. A systematic approach to to-do list management removes that burden.",
   content: `The Zeigarnik effect: incomplete tasks remain more memorable than finished ones. This psychological phenomenon creates mental stress, making task management essential for productivity.
 
-**A systematic approach to effective to-do list management:**
+<b>A systematic approach to effective to-do list management:</b>
 
-- **Initial filtering:** Use the 5-minute rule — complete quick tasks immediately, or capture longer ones for later
-- **Task breakdown:** Divide larger projects into smaller, manageable steps
-- **Prioritization:** Rank tasks by importance and schedule high-priority work during peak performance times
-- **Task batching:** Group similar activities to minimize mental switching costs
-- **Daily reviews:** Establish routines to set morning goals and reflect on evening accomplishments
-- **Focus limitation:** Aim to complete 3-5 tasks daily to prevent overwhelm
-- **Time blocking:** Transfer the to-do list to a calendar for structured scheduling
+- <b>Initial filtering:</b> Use the 5-minute rule — complete quick tasks immediately, or capture longer ones for later
+- <b>Task breakdown:</b> Divide larger projects into smaller, manageable steps
+- <b>Prioritization:</b> Rank tasks by importance and schedule high-priority work during peak performance times
+- <b>Task batching:</b> Group similar activities to minimize mental switching costs
+- <b>Daily reviews:</b> Establish routines to set morning goals and reflect on evening accomplishments
+- <b>Focus limitation:</b> Aim to complete 3-5 tasks daily to prevent overwhelm
+- <b>Time blocking:</b> Transfer the to-do list to a calendar for structured scheduling
 
 "A to-do list can become a powerful tool for enhancing productivity, reducing stress, and keeping you focused on what matters most." The system captures the open loops so your brain doesn't have to hold them.`
 });

@@ -11,7 +11,7 @@ window.BLOG_REGISTRY.push({
 
 Psychologists attribute this to "memory glitches in the brain, where it mistakenly interprets a new experience as familiar." This can result from brief processing errors or partial recollection of comparable past events.
 
-**The dream connection:**
+<b>The dream connection:</b>
 Déjà vu often connects to dreams. People frequently experience this sensation during moments resembling previous dreams, blurring boundaries between actual memory and imagination. The brain stores dreams and real memories similarly, strengthening the familiarity sensation.
 
 Déjà vu doesn't predict future events — but it prompts curiosity and introspection, leading people to wonder if their dreams foreshadow reality. The mystery adds texture to everyday experiences.`

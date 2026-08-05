@@ -9,7 +9,7 @@ window.BLOG_REGISTRY.push({
   excerpt: "From Brianna Wiest: 'Set goals to enjoy what you have, not to chase what you don't have.' Enjoyable experiences don't require spending money.",
   content: `From Brianna Wiest's "101 Essays That Will Change The Way You Think": "Set goals to enjoy what you have, not to chase what you don't have."
 
-**Cost-free activities that genuinely satisfy:**
+<b>Cost-free activities that genuinely satisfy:</b>
 
 - Borrowing books from libraries
 - Walking outdoors (or using a walking pad indoors if weather or allergies interfere)

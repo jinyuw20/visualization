@@ -9,19 +9,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "August is National Water Quality Month. Practical steps: clean up after pets, properly dispose of medications, paint, oil, batteries, and chemicals — never pour them down drains.",
   content: `August is National Water Quality Month. Practical steps for maintaining water quality:
 
-**Proper pet cleanup** — Clean up after pets to prevent runoff contamination.
+<b>Proper pet cleanup</b> — Clean up after pets to prevent runoff contamination.
 
-**Medication disposal:** Mix with unappealing substances like coffee grounds before sealing in a bag and throwing in the trash. Never flush.
+<b>Medication disposal:</b> Mix with unappealing substances like coffee grounds before sealing in a bag and throwing in the trash. Never flush.
 
-**Paint disposal:** Let latex paint dry before disposal. Take oil-based paint to hazardous waste facilities.
+<b>Paint disposal:</b> Let latex paint dry before disposal. Take oil-based paint to hazardous waste facilities.
 
-**Oil, antifreeze, batteries:** Take to recycling centers.
+<b>Oil, antifreeze, batteries:</b> Take to recycling centers.
 
-**Electronics:** Require e-waste facilities.
+<b>Electronics:</b> Require e-waste facilities.
 
-**Home maintenance:** Maintain home water and wastewater lines to prevent leaks.
+<b>Home maintenance:</b> Maintain home water and wastewater lines to prevent leaks.
 
-**Fertilizers:** Use phosphorus-free options to prevent algae blooms in water sources.
+<b>Fertilizers:</b> Use phosphorus-free options to prevent algae blooms in water sources.
 
 Never pour chemicals down drains. Check local disposal guidelines — they vary by municipality.`
 });

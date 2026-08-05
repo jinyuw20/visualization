@@ -11,7 +11,7 @@ window.BLOG_REGISTRY.push({
 
 The series chronicles "his learning with a Yaqui Indian from northern Mexico" — beginning with foundational teachings and progressing through advanced shamanic concepts.
 
-**The twelve works in order:**
+<b>The twelve works in order:</b>
 1. *The Teachings of Don Juan* (1968) — lessons from 1960–1965
 2. *A Separate Reality* (1971)
 3. *Journey to Ixtlan* (1972)

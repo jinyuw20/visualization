@@ -11,11 +11,11 @@ window.BLOG_REGISTRY.push({
 
 Three ways to create a sense of accomplishment when external circumstances are not cooperating:
 
-**Exercise.** Physical activity produces visible, measurable results that belong entirely to you. A run completed, a weight lifted, a distance covered — no one can take those from you. Organizing your living space works the same way: it is fully within your control and offers tangible, immediate progress.
+<b>Exercise.</b> Physical activity produces visible, measurable results that belong entirely to you. A run completed, a weight lifted, a distance covered — no one can take those from you. Organizing your living space works the same way: it is fully within your control and offers tangible, immediate progress.
 
-**Expand your options.** Fixating on one path that is not working compounds the frustration. Exploring alternative activities and interests opens unexpected opportunities and keeps momentum alive.
+<b>Expand your options.</b> Fixating on one path that is not working compounds the frustration. Exploring alternative activities and interests opens unexpected opportunities and keeps momentum alive.
 
-**Set realistic goals.** Establish objectives you can actually reach, track your advancement, and acknowledge incremental victories along the way. Progress recognized, however small, builds the confidence to continue.
+<b>Set realistic goals.</b> Establish objectives you can actually reach, track your advancement, and acknowledge incremental victories along the way. Progress recognized, however small, builds the confidence to continue.
 
 A feeling of accomplishment does not always come from the place you expected it. Sometimes you have to build it somewhere else first.`
 });

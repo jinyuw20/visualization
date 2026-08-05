@@ -9,16 +9,16 @@ window.BLOG_REGISTRY.push({
   excerpt: "Since 2017, adopting minimalist principles has eliminated the need for strict budgeting — four key strategies: selective purchasing, values-aligned spending, intentional decisions, automated investing.",
   content: `Since 2017, minimalist principles have replaced strict budgeting. Four key strategies:
 
-**Selective Purchasing**
+<b>Selective Purchasing</b>
 "Only Buy What is Truly Needed" — maintaining high-quality essentials that last longer and get fully utilized eliminates the constant replacement cycle.
 
-**Values-Aligned Spending**
+<b>Values-Aligned Spending</b>
 Redirect money toward basic needs, genuine happiness, and experiences rather than status-seeking purchases.
 
-**Intentional Decisions**
+<b>Intentional Decisions</b>
 Use a "cooling-off" period before any purchase to distinguish genuine needs from impulse desires. The pause is the filter.
 
-**Automated Investing**
+<b>Automated Investing</b>
 Consistently allocate income portions for wealth accumulation without needing to decide each time.
 
 By maintaining the principle of spending less than earned, individuals can redirect time away from budget tracking toward more fulfilling activities. Financial health through lifestyle choices rather than meticulous expense monitoring.`

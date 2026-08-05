@@ -13,7 +13,7 @@ Visual elements — including color schemes, imagery, diagrams, and data charts 
 
 Part of an ongoing series with 105 discussions on visualization methods, focusing particularly on creating and interpreting data visualizations.
 
-**Three key discussion areas:**
+<b>Three key discussion areas:</b>
 - Color palettes and their psychological effects
 - Presentation techniques from Harvard Business Review
 - Methods for displaying group distribution

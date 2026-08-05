@@ -9,24 +9,24 @@ window.BLOG_REGISTRY.push({
   excerpt: "A curated list of free digital resources worth keeping bookmarked — for reading, research, security, and media.",
   content: `A collection of free resources worth knowing about:
 
-**Reading and Book Summaries**
+<b>Reading and Book Summaries</b>
 - Z-Library — free book downloads
 - Blinkist Daily — one free summary per day
 - Quick Read — high-quality summaries with professional narration, roughly 15–20 minutes each
 - LibGen — magazines and academic papers
 - Sci-Hub — research papers via URL paste
 
-**Personality and Self-Knowledge**
+<b>Personality and Self-Knowledge</b>
 - 16Personalities — free personality assessment
 
-**Problem Solving**
+<b>Problem Solving</b>
 - WolframAlpha — mathematical and computational queries
 
-**Security**
+<b>Security</b>
 - Have I Been Pwned — checks whether your email or phone has been compromised in a data breach
 - AlternativeTo — find substitute apps and services
 
-**Free Images and Video**
+<b>Free Images and Video</b>
 - Unsplash — high-quality photography
 - Pixabay — images, videos, and illustrations
 - Pexels — photos and footage

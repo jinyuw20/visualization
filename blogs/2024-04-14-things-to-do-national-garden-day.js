@@ -11,7 +11,7 @@ window.BLOG_REGISTRY.push({
 
 Gardening offers multiple benefits: fostering nature connections, supporting mental wellness, and providing hands-on horticultural engagement.
 
-**Three ways to participate:**
+<b>Three ways to participate:</b>
 
 1. Visit a local plant nursery and spend time gardening
 2. Read gardening-related literature

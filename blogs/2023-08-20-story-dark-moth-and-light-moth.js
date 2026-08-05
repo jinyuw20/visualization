@@ -9,7 +9,7 @@ window.BLOG_REGISTRY.push({
   excerpt: "Leon Megginson: 'It is not the strongest of the species that survives, but the one that is able best to adapt and adjust to the changing environment.' The peppered moth story shows this in action.",
   content: `Leon Megginson: "It is not the most intellectual of the species that survives; it is not the strongest that survives; but the species that survives is the one that is able best to adapt and adjust to the changing environment in which it finds itself."
 
-**The peppered moth story — from *Super Thinking*:**
+<b>The peppered moth story — from *Super Thinking*:</b>
 
 Before industrialization in Manchester, England, peppered moths were predominantly light-colored. They used pale tree bark as camouflage against predators. The first dark moth appeared in records from 1811, though concrete evidence didn't emerge until 1848, when dark moths represented just 0.01% of the population.
 

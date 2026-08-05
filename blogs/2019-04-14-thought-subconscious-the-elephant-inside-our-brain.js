@@ -13,11 +13,11 @@ The unconscious mind absorbs information from early life, establishing foundatio
 
 Key aspects of the subconscious include:
 
-**Unconscious biases** — judgments about others based on characteristics like race and gender that persist despite conscious awareness and intention to be fair.
+<b>Unconscious biases</b> — judgments about others based on characteristics like race and gender that persist despite conscious awareness and intention to be fair.
 
-**Emotional memory** — "emotional experiences are intricately connected to the subconscious," with unresolved past emotions resurfacing to influence present reactions in ways that can feel disproportionate or mysterious.
+<b>Emotional memory</b> — "emotional experiences are intricately connected to the subconscious," with unresolved past emotions resurfacing to influence present reactions in ways that can feel disproportionate or mysterious.
 
-**Access and influence** — we can intentionally engage our subconscious through self-evaluation, recognizing biases, managing sleep patterns, and using prayer or visualization.
+<b>Access and influence</b> — we can intentionally engage our subconscious through self-evaluation, recognizing biases, managing sleep patterns, and using prayer or visualization.
 
 Kevin Simler and Robin Hanson's "The Elephant in the Brain" and Neville Goddard's "Feeling Is The Secret" both offer frameworks for understanding and working with these deeper layers of mind.
 

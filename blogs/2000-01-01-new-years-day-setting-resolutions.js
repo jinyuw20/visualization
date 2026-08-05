@@ -11,10 +11,10 @@ window.BLOG_REGISTRY.push({
 
 Globally, people commemorate January 1st through distinctive festivals and observances. Two of the most celebrated:
 
-**London New Year's Day Parade**
+<b>London New Year's Day Parade</b>
 Among the UK's most significant New Year celebrations, this parade traverses central London displaying ornate floats, performance ensembles, dancers, and musicians.
 
-**Sydney New Year's Eve Fireworks**
+<b>Sydney New Year's Eve Fireworks</b>
 One of the Southern Hemisphere's most spectacular celebrations — elaborate floats, energetic performers, giant balloons, luminescent displays, and a remarkable pyrotechnic show drawing massive crowds.
 
 Whether watching a parade or engaging in quieter cultural festivities, embrace the atmosphere. May the year bring advancement, happiness, and remarkable moments.`

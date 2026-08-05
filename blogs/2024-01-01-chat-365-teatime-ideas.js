@@ -9,16 +9,16 @@ window.BLOG_REGISTRY.push({
   excerpt: "An annual collection of 365 fifteen-minute tea break activities — each designed to promote relaxation and mindfulness across time management, energy, physical wellness, mental health, social connection, and financial awareness.",
   content: `365 fifteen-minute tea break activities designed to promote relaxation and mindfulness. "Tea time ritual allows for a moment of calm, fostering mindfulness and reducing anxiety" — positioning daily tea breaks as wellness anchors paired with intentional lifestyle habits.
 
-**Categories covered:**
+<b>Categories covered:</b>
 
-**Time management** — to-do lists, scheduling reviews
-**Energy** — morning sunbathing before 10 a.m. for health benefits, organizing workspaces
-**Physical wellness** — indoor running, walks, yoga, brief exercise sessions and stretching
-**Mental health** — reading, meditation, journaling
-**Social connection** — messaging friends, video calls
-**Financial awareness** — expense reviews
+<b>Time management</b> — to-do lists, scheduling reviews
+<b>Energy</b> — morning sunbathing before 10 a.m. for health benefits, organizing workspaces
+<b>Physical wellness</b> — indoor running, walks, yoga, brief exercise sessions and stretching
+<b>Mental health</b> — reading, meditation, journaling
+<b>Social connection</b> — messaging friends, video calls
+<b>Financial awareness</b> — expense reviews
 
-**Notable activities include:**
+<b>Notable activities include:</b>
 - Plant care and gardening
 - Creative pursuits: sketching, crafting, photography
 - Board games, stargazing, museum visits

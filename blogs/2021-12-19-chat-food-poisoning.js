@@ -13,7 +13,7 @@ Jim Rohn: "Take care of your body. It's the only place you have to live."
 
 Food poisoning can arrive quickly and without warning. The causes are familiar — contaminated, spoiled, undercooked, or toxic foods — but easy to overlook in daily life when we move fast and eat carelessly.
 
-**Common risks worth keeping in mind:**
+<b>Common risks worth keeping in mind:</b>
 - Foods left out of refrigeration too long
 - Undercooked proteins (poultry, eggs, ground meat)
 - Cross-contamination between raw and cooked foods

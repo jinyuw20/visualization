@@ -9,11 +9,11 @@ window.BLOG_REGISTRY.push({
   excerpt: "The Federal Reserve defines opportunity cost as 'the value of the next-best alternative when a decision is made; it's what is given up.' Every choice has one.",
   content: `Economic concepts can illuminate everyday decision-making in ways that formal training rarely makes accessible.
 
-**Opportunity cost:** "The value of the next-best alternative when a decision is made; it's what is given up." — Federal Reserve
+<b>Opportunity cost:</b> "The value of the next-best alternative when a decision is made; it's what is given up." — Federal Reserve
 
 Every choice has one. When you choose something, you are simultaneously declining everything else you could have chosen with that time or money.
 
-**Examples from daily life:**
+<b>Examples from daily life:</b>
 
 Sacrificing 15 minutes of sleep to prepare coffee carefully is a choice. The 15 minutes of sleep was the opportunity cost. Whether the trade was worth it depends on your values — but understanding that you made a trade at all is the point.
 

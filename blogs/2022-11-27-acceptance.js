@@ -11,15 +11,15 @@ window.BLOG_REGISTRY.push({
 
 "To take action, we must first face reality."
 
-**Three key areas of acceptance:**
+<b>Three key areas of acceptance:</b>
 
-**Life's unpredictability**
+<b>Life's unpredictability</b>
 External circumstances are rarely within our control. Fighting this fact wastes energy. Acknowledging it frees attention for what can actually be influenced.
 
-**Personal imperfection**
+<b>Personal imperfection</b>
 Struggling with something — a non-native language, an unfamiliar skill, a difficult relationship — does not prevent finding happiness and accomplishing meaningful work. The limitation is real. It is also not the final word.
 
-**The consequences of our decisions**
+<b>The consequences of our decisions</b>
 Every choice has consequences. Accepting this, rather than seeking to escape it, creates ownership. Ownership creates agency.
 
 "Perfection is simply an illusion."

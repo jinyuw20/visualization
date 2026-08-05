@@ -11,10 +11,10 @@ window.BLOG_REGISTRY.push({
 
 The video covers "15 design trends" with visual examples and explanations of the underlying aesthetic principles behind each style.
 
-**Why this matters for AI tools:**
+<b>Why this matters for AI tools:</b>
 Familiarizing yourself with these design style names significantly improves results when using AI-generated creative tools like ChatGPT, Midjourney, or similar platforms. When you can name a design style precisely — "brutalist," "Swiss International," "neo-baroque" — you can direct AI tools with much greater specificity and get results that match your actual vision.
 
-**Recommendations:**
+<b>Recommendations:</b>
 - Watch the video to understand each design trend and its underlying meaning, not just its appearance
 - Learn the descriptive terminology to enhance creative expression in prompts
 - Apply this vocabulary for better design project outcomes with AI assistance

@@ -11,16 +11,16 @@ window.BLOG_REGISTRY.push({
 
 Zen philosophy offers a practical approach to daily life — not as escape or mysticism, but as a way of being fully present in the ordinary.
 
-**Accept**
+<b>Accept</b>
 Embrace life's transient nature and release self-centered desires to respect reality as it unfolds. Acceptance is not resignation — it is clarity about what is actually happening.
 
-**Focus**
+<b>Focus</b>
 Direct your attention to a single meaningful task rather than letting your mind wander between past regrets and future anxieties. The person you aspire to become is found in how you handle this moment.
 
-**Simplify**
+<b>Simplify</b>
 Reduce external complexity and possessions to achieve greater inner peace. Less to manage means more attention for what matters.
 
-**Persist**
+<b>Persist</b>
 Establish daily rituals and habits that reduce decision fatigue and prevent overthinking. Consistency is its own form of wisdom.
 
 Zen ultimately means embracing simplicity, peace, and moving beyond materialism to discover hidden joy in everyday moments. The path is ordinary — it is the attention you bring that makes it extraordinary.`

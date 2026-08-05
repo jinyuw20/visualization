@@ -13,7 +13,7 @@ This repetitive approach serves a strategic purpose. Changing reader perspective
 
 Persistent repetition challenges thinking patterns until readers experience an "aha" moment when new ideas finally click into place.
 
-**A practical insight:** Understanding a book's central message allows readers to complete it more quickly, as the essential content remains constant across chapters presented from different narrative angles. Once you've found the core argument, the subsequent chapters are variations — valuable, but readable faster.
+<b>A practical insight:</b> Understanding a book's central message allows readers to complete it more quickly, as the essential content remains constant across chapters presented from different narrative angles. Once you've found the core argument, the subsequent chapters are variations — valuable, but readable faster.
 
 Books repeat because changing minds is hard. The repetition is not padding; it's the method.`
 });

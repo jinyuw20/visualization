@@ -9,17 +9,17 @@ window.BLOG_REGISTRY.push({
   excerpt: "Dale Carnegie's nearly 60-year-old classic continues to influence modern relationship literature. Every follow-up book repeats his suggestions — each version helps different readers find their 'enlightenment moment.'",
   content: `Dale Carnegie's "How to Win Friends and Influence People" continues to influence modern relationship literature after nearly 60 years. Many follow-up books repeat Carnegie's suggestions, but each version helps different readers find their "enlightenment moment."
 
-**Key principles for building meaningful connections:**
+<b>Key principles for building meaningful connections:</b>
 
-**Genuine Interest** — "people always like themselves much better than anybody else," so demonstrating authentic curiosity about others builds rapport more reliably than being interesting yourself.
+<b>Genuine Interest</b> — "people always like themselves much better than anybody else," so demonstrating authentic curiosity about others builds rapport more reliably than being interesting yourself.
 
-**Acceptance** — Avoid imposing your values on people. Listen and observe to help others feel valued.
+<b>Acceptance</b> — Avoid imposing your values on people. Listen and observe to help others feel valued.
 
-**Sincerity and Kindness** — Practice empathy, gratitude, and forgiveness. Positive treatment typically generates reciprocal responses.
+<b>Sincerity and Kindness</b> — Practice empathy, gratitude, and forgiveness. Positive treatment typically generates reciprocal responses.
 
-**Perspective-Taking** — Consider others' viewpoints and interests during conversations.
+<b>Perspective-Taking</b> — Consider others' viewpoints and interests during conversations.
 
-**Integrity** — Follow through on commitments and acknowledge mistakes honestly.
+<b>Integrity</b> — Follow through on commitments and acknowledge mistakes honestly.
 
 The principles are simple. Applying them consistently is not.`
 });

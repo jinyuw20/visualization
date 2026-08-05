@@ -13,7 +13,7 @@ The narrative traces the author's relationship with TV from childhood in a count
 
 A memorable moment: watching shows on the family's first black-and-white television, and the discovery of a neighbor's color TV revealing a favorite cartoon character in vivid hues — a poignant reminder that "we can't always have what we want."
 
-**Modern consumption:**
+<b>Modern consumption:</b>
 Video media now pervades every device: smartphones, tablets, and computers. The author watches approximately six to seven hours of video content daily and uses videos to maintain connections with distant family members. Despite investing heavily in a high-end television years ago, large screens are no longer luxury items.
 
 Television transcends its physical form; it represents a gateway to stories and human connection.

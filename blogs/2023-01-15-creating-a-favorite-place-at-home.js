@@ -11,7 +11,7 @@ window.BLOG_REGISTRY.push({
 
 It functions as a retreat for creative pursuits and personal reflection — but only works when I leave it regularly for meaningful activities like socializing and outdoor time.
 
-**Sixteen practical recommendations for creating a personal sanctuary:**
+<b>Sixteen practical recommendations for creating a personal sanctuary:</b>
 
 1. Maintain cleanliness and organization — clutter competes for attention
 2. Optimize lighting — natural light where possible, warm artificial light where not

@@ -9,7 +9,7 @@ window.BLOG_REGISTRY.push({
   excerpt: "People aren't defined by their emotions — but understanding what each emotion signals gives us valuable self-knowledge rather than letting feelings control behavior.",
   content: `People aren't defined by their emotions — but understanding what each emotion signals gives us valuable self-knowledge rather than letting feelings control behavior.
 
-**What emotions tell us:**
+<b>What emotions tell us:</b>
 - Anger indicates violated values or boundaries
 - Sorrow reflects loss or grief
 - Happiness shows fulfilled desires
@@ -17,11 +17,11 @@ window.BLOG_REGISTRY.push({
 - Anxiety warns of potential loss
 - Jealousy stems from unmet wants
 
-**Managing emotions effectively:**
+<b>Managing emotions effectively:</b>
 
-**Journaling and catharsis** — Writing down emotions, their causes, and intended responses prevents burdening others and allows processing without suppression. Externalizing an emotion reduces its grip.
+<b>Journaling and catharsis</b> — Writing down emotions, their causes, and intended responses prevents burdening others and allows processing without suppression. Externalizing an emotion reduces its grip.
 
-**Focus switching** — Redirecting attention can divert from tension while maintaining emotional awareness. Not avoidance — deliberate redirection.
+<b>Focus switching</b> — Redirecting attention can divert from tension while maintaining emotional awareness. Not avoidance — deliberate redirection.
 
 Daniel Goleman's five self-regulation competencies provide a useful framework: self-control, trustworthiness, conscientiousness, adaptability, and innovation.
 

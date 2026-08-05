@@ -9,15 +9,15 @@ window.BLOG_REGISTRY.push({
   excerpt: "Reading comprehension provides a competitive advantage. 'Few people read' — those who do are ahead of 80% of the population. Four examples where reading matters.",
   content: `Reading comprehension provides a competitive advantage. "Few people read" — and those who do are "ahead of 80% of the population."
 
-**Four practical examples where reading makes the difference:**
+<b>Four practical examples where reading makes the difference:</b>
 
-**Game Instructions** — Understanding complete Monopoly rules enhances gameplay and winning potential. Most people play by folk rules.
+<b>Game Instructions</b> — Understanding complete Monopoly rules enhances gameplay and winning potential. Most people play by folk rules.
 
-**App Privacy Policies** — Users often unknowingly surrender significant rights by not reading terms they agree to.
+<b>App Privacy Policies</b> — Users often unknowingly surrender significant rights by not reading terms they agree to.
 
-**Food Labels** — "Organic" products frequently contain non-organic ingredients, and "healthy" foods often have excessive sugar and calories that become apparent only upon checking serving sizes.
+<b>Food Labels</b> — "Organic" products frequently contain non-organic ingredients, and "healthy" foods often have excessive sugar and calories that become apparent only upon checking serving sizes.
 
-**Consultant Proposals** — Fine print containing assumptions and conditions forms the foundation of professional conclusions and warrants careful attention.
+<b>Consultant Proposals</b> — Fine print containing assumptions and conditions forms the foundation of professional conclusions and warrants careful attention.
 
 Reading demands effort. Its practical benefits are proportional to that effort — and to how few other people bother.`
 });

@@ -11,16 +11,16 @@ window.BLOG_REGISTRY.push({
 
 Rather than constantly comparing oneself to others or seeking approval, accepting personal limits allows for greater peace. This is not resignation — it is clarity.
 
-**Setting right expectations**
+<b>Setting right expectations</b>
 Stop measuring your life against others' highlight reels. Your circumstances, timeline, and purpose are genuinely different. Expectations calibrated to your actual life produce more satisfaction than those borrowed from someone else's.
 
-**Preparation**
+<b>Preparation</b>
 Drawing from maternal wisdom: plan ahead — prepare weekly meals, organize daily priorities, and learn before major undertakings. Preparation is not anxiety; it is respect for the future version of yourself who will deal with what you set up today.
 
-**Quality time**
+<b>Quality time</b>
 Reconnect with loved ones through relaxed conversations and laughter. These moments matter most — often more than the achievements and acquisitions we spend so much energy pursuing.
 
-**Healthy boundaries**
+<b>Healthy boundaries</b>
 Balancing care for others with self-respect is crucial. "Smile, but don't smile too much. Help but don't help unless there is a need." Boundaries protect energy for what deserves it.
 
 *Real Simple* magazine and *The Minimalists* offer inspiration for this philosophy of intentional, uncomplicated living.

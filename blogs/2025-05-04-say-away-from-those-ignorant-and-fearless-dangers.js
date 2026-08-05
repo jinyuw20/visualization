@@ -9,13 +9,13 @@ window.BLOG_REGISTRY.push({
   excerpt: "An elderly woman at Zion National Park ignored safety recommendations, forgoing proper footwear and walking sticks — then fell and required rescue. Ignorance of danger poses greater risk than the danger itself.",
   content: `Parental responsibility for child safety during risky activities, through several cautionary scenarios:
 
-**Skiing:** Children lacking proper technique and equipment knowledge from insufficient instruction caused accidents.
+<b>Skiing:</b> Children lacking proper technique and equipment knowledge from insufficient instruction caused accidents.
 
-**Motorboat:** Allowing children on a motorboat without professional guidance resulted in a collision and $1,200 in damages.
+<b>Motorboat:</b> Allowing children on a motorboat without professional guidance resulted in a collision and $1,200 in damages.
 
-**Zion National Park:** An elderly woman ignored safety recommendations, forgoing proper footwear and walking sticks. She subsequently fell, sustained serious injuries, and required rescue assistance in difficult mountain conditions.
+<b>Zion National Park:</b> An elderly woman ignored safety recommendations, forgoing proper footwear and walking sticks. She subsequently fell, sustained serious injuries, and required rescue assistance in difficult mountain conditions.
 
-**The positive contrast:** Renting proper equipment for a water trail hike made the experience safe and enjoyable.
+<b>The positive contrast:</b> Renting proper equipment for a water trail hike made the experience safe and enjoyable.
 
 The central message: ignorance of danger poses greater risk than the danger itself.
 

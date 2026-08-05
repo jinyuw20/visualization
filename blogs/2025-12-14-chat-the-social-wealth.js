@@ -11,13 +11,13 @@ window.BLOG_REGISTRY.push({
 
 Robin Dunbar's research: people can maintain approximately 150 meaningful relationships, categorized as "5 close friends, 5 good friends, 50 acquaintances, and up to 150 social circle."
 
-**MiniContacts** offers pre-built Dunbar tags for organizing contacts by relationship type — a practical tool for managing these circles intentionally.
+<b>MiniContacts</b> offers pre-built Dunbar tags for organizing contacts by relationship type — a practical tool for managing these circles intentionally.
 
-**Benefits by life stage:**
+<b>Benefits by life stage:</b>
 - Professionals gain "fresh perspectives, career opportunities" from diverse networks
 - Retirees find that strong social bonds serve as a "longevity pill"
 
-**The Dunbar audit:**
+<b>The Dunbar audit:</b>
 1. List regular contacts
 2. Tag them by Dunbar category
 3. Evaluate relationship quality

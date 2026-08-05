@@ -11,7 +11,7 @@ window.BLOG_REGISTRY.push({
 
 Exercise options include brisk walks, cycling, or gym sessions — the specific activity matters less than the consistency.
 
-**Benefits of daily 30-minute exercise:**
+<b>Benefits of daily 30-minute exercise:</b>
 - Improved cardiovascular function
 - Enhanced sleep quality
 - Greater mental sharpness

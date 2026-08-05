@@ -13,7 +13,7 @@ Mindfulness in daily tasks is essential to living a meaningful life — and, as 
 
 Scammers exploit human carelessness by sending fraudulent emails with subtle variations — changing one letter in a corporate email address. Email display settings that hide the actual address behind a display name make these deceptions harder to spot.
 
-**What to do:**
+<b>What to do:</b>
 - Disable display name settings that hide the actual sender email address
 - Scrutinize unusual requests carefully, especially those involving money or credentials
 - When an email request feels off — even slightly — verify through a separate channel before acting

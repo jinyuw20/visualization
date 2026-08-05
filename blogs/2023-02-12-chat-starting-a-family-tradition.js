@@ -15,7 +15,7 @@ These practices reinforce shared values. They signal to everyone involved: we ar
 
 During demanding times, people often give family members "our leftovers rather than our best." We arrive home tired from work and depleted from the day's demands. Intentional traditions help counter this tendency by protecting dedicated family time before it gets consumed by everything else.
 
-**Occasions worth marking:**
+<b>Occasions worth marking:</b>
 - Mother's Day and Father's Day outings
 - Annual birthday celebrations
 - Thanksgiving as a full family gathering

@@ -13,15 +13,15 @@ window.BLOG_REGISTRY.push({
 
 The primary value is fostering creativity through idea recycling and unconventional connections. When ideas are externalizedinstead of left in memory, they can be combined, compared, and built upon in ways mental storage doesn't allow.
 
-**The framework:**
-- **Track knowledge** — capture what you read, hear, and think in a consistent system
-- **Reflect on thoughts** — review and add context to raw notes over time
-- **Organize opinions** — distinguish between what you've absorbed and what you actually believe
-- **Link concepts** — connect related ideas across topics and time
+<b>The framework:</b>
+- <b>Track knowledge</b> — capture what you read, hear, and think in a consistent system
+- <b>Reflect on thoughts</b> — review and add context to raw notes over time
+- <b>Organize opinions</b> — distinguish between what you've absorbed and what you actually believe
+- <b>Link concepts</b> — connect related ideas across topics and time
 
-**Practice:** Revisit the repository before starting new projects to spark inspiration and innovative thinking. The second brain pays dividends when you can access your own past thinking rather than starting from zero.
+<b>Practice:</b> Revisit the repository before starting new projects to spark inspiration and innovative thinking. The second brain pays dividends when you can access your own past thinking rather than starting from zero.
 
-**Resources:**
+<b>Resources:</b>
 - *Build a Second Brain* (2020) by Tiago Forte
 - YouTube: "The Second Brain - A Life-Changing Productivity System" (2020)
 - Forte Labs Blog

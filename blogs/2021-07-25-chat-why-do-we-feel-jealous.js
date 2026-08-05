@@ -11,18 +11,18 @@ window.BLOG_REGISTRY.push({
 
 From "101 Essays That Will Change the Way You Think": "The things you hate about others are the things you cannot see in yourself." Jealousy connects to insufficient self-confidence — it is often a mirror, not a complaint about someone else.
 
-**Four strategies that help:**
+<b>Four strategies that help:</b>
 
-1. **Practice appreciation**
+1. <b>Practice appreciation</b>
 Recognize existing blessings — good health, family safety, the resources you already have. Self-approval meditation can help shift attention from what's missing to what's present.
 
-2. **Establish realistic goals**
+2. <b>Establish realistic goals</b>
 Pursue concrete action rather than mere wishing. Jealousy thrives in the gap between wanting and doing. Movement closes that gap.
 
-3. **Celebrate others' achievements**
+3. <b>Celebrate others' achievements</b>
 Reframe others' success as a contribution to society rather than a subtraction from your share. Collaboration and competition are both choices.
 
-4. **Recognize your own purpose**
+4. <b>Recognize your own purpose</b>
 Each life carries unique purpose and individual challenges worth appreciating. Someone else's success exists in a context you don't fully see.
 
 Jealousy signals something we want but haven't pursued. That information is worth having — not the feeling itself, but what it points to.`

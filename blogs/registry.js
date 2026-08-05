@@ -89,15 +89,15 @@ window.BLOG_REGISTRY.push({
 
 Here are five thoughts on embracing yourself fully:
 
-**Stop the comparison game.** Measuring yourself against others' best qualities is a losing exercise. Instead of comparing yourself to others, evaluate your own progress.
+<b>Stop the comparison game.</b> Measuring yourself against others' best qualities is a losing exercise. Instead of comparing yourself to others, evaluate your own progress.
 
-**No one is perfect.** Perfection isn't an achievable destination. Individuals continually evolve through experiences, both positive and negative. Treat yourself with the same compassion you would offer a close friend.
+<b>No one is perfect.</b> Perfection isn't an achievable destination. Individuals continually evolve through experiences, both positive and negative. Treat yourself with the same compassion you would offer a close friend.
 
-**Define yourself by who you are.** True identity stems from thoughts, actions, and communication — not external markers like job titles, possessions, or appearance. Internal qualities define authentic selfhood.
+<b>Define yourself by who you are.</b> True identity stems from thoughts, actions, and communication — not external markers like job titles, possessions, or appearance. Internal qualities define authentic selfhood.
 
-**It's okay to live without a plan.** While planning has its place, living rigidly by schedules and goals isn't necessary. Occasionally embracing spontaneity — watching a film randomly, taking an unplanned outing — can bring unexpected happiness.
+<b>It's okay to live without a plan.</b> While planning has its place, living rigidly by schedules and goals isn't necessary. Occasionally embracing spontaneity — watching a film randomly, taking an unplanned outing — can bring unexpected happiness.
 
-**No need to prove yourself to others.** There is freedom in accepting that perspectives vary without clear right or wrong answers. Being yourself requires no validation from anyone else.
+<b>No need to prove yourself to others.</b> There is freedom in accepting that perspectives vary without clear right or wrong answers. Being yourself requires no validation from anyone else.
 
 Each of us is uniquely ourselves. Take pride in your distinct existence.`
 });
@@ -154,19 +154,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "A curated collection of discussion prompts organized by context — social gatherings, professional settings, college life, and childhood memories — designed to encourage meaningful storytelling.",
   content: `Good conversations start with good questions. Here are 95 prompts organized by setting to help move past small talk and into real storytelling.
 
-**Social Settings (20 questions)**
+<b>Social Settings (20 questions)</b>
 What's the most unexpected adventure you've ever had? Have you ever had a random encounter with a stranger that changed your day? And 18 more to spark an evening of real stories.
 
-**Workplace Conversations (20 questions)**
+<b>Workplace Conversations (20 questions)</b>
 Can you remember your very first day at work? What's the most rewarding challenge you've faced in your career? Use these to move beyond project updates and into shared experience.
 
-**College Conversations (20 questions)**
+<b>College Conversations (20 questions)</b>
 What's the strangest thing that happened in one of your classes? What's a campus tradition that made you feel like you belonged?
 
-**School Conversations (20 questions)**
+<b>School Conversations (20 questions)</b>
 What's a memory from childhood that always makes you smile? Have you ever had a teacher who made a huge difference?
 
-**Bonus / Miscellaneous (15 questions)**
+<b>Bonus / Miscellaneous (15 questions)</b>
 Have you ever had a moment where you felt like you were in the right place at the right time? If you could invite anyone from history to dinner, who would it be?
 
 The best conversations are not interviews — they are exchanges. Let one question lead naturally to the next.`
@@ -300,15 +300,15 @@ window.BLOG_REGISTRY.push({
 
 The answer is context. Consider these common pairs:
 
-**"Never give up" vs. "Know when to cut your losses"** — Persistence and strategic retreat are both valid. The question is whether continued effort produces meaningful gains or compounds losses.
+<b>"Never give up" vs. "Know when to cut your losses"</b> — Persistence and strategic retreat are both valid. The question is whether continued effort produces meaningful gains or compounds losses.
 
-**"Follow your heart" vs. "Use your head"** — Neither emotion nor reason alone makes a good guide. Integrating both leads to better-informed decisions than privileging one.
+<b>"Follow your heart" vs. "Use your head"</b> — Neither emotion nor reason alone makes a good guide. Integrating both leads to better-informed decisions than privileging one.
 
-**"He who hesitates is lost" vs. "Look before you leap"** — Some moments call for prompt action; others demand careful consideration. Reading which is which is the actual skill.
+<b>"He who hesitates is lost" vs. "Look before you leap"</b> — Some moments call for prompt action; others demand careful consideration. Reading which is which is the actual skill.
 
-**"Absence makes the heart grow fonder" vs. "Out of sight, out of mind"** — Separation can deepen bonds with close relationships while eroding casual ones. The relationship type determines the dynamic.
+<b>"Absence makes the heart grow fonder" vs. "Out of sight, out of mind"</b> — Separation can deepen bonds with close relationships while eroding casual ones. The relationship type determines the dynamic.
 
-**"The early bird catches the worm" vs. "Good things come to those who wait"** — Timing depends entirely on what the situation requires.
+<b>"The early bird catches the worm" vs. "Good things come to those who wait"</b> — Timing depends entirely on what the situation requires.
 
 Receiving advice well means evaluating it against your current circumstances rather than accepting maxims at face value. A clever fox can convince a chicken that jumping into the den is a good idea — if the chicken doesn't stop to examine the context. The I Ching calls this recognizing the moment. It remains the most important skill.`
 });
@@ -438,13 +438,13 @@ window.BLOG_REGISTRY.push({
 
 Berne describes recurring patterns that play out beneath the surface of everyday relationships. Four stood out to me:
 
-**If It Weren't For You** — One person consistently blames another for their problems. The blaming person avoids taking responsibility for their own choices, while the other carries guilt they never earned.
+<b>If It Weren't For You</b> — One person consistently blames another for their problems. The blaming person avoids taking responsibility for their own choices, while the other carries guilt they never earned.
 
-**See What You Made Me Do** — Mistakes get attributed to whoever is nearest. This game creates a cycle of blame and shields one person from personal accountability.
+<b>See What You Made Me Do</b> — Mistakes get attributed to whoever is nearest. This game creates a cycle of blame and shields one person from personal accountability.
 
-**Why Don't You, Yes But** — One person presents a problem but rejects every offered solution with "yes, but…" The helper becomes frustrated; the problem stays unsolved. The real function of the game is not to solve — it is to remain stuck.
+<b>Why Don't You, Yes But</b> — One person presents a problem but rejects every offered solution with "yes, but…" The helper becomes frustrated; the problem stays unsolved. The real function of the game is not to solve — it is to remain stuck.
 
-**Let's You and Him Fight** — One person stirs conflict between two others, then steps back to watch. They remain the apparent innocent while others absorb the damage.
+<b>Let's You and Him Fight</b> — One person stirs conflict between two others, then steps back to watch. They remain the apparent innocent while others absorb the damage.
 
 Recognizing these patterns doesn't mean assigning blame. It means seeing the script clearly enough to step outside it. Subconscious dynamics only keep running when no one names them.`
 });
@@ -460,14 +460,14 @@ window.BLOG_REGISTRY.push({
 
 Eight components are commonly identified:
 
-1. **Isolation** — cutting off the individual from outside perspectives and support.
-2. **Control of information** — determining what the person is allowed to see, hear, or read.
-3. **Induced dependency** — making the individual reliant on the group or authority for basic needs and approval.
-4. **Demand for purity** — setting impossible standards that keep the person perpetually striving and guilty.
-5. **Confession sessions** — extracting personal disclosures that can later be used as leverage.
-6. **Sacred science** — presenting the group's doctrine as absolute truth, beyond question.
-7. **Language loading** — using specialized vocabulary that limits independent thought.
-8. **Doctrine over person** — dismissing personal experience when it conflicts with the group's teachings.
+1. <b>Isolation</b> — cutting off the individual from outside perspectives and support.
+2. <b>Control of information</b> — determining what the person is allowed to see, hear, or read.
+3. <b>Induced dependency</b> — making the individual reliant on the group or authority for basic needs and approval.
+4. <b>Demand for purity</b> — setting impossible standards that keep the person perpetually striving and guilty.
+5. <b>Confession sessions</b> — extracting personal disclosures that can later be used as leverage.
+6. <b>Sacred science</b> — presenting the group's doctrine as absolute truth, beyond question.
+7. <b>Language loading</b> — using specialized vocabulary that limits independent thought.
+8. <b>Doctrine over person</b> — dismissing personal experience when it conflicts with the group's teachings.
 
 These tactics exploit human vulnerabilities — the need for belonging, the desire for clarity during confusion. Understanding them is the first defense.
 
@@ -568,10 +568,10 @@ window.BLOG_REGISTRY.push({
 
 Globally, people commemorate January 1st through distinctive festivals and observances. Two of the most celebrated:
 
-**London New Year's Day Parade**
+<b>London New Year's Day Parade</b>
 Among the UK's most significant New Year celebrations, this parade traverses central London displaying ornate floats, performance ensembles, dancers, and musicians.
 
-**Sydney New Year's Eve Fireworks**
+<b>Sydney New Year's Eve Fireworks</b>
 One of the Southern Hemisphere's most spectacular celebrations — elaborate floats, energetic performers, giant balloons, luminescent displays, and a remarkable pyrotechnic show drawing massive crowds.
 
 Whether watching a parade or engaging in quieter cultural festivities, embrace the atmosphere. May the year bring advancement, happiness, and remarkable moments.`
@@ -650,7 +650,7 @@ window.BLOG_REGISTRY.push({
   excerpt: "Corporate benefits and tax advantages make commuting smarter than most people realize — if you know what to ask for.",
   content: `Commuting costs add up fast. What many people miss is that both employers and the tax code offer real relief — if you know where to look.
 
-**Corporate Benefits**
+<b>Corporate Benefits</b>
 
 Employees using public transit, vanpools, or bicycles may be eligible for company subsidies or pre-tax payment options covering:
 - Transit passes and tickets
@@ -660,7 +660,7 @@ Employees using public transit, vanpools, or bicycles may be eligible for compan
 
 Some employers also provide complimentary electric vehicle charging at the workplace.
 
-**Tax Benefits**
+<b>Tax Benefits</b>
 
 Commute costs can be paid with pre-tax dollars through corporate benefit arrangements, reducing taxable income. Check with your HR or benefits team to see what is available — many employees leave this money on the table simply because they did not ask.
 
@@ -698,11 +698,11 @@ window.BLOG_REGISTRY.push({
 
 Three ways to create a sense of accomplishment when external circumstances are not cooperating:
 
-**Exercise.** Physical activity produces visible, measurable results that belong entirely to you. A run completed, a weight lifted, a distance covered — no one can take those from you. Organizing your living space works the same way: it is fully within your control and offers tangible, immediate progress.
+<b>Exercise.</b> Physical activity produces visible, measurable results that belong entirely to you. A run completed, a weight lifted, a distance covered — no one can take those from you. Organizing your living space works the same way: it is fully within your control and offers tangible, immediate progress.
 
-**Expand your options.** Fixating on one path that is not working compounds the frustration. Exploring alternative activities and interests opens unexpected opportunities and keeps momentum alive.
+<b>Expand your options.</b> Fixating on one path that is not working compounds the frustration. Exploring alternative activities and interests opens unexpected opportunities and keeps momentum alive.
 
-**Set realistic goals.** Establish objectives you can actually reach, track your advancement, and acknowledge incremental victories along the way. Progress recognized, however small, builds the confidence to continue.
+<b>Set realistic goals.</b> Establish objectives you can actually reach, track your advancement, and acknowledge incremental victories along the way. Progress recognized, however small, builds the confidence to continue.
 
 A feeling of accomplishment does not always come from the place you expected it. Sometimes you have to build it somewhere else first.`
 });
@@ -754,15 +754,15 @@ window.BLOG_REGISTRY.push({
   excerpt: "Two mortgage strategies worth understanding before you sign — one simple habit can save you thousands over the life of a loan.",
   content: `Sharing what you know about major life events builds connection and credibility. When someone in your circle is navigating a home purchase, a few well-timed insights can make a real difference.
 
-**Bi-Weekly Mortgage Payments**
+<b>Bi-Weekly Mortgage Payments</b>
 
 Instead of paying your mortgage monthly, consider paying half the amount every two weeks. Since many employers issue paychecks on a bi-weekly schedule, the timing aligns naturally. The result: you make one extra full payment per year without feeling it, potentially saving thousands in interest and shaving years off your loan.
 
-**Offset Mortgages**
+<b>Offset Mortgages</b>
 
 An offset mortgage — common in the UK and Australia — links a home loan to a deposit account at the same institution. The balance in your savings account offsets the mortgage principal, reducing the interest you owe. These products are not available in the US due to tax regulations, but it is worth asking your lender about comparable alternatives that achieve a similar effect.
 
-**A note on sharing this kind of advice:** lead with personal experience rather than expertise. "When I bought my house" or "a friend recently purchased" opens the conversation better than positioning yourself as an authority. The information lands the same, but the relationship stays intact.`
+<b>A note on sharing this kind of advice:</b> lead with personal experience rather than expertise. "When I bought my house" or "a friend recently purchased" opens the conversation better than positioning yourself as an authority. The information lands the same, but the relationship stays intact.`
 });
 window.BLOG_REGISTRY.push({
   id: "2006-01-01-story-pavilion-vs-umbrella",
@@ -859,12 +859,12 @@ window.BLOG_REGISTRY.push({
   excerpt: "Reading more efficiently isn't about reading faster — it's about knowing what you're looking for before you begin.",
   content: `Speed reading is about consuming more material in less time. The key is knowing what you want before you dive in. Rather than reading sequentially from start to finish, a structured approach works better:
 
-1. **Start with why** — Establish clear reading goals. What do you hope to gain from this material?
-2. **Preview** — Read introductions and summaries first to orient yourself.
-3. **Get the concepts** — Review the index and the opening and closing sections of each chapter.
-4. **Get the details** — Take notes and ask questions as you read the deeper content.
-5. **Review** — Reflect on key points from your notes and synthesize what you have learned.
-6. **Give out** — Discuss the topic or apply the knowledge practically. True mastery shows up when you can articulate and use what you read.
+1. <b>Start with why</b> — Establish clear reading goals. What do you hope to gain from this material?
+2. <b>Preview</b> — Read introductions and summaries first to orient yourself.
+3. <b>Get the concepts</b> — Review the index and the opening and closing sections of each chapter.
+4. <b>Get the details</b> — Take notes and ask questions as you read the deeper content.
+5. <b>Review</b> — Reflect on key points from your notes and synthesize what you have learned.
+6. <b>Give out</b> — Discuss the topic or apply the knowledge practically. True mastery shows up when you can articulate and use what you read.
 
 Understanding what you want from a book — and its general structure — before drilling into the details is the foundation of the whole approach.
 
@@ -916,9 +916,9 @@ window.BLOG_REGISTRY.push({
 
 Not every Trader Joe's product meets these standards — colored salmon, for example, is one to avoid. But a few items stand out:
 
-**Danish Kringle** (Oh Danish Bakery, around $7.99) — A seasonal frozen item, ideal for holiday mornings or when guests arrive unexpectedly.
+<b>Danish Kringle</b> (Oh Danish Bakery, around $7.99) — A seasonal frozen item, ideal for holiday mornings or when guests arrive unexpectedly.
 
-**Trader Joe's Gluten Free Organic Rolled Oats with Ancient Grains & Seeds** — Clean ingredients, genuinely healthy, and worth keeping stocked.
+<b>Trader Joe's Gluten Free Organic Rolled Oats with Ancient Grains & Seeds</b> — Clean ingredients, genuinely healthy, and worth keeping stocked.
 
 These are the kinds of conversations worth having casually — not as directives, but as shared discoveries. If something works well in your pantry, pass it along.`
 });
@@ -1004,13 +1004,13 @@ window.BLOG_REGISTRY.push({
   excerpt: "Grocery shopping can significantly impact your health, budget, and time — a few principles make it easier to get right.",
   content: `Grocery shopping is essential to daily life and one of the areas where small decisions compound quickly — in health, budget, and time.
 
-**Shop the perimeter.** Fresh produce, dairy, and meats are typically located around the edges of the store. The center aisles are where the most processed items live.
+<b>Shop the perimeter.</b> Fresh produce, dairy, and meats are typically located around the edges of the store. The center aisles are where the most processed items live.
 
-**Label criteria.** Look for natural ingredients with minimal added sugars. Avoid artificial sweeteners, processed foods labeled "natural flavor," and oils like sunflower or canola. For olive oil, only extra virgin. For salt, Kosher salt with larger flakes and no additives. Avoid farm-raised shrimp and salmon from Southeast Asia; choose grass-fed meat.
+<b>Label criteria.</b> Look for natural ingredients with minimal added sugars. Avoid artificial sweeteners, processed foods labeled "natural flavor," and oils like sunflower or canola. For olive oil, only extra virgin. For salt, Kosher salt with larger flakes and no additives. Avoid farm-raised shrimp and salmon from Southeast Asia; choose grass-fed meat.
 
-**Shop seasonally.** Seasonal fruits and vegetables are fresher and generally more nutritious. What is in season varies by region — local farmers' market reports are a useful reference.
+<b>Shop seasonally.</b> Seasonal fruits and vegetables are fresher and generally more nutritious. What is in season varies by region — local farmers' market reports are a useful reference.
 
-**Wash produce properly.** Soak in salt or vinegar-infused water for 10 minutes. Scrub firm items with a vegetable brush. Air-dry with cloth or paper towels. For heavily soiled produce, buying organic removes the concern entirely.
+<b>Wash produce properly.</b> Soak in salt or vinegar-infused water for 10 minutes. Scrub firm items with a vegetable brush. Air-dry with cloth or paper towels. For heavily soiled produce, buying organic removes the concern entirely.
 
 Small decisions at the grocery store, made consistently, shape what ends up in your body every day.`
 });
@@ -1084,15 +1084,15 @@ window.BLOG_REGISTRY.push({
 
 Here is an example schedule that keeps the essentials protected:
 
-**Before 8 AM** — Personal time: breakfast, morning study, family.
-**8–10 AM** — Quiet study and preparation. Email only in the final thirty minutes.
-**10 AM–4 PM** — Open for meetings, with 12–1 PM blocked for lunch, one hour reserved for afternoon study, and 4–4:30 PM held for daily review.
-**4:30–5 PM** — Email.
-**5–6 PM** — Break and commute.
-**6–8 PM** — Dinner with family.
-**8–9 PM** — Exercise and social time.
-**9–10 PM** — Relaxation.
-**10–11 PM** — Wind down, aiming for sleep by 10:30 PM.
+<b>Before 8 AM</b> — Personal time: breakfast, morning study, family.
+<b>8–10 AM</b> — Quiet study and preparation. Email only in the final thirty minutes.
+<b>10 AM–4 PM</b> — Open for meetings, with 12–1 PM blocked for lunch, one hour reserved for afternoon study, and 4–4:30 PM held for daily review.
+<b>4:30–5 PM</b> — Email.
+<b>5–6 PM</b> — Break and commute.
+<b>6–8 PM</b> — Dinner with family.
+<b>8–9 PM</b> — Exercise and social time.
+<b>9–10 PM</b> — Relaxation.
+<b>10–11 PM</b> — Wind down, aiming for sleep by 10:30 PM.
 
 Benjamin Franklin asked himself each morning: "What do I want to achieve today, and what is most important in my life?" Reviewing yesterday's accomplishments against long-term objectives keeps daily choices aligned with larger intentions.
 
@@ -1196,24 +1196,24 @@ window.BLOG_REGISTRY.push({
   excerpt: "A curated list of free digital resources worth keeping bookmarked — for reading, research, security, and media.",
   content: `A collection of free resources worth knowing about:
 
-**Reading and Book Summaries**
+<b>Reading and Book Summaries</b>
 - Z-Library — free book downloads
 - Blinkist Daily — one free summary per day
 - Quick Read — high-quality summaries with professional narration, roughly 15–20 minutes each
 - LibGen — magazines and academic papers
 - Sci-Hub — research papers via URL paste
 
-**Personality and Self-Knowledge**
+<b>Personality and Self-Knowledge</b>
 - 16Personalities — free personality assessment
 
-**Problem Solving**
+<b>Problem Solving</b>
 - WolframAlpha — mathematical and computational queries
 
-**Security**
+<b>Security</b>
 - Have I Been Pwned — checks whether your email or phone has been compromised in a data breach
 - AlternativeTo — find substitute apps and services
 
-**Free Images and Video**
+<b>Free Images and Video</b>
 - Unsplash — high-quality photography
 - Pixabay — images, videos, and illustrations
 - Pexels — photos and footage
@@ -1233,13 +1233,13 @@ window.BLOG_REGISTRY.push({
 
 A simpler approach works better:
 
-**Minimalist philosophy.** Buy only what you genuinely need, in the best quality you can afford, and use it fully. Avoid spending on things that exist to impress others.
+<b>Minimalist philosophy.</b> Buy only what you genuinely need, in the best quality you can afford, and use it fully. Avoid spending on things that exist to impress others.
 
-**Mindset shift.** Align purchases with core personal values rather than external expectations. Focus spending on basic needs, genuine happiness, meaningful experiences, and time with people you love. Those purchases don't need tracking — they feel right when you make them.
+<b>Mindset shift.</b> Align purchases with core personal values rather than external expectations. Focus spending on basic needs, genuine happiness, meaningful experiences, and time with people you love. Those purchases don't need tracking — they feel right when you make them.
 
-**Thoughtful purchasing.** Before buying, pause and ask whether you actually need it, whether it is the best option available, and how often you will use it. A few questions at the moment of decision replace hours of spreadsheet maintenance.
+<b>Thoughtful purchasing.</b> Before buying, pause and ask whether you actually need it, whether it is the best option available, and how often you will use it. A few questions at the moment of decision replace hours of spreadsheet maintenance.
 
-**Invest the rest.** Whatever remains after covering necessities and meaningful spending should go toward investments.
+<b>Invest the rest.</b> Whatever remains after covering necessities and meaningful spending should go toward investments.
 
 This is not about deprivation. It is about taking control of the bigger picture — spending wisely, and consistently spending less than you earn.
 
@@ -1255,13 +1255,13 @@ window.BLOG_REGISTRY.push({
   excerpt: "A good job aligns with your talents, grows your skills, and puts you alongside a boss who is genuinely in your corner.",
   content: `What makes a job good? It is worth defining clearly, because the answer helps assess whether your current position actually fits.
 
-**Alignment with your goals, interests, and talents.** When your work draws on what you are naturally good at and curious about, you perform better and enjoy it more. Top-performer status tends to follow naturally when effort and aptitude point in the same direction.
+<b>Alignment with your goals, interests, and talents.</b> When your work draws on what you are naturally good at and curious about, you perform better and enjoy it more. Top-performer status tends to follow naturally when effort and aptitude point in the same direction.
 
-**A boss who advocates for you.** The right manager appreciates your contributions, supports your growth, and actively champions you during conversations you are not part of — compensation discussions, project assignments, promotions. An incompetent or indifferent supervisor is a ceiling, not just an inconvenience.
+<b>A boss who advocates for you.</b> The right manager appreciates your contributions, supports your growth, and actively champions you during conversations you are not part of — compensation discussions, project assignments, promotions. An incompetent or indifferent supervisor is a ceiling, not just an inconvenience.
 
-**An environment that recognizes you.** Colleagues who include you in decisions, seek your input, and view you as the go-to person for specific challenges are building your professional reputation alongside their own. That recognition compounds over time.
+<b>An environment that recognizes you.</b> Colleagues who include you in decisions, seek your input, and view you as the go-to person for specific challenges are building your professional reputation alongside their own. That recognition compounds over time.
 
-**Compensation, respect, and forward movement.** A good job pays fairly, treats you with dignity, and continues to develop your skills. Stagnation in any of these three areas is a signal worth paying attention to.
+<b>Compensation, respect, and forward movement.</b> A good job pays fairly, treats you with dignity, and continues to develop your skills. Stagnation in any of these three areas is a signal worth paying attention to.
 
 In practice: protecting time to read, learn, and think — rather than being consumed by routine tasks — keeps you current, builds thought leadership, and preserves the creative energy that makes the work meaningful.`
 });
@@ -1275,22 +1275,22 @@ window.BLOG_REGISTRY.push({
   excerpt: "Six questions that slow down impulse decisions and make spending more intentional.",
   content: `Before committing to a purchase, pause and work through these six questions:
 
-**1. Do I really need this?**
+<b>1. Do I really need this?</b>
 Distinguish between a genuine need and a passing want. This one question eliminates a surprising number of purchases.
 
-**2. Is this the best product I can afford?**
+<b>2. Is this the best product I can afford?</b>
 Quality matters over time. A better item used for years costs less than a cheaper one replaced repeatedly.
 
-**3. Is this the best price available? Is it worth it?**
+<b>3. Is this the best price available? Is it worth it?</b>
 Check multiple retailers, compare online, and look for sales or discounts before deciding.
 
-**4. How often will I actually use it?**
+<b>4. How often will I actually use it?</b>
 Frequent use justifies ownership. Occasional use might be better served by borrowing or renting.
 
-**5. What are the long-term costs?**
+<b>5. What are the long-term costs?</b>
 Beyond the purchase price: maintenance, accessories, energy consumption, subscriptions. The real cost of ownership is often higher than the sticker price.
 
-**6. What is the return policy?**
+<b>6. What is the return policy?</b>
 For expensive or electronic purchases especially, knowing the terms of return provides important protection if the item disappoints.
 
 Six questions, asked consistently, make spending more deliberate and regret less frequent.`
@@ -1305,11 +1305,11 @@ window.BLOG_REGISTRY.push({
   excerpt: "Early in a career, who you work for matters as much as what you work on.",
   content: `When starting a career, most people encounter their first boss before they have a clear sense of what to look for. Here is what actually matters:
 
-**Competence and experience.** A boss should be genuinely skilled at their work. An incompetent supervisor drags everyone's performance down — and it is rarely obvious until you are already in the situation.
+<b>Competence and experience.</b> A boss should be genuinely skilled at their work. An incompetent supervisor drags everyone's performance down — and it is rarely obvious until you are already in the situation.
 
-**Advocacy.** The right boss speaks up for you when you are not in the room. They push for your growth, make the case for your compensation, and connect you with opportunities. This matters more than almost anything else in the early stages of a career.
+<b>Advocacy.</b> The right boss speaks up for you when you are not in the room. They push for your growth, make the case for your compensation, and connect you with opportunities. This matters more than almost anything else in the early stages of a career.
 
-**Empathy.** A good boss understands that employees are whole people with lives outside work. They trust you to manage your time and wellbeing without treating every boundary as a problem.
+<b>Empathy.</b> A good boss understands that employees are whole people with lives outside work. They trust you to manage your time and wellbeing without treating every boundary as a problem.
 
 Vivian Tu makes the point well: finding the right employment match — where increased effort translates into company value that is recognized and compensated fairly — is not a minor detail. It is the foundation of career momentum.
 
@@ -1325,11 +1325,11 @@ window.BLOG_REGISTRY.push({
   excerpt: "Three trusted sources for free, high-quality images and video footage.",
   content: `Three reliable platforms for royalty-free visual content, used by our members:
 
-**Unsplash.com** — Beautiful photography for websites and backgrounds.
+<b>Unsplash.com</b> — Beautiful photography for websites and backgrounds.
 
-**Pixabay** — Images, videos, and illustrations across a wide range of subjects.
+<b>Pixabay</b> — Images, videos, and illustrations across a wide range of subjects.
 
-**Pexels.com** — Free photos and footage videos, consistently well-organized.
+<b>Pexels.com</b> — Free photos and footage videos, consistently well-organized.
 
 All three are free to use without attribution for most purposes. Worth bookmarking before you need them.`
 });
@@ -1517,15 +1517,15 @@ window.BLOG_REGISTRY.push({
   excerpt: "Indian cinema splits broadly into two distinct traditions — spectacle and storytelling — and both are worth exploring.",
   content: `Indian cinema is one of the world's most prolific and culturally rich film traditions, divided broadly into two categories:
 
-**Bollywood** is known for extravagant costumes, famous stars, beautiful faces, and elaborate song-and-dance sequences. It prioritizes entertainment and emotional spectacle.
+<b>Bollywood</b> is known for extravagant costumes, famous stars, beautiful faces, and elaborate song-and-dance sequences. It prioritizes entertainment and emotional spectacle.
 
-**South Indian cinema** tends toward storytelling, realism, and social reflection — films that offer more food for thought on life and human experience.
+<b>South Indian cinema</b> tends toward storytelling, realism, and social reflection — films that offer more food for thought on life and human experience.
 
 Two films worth starting with:
 
-**3 Idiots (2009, Bollywood)** — A comedy-drama about the pressures of India's educational system, balancing genuine entertainment with thought-provoking themes about ambition, friendship, and what education is actually for.
+<b>3 Idiots (2009, Bollywood)</b> — A comedy-drama about the pressures of India's educational system, balancing genuine entertainment with thought-provoking themes about ambition, friendship, and what education is actually for.
 
-**Kaalapani (1996, South Indian)** — A portrait of India's freedom struggle against British colonial rule, set within the brutal conditions of the Cellular Jail. Demanding but deeply humanizing.
+<b>Kaalapani (1996, South Indian)</b> — A portrait of India's freedom struggle against British colonial rule, set within the brutal conditions of the Cellular Jail. Demanding but deeply humanizing.
 
 Both offer a window into Indian culture and history that is difficult to find elsewhere.`
 });
@@ -1541,11 +1541,11 @@ window.BLOG_REGISTRY.push({
 
 A few observations worth keeping:
 
-**Chinese dinner customs.** At a Chinese dinner, parents cook to show love and children eat to express acceptance of it. When offered a second helping, saying yes is polite. Choosing a smaller piece signals respect and warmth.
+<b>Chinese dinner customs.</b> At a Chinese dinner, parents cook to show love and children eat to express acceptance of it. When offered a second helping, saying yes is polite. Choosing a smaller piece signals respect and warmth.
 
-**Show genuine interest.** Invite people to films, exhibitions, lunches, and events — not as a strategy but as a sincere gesture. Pay equal attention to everyone in a group rather than clustering around a few. When someone new joins a community, introducing them helps them feel seen and welcome.
+<b>Show genuine interest.</b> Invite people to films, exhibitions, lunches, and events — not as a strategy but as a sincere gesture. Pay equal attention to everyone in a group rather than clustering around a few. When someone new joins a community, introducing them helps them feel seen and welcome.
 
-**Thoughtful communication.** Choose carefully what to say and what to leave unsaid. When sharing a difficult truth, soften it by including your own experience or mistake alongside it. The message lands better and the relationship remains intact.
+<b>Thoughtful communication.</b> Choose carefully what to say and what to leave unsaid. When sharing a difficult truth, soften it by including your own experience or mistake alongside it. The message lands better and the relationship remains intact.
 
 Etiquette ultimately comes down to reading the situation as accurately as you can and choosing your words, actions, and thoughts accordingly.`
 });
@@ -1559,28 +1559,28 @@ window.BLOG_REGISTRY.push({
   excerpt: "Seven habits that separate exceptional project managers from the majority — and a concrete action plan to build them.",
   content: `Standing out as a project manager requires more than technical competence. Seven habits make the difference:
 
-**1. Establish the bigger picture from day one.**
+<b>1. Establish the bigger picture from day one.</b>
 Continuously communicate the project's broader context — the problem being solved, the solution, the timeline, and what success looks like. Keep the team aligned from start to finish.
 
-**2. Practice self-reflection daily.**
+<b>2. Practice self-reflection daily.</b>
 Each day: review task prioritization and time allocation. Each week: assess project progress, upcoming needs, risks, team dynamics, and unresolved conflicts.
 
-**3. Develop emotional intelligence.**
+<b>3. Develop emotional intelligence.</b>
 Know your own strengths and weaknesses. Build one-on-one relationships through careful listening. Understand what each team member needs and align individual goals with collective ones.
 
-**4. Use data-driven tools.**
+<b>4. Use data-driven tools.</b>
 Make decisions with evidence and technology. Build credibility with stakeholders by demonstrating informed judgment. Stay current with emerging tools in your field.
 
-**5. Ask questions proactively.**
+<b>5. Ask questions proactively.</b>
 Step back from the project regularly — take time to quiet your mind and look for issues that have not yet surfaced.
 
-**6. Maintain discipline and documentation.**
+<b>6. Maintain discipline and documentation.</b>
 Prioritize critical tasks. Document workflows, processes, ideas, meeting notes, and identified risks consistently.
 
-**7. Avoid procrastination.**
+<b>7. Avoid procrastination.</b>
 Treat every task as its own project. Start immediately rather than waiting for the ideal moment.
 
-**Practical rhythm:**
+<b>Practical rhythm:</b>
 - Daily: one quiet hour for planning and reflection
 - Weekly: status review covering risks and conflicts
 - Monthly: full review of all active projects
@@ -1682,15 +1682,15 @@ window.BLOG_REGISTRY.push({
 
 Strategic thinking functions as both a habit and skill supporting navigation through uncertainty. It provides the capability to anticipate through assumptions, interpret using logical reasoning, decide drawing on visionary perspectives, execute with alignment, and adapt via ongoing education and experiential learning.
 
-**Anticipation** requires genuine curiosity about subjects. This enables recognition of warning signals, understanding of complex problem essence, pattern identification, and detection of emerging trends and opportunities.
+<b>Anticipation</b> requires genuine curiosity about subjects. This enables recognition of warning signals, understanding of complex problem essence, pattern identification, and detection of emerging trends and opportunities.
 
-**Interpretation** involves conducting comprehensive research while remaining receptive to varied viewpoints. Exploring diverse sources and unconventional thinking approaches helps identify well-defined problems and their underlying causes.
+<b>Interpretation</b> involves conducting comprehensive research while remaining receptive to varied viewpoints. Exploring diverse sources and unconventional thinking approaches helps identify well-defined problems and their underlying causes.
 
-**Decision-making** demands focusing on strengths, acknowledging weaknesses, evaluating uncertainty risks, and navigating competitive terrain to establish aligned objectives.
+<b>Decision-making</b> demands focusing on strengths, acknowledging weaknesses, evaluating uncertainty risks, and navigating competitive terrain to establish aligned objectives.
 
-**Execution** balances agility with discipline. Effective communication proves essential for transforming ideas into action by securing stakeholder alignment and engagement.
+<b>Execution</b> balances agility with discipline. Effective communication proves essential for transforming ideas into action by securing stakeholder alignment and engagement.
 
-**Adjustment** requires continuously evaluating efforts, questioning whether initiatives pursue correct objectives and employ appropriate methods, maintaining focus, declining unnecessary commitments, modifying strategies appropriately, and ensuring endeavors generate genuine value.
+<b>Adjustment</b> requires continuously evaluating efforts, questioning whether initiatives pursue correct objectives and employ appropriate methods, maintaining focus, declining unnecessary commitments, modifying strategies appropriately, and ensuring endeavors generate genuine value.
 
 Resource: HBR Guide to Thinking Strategically, 2018`
 });
@@ -1704,19 +1704,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "Developing project management skills can have a positive impact on both our professional and personal lives — by honing tactics and emotional intelligence, we can organize and accomplish tasks like a skilled project manager.",
   content: `Developing project management skills can have a positive impact on both our professional and personal lives. By honing tactics and emotional intelligence, we can effectively organize our tasks and accomplish them like a skilled project manager.
 
-**1. Develop Mindset**
+<b>1. Develop Mindset</b>
 Know personal strengths and weaknesses while building resilience to setbacks and self-confidence. Maintain strong motivation with achievement-driven focus and high standards. Seek guidance when necessary.
 
-**2. Build Critical Thinking**
+<b>2. Build Critical Thinking</b>
 Cultivate conceptual thinking abilities. Strengthen analytical problem-solving skills.
 
-**3. Get Organized**
+<b>3. Get Organized</b>
 Maintain focus on what matters most. Declutter by organizing, categorizing, and simplifying. Establish clear priorities.
 
-**4. Creating Plans**
+<b>4. Creating Plans</b>
 Manage time through task breakdown and workflow setup. Set priorities strategically. Mitigate potential risks. Establish an optimal work environment.
 
-**5. Execute**
+<b>5. Execute</b>
 Understand colleagues and stakeholders. Provide assistance to others. Build trust within teams. Influence others without formal authority. Address conflicts constructively. Navigate organizational structures effectively.
 
 These skills require not just knowledge but consistent practice until principles become intuitive.`
@@ -1797,11 +1797,11 @@ The unconscious mind absorbs information from early life, establishing foundatio
 
 Key aspects of the subconscious include:
 
-**Unconscious biases** — judgments about others based on characteristics like race and gender that persist despite conscious awareness and intention to be fair.
+<b>Unconscious biases</b> — judgments about others based on characteristics like race and gender that persist despite conscious awareness and intention to be fair.
 
-**Emotional memory** — "emotional experiences are intricately connected to the subconscious," with unresolved past emotions resurfacing to influence present reactions in ways that can feel disproportionate or mysterious.
+<b>Emotional memory</b> — "emotional experiences are intricately connected to the subconscious," with unresolved past emotions resurfacing to influence present reactions in ways that can feel disproportionate or mysterious.
 
-**Access and influence** — we can intentionally engage our subconscious through self-evaluation, recognizing biases, managing sleep patterns, and using prayer or visualization.
+<b>Access and influence</b> — we can intentionally engage our subconscious through self-evaluation, recognizing biases, managing sleep patterns, and using prayer or visualization.
 
 Kevin Simler and Robin Hanson's "The Elephant in the Brain" and Neville Goddard's "Feeling Is The Secret" both offer frameworks for understanding and working with these deeper layers of mind.
 
@@ -1839,15 +1839,15 @@ window.BLOG_REGISTRY.push({
   excerpt: "Still waters run deep. There are five situations where silence serves wisdom better than words.",
   content: `Still water runs deep. Certain moments call for silence rather than speech.
 
-**When dealing with unreasonable people:** When someone refuses to listen, advice becomes ineffective. "With softness, the argument will stop." Sometimes the wisest response is none at all.
+<b>When dealing with unreasonable people:</b> When someone refuses to listen, advice becomes ineffective. "With softness, the argument will stop." Sometimes the wisest response is none at all.
 
-**During anger:** Making decisions while upset often leads to poor choices. Silence restores calm and preserves clarity for when it matters.
+<b>During anger:</b> Making decisions while upset often leads to poor choices. Silence restores calm and preserves clarity for when it matters.
 
-**When lacking understanding:** Before forming judgments about unfamiliar situations, keep silent, observe, and learn. Assumptions made from ignorance rarely help.
+<b>When lacking understanding:</b> Before forming judgments about unfamiliar situations, keep silent, observe, and learn. Assumptions made from ignorance rarely help.
 
-**When others share feelings:** Particularly in moments of sadness, the appropriate response is to remain silent, listen, and show empathy. Words can crowd out what someone most needs — to feel heard.
+<b>When others share feelings:</b> Particularly in moments of sadness, the appropriate response is to remain silent, listen, and show empathy. Words can crowd out what someone most needs — to feel heard.
 
-**For presence:** Keeping quiet and calming the mind allows for genuine listening and observation. It helps one connect with their inner self and with others at a deeper level.
+<b>For presence:</b> Keeping quiet and calming the mind allows for genuine listening and observation. It helps one connect with their inner self and with others at a deeper level.
 
 These five situations share a common thread: silence, used deliberately, is not avoidance — it is emotional intelligence in action.`
 });
@@ -1905,22 +1905,22 @@ window.BLOG_REGISTRY.push({
 
 Jewish tradition provides fascinating insights into one of the world's oldest monotheistic religions. Its customs and rituals remain central to adherents' lives while offering valuable lessons about faith and community.
 
-**Shabbat: A Time of Rest and Reflection**
+<b>Shabbat: A Time of Rest and Reflection</b>
 Shabbat, meaning "to rest" in Hebrew, runs from Friday sundown through Saturday nightfall. This sacred day emphasizes family, prayer, and separation from weekly labor, symbolizing life's sanctity and the importance of rest.
 
-**The Jewish Calendar and Major Festivals**
+<b>The Jewish Calendar and Major Festivals</b>
 The lunar-based Jewish calendar features significant observances. Passover commemorates liberation from Egyptian slavery, while Rosh Hashanah (Jewish New Year) and Yom Kippur (Day of Atonement) serve as periods for introspection and repentance.
 
-**Kashrut: Dietary Laws**
+<b>Kashrut: Dietary Laws</b>
 Jewish dietary laws distinguish permissible from forbidden foods, prohibiting pork and shellfish — demonstrating how faith intertwines with daily living.
 
-**Rites of Passage**
+<b>Rites of Passage</b>
 Brit Milah (circumcision covenant) marks male infants' entry into the Jewish covenant with God. Bar and Bat Mitzvah ceremonies signify coming of age and communal responsibilities.
 
-**Learning and Prayer**
+<b>Learning and Prayer</b>
 Torah study holds high cultural esteem, with the Shema prayer encapsulating Judaism's monotheistic devotion.
 
-**Synagogue and Community**
+<b>Synagogue and Community</b>
 Synagogues function as worship and community centers. Tzedakah (charity) reflects deep commitment to social justice and care for others.`
 });
 window.BLOG_REGISTRY.push({
@@ -1973,16 +1973,16 @@ window.BLOG_REGISTRY.push({
   excerpt: "Fun facts about temperature across different contexts — from human body heat to Earth's core, hummingbirds to hibernating bears.",
   content: `Temperature tells interesting stories about life on Earth.
 
-**Human Body Temperature**
+<b>Human Body Temperature</b>
 For a typical adult, body temperature ranges from 97°F (36.1°C) to 99°F (37.2°C). Children run slightly higher — between 97.9°F and 100.4°F.
 
-**Animal Temperatures**
+<b>Animal Temperatures</b>
 Hummingbirds hold the record for highest body temperature among warm-blooded animals at around 107°F. Mammals like elephants and whales range from 97°F to 103°F. Monkeys closely align with human temperatures.
 
-**Earth's Core**
+<b>Earth's Core</b>
 The temperature at Earth's core reaches 5,600–6,000°C — slightly higher than the surface of the sun (around 5,600°C). The planet beneath our feet burns as hot as a star's outer layer.
 
-**Bear Hibernation**
+<b>Bear Hibernation</b>
 During hibernation, bears experience dramatic physiological changes. Breathing decreases to roughly one breath per minute. Heart rate drops to 15 beats per minute. Metabolism reduces to one-fourth of normal levels — all while fasting for months. A remarkable feat of biological efficiency.
 
 A good reminder that temperature is not just a number — it is a window into how life regulates, adapts, and endures.`
@@ -2015,34 +2015,34 @@ window.BLOG_REGISTRY.push({
   excerpt: "Many everyday products contain chemicals capable of disrupting hormones and causing significant health issues. Understanding these ten substances helps protect personal wellness.",
   content: `Many everyday products contain chemicals capable of disrupting hormones and causing significant health issues. Understanding these substances helps protect personal wellness.
 
-**1. Bisphenol-A (BPA)**
+<b>1. Bisphenol-A (BPA)</b>
 Found in polycarbonate plastics and food can linings, BPA mimics estrogen and may affect reproductive development. Recommendations: avoid canned foods, use glass containers for hot foods, check recycling codes (3 and 7 contain more BPA), and request digital receipts.
 
-**2. Phthalates**
+<b>2. Phthalates</b>
 Present in PVC products, cosmetics, and fragrances. These endocrine disruptors link to breast cancer, fertility issues, obesity, and asthma.
 
-**3. Parabens**
+<b>3. Parabens</b>
 Found in personal care products. May mimic estrogen and connect to reproductive issues.
 
-**4. PFAS**
+<b>4. PFAS</b>
 Located in non-stick cookware and water-resistant textiles. May affect thyroid function and immunity. Purified water via reverse osmosis contains fewer PFAS than spring water.
 
-**5. Triclosan**
+<b>5. Triclosan</b>
 Present in antibacterial soaps and some toothpastes. May disrupt thyroid function.
 
-**6. PCBs**
+<b>6. PCBs</b>
 Found in older equipment and building materials. These banned chemicals persist in the environment.
 
-**7. Atrazine**
+<b>7. Atrazine</b>
 A widely-used agricultural herbicide functioning as an endocrine disruptor.
 
-**8. Lead**
+<b>8. Lead</b>
 Located in old paint and water pipes. This neurotoxin disrupts hormones and neurological development.
 
-**9. Mercury**
+<b>9. Mercury</b>
 Found in certain fish and dental amalgams. Alters hormonal signaling.
 
-**10. Organophosphate Pesticides**
+<b>10. Organophosphate Pesticides</b>
 Agricultural pesticides linked to reproductive and developmental impairment.`
 });
 window.BLOG_REGISTRY.push({
@@ -2057,13 +2057,13 @@ window.BLOG_REGISTRY.push({
 
 Three types of foods that reinforce the skin's defense against sunburn:
 
-**Carotenoids**
+<b>Carotenoids</b>
 Found in carrots, pumpkin, squash, and pepper. These pigments combat sun-accelerated free radicals, helping prevent premature aging and skin damage.
 
-**Lycopene**
+<b>Lycopene</b>
 Present in watermelon, tomatoes, and papayas. This antioxidant reduces the risk of sunburn and may also guard against prostate cancer.
 
-**Resveratrol**
+<b>Resveratrol</b>
 Found in red grapes. Known for promoting heart health and defending the skin against UV rays.
 
 These foods work best as a complement to — not a replacement for — sunscreen. Always use sunscreen to stay safe in the sun.
@@ -2176,17 +2176,17 @@ Life brings emotional fluctuations, unexpected hardships, and occasional pessimi
 
 The modern world's fast pace creates stress through constant communications. But inner peace enables resilience when facing life's storms.
 
-**Five practical approaches:**
+<b>Five practical approaches:</b>
 
-1. **Mindful nature walks** — focus on each step's sensation and environmental details in wooded areas or parks
+1. <b>Mindful nature walks</b> — focus on each step's sensation and environmental details in wooded areas or parks
 
-2. **Conscious eating** — savor flavors and textures, appreciate nourishment rather than eating while distracted
+2. <b>Conscious eating</b> — savor flavors and textures, appreciate nourishment rather than eating while distracted
 
-3. **Digital detox** — screen-free time for offline activities and deeper real-world connections
+3. <b>Digital detox</b> — screen-free time for offline activities and deeper real-world connections
 
-4. **Gratitude journaling** — five minutes of writing three grateful reflections daily
+4. <b>Gratitude journaling</b> — five minutes of writing three grateful reflections daily
 
-5. **Breathwork** — intentional 4-second breathing cycles for nervous system regulation
+5. <b>Breathwork</b> — intentional 4-second breathing cycles for nervous system regulation
 
 Peace is not the absence of difficulty. It is the steadiness we can build underneath it.`
 });
@@ -2202,21 +2202,21 @@ window.BLOG_REGISTRY.push({
 
 Baudrillard defined hyperreality as "the generation by models of a real without origin or reality." Contemporary society operates as a simulacrum where artificial images have replaced authentic experiences to such a degree that distinguishing between real and fabricated becomes nearly impossible.
 
-**Evidence in Modern Culture**
+<b>Evidence in Modern Culture</b>
 
 Hyperreality permeates daily life through multiple channels: theme parks and wax museums provide constructed adventures; advanced film technology creates believable fantasy worlds; immersive gaming attracts devoted players for extended periods; virtual and augmented reality technologies expand beyond screens into dedicated spaces.
 
 The boundary further dissolves when considering photo-editing applications, metaverse business meetings, misinformation campaigns, and false online identities. Events occurring globally become abstract symbols rather than tangible realities.
 
-**Why We're Drawn to It**
+<b>Why We're Drawn to It</b>
 
 Virtual environments offer advantages: fewer restrictions, greater creative possibilities, customized satisfaction, and effortless accessibility. Users receive tailored content through algorithms, limiting independent thinking.
 
-**Potential Dangers**
+<b>Potential Dangers</b>
 
 Individuals risk disconnecting from physical reality entirely. Simulated worlds can manipulate perception so thoroughly that distinguishing fantasy from fact becomes impossible. Some users experience addiction severe enough to cause real-world harm.
 
-**Maintaining Grounded Perspective**
+<b>Maintaining Grounded Perspective</b>
 
 The author recommends intentional disconnection: share tea with friends, engage in face-to-face conversations, pursue unfiltered information sources, and resist algorithm-driven content consumption. These practices preserve remaining autonomy.`
 });
@@ -2230,13 +2230,13 @@ window.BLOG_REGISTRY.push({
   excerpt: "Managing social situations requires balancing genuineness with consideration for others. Three principles for meaningful, grounded connections.",
   content: `Managing social situations requires balancing genuineness with consideration for others. Three principles for meaningful connections:
 
-**1. Maintain self-respect.**
+<b>1. Maintain self-respect.</b>
 Express your viewpoints clearly and establish healthy boundaries. This demonstrates how you expect to be treated and forms the basis for authentic relationships. Self-respect is not arrogance — it is clarity about who you are and what you value.
 
-**2. Avoid insincere compliments.**
+<b>2. Avoid insincere compliments.</b>
 Real connections develop through honest recognition and reciprocal regard, not through attempts to impress others with false praise. "Genuine connections are fostered through honest appreciation and mutual respect, rather than efforts to impress or please."
 
-**3. Practice authentic dialogue.**
+<b>3. Practice authentic dialogue.</b>
 Meaningful communication combines candor with compassion, requiring attentive listening and thoughtful responses. Create space for others to participate fully without monopolizing the conversation.
 
 When these principles guide interactions, relationships become deeper and more grounded in mutual respect.
@@ -2253,19 +2253,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "Unalome is a Buddhist symbol representing the path to enlightenment. The rainbow body concept from Hindu chakra traditions describes seven energy levels corresponding to the full spectrum of human experience.",
   content: `India offers a wonderful world of philosophical and spiritual concepts that repay careful attention.
 
-**Unalome**
+<b>Unalome</b>
 Unalome is a Buddhist symbol representing the path to enlightenment in life. The spiral at the base represents the confusion and struggles of early experience; the gradually straightening line represents growing clarity; the top represents reaching enlightenment.
 
-**The Rainbow Body**
+<b>The Rainbow Body</b>
 The rainbow body connects to Hindu chakra systems — energy fields understood as layers of the self. Seven energy levels, each associated with a color:
 
-- **Red** — the physical body
-- **Orange** — the etheric body, emotions, and formative influences
-- **Yellow** — the astral body, described as transitional
-- **Green** — the mental body, enabling transformation through relationships
-- **Blue** — the causal body, holding soul memories and progress
-- **Indigo** — the diamond body, eternal and conscious
-- **Violet** — the celestial body, where "the Self, and the All are eternally one"
+- <b>Red</b> — the physical body
+- <b>Orange</b> — the etheric body, emotions, and formative influences
+- <b>Yellow</b> — the astral body, described as transitional
+- <b>Green</b> — the mental body, enabling transformation through relationships
+- <b>Blue</b> — the causal body, holding soul memories and progress
+- <b>Indigo</b> — the diamond body, eternal and conscious
+- <b>Violet</b> — the celestial body, where "the Self, and the All are eternally one"
 
 Rainbows symbolize mercifulness, healing, and good fortune across many cultures and traditions. The idea that each color holds meaning — and that together they form something whole — is a beautiful way of understanding the fullness of a human life.`
 });
@@ -2317,18 +2317,18 @@ window.BLOG_REGISTRY.push({
 
 "Quality over quantity" thinking generates contentment by decreasing maintenance demands and avoiding the overthinking that causes unnecessary anxiety.
 
-**Items to minimize:**
+<b>Items to minimize:</b>
 - Living spaces: Remove excess pillows, rugs, and unread books
 - Wardrobes: Eliminate unworn clothing and adopt simple styling
 - Kitchens: Discard expired products and duplicate tools
 - Gifts: Photograph items before donating them; prefer experience-based presents
 - Relationships: Invest time with genuinely supportive people
 
-**Refusal principles:**
+<b>Refusal principles:</b>
 - Practice "one in, one out" purchasing to prevent accumulation
 - Purchase the high-quality first option rather than compromising repeatedly and buying again
 
-**Personal update (2023):**
+<b>Personal update (2023):</b>
 After practicing minimalism since 2022, I recommend completing the 30-day minimalism challenge — dispose of one item on day one, two on day two, and so on, reaching 465 items by month's end. Creating a personal minimal list and consulting theminimalists.com as a resource both help. These practices foster greater inner awareness and personal freedom.
 
 Less stuff, more life.`
@@ -2409,9 +2409,9 @@ Since industrialization, time management has become crucial for coordinating com
 
 Two approaches worth distinguishing:
 
-**Clock time** — completing tasks within strict deadlines. Prioritizes adherence over quality. Clear and measurable.
+<b>Clock time</b> — completing tasks within strict deadlines. Prioritizes adherence over quality. Clear and measurable.
 
-**Event time** — allowing flexible completion periods that prioritize quality and thoroughness. Outcomes prove harder to quantify, but the results often run deeper.
+<b>Event time</b> — allowing flexible completion periods that prioritize quality and thoroughness. Outcomes prove harder to quantify, but the results often run deeper.
 
 A useful anecdote: German zoo visitors follow a planned itinerary systematically, while French visitors pursue their interests spontaneously. Both groups enjoy their experience despite employing opposite time-management philosophies.
 
@@ -2463,7 +2463,7 @@ The practice involves understanding and communicating information through graphi
 - Visual encoding (color, length, position)
 - Annotations (labels, notes, titles)
 
-**Eight-Step Process for Reading Visuals:**
+<b>Eight-Step Process for Reading Visuals:</b>
 
 1. Examine the legend
 2. Learn the meaning and scale (X and Y axes)
@@ -2492,16 +2492,16 @@ window.BLOG_REGISTRY.push({
 
 Four recommended book summary services:
 
-**1. Sukee's Two Minutes Read**
+<b>1. Sukee's Two Minutes Read</b>
 Condensed book summaries with discussion topics suited for tea-time conversation and entertainment.
 
-**2. Blinkist Daily**
+<b>2. Blinkist Daily</b>
 Delivers one complimentary book summary daily. Readers can skip uninteresting topics and discover unexpected titles that match their curiosity.
 
-**3. Quick Read**
+<b>3. Quick Read</b>
 Human-narrated summaries of non-fiction works covering self-improvement, history, and economics across multiple platforms. Summaries typically take 15–20 minutes and feature high-quality narration.
 
-**4. Productivity Game**
+<b>4. Productivity Game</b>
 A YouTube channel specializing in non-fiction self-improvement book summaries — a good option for those who prefer video format.
 
 A book summary is not the same as reading the book — but it is an excellent way to decide which books deserve your full attention, and to sample ideas you might not otherwise encounter. Come for the summary, stay for the conversation.`
@@ -2556,13 +2556,13 @@ window.BLOG_REGISTRY.push({
   excerpt: "It is crucial to confidently express and defend our views to avoid failure. Three major historical disasters show what happens when people with valid concerns stay silent.",
   content: `It is crucial to confidently express and defend our views to avoid failure. Three major historical cases illustrate what happens when people with valid concerns hesitate to speak.
 
-**Korean Air Flight 801 (1997)**
+<b>Korean Air Flight 801 (1997)</b>
 On August 6, 1997, the flight crashed at Guam International Airport, killing 228 of 254 people aboard. Flight crew identified dangerous weather and altitude concerns, but hierarchical cultural norms prevented them from insisting on their positions. The captain's unchecked confidence led to disregarded safety protocols. The concern was real — the voice was not loud enough.
 
-**Space Shuttle Challenger (1986)**
+<b>Space Shuttle Challenger (1986)</b>
 NASA engineers worried about O-ring performance in freezing conditions but failed to communicate their reservations forcefully to leadership. The launch proceeded anyway. The catastrophic failure claimed seven astronauts' lives. The engineers knew — but did not insist.
 
-**2008 Financial Crisis**
+<b>2008 Financial Crisis</b>
 Financial institutions recognized the dangers of the subprime mortgage bubble but lacked confidence in raising concerns. A risk-taking culture suppressed these warnings, ultimately triggering global economic turmoil. The people who saw it coming were overruled by those who preferred not to hear it.
 
 The pattern across all three: someone knew. Someone hesitated. The hesitation cost lives or livelihoods.
@@ -2581,16 +2581,16 @@ window.BLOG_REGISTRY.push({
 
 Zen philosophy offers a practical approach to daily life — not as escape or mysticism, but as a way of being fully present in the ordinary.
 
-**Accept**
+<b>Accept</b>
 Embrace life's transient nature and release self-centered desires to respect reality as it unfolds. Acceptance is not resignation — it is clarity about what is actually happening.
 
-**Focus**
+<b>Focus</b>
 Direct your attention to a single meaningful task rather than letting your mind wander between past regrets and future anxieties. The person you aspire to become is found in how you handle this moment.
 
-**Simplify**
+<b>Simplify</b>
 Reduce external complexity and possessions to achieve greater inner peace. Less to manage means more attention for what matters.
 
-**Persist**
+<b>Persist</b>
 Establish daily rituals and habits that reduce decision fatigue and prevent overthinking. Consistency is its own form of wisdom.
 
 Zen ultimately means embracing simplicity, peace, and moving beyond materialism to discover hidden joy in everyday moments. The path is ordinary — it is the attention you bring that makes it extraordinary.`
@@ -2605,13 +2605,13 @@ window.BLOG_REGISTRY.push({
   excerpt: "80% of weight loss plans fail within 12 months. Understanding why helps address the real obstacles.",
   content: `Weight loss products and services represent an enormous market with continuous discussion. According to Global News Wire, "the world market is growing by $254.9 billion in 2021 and will reach $377.3 billion by 2026 with a compound annual growth rate (CAGR) of 8.2%."
 
-**Why Weight Loss Plans Commonly Fail**
+<b>Why Weight Loss Plans Commonly Fail</b>
 
 The typical recommendation involves consuming less food while increasing physical activity. However, execution proves challenging compared to the concept. Establishing new dietary habits demands consistent discipline and proves difficult to sustain long-term.
 
 Research indicates that "80% of weight loss fails in 12 months." Regaining lost weight undermines weight loss objectives. Temporary modifications may occur, yet permanent transformation remains uncertain — and rebound effects can worsen outcomes.
 
-**Exercise**
+<b>Exercise</b>
 
 Quality fitness programs remain in high demand. Recommended options include Walk with Leslie Sansone and JUNGDAYEON (both available on YouTube). Both are accessible formats that can be maintained at home without equipment.
 
@@ -2627,25 +2627,25 @@ window.BLOG_REGISTRY.push({
   excerpt: "Seven psychological and social constraints limit personal freedom — most of them invisible precisely because they feel like common sense.",
   content: `Seven invisible constraints that limit personal freedom and potential:
 
-**1. Self-doubts**
+<b>1. Self-doubts</b>
 Limiting beliefs like "I'm not smart enough" confine people to restricted possibilities rather than embracing available opportunities. The cage is internal.
 
-**2. Pride**
+<b>2. Pride</b>
 An inflated sense of superiority prevents individuals from listening, observing, and learning from others. Pride creates isolation dressed up as confidence.
 
-**3. Fear**
+<b>3. Fear</b>
 Anxiety about trying new things or facing failure can paralyze decision-making and prevent reaching full potential. Fear asks permission before every step.
 
-**4. Authority**
+<b>4. Authority</b>
 Over-reliance on others' direction creates dependency and removes personal agency in choosing one's path.
 
-**5. Tradition**
+<b>5. Tradition</b>
 Following established rules without questioning creates invisible walls that limit both actions and thoughts. Not all traditions deserve continuation.
 
-**6. Sloth**
+<b>6. Sloth</b>
 Taking the easiest path exploits human laziness. Psychological nudging makes predetermined choices seem more appealing than the alternatives we haven't considered.
 
-**7. High Pay**
+<b>7. High Pay</b>
 Well-compensated positions can become "golden handcuffs," discouraging career changes even when work lacks meaning or fulfillment. Comfort has its own cost.
 
 Recognizing and releasing these invisible restraints is essential for achieving a genuinely free and fulfilling life. The first step is simply naming what holds you.`
@@ -2660,15 +2660,15 @@ window.BLOG_REGISTRY.push({
   excerpt: "Legal tech serves the company's legal business needs in three main areas: regulation, compliance, and case management. Understanding the basics helps anyone working with legal teams.",
   content: `"Legal tech serves the company's legal business needs in three main areas: regulation, compliance, and case management."
 
-**Regulation** encompasses contracts, patents, and mergers — the legal framework that governs how a company operates and interacts with the world.
+<b>Regulation</b> encompasses contracts, patents, and mergers — the legal framework that governs how a company operates and interacts with the world.
 
-**Compliance** involves data protection standards like GDPR and CCPA. As data privacy laws multiply across jurisdictions, compliance technology becomes essential for any company handling personal information.
+<b>Compliance</b> involves data protection standards like GDPR and CCPA. As data privacy laws multiply across jurisdictions, compliance technology becomes essential for any company handling personal information.
 
-**Case management** handles the full lifecycle of legal disputes — from initial documentation through resolution.
+<b>Case management</b> handles the full lifecycle of legal disputes — from initial documentation through resolution.
 
 The goal of legal tech is to make legal business practices easier, faster, and better. Modern trends favor artificial intelligence and automation to streamline processes, enable self-service legal support, and reduce litigation risks.
 
-**Practical tips for working with legal teams:**
+<b>Practical tips for working with legal teams:</b>
 - Maintain strict timelines — legal processes have hard deadlines
 - Provide precise information — vague requests create delays
 - Deliver comprehensive documentation with all required details upfront
@@ -2703,17 +2703,17 @@ window.BLOG_REGISTRY.push({
   excerpt: "Fraudsters apply Robert Cialdini's six principles of influence with alarming precision. Understanding how they work is the first step to recognizing them.",
   content: `Fraudsters are unwilling teachers of Robert Cialdini's six principles of influence. Examining how they apply each one reveals why their schemes work — and how to spot them.
 
-**Liking** — They create comfort through luxury surroundings and respectful treatment. When you feel good around someone, your guard drops.
+<b>Liking</b> — They create comfort through luxury surroundings and respectful treatment. When you feel good around someone, your guard drops.
 
-**Commitment and Consistency** — They reference past successes and existing investments to build trust. Once you've made a small commitment, the next step feels natural.
+<b>Commitment and Consistency</b> — They reference past successes and existing investments to build trust. Once you've made a small commitment, the next step feels natural.
 
-**Social Proof** — They showcase well-known investors or clients to demonstrate credibility. "If others trusted this, it must be real."
+<b>Social Proof</b> — They showcase well-known investors or clients to demonstrate credibility. "If others trusted this, it must be real."
 
-**Authority** — They use professional evaluations — KPMG assessments, legal opinions, expert endorsements — to establish legitimacy. Credentials and paperwork create an aura of due diligence.
+<b>Authority</b> — They use professional evaluations — KPMG assessments, legal opinions, expert endorsements — to establish legitimacy. Credentials and paperwork create an aura of due diligence.
 
-**Reciprocity** — They offer seemingly advantageous deals first, prompting a sense of obligation to reciprocate. Receiving something makes it harder to say no.
+<b>Reciprocity</b> — They offer seemingly advantageous deals first, prompting a sense of obligation to reciprocate. Receiving something makes it harder to say no.
 
-**Scarcity** — They emphasize uniqueness and limited availability. "This opportunity won't last." Urgency bypasses careful thinking.
+<b>Scarcity</b> — They emphasize uniqueness and limited availability. "This opportunity won't last." Urgency bypasses careful thinking.
 
 These principles work because they are rooted in normal human psychology. Fraudsters don't exploit stupidity — they exploit trust, social instinct, and the cognitive shortcuts that serve us well in everyday life.
 
@@ -2733,7 +2733,7 @@ The problem: "The problem is not the price difference but is how you can get the
 
 Promoters focus on gross profit while ignoring actual business expenses — particularly customer acquisition costs. This is the expense that dominates e-commerce economics. It's not a coincidence that Facebook built its entire revenue model around this exact cost.
 
-**What gets hidden in these presentations:**
+<b>What gets hidden in these presentations:</b>
 - Customer acquisition costs (often $30–$100+ per customer in paid advertising)
 - Return rates and refund costs
 - Storage and fulfillment fees
@@ -2782,14 +2782,14 @@ window.BLOG_REGISTRY.push({
 
 While buyer's agents represent your interests, both agents ultimately seek compensation and may prioritize closing deals. Information is negotiating power — protect it.
 
-**What to keep private:**
+<b>What to keep private:</b>
 - Urgency indicators — impending births, school deadlines, job start dates
 - Budget details and price preferences
 - How unfamiliar you are with the area
 - Emotional reactions to specific properties
 - Future renovation plans that might signal you love the place regardless of price
 
-**What to ask instead:**
+<b>What to ask instead:</b>
 - Why is the seller selling?
 - How long has the property been on the market?
 - What are the competing offers, if any?
@@ -2814,15 +2814,15 @@ The philosophy: bring joy to immediate loved ones rather than focusing solely on
 
 A selection of the 100 activities across categories:
 
-**Adventure:** Hot air balloon rides, skiing, sailing, kayaking, white water rafting
-**Life celebrations:** Graduations, weddings, milestone birthdays
-**Daily joys:** Ice cream outings, watching sunrises, stargazing
-**Travel:** Visiting all 7 continents, staying in castles, exploring national parks
-**Home:** Game nights, cooking together, planting a garden
-**Culture:** Museum visits, concerts, theater performances
-**Challenge:** Running a race together, learning a new skill as a family
-**Service:** Volunteering, helping neighbors, supporting a cause together
-**Food:** Trying international cuisines, dining at a special restaurant
+<b>Adventure:</b> Hot air balloon rides, skiing, sailing, kayaking, white water rafting
+<b>Life celebrations:</b> Graduations, weddings, milestone birthdays
+<b>Daily joys:</b> Ice cream outings, watching sunrises, stargazing
+<b>Travel:</b> Visiting all 7 continents, staying in castles, exploring national parks
+<b>Home:</b> Game nights, cooking together, planting a garden
+<b>Culture:</b> Museum visits, concerts, theater performances
+<b>Challenge:</b> Running a race together, learning a new skill as a family
+<b>Service:</b> Volunteering, helping neighbors, supporting a cause together
+<b>Food:</b> Trying international cuisines, dining at a special restaurant
 
 As of December 2022, I had completed 94 of the 100 activities — 91% completion. Sailing and stargazing were among the most memorable.
 
@@ -2840,10 +2840,10 @@ window.BLOG_REGISTRY.push({
 
 Using Austin Water as an example:
 
-**Cost**
+<b>Cost</b>
 Water conservation is particularly important from mid-November through mid-February. During this three-month winter period, Austin Water estimates usage to calculate the following year's capacity and pricing. Minimizing waste during this window helps avoid inflated annual costs. Using more water than necessary in winter can result in higher charges throughout the entire following year.
 
-**Quality**
+<b>Quality</b>
 Verify water safety by consulting your water quality report, which is publicly available for most municipal utilities. The report confirms the presence or absence of potentially harmful substances, including PFAS, lead levels, and other contaminants.
 
 These reports are typically published annually. Reading yours takes about ten minutes and provides a clear picture of what's actually coming out of your tap.
@@ -2880,7 +2880,7 @@ window.BLOG_REGISTRY.push({
   excerpt: "People aren't defined by their emotions — but understanding what each emotion signals gives us valuable self-knowledge rather than letting feelings control behavior.",
   content: `People aren't defined by their emotions — but understanding what each emotion signals gives us valuable self-knowledge rather than letting feelings control behavior.
 
-**What emotions tell us:**
+<b>What emotions tell us:</b>
 - Anger indicates violated values or boundaries
 - Sorrow reflects loss or grief
 - Happiness shows fulfilled desires
@@ -2888,11 +2888,11 @@ window.BLOG_REGISTRY.push({
 - Anxiety warns of potential loss
 - Jealousy stems from unmet wants
 
-**Managing emotions effectively:**
+<b>Managing emotions effectively:</b>
 
-**Journaling and catharsis** — Writing down emotions, their causes, and intended responses prevents burdening others and allows processing without suppression. Externalizing an emotion reduces its grip.
+<b>Journaling and catharsis</b> — Writing down emotions, their causes, and intended responses prevents burdening others and allows processing without suppression. Externalizing an emotion reduces its grip.
 
-**Focus switching** — Redirecting attention can divert from tension while maintaining emotional awareness. Not avoidance — deliberate redirection.
+<b>Focus switching</b> — Redirecting attention can divert from tension while maintaining emotional awareness. Not avoidance — deliberate redirection.
 
 Daniel Goleman's five self-regulation competencies provide a useful framework: self-control, trustworthiness, conscientiousness, adaptability, and innovation.
 
@@ -2936,18 +2936,18 @@ window.BLOG_REGISTRY.push({
 
 From "101 Essays That Will Change the Way You Think": "The things you hate about others are the things you cannot see in yourself." Jealousy connects to insufficient self-confidence — it is often a mirror, not a complaint about someone else.
 
-**Four strategies that help:**
+<b>Four strategies that help:</b>
 
-1. **Practice appreciation**
+1. <b>Practice appreciation</b>
 Recognize existing blessings — good health, family safety, the resources you already have. Self-approval meditation can help shift attention from what's missing to what's present.
 
-2. **Establish realistic goals**
+2. <b>Establish realistic goals</b>
 Pursue concrete action rather than mere wishing. Jealousy thrives in the gap between wanting and doing. Movement closes that gap.
 
-3. **Celebrate others' achievements**
+3. <b>Celebrate others' achievements</b>
 Reframe others' success as a contribution to society rather than a subtraction from your share. Collaboration and competition are both choices.
 
-4. **Recognize your own purpose**
+4. <b>Recognize your own purpose</b>
 Each life carries unique purpose and individual challenges worth appreciating. Someone else's success exists in a context you don't fully see.
 
 Jealousy signals something we want but haven't pursued. That information is worth having — not the feeling itself, but what it points to.`
@@ -2998,11 +2998,11 @@ Schedule regular family gatherings — brunches, outings, games, or conversation
 
 Three core aspects of family worth protecting:
 
-**Love** — expressed through unconditional support and forgiveness. Love that shows up even when it's inconvenient.
+<b>Love</b> — expressed through unconditional support and forgiveness. Love that shows up even when it's inconvenient.
 
-**Safety** — family as a refuge from external pressures. A place where you can set down the performance and rest.
+<b>Safety</b> — family as a refuge from external pressures. A place where you can set down the performance and rest.
 
-**Foundation** — a base for personal growth. Knowing you are supported makes risk-taking and change possible.
+<b>Foundation</b> — a base for personal growth. Knowing you are supported makes risk-taking and change possible.
 
 Start social change at home by prioritizing loved ones' happiness. Establish family traditions. Create reasons to return to each other regularly. The people closest to us deserve our best hours, not the ones left over after everything else.`
 });
@@ -3056,7 +3056,7 @@ Mindfulness in daily tasks is essential to living a meaningful life — and, as 
 
 Scammers exploit human carelessness by sending fraudulent emails with subtle variations — changing one letter in a corporate email address. Email display settings that hide the actual address behind a display name make these deceptions harder to spot.
 
-**What to do:**
+<b>What to do:</b>
 - Disable display name settings that hide the actual sender email address
 - Scrutinize unusual requests carefully, especially those involving money or credentials
 - When an email request feels off — even slightly — verify through a separate channel before acting
@@ -3075,12 +3075,12 @@ window.BLOG_REGISTRY.push({
   excerpt: "Two films worth watching: 'Shakuntala Devi' (2020) about the human computer, and '83' (2021) about India's cricket world championship.",
   content: `Two Indian historical films worth tea-time discussion:
 
-**Shakuntala Devi (2020)**
+<b>Shakuntala Devi (2020)</b>
 The film chronicles the life of the mathematical prodigy Shakuntala Devi (1929–2013), known as the "human computer." Born without formal mathematical training, she could perform complex calculations faster than electronic computers of her era.
 
 Her story parallels that of another Indian math genius, Srinivasa Ramanujan (1887–1920), who also achieved extraordinary mathematical insight without conventional education. Both demonstrate that exceptional talent can emerge outside traditional academic structures.
 
-**83 (2021) — Available on Netflix**
+<b>83 (2021) — Available on Netflix</b>
 This film depicts the true story of India's cricket team winning the world championship on June 25, 1983, at Lord's Cricket Ground. The narrative captures both team struggles and national pride — a victory that no one expected from a country that had never won before.
 
 Sports films work best when they're really about something else. "83" is about what happens when people believe something is possible before evidence suggests it should be. That's a story about more than cricket.
@@ -3119,19 +3119,19 @@ There is wisdom in seeking guidance from those with more life experience — not
 
 Five key lessons worth learning from others' experience:
 
-**1. Prioritize Health**
+<b>1. Prioritize Health</b>
 Maintain physical wellness through regular activity, preventive medical care, and stress management. Health cannot be replaced. Other resources can be rebuilt — physical capacity often cannot.
 
-**2. Stay Focused**
+<b>2. Stay Focused</b>
 Concentrate on controllable elements — personal responses, values, effort — rather than external circumstances beyond your influence. Energy spent on what you cannot change is wasted.
 
-**3. Listen First**
+<b>3. Listen First</b>
 Emphasize understanding others through active listening and questioning before expressing your own thoughts. "Listening and understanding are more important than expressing what we think." Most people listen to respond, not to understand.
 
-**4. Do Your Best**
+<b>4. Do Your Best</b>
 Apply maximum effort without fixating on outcomes. Celebrate incremental progress and growth as valid markers of success. The outcome is only partially yours to control.
 
-**5. Pursue Better Opportunities**
+<b>5. Pursue Better Opportunities</b>
 Continuously seek work that aligns with your capabilities and ambitions. Develop the necessary skills to get there. Staying where you've outgrown something is its own kind of mistake.
 
 What lessons have you learned from others that saved you from learning them the hard way?`
@@ -3150,7 +3150,7 @@ Jim Rohn: "Take care of your body. It's the only place you have to live."
 
 Food poisoning can arrive quickly and without warning. The causes are familiar — contaminated, spoiled, undercooked, or toxic foods — but easy to overlook in daily life when we move fast and eat carelessly.
 
-**Common risks worth keeping in mind:**
+<b>Common risks worth keeping in mind:</b>
 - Foods left out of refrigeration too long
 - Undercooked proteins (poultry, eggs, ground meat)
 - Cross-contamination between raw and cooked foods
@@ -3175,13 +3175,13 @@ Unhappiness often stems from unfinished tasks and wasted time — the gap betwee
 
 The approach rests on three pillars:
 
-**Self-Discovery**
+<b>Self-Discovery</b>
 Understanding one's identity, strengths, limitations, and societal role through self-reflection and small projects to validate abilities. Who am I when no one is watching? What do I genuinely want?
 
-**Productive Living**
+<b>Productive Living</b>
 Distinguishing between productive and unproductive activities, and finding practical tactics for sustainable implementation. Not productivity as performance — productivity as alignment with what matters.
 
-**Decision-Making**
+<b>Decision-Making</b>
 Focusing on making thoughtful choices, accepting outcomes, and moving forward. Decision-making is not about being right — it is about being present with the consequences of your choices and learning from them.
 
 Editor's Note (June 2023): Aging requires recognizing physical and capability limitations to prevent injury or illness. Deep immersion includes knowing when to rest.`
@@ -3198,16 +3198,16 @@ window.BLOG_REGISTRY.push({
 
 Three key elements for effective note-taking:
 
-**1. Discipline and Perseverance**
+<b>1. Discipline and Perseverance</b>
 Consistently capturing ideas from various sources — books, podcasts, videos, conversations. The habit matters more than the tool.
 
-**2. Organization Process**
+<b>2. Organization Process</b>
 The Zettelkasten Method is worth exploring: capture ideas in a fleet note, paraphrase fleet notes into literature notes, and create permanent notes written entirely in your own words. The final form should be your synthesis, not a copy.
 
-**3. Sense of Purpose**
+<b>3. Sense of Purpose</b>
 Maintain laser-focused attention on materials that align with your values. Time is limited — every note should have a reason to exist.
 
-**What a good tool needs:**
+<b>What a good tool needs:</b>
 - Accessibility across devices
 - Reliable storage and backup
 - Quick search functionality
@@ -3229,16 +3229,16 @@ window.BLOG_REGISTRY.push({
 
 Rather than constantly comparing oneself to others or seeking approval, accepting personal limits allows for greater peace. This is not resignation — it is clarity.
 
-**Setting right expectations**
+<b>Setting right expectations</b>
 Stop measuring your life against others' highlight reels. Your circumstances, timeline, and purpose are genuinely different. Expectations calibrated to your actual life produce more satisfaction than those borrowed from someone else's.
 
-**Preparation**
+<b>Preparation</b>
 Drawing from maternal wisdom: plan ahead — prepare weekly meals, organize daily priorities, and learn before major undertakings. Preparation is not anxiety; it is respect for the future version of yourself who will deal with what you set up today.
 
-**Quality time**
+<b>Quality time</b>
 Reconnect with loved ones through relaxed conversations and laughter. These moments matter most — often more than the achievements and acquisitions we spend so much energy pursuing.
 
-**Healthy boundaries**
+<b>Healthy boundaries</b>
 Balancing care for others with self-respect is crucial. "Smile, but don't smile too much. Help but don't help unless there is a need." Boundaries protect energy for what deserves it.
 
 *Real Simple* magazine and *The Minimalists* offer inspiration for this philosophy of intentional, uncomplicated living.
@@ -3310,9 +3310,9 @@ To overcome these boundaries, people must actively seek learning through books, 
 
 Two critical decisions when learning begins:
 
-**What to learn** — determined by personality, interests, and honest assessment of where gaps exist.
+<b>What to learn</b> — determined by personality, interests, and honest assessment of where gaps exist.
 
-**How to learn** — through focus and presence, not passive consumption. Reading while distracted produces less than reading slowly with attention.
+<b>How to learn</b> — through focus and presence, not passive consumption. Reading while distracted produces less than reading slowly with attention.
 
 This process transforms ignorance into wisdom — not all at once, but step by step, as each new layer of understanding reveals the next boundary to cross.`
 });
@@ -3326,19 +3326,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "Productivity means getting the most out of time. Five principles: prioritization, focus, simplicity, organization, and reflection.",
   content: `Productivity means "getting the most out of time." Five practical principles that support it:
 
-**1. Prioritization**
+<b>1. Prioritization</b>
 Avoid wasting time on unimportant matters that distract from what truly matters most. Not everything deserves your attention — distinguishing high-value tasks from low-value noise is the first skill.
 
-**2. Focus**
+<b>2. Focus</b>
 Direct concentrated energy and attention to the present task to produce optimal results. Multitasking is mostly a myth that produces mediocre work across several fronts rather than excellent work on one.
 
-**3. Simplicity**
+<b>3. Simplicity</b>
 Keep systems straightforward with basic to-do lists and calendar time-blocking rather than excessive planning. Elaborate productivity systems often become their own form of procrastination.
 
-**4. Organization**
+<b>4. Organization</b>
 Develop a bigger-picture view: group tasks logically, schedule intentionally, and eliminate distractions from physical and mental spaces. A clear workspace supports a clear mind.
 
-**5. Reflection**
+<b>5. Reflection</b>
 Review outcomes regularly to identify improvement areas and accelerate progress. Without reflection, the same inefficiencies repeat indefinitely.
 
 Awareness of time and present-moment immersion are essential foundations. These principles only work when applied with genuine attention — they are not shortcuts but habits of mind.`
@@ -3373,16 +3373,16 @@ window.BLOG_REGISTRY.push({
 
 Approximately 39.6% of American adults experience obesity. Weight management is an ongoing challenge for many — and the solutions offered by the market are often more complicated than the fundamentals require.
 
-**Food Selection**
+<b>Food Selection</b>
 Limit sodium and sugar intake. Increase low-carb options like vegetables and oatmeal. Portion control matters more than elimination.
 
-**Eating Schedule**
+<b>Eating Schedule</b>
 Regular meal timing helps prevent impulse eating when hungry. When meals are predictable, snacking decisions become easier.
 
-**Calorie Tracking**
+<b>Calorie Tracking</b>
 Monitoring overall intake supports weight management efforts — not obsessively, but with enough awareness to understand patterns.
 
-**Mindful Eating**
+<b>Mindful Eating</b>
 Avoid unconscious consumption. Keep tempting foods out of sight. Find alternative activities for stress-eating triggers.
 
 The fundamentals are not complicated, but they require consistency. Recommended exercise resources: Walk with Leslie Sansone and JUNGDAYEON (both available on YouTube) — accessible, home-friendly options that work across fitness levels.`
@@ -3397,22 +3397,22 @@ window.BLOG_REGISTRY.push({
   excerpt: "Pickleball was established in 1965 and has gained enormous popularity recently. It appeals to all ages and skill levels — a great sport to start with zero experience.",
   content: `Pickleball was established in 1965 and has gained enormous popularity in recent years. It is one of the fastest-growing sports in America.
 
-**Equipment**
+<b>Equipment</b>
 Players need a pickleball paddle (similar to an oversized ping pong paddle, typically made from graphite or composite materials) and a perforated plastic ball designed specifically for the game.
 
-**Court Setup**
+<b>Court Setup</b>
 Pickleball courts are customized tennis courts divided by a net. Many tennis courts have been converted or adapted for pickleball play.
 
-**Foundational Rules**
+<b>Foundational Rules</b>
 - Serves are underhand and diagonal
 - Double bounce requirement: the ball must bounce once on each side before volleys are allowed
 - The non-volley zone ("the kitchen") near the net — no volleys within this zone
 - Only the serving team earns points
 
-**Scoring**
+<b>Scoring</b>
 Games proceed to 11 or 15 points. Matches typically follow a best-of-three format.
 
-**Key tip:** Don't forget to warm up and cool down to avoid sport injuries.
+<b>Key tip:</b> Don't forget to warm up and cool down to avoid sport injuries.
 
 The USA Pickleball Association is the official governing body overseeing the sport. Pickleball appeals to all ages and skill levels — a great activity for tea-time conversation and an easy sport to try with family.`
 });
@@ -3426,17 +3426,17 @@ window.BLOG_REGISTRY.push({
   excerpt: "Ignore unsolicited contact from strangers via text or phone. Delete the message and mark it as spam — don't engage.",
   content: `Practical guidance for protecting yourself from common scams and frauds: ignore unsolicited contact from strangers via text or phone. "Delete the message and mark it as spam" rather than engaging with suspicious callers.
 
-**Specific scenarios:**
+<b>Specific scenarios:</b>
 
-**Account alerts:** Don't click links in messages claiming your Netflix or Amazon account is suspended. Verify through official websites directly — type the URL yourself.
+<b>Account alerts:</b> Don't click links in messages claiming your Netflix or Amazon account is suspended. Verify through official websites directly — type the URL yourself.
 
-**Unexpected receipts:** Disregard emails about purchases you didn't make and block the sender. Don't call the phone number provided.
+<b>Unexpected receipts:</b> Disregard emails about purchases you didn't make and block the sender. Don't call the phone number provided.
 
-**Unwanted gifts:** Avoid accepting unsolicited gift cards from unknown sources. Gift card scams are particularly common.
+<b>Unwanted gifts:</b> Avoid accepting unsolicited gift cards from unknown sources. Gift card scams are particularly common.
 
-**Social media requests:** Decline friend requests from strangers and ask for verification if uncertain. Scammers create convincing profiles.
+<b>Social media requests:</b> Decline friend requests from strangers and ask for verification if uncertain. Scammers create convincing profiles.
 
-**Pop-up warnings:** When encountering suspicious virus warnings online, stay calm and avoid clicking any links or calling numbers provided. Close the browser tab directly.
+<b>Pop-up warnings:</b> When encountering suspicious virus warnings online, stay calm and avoid clicking any links or calling numbers provided. Close the browser tab directly.
 
 The pattern across all scams: urgency and fear. Legitimate organizations don't demand immediate action via unverified channels.
 
@@ -3454,25 +3454,25 @@ window.BLOG_REGISTRY.push({
 
 Fifty years of living offer a particular kind of knowledge — not necessarily more accurate than younger perspective, but more seasoned. Seven essential principles distilled from the journey:
 
-**Stay Active**
+<b>Stay Active</b>
 Movement is not optional — it is foundational to everything else. The body in motion supports the mind in motion.
 
-**Stay Focused**
+<b>Stay Focused</b>
 Concentrate on what you can control. External circumstances shift constantly; internal responses are where real agency lives.
 
-**Listen First**
+<b>Listen First</b>
 Active listening is foundational to every good relationship and good decision. "Listening and understanding are more important than expressing what we think."
 
-**Do Your Best**
+<b>Do Your Best</b>
 Apply full effort without fixating on outcomes. Celebrate incremental progress as genuine success.
 
-**Prioritize Family**
+<b>Prioritize Family</b>
 The most valuable investment of time is in the people who matter most. No achievement compensates for neglected relationships.
 
-**Keep Learning**
+<b>Keep Learning</b>
 Curiosity sustains meaning. Seek out what you don't understand — journaling preserves memories and maintains consciousness of time passing.
 
-**Seek Better Opportunities**
+<b>Seek Better Opportunities</b>
 Don't stay where you've outgrown your place. Develop the skills needed for what's next.
 
 The plan: revisit these lessons five years from now, to see which ones deepened and which ones needed revision. Life as an ongoing journey of growth.`
@@ -3491,9 +3491,9 @@ Steve Jobs's famous keynote presentations — so polished in memory — containe
 
 Perfection is unnecessary for success. Two key takeaways:
 
-1. **Avoid demanding perfection from yourself.** Imperfection is acceptable, and demanding flawlessness often prevents completion entirely. A finished work with imperfections beats a perfect work never released.
+1. <b>Avoid demanding perfection from yourself.</b> Imperfection is acceptable, and demanding flawlessness often prevents completion entirely. A finished work with imperfections beats a perfect work never released.
 
-2. **Recognize varied strengths and weaknesses.** Not everyone needs to be high-achieving in every area. People contribute differently.
+2. <b>Recognize varied strengths and weaknesses.</b> Not everyone needs to be high-achieving in every area. People contribute differently.
 
 Completing work while acknowledging limitations matters more than eliminating flaws. Sharing values and conviction proves sufficient for meaningful impact.
 
@@ -3511,15 +3511,15 @@ window.BLOG_REGISTRY.push({
 
 A rough cost comparison shows annual savings of approximately $840 for typical driving patterns when switching from gasoline to electric, based on current fuel prices and electricity costs.
 
-**Maintenance advantages:** "EVs generally have fewer moving parts and require less maintenance, leading to potential savings on oil changes, transmission repairs, etc."
+<b>Maintenance advantages:</b> "EVs generally have fewer moving parts and require less maintenance, leading to potential savings on oil changes, transmission repairs, etc."
 
-**Tax incentives:** Qualified plug-in EV purchases may qualify for up to $7,500 in federal tax credits under IRS Section 30D. Worth checking eligibility before purchasing.
+<b>Tax incentives:</b> Qualified plug-in EV purchases may qualify for up to $7,500 in federal tax credits under IRS Section 30D. Worth checking eligibility before purchasing.
 
-**Charging:** The charging infrastructure is rapidly expanding, recharging is becoming more convenient. Home charging overnight is the most practical approach for most drivers — you start every day with a full charge.
+<b>Charging:</b> The charging infrastructure is rapidly expanding, recharging is becoming more convenient. Home charging overnight is the most practical approach for most drivers — you start every day with a full charge.
 
-**Getting started:** Hybrid vehicles offer a stress-free transition option for those not ready to commit fully to electric.
+<b>Getting started:</b> Hybrid vehicles offer a stress-free transition option for those not ready to commit fully to electric.
 
-**Environmental case:** Embracing EVs is "crucial to reducing our carbon footprint and creating a cleaner planet."
+<b>Environmental case:</b> Embracing EVs is "crucial to reducing our carbon footprint and creating a cleaner planet."
 
 Personal note: I began driving a BMW X4 xDrive45e hybrid in July 2022. The quiet of electric driving mode and the ease of the experience exceeded expectations. It is a different relationship with a car — calmer, more deliberate.`
 });
@@ -3533,16 +3533,16 @@ window.BLOG_REGISTRY.push({
   excerpt: "Three fundamentals for understanding wine: differentiation by color, classification as sparkling or non-sparkling, and food pairing based on color matching.",
   content: `Three fundamentals for understanding wine rather than being confused by conflicting health opinions:
 
-**Color**
+<b>Color</b>
 Wine is differentiated primarily by color: red, white, rosé, and ice wine. Each has distinct characteristics, flavor profiles, and typical uses.
 
-**Sparkling or Still**
+<b>Sparkling or Still</b>
 Classification as sparkling or non-sparkling. Champagne and prosecco are the most familiar sparkling varieties; most wines are still.
 
-**Food Pairing**
+<b>Food Pairing</b>
 A practical rule: match wine color to food. White wines pair with lighter foods (fish, chicken, salads); red wines pair with heavier foods (red meat, robust pasta). Rosé bridges both.
 
-**Nutrition facts:**
+<b>Nutrition facts:</b>
 - A glass of red wine (148ml) provides around 120 calories
 - Sweet wines can reach up to 164 calories per glass
 - Red wine typically contains minimal sugar compared to dessert varieties
@@ -3561,18 +3561,18 @@ window.BLOG_REGISTRY.push({
 
 The airplane safety protocol says it well: "during emergency situations, we must put on our masks before helping others." Self-care is not selfish — it is foundational to supporting others effectively.
 
-**Three steps for boundary-setting:**
+<b>Three steps for boundary-setting:</b>
 
-**1. Creating**
+<b>1. Creating</b>
 Understand personal goals and desires rather than conforming to others' expectations. What do you actually need? What drains you beyond what you can sustain?
 
-**2. Declaring**
+<b>2. Declaring</b>
 Communicate specific limits clearly to others. Boundaries that aren't stated don't protect you.
 
-**3. Holding**
+<b>3. Holding</b>
 Say no when boundaries are violated. This is the hardest part — and the most important.
 
-**Post-pandemic relevance:** Remote work across time zones creates scheduling stress that didn't exist in the same way before 2020. Practical examples: blocking calendar breaks, requesting privacy in shared homes, protecting time for health and learning.
+<b>Post-pandemic relevance:</b> Remote work across time zones creates scheduling stress that didn't exist in the same way before 2020. Practical examples: blocking calendar breaks, requesting privacy in shared homes, protecting time for health and learning.
 
 Boundaries enable people to "live from our true desires" rather than operating from external pressures or people-pleasing impulses. They are not walls — they are agreements about how you can show up well.`
 });
@@ -3588,7 +3588,7 @@ window.BLOG_REGISTRY.push({
 
 Life consists of cherishing unique moments, yet this natural tendency pulls us away from them constantly.
 
-**Three memories of genuine presence:**
+<b>Three memories of genuine presence:</b>
 - Watching bamboo curtains dance in summer heat without air conditioning — the specific texture of that particular afternoon
 - Discovering a magazine with the "fresh smell of ink" at a small library — the sensory particularity that makes a moment real
 - Spotting an elegantly dressed woman at a bamboo park on a cold winter day — the surprise of beauty in an ordinary place
@@ -3609,13 +3609,13 @@ window.BLOG_REGISTRY.push({
   excerpt: "Making things that matter visible is a great way to fight our short memory and constantly distracted attention.",
   content: `"Making things matter visible is a great way to fight our short memory and constant distracted attention."
 
-**The vitamin example:** When vitamins were moved from the pantry to a desk near water, taking them daily became easy. When they were in the pantry, they were forgotten. The same product, two different outcomes — based entirely on visibility.
+<b>The vitamin example:</b> When vitamins were moved from the pantry to a desk near water, taking them daily became easy. When they were in the pantry, they were forgotten. The same product, two different outcomes — based entirely on visibility.
 
 This extends to refrigerator organization: when food is at eye level and clearly arranged, it gets used before it spoils. Pushed to the back, it disappears.
 
-**Professional visibility** matters the same way. Attending meetings and initiating office conversations ensure colleagues remember contributions and consider you for future opportunities. The person who is physically and conversationally present is the person people think of when opportunities arise.
+<b>Professional visibility</b> matters the same way. Attending meetings and initiating office conversations ensure colleagues remember contributions and consider you for future opportunities. The person who is physically and conversationally present is the person people think of when opportunities arise.
 
-**Problem visibility** is equally powerful. Unaddressed problems often remain invisible — and invisible problems don't get solved. Documenting and displaying issues prominently motivates teams and creates accountability for resolution.
+<b>Problem visibility</b> is equally powerful. Unaddressed problems often remain invisible — and invisible problems don't get solved. Documenting and displaying issues prominently motivates teams and creates accountability for resolution.
 
 The principle: what you cannot see, you cannot act on. Making the important things visible is not about clutter — it is about designing your environment to support the things you actually care about.`
 });
@@ -3629,16 +3629,16 @@ window.BLOG_REGISTRY.push({
   excerpt: "A 25-pound watermelon seemed like great value. It was not — and the mistakes made buying it turn out to be the same ones we make in bigger decisions.",
   content: `A 25-pound watermelon at the grocery store seemed like great value — impressive size, good price. The purchase proved problematic.
 
-**What went wrong:**
+<b>What went wrong:</b>
 The couple failed to properly assess the melon's ripeness before buying. The enormous size exceeded their actual consumption needs, creating "melon fatigue" and spoilage. The focus on size and price crowded out questions about quality and freshness.
 
-**Three lessons extracted:**
+<b>Three lessons extracted:</b>
 
-1. **The scale of consequences matches the scale of decisions.** "The more significant actions we make, the greater impact on our lives." Poor large decisions cause more damage than poor small ones. The watermelon was a small mistake. The same tunnel vision applied to a house purchase is something else entirely.
+1. <b>The scale of consequences matches the scale of decisions.</b> "The more significant actions we make, the greater impact on our lives." Poor large decisions cause more damage than poor small ones. The watermelon was a small mistake. The same tunnel vision applied to a house purchase is something else entirely.
 
-2. **Understand your actual needs before acquiring.** Constraints like freshness timelines, storage capacity, and consumption rate determine appropriate quantities. Wanting something is not the same as needing it.
+2. <b>Understand your actual needs before acquiring.</b> Constraints like freshness timelines, storage capacity, and consumption rate determine appropriate quantities. Wanting something is not the same as needing it.
 
-3. **Beware of tunnel vision on a single factor.** Focusing only on price or size causes overlooking other critical considerations — quality, freshness, fit for purpose. Every purchasing decision has multiple relevant variables.
+3. <b>Beware of tunnel vision on a single factor.</b> Focusing only on price or size causes overlooking other critical considerations — quality, freshness, fit for purpose. Every purchasing decision has multiple relevant variables.
 
 Sometimes restraint proves wiser than excess. Less is more — not as a philosophy, but as a practical conclusion reached one watermelon at a time.`
 });
@@ -3652,19 +3652,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "Technology changes. Politics shift. But some fundamental human drives — self-preservation, connection, meaning-seeking — remain constant across generations.",
   content: `Technology changes. Politics shift. Fashions come and go. But some fundamental human drives remain constant across generations.
 
-**Self-preservation**
+<b>Self-preservation</b>
 "The primal instinct of self-preservation drives us forward, fearing losses, inspiring ingenuity and resilience in the face of challenges." This has not changed across human history — only the forms it takes.
 
-**Social bonds**
+<b>Social bonds</b>
 Humans possess an enduring need for connection that builds families, friendships, and communities. Loneliness is as damaging to health today as it was when humans lived in small tribes.
 
-**Meaning-seeking**
+<b>Meaning-seeking</b>
 People continuously pursue purpose and personal growth, driven by curiosity and the desire for knowledge. The specific questions change; the drive to ask them doesn't.
 
-**Morality**
+<b>Morality</b>
 An internal moral compass guides individuals through ethical complexities. Every culture that has ever existed developed ethical frameworks — different in content, identical in function.
 
-**Expression**
+<b>Expression</b>
 Communication remains vital for bridging inner worlds and creating connections. Language, art, music, ritual — the forms are countless, the need is universal.
 
 Human adaptability enables navigation through historical change, while these unchanging traits bind humanity together in shared experience. Understanding what is constant helps interpret what is merely new.`
@@ -3701,15 +3701,15 @@ window.BLOG_REGISTRY.push({
 
 Comfort spending levels vary significantly among individuals — there is no universal right answer.
 
-**Three spending principles:**
+<b>Three spending principles:</b>
 
-**Investment opportunity**
+<b>Investment opportunity</b>
 Money in hand presents chances to increase its value through smart investing. Before spending, consider whether that money could grow elsewhere. The opportunity cost is real.
 
-**Life quality balance**
+<b>Life quality balance</b>
 Happiness purchases deserve justification when they enhance life. Overspending with future consequences warrants restraint. Not all spending that feels good in the moment serves you well over time.
 
-**Values alignment**
+<b>Values alignment</b>
 Spending reflects core values — whether prioritizing education, travel, charitable giving, or meaningful causes. Your bank statement is a record of what you actually value, as opposed to what you think you value.
 
 While we have freedom in spending choices, this liberty carries corresponding responsibility. The question worth asking before major purchases: does this align with where I want my life to go?`
@@ -3724,11 +3724,11 @@ window.BLOG_REGISTRY.push({
   excerpt: "The Federal Reserve defines opportunity cost as 'the value of the next-best alternative when a decision is made; it's what is given up.' Every choice has one.",
   content: `Economic concepts can illuminate everyday decision-making in ways that formal training rarely makes accessible.
 
-**Opportunity cost:** "The value of the next-best alternative when a decision is made; it's what is given up." — Federal Reserve
+<b>Opportunity cost:</b> "The value of the next-best alternative when a decision is made; it's what is given up." — Federal Reserve
 
 Every choice has one. When you choose something, you are simultaneously declining everything else you could have chosen with that time or money.
 
-**Examples from daily life:**
+<b>Examples from daily life:</b>
 
 Sacrificing 15 minutes of sleep to prepare coffee carefully is a choice. The 15 minutes of sleep was the opportunity cost. Whether the trade was worth it depends on your values — but understanding that you made a trade at all is the point.
 
@@ -3748,25 +3748,25 @@ window.BLOG_REGISTRY.push({
   excerpt: "Notes from a nutrition consulting session covered by health insurance. Practical basics: 2000 calories, vegetable sequencing, sugar reduction, and step targets.",
   content: `Notes from a nutrition consulting session covered by health insurance — a useful reminder that many insurance plans cover preventive nutrition consultations.
 
-**Calorie Management**
+<b>Calorie Management</b>
 A baseline of 2,000 daily calories is recommended, with adjustments for exercise levels. This isn't a rigid rule but a reference point for awareness.
 
-**Carbohydrate Control**
+<b>Carbohydrate Control</b>
 Eating vegetables like cauliflower and broccoli first during meals slows carbohydrate absorption. Starting meals with fiber before starches and proteins changes how the body processes the whole meal.
 
-**Sugar Reduction**
+<b>Sugar Reduction</b>
 Limit juice and certain fruits. Add protein sources like eggs and nuts to reduce sugar cravings — protein sustains satiety in ways that carbohydrates alone don't.
 
-**Daily Nutrition Balance**
+<b>Daily Nutrition Balance</b>
 Include diverse foods throughout the day: eggs, tuna, and avocado provide different nutrient profiles that work together.
 
-**Lifestyle Factors**
+<b>Lifestyle Factors</b>
 - Walk 6,000 steps after meals when possible
 - Manage stress (directly affects cortisol and appetite)
 - Prioritize quality sleep
 - Reduce processed food consumption
 
-**Additional considerations:** The specialist addressed hormonal changes during menopause and mentioned intermittent fasting as a weight-management option worth discussing with a physician.`
+<b>Additional considerations:</b> The specialist addressed hormonal changes during menopause and mentioned intermittent fasting as a weight-management option worth discussing with a physician.`
 });
 window.BLOG_REGISTRY.push({
   id: "2022-09-25-chinese-mid-autumn-festival",
@@ -3782,7 +3782,7 @@ This annual harvest festival falls on the 15th day of the 8th month of the Chine
 
 The celebration extends beyond China to Japan, Korea, Vietnam, and other countries in East and Southeast Asia — each culture with its own traditions and variations on the themes of harvest, family reunion, and the appreciation of the full moon.
 
-**Common traditions:**
+<b>Common traditions:</b>
 - Eating mooncakes, dense pastries filled with lotus seed paste, red bean, or other fillings
 - Family gathering and reunion dinners
 - Lantern displays and lighting
@@ -3802,15 +3802,15 @@ window.BLOG_REGISTRY.push({
 
 "We give people choices to show our respect." The question accommodates cultural differences, dietary preferences, taste, and mood — particularly when meeting someone new whose preferences you don't know.
 
-**What the question actually does:**
+<b>What the question actually does:</b>
 
-1. **Respect through choice.** Offering options acknowledges that people are different and their preferences matter. It requires the host to think from the guest's perspective rather than their own.
+1. <b>Respect through choice.</b> Offering options acknowledges that people are different and their preferences matter. It requires the host to think from the guest's perspective rather than their own.
 
-2. **Understanding others.** The act of offering choices is an effort to understand different perspectives. It is hospitality made concrete.
+2. <b>Understanding others.</b> The act of offering choices is an effort to understand different perspectives. It is hospitality made concrete.
 
-3. **Simplicity matters.** "Choice questions need to be simple." While acknowledging that some might prefer lattes or specific tea varieties, excessive options create unnecessary complexity and overthinking. The coffee-or-tea formulation works because it narrows without excluding.
+3. <b>Simplicity matters.</b> "Choice questions need to be simple." While acknowledging that some might prefer lattes or specific tea varieties, excessive options create unnecessary complexity and overthinking. The coffee-or-tea formulation works because it narrows without excluding.
 
-4. **Celebrating differences.** These simple rituals acknowledge and celebrate human diversity in a meaningful, low-stakes way.
+4. <b>Celebrating differences.</b> These simple rituals acknowledge and celebrate human diversity in a meaningful, low-stakes way.
 
 The deeper principle: when we offer someone a genuine choice rather than a default, we communicate that their preferences matter. That's the foundation of hospitality — and of most good relationships.`
 });
@@ -3826,19 +3826,19 @@ window.BLOG_REGISTRY.push({
 
 Gratitude is more than an emotion — it is a practice with multiple dimensions:
 
-**As an Attitude**
+<b>As an Attitude</b>
 Gratefulness involves recognizing inner feelings without demanding external change. Rather than lamenting what's absent, this approach centers on accepting and valuing what already exists. Not toxic positivity — genuine attention to what is present.
 
-**As Self-Reflection**
+<b>As Self-Reflection</b>
 Practicing thankfulness reveals our core values and life priorities. When we feel grateful for a friend's listening ear, we learn we value understanding — and may extend similar compassion to others. What we're grateful for tells us who we are.
 
-**As Expression**
+<b>As Expression</b>
 The University of Pennsylvania's positive psychology initiative encourages writing thank-you notes. Expressing gratitude builds meaningful human connections and acknowledges those who contribute to our happiness. The recipient matters — but so does the act of articulating it.
 
-**As Reminder**
+<b>As Reminder</b>
 Gratitude reconnects us with life's positive elements and what truly matters. When everything feels wrong, the practice of naming what is right recalibrates perspective.
 
-**A challenge:** Identify one thing to appreciate daily over the coming week and observe whether this practice shifts your perspective. The evidence suggests it does.`
+<b>A challenge:</b> Identify one thing to appreciate daily over the coming week and observe whether this practice shifts your perspective. The evidence suggests it does.`
 });
 window.BLOG_REGISTRY.push({
   id: "2022-10-03-automating-a-shopping-list-in-notion",
@@ -3852,7 +3852,7 @@ window.BLOG_REGISTRY.push({
 
 The result is a shortened, accurate shopping list accessible during weekend errands — no duplicates, no forgotten items.
 
-**Reverse-lookup approach:**
+<b>Reverse-lookup approach:</b>
 An alternative method: examine what groceries are already in stock (vegetables and meat), then determine which favorite recipes could be prepared with minimal additional purchases. Rather than starting from a meal plan and deriving a list, start from current inventory and derive a menu.
 
 This reverse approach reduces waste, uses what's already present, and makes the weekly grocery run smaller and more targeted.
@@ -3937,19 +3937,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "A rain-cancelled picnic: most things could be out of control, and we must let them go. The distinction between what we control and what we don't is the beginning of peace.",
   content: `A rain-cancelled picnic. "Most things could be out of control, and we must let them go."
 
-**The limits of control:**
+<b>The limits of control:</b>
 Through a conversation with Jane: "we can't force anyone to follow our path. However, we can influence others in a way that they would appreciate." There is a meaningful difference between force and influence — and most of us spend time on the wrong one.
 
-**Parenting:**
+<b>Parenting:</b>
 Overprotective parenting can hinder children's development of resilience and independence. Watching a child struggle is uncomfortable. But struggle is also where capability grows. Mindful parenting balances care with the space to learn.
 
-**Leadership:**
+<b>Leadership:</b>
 Effective managers balance structure with flexibility — allowing team members different working styles while maintaining accountability to stakeholders. Control every detail and you've made yourself a bottleneck. Give no structure and direction disappears.
 
-**Internal struggles:**
+<b>Internal struggles:</b>
 Even personal discipline (exercise, diet) reveals how bodies resist willpower. We cannot fully control ourselves either.
 
-**The distinction that matters:**
+<b>The distinction that matters:</b>
 Within our control: present thoughts, actions, goals, values, and responses to challenges.
 Out of our control: the past, future outcomes, others' opinions, and others' reactions.
 
@@ -3967,20 +3967,20 @@ window.BLOG_REGISTRY.push({
 
 A morning routine means intentional actions taken during the first one to two hours after waking. Routinized mornings increase productivity through focus — the day's direction is set before most challenges arise.
 
-**Three areas an effective morning routine should address:**
+<b>Three areas an effective morning routine should address:</b>
 
-**Health**
+<b>Health</b>
 Incorporate exercise, hydration, and nutritious meals to build positive energy. The body's state shapes the mind's state.
 
-**Daily Preparation**
+<b>Daily Preparation</b>
 Clarify priorities and goals to maintain focus throughout the day. Know what matters before the day's demands begin competing for attention.
 
-**Meaningful Work**
+<b>Meaningful Work</b>
 Dedicate time to important long-term projects that require sustained commitment. These are the things that never get done unless protected by intentional scheduling.
 
-**Success prerequisite:** Prepare a to-do list before bed. This conserves decision-making energy for morning action rather than morning planning.
+<b>Success prerequisite:</b> Prepare a to-do list before bed. This conserves decision-making energy for morning action rather than morning planning.
 
-**A personal morning routine (5:50 AM start):**
+<b>A personal morning routine (5:50 AM start):</b>
 - 20 minutes: hygiene and exercise
 - 20 minutes: self-reflection with tea
 - 90 minutes: learning and blogging
@@ -4018,25 +4018,25 @@ window.BLOG_REGISTRY.push({
   excerpt: "Soy sauce (Shoyu) comes in light and dark varieties with distinct uses. Exceptional grade contains amino acid nitrogen exceeding 1.2g/100mL. What to look for — and what to avoid.",
   content: `Soy sauce (Shoyu) deserves more attention than it usually gets as an ingredient.
 
-**Varieties:**
-- **Light soy sauce** — well suited for salads and dipping; lighter color and saltier flavor
-- **Dark soy sauce** — colors dishes with richer, slightly sweeter flavor; used for braising and stir-frying
-- **Tamari** — a gluten-free alternative made without wheat
+<b>Varieties:</b>
+- <b>Light soy sauce</b> — well suited for salads and dipping; lighter color and saltier flavor
+- <b>Dark soy sauce</b> — colors dishes with richer, slightly sweeter flavor; used for braising and stir-frying
+- <b>Tamari</b> — a gluten-free alternative made without wheat
 
-**Quality indicators:**
+<b>Quality indicators:</b>
 - Fermentation duration of "3-6 months" — longer fermentation produces more complex flavor
 - Simple ingredients: soybeans, wheat, water, and salt
 - Non-GMO soybeans when available
 - Avoid products made through acid hydrolysis (a chemical shortcut that bypasses fermentation)
 - "Exceptional grade soy sauce" contains amino acid nitrogen exceeding "1.2g/100mL"
 
-**Nutrition note:**
+<b>Nutrition note:</b>
 Sodium content typically reaches around 41%, requiring adjustment to other salt additions during cooking. Monitor this, especially if sodium intake is a concern.
 
-**Common additives to watch for:**
+<b>Common additives to watch for:</b>
 Monosodium glutamate, added sugar, yeast extract, disodium nucleotides, caramel coloring, and sodium benzoate (a preservative).
 
-**Recommended brands:** Kikkoman and Lee Kum Kee products, with prices ranging from approximately $0.27 to $1.00 per ounce depending on grade.`
+<b>Recommended brands:</b> Kikkoman and Lee Kum Kee products, with prices ranging from approximately $0.27 to $1.00 per ounce depending on grade.`
 });
 window.BLOG_REGISTRY.push({
   id: "2022-11-06-leaving-the-worries-to-god",
@@ -4068,24 +4068,24 @@ window.BLOG_REGISTRY.push({
   excerpt: "Procrastination is 'a self-regulation failure characterized by the irrational delay of tasks.' Five causes — and a four-step approach that actually helps.",
   content: `Procrastination is "a self-regulation failure characterized by the irrational delay of tasks." It persists despite its negative consequences because it addresses a real psychological need in the short term.
 
-**Five causes:**
+<b>Five causes:</b>
 
-**1. Present Bias**
+<b>1. Present Bias</b>
 Prioritizing immediate gratification over future rewards. Tim Urban's concept of the "instant gratification monkey" captures this perfectly — a part of the brain that hijacks rational decision-making to pursue what feels good now.
 
-**2. Losing Focus Due to Indolence**
+<b>2. Losing Focus Due to Indolence</b>
 Social media and passive information consumption blur priorities and waste time. Distraction isn't laziness — it's the path of least resistance in an environment designed for it.
 
-**3. Dreaming**
+<b>3. Dreaming</b>
 Creative individuals get caught imagining possibilities rather than acting on them. Adam Grant's research on "original thinkers" shows that some procrastination can enable better thinking — but it becomes a trap when dreaming substitutes for doing.
 
-**4. Perfectionism**
+<b>4. Perfectionism</b>
 Waiting for the perfect moment, the perfect preparation. Nothing is truly perfect, and this belief prevents completion.
 
-**5. Lack of Priority**
+<b>5. Lack of Priority</b>
 Without clear goals, people become distracted and overwhelmed by competing demands.
 
-**A four-step approach:**
+<b>A four-step approach:</b>
 1. Set Goals — be specific about what matters
 2. Make a Plan — schedule it, keep an idea notebook
 3. Focus on the Plan — practice deep work without interruption
@@ -4105,12 +4105,12 @@ window.BLOG_REGISTRY.push({
 
 This culinary approach aligns with Buddhist principles, avoiding meat and dairy products while focusing on vegetables, beans, and greens.
 
-**The philosophy behind Zen cuisine:**
+<b>The philosophy behind Zen cuisine:</b>
 The approach centers on the middle path, deliberately excluding strong-smelling vegetables (onions, garlic, chives) and dairy. This is not arbitrary — these choices reflect an intention to "show care for others and respect for nature with dishes designed to bring out the flavors of each ingredient and have no waste."
 
 Zen cooking is about what remains when intensity is removed. The goal is to bring out natural flavors rather than mask them, and to use ingredients completely rather than waste.
 
-**Traditional preparations:**
+<b>Traditional preparations:</b>
 Substitute umami-rich ingredients like dried seaweed and mushrooms for standard vegetable stock. Essential components in Zen vegan cooking include spice blends, tofu, and burdock root.
 
 A diet designed not just for the body but as a practice in itself — each meal an opportunity for mindfulness, care, and simplicity.`
@@ -4125,16 +4125,16 @@ window.BLOG_REGISTRY.push({
   excerpt: "Four natural laws from the Australian dark comedy series Tangle: causality, interconnection, triangle dynamics, and unintended consequences.",
   content: `The Australian dark comedy series *Tangle* explores philosophical principles through its interwoven narratives. Four natural laws emerge from the story:
 
-**1. Causality**
+<b>1. Causality</b>
 "Every action is the consequence of another action." This reflects Einstein's deterministic view of the universe — nothing occurs in isolation. Every outcome has a cause, and every cause has consequences.
 
-**2. Interconnection**
+<b>2. Interconnection</b>
 The concept of quantum entanglement extends beyond physics: all beings remain linked regardless of distance, influencing one another in subtle ways. Relationships create invisible threads.
 
-**3. Triangle Dynamics**
+<b>3. Triangle Dynamics</b>
 Three interconnected elements can only connect pairwise at any given moment — never simultaneously at a single point. In any triangle of relationships, the connections shift; all three cannot be equally close simultaneously.
 
-**4. Unintended Consequences**
+<b>4. Unintended Consequences</b>
 Each cause produces multiple effects. Unforeseen side effects often prove more impactful than intended outcomes. The intervention you planned produces results you didn't anticipate.
 
 A Yaqui philosophy perspective frames the whole: revealing without explaining — presenting truth obliquely, trusting the observer to complete the understanding. Some things are better shown than argued.
@@ -4153,15 +4153,15 @@ window.BLOG_REGISTRY.push({
 
 Learning is a constructive response to uncertainty — more productive than worry, more actionable than abstract thinking, more grounding than either.
 
-**Two key decisions after committing to learning:**
+<b>Two key decisions after committing to learning:</b>
 
-**What to study**
+<b>What to study</b>
 Pursue subjects that bring happiness, expand knowledge, or enhance life. Learning is most sustainable when it connects to genuine curiosity or real application — not obligation.
 
-**How to approach it**
+<b>How to approach it</b>
 Maintaining focus during study sessions is essential for maximizing educational benefits. Distracted study produces little retention. Concentrated effort in shorter sessions outperforms long, interrupted ones.
 
-**Tool:** The Minee 3 Timer supports focused study sessions. Timed blocks with clear breaks create structure without rigidity.
+<b>Tool:</b> The Minee 3 Timer supports focused study sessions. Timed blocks with clear breaks create structure without rigidity.
 
 The invitation is simple: set aside time, choose something worth learning, and begin. The act of learning itself — not just the knowledge acquired — builds the habit of learning.`
 });
@@ -4177,7 +4177,7 @@ window.BLOG_REGISTRY.push({
 
 The series chronicles "his learning with a Yaqui Indian from northern Mexico" — beginning with foundational teachings and progressing through advanced shamanic concepts.
 
-**The twelve works in order:**
+<b>The twelve works in order:</b>
 1. *The Teachings of Don Juan* (1968) — lessons from 1960–1965
 2. *A Separate Reality* (1971)
 3. *Journey to Ixtlan* (1972)
@@ -4207,15 +4207,15 @@ window.BLOG_REGISTRY.push({
 
 "To take action, we must first face reality."
 
-**Three key areas of acceptance:**
+<b>Three key areas of acceptance:</b>
 
-**Life's unpredictability**
+<b>Life's unpredictability</b>
 External circumstances are rarely within our control. Fighting this fact wastes energy. Acknowledging it frees attention for what can actually be influenced.
 
-**Personal imperfection**
+<b>Personal imperfection</b>
 Struggling with something — a non-native language, an unfamiliar skill, a difficult relationship — does not prevent finding happiness and accomplishing meaningful work. The limitation is real. It is also not the final word.
 
-**The consequences of our decisions**
+<b>The consequences of our decisions</b>
 Every choice has consequences. Accepting this, rather than seeking to escape it, creates ownership. Ownership creates agency.
 
 "Perfection is simply an illusion."
@@ -4234,16 +4234,16 @@ window.BLOG_REGISTRY.push({
   excerpt: "Organization fosters happiness by creating a sense of control. Four principles: make a plan, develop habits, reduce distractions, minimize material possessions.",
   content: `Organization fosters happiness by creating a sense of control over our environment and time.
 
-**1. Make a Plan**
+<b>1. Make a Plan</b>
 Take charge of time management before others do it for you. "If you don't plan your time, someone else will." A plan is a declaration of what you value — and a defense against what you don't.
 
-**2. Develop Habits**
+<b>2. Develop Habits</b>
 Most daily decisions operate subconsciously. Establishing beneficial routines conserves mental energy and embeds desired behaviors into daily life, making good choices automatic rather than effortful.
 
-**3. Reduce Distractions**
+<b>3. Reduce Distractions</b>
 Minimizing interruptions allows focus on priorities and intentional living rather than reactive procrastination. The environment shapes behavior — design yours to support what matters.
 
-**4. Minimize Material Possessions**
+<b>4. Minimize Material Possessions</b>
 Decluttering reduces burdens and preserves personal energy by keeping only what serves a purpose. Every object requires maintenance, decision-making, and attention. Fewer objects means more attention for what matters.
 
 Apply these principles across home, work, and relationships. After extensive practice and adopting minimalism, I found that organization feels less like discipline and more like clarity — a natural state when the system supports the life you actually want.`
@@ -4278,7 +4278,7 @@ window.BLOG_REGISTRY.push({
   excerpt: "Mr. Money Mustache's philosophy centers on two principles: reducing expenses and increasing income. The early retirement formula: if you need $100K/year, you need $2.5M saved.",
   content: `Mr. Money Mustache's financial philosophy centers on two principles: reducing expenses and increasing income.
 
-**Expense Reduction**
+<b>Expense Reduction</b>
 Frugal living doesn't require sacrificing happiness. Key recommendations:
 - Eliminate debt
 - Live near work
@@ -4286,18 +4286,18 @@ Frugal living doesn't require sacrificing happiness. Key recommendations:
 - Distinguish between essentials (food, housing, utilities) and non-essentials (entertainment, luxury)
 - Apply Stoic principles: practice gratitude and question whether expensive luxuries truly bring joy
 
-**Income Growth**
+<b>Income Growth</b>
 Build passive income through:
 - Rental properties
 - Index funds
 - Dividend investments
 
-**Early Retirement Formula (using the 4% Safe Withdrawal Rate):**
+<b>Early Retirement Formula (using the 4% Safe Withdrawal Rate):</b>
 If you need $100,000 annually in retirement, you require $2.5 million in savings to retire comfortably. This calculation assumes 7% annual returns minus 3% inflation.
 
 The math is simple: annual spending × 25 = required savings.
 
-**Referenced resources:**
+<b>Referenced resources:</b>
 - William Irvine, *A Guide to the Good Life*
 - David Schwartz, *The Magic of Thinking BIG*
 - William Bernstein, *The Intelligent Asset Allocator*
@@ -4314,20 +4314,20 @@ window.BLOG_REGISTRY.push({
   excerpt: "Medicare accounts for approximately $900 billion in U.S. healthcare spending annually. When to enroll, what to get, and why Medigap Plan G offers better protection than Medicare Advantage for complex conditions.",
   content: `Medicare accounts for approximately $900 billion in annual U.S. healthcare spending. Eligibility begins at age 65, though younger individuals with specific disabilities may qualify.
 
-**Recommendation:** Secure Medicare Parts A, B, and D, plus supplemental coverage like Medigap Plan G.
+<b>Recommendation:</b> Secure Medicare Parts A, B, and D, plus supplemental coverage like Medigap Plan G.
 
 "Medigap program provides better financial protection" compared to Medicare Advantage for people with complex medical conditions. Advantage plans often use narrow networks and prior authorization requirements that can complicate access to specialist care.
 
-**Critical enrollment timing:**
+<b>Critical enrollment timing:</b>
 "The best time to buy a Medigap policy is during your Medigap Open Enrollment Period, which starts the first month you have Medicare Part B and you are 65 or older and it lasts for six months."
 
 During this window, insurers cannot deny coverage or charge more based on health status. After this window closes, underwriting applies in most states — which can mean denial or higher premiums.
 
-**State-specific flexibility:**
+<b>State-specific flexibility:</b>
 - Connecticut and New York: permit Medigap purchases anytime without denial
 - California and Oregon: "birthday rule" — allows annual plan switches within 30 days of birthday without medical review
 
-**Additional tip:** Begin contributing to a Health Savings Account (HSA) as early as possible. After age 65, HSA funds can be withdrawn tax-free for medical expenses. Note: HSA contributions must stop when you enroll in Medicare.`
+<b>Additional tip:</b> Begin contributing to a Health Savings Account (HSA) as early as possible. After age 65, HSA funds can be withdrawn tax-free for medical expenses. Note: HSA contributions must stop when you enroll in Medicare.`
 });
 window.BLOG_REGISTRY.push({
   id: "2022-12-25-second-brain",
@@ -4343,15 +4343,15 @@ window.BLOG_REGISTRY.push({
 
 The primary value is fostering creativity through idea recycling and unconventional connections. When ideas are externalizedinstead of left in memory, they can be combined, compared, and built upon in ways mental storage doesn't allow.
 
-**The framework:**
-- **Track knowledge** — capture what you read, hear, and think in a consistent system
-- **Reflect on thoughts** — review and add context to raw notes over time
-- **Organize opinions** — distinguish between what you've absorbed and what you actually believe
-- **Link concepts** — connect related ideas across topics and time
+<b>The framework:</b>
+- <b>Track knowledge</b> — capture what you read, hear, and think in a consistent system
+- <b>Reflect on thoughts</b> — review and add context to raw notes over time
+- <b>Organize opinions</b> — distinguish between what you've absorbed and what you actually believe
+- <b>Link concepts</b> — connect related ideas across topics and time
 
-**Practice:** Revisit the repository before starting new projects to spark inspiration and innovative thinking. The second brain pays dividends when you can access your own past thinking rather than starting from zero.
+<b>Practice:</b> Revisit the repository before starting new projects to spark inspiration and innovative thinking. The second brain pays dividends when you can access your own past thinking rather than starting from zero.
 
-**Resources:**
+<b>Resources:</b>
 - *Build a Second Brain* (2020) by Tiago Forte
 - YouTube: "The Second Brain - A Life-Changing Productivity System" (2020)
 - Forte Labs Blog
@@ -4368,29 +4368,29 @@ window.BLOG_REGISTRY.push({
   excerpt: "Twelve strategies for making the 10,000-step routine more engaging and sustainable — from walking with family to using iNaturalist to identify local species.",
   content: `Twelve strategies for making daily walking more engaging and sustainable:
 
-**Social approaches**
+<b>Social approaches</b>
 - Walk with family — exercise and relationship time simultaneously
 - Walk with colleagues — strengthen bonds during the workday
 
-**Entertainment**
+<b>Entertainment</b>
 Listen to music, a podcast, or an audiobook to keep the experience fresh and educational. The walk becomes a learning session.
 
-**Location variety**
+<b>Location variety</b>
 - Explore new neighborhoods
 - Discover street art
 - Visit local parks and green spaces
 
 Variety prevents the routine from feeling like a chore. New routes reveal new things.
 
-**Productive combinations**
+<b>Productive combinations</b>
 - Grocery shopping on foot
 - Window shopping in local districts
 - Making phone calls to maintain connections while moving
 
-**Nature observation**
+<b>Nature observation</b>
 Cornell's bird identification website and the iNaturalist application let you identify local species during walks — turning a walk into a field study.
 
-**Practical note:** Stay hydrated. These methods help "make walking a delightful habit" integrated into daily routines.
+<b>Practical note:</b> Stay hydrated. These methods help "make walking a delightful habit" integrated into daily routines.
 
 The 10,000-step target becomes achievable when the walk itself becomes something to look forward to rather than something to endure.`
 });
@@ -4404,25 +4404,25 @@ window.BLOG_REGISTRY.push({
   excerpt: "Seven key strategies from a two-year journey establishing a Project Management Office. Start with minor requests and proceed incrementally — so small that people don't notice the difference.",
   content: `Seven key strategies from a two-year journey establishing a Project Management Office (PMO):
 
-**1. Organizational understanding**
+<b>1. Organizational understanding</b>
 Spend 1-2 quarters observing organizational dynamics and personalities before implementation. Understanding the culture is prerequisite to changing it.
 
-**2. Trust building**
+<b>2. Trust building</b>
 "Essential to maintain transparency, particularly in business engagements, so that the team perceives the PMO as a valuable resource rather than a threat." A PMO that feels like oversight will be resisted. One that feels like support will be embraced.
 
-**3. Celebrating wins**
+<b>3. Celebrating wins</b>
 Acknowledge achievements in process improvements and project deliveries to reinforce PMO value. Early wins buy goodwill for harder changes later.
 
-**4. Defining standards**
+<b>4. Defining standards</b>
 Establish clear project lifecycles, methodologies, templates, and best practices aligned with industry norms.
 
-**5. Change management**
+<b>5. Change management</b>
 Develop transition plans addressing resistance through communication and training support. Resistance is predictable — plan for it rather than being surprised by it.
 
-**6. Strategic timing**
+<b>6. Strategic timing</b>
 Identify high-impact projects where the PMO can demonstrate substantial value. Choose the first battles carefully.
 
-**7. Team and culture**
+<b>7. Team and culture</b>
 Recruit skilled individuals excelling in tactical project management. Foster open communication, knowledge sharing, and diverse perspectives.
 
 The key principle: change implementation should start with minor requests and proceed incrementally — "so small that we can get it done without people noticing the difference" — to establish new social norms organically.`
@@ -4439,7 +4439,7 @@ window.BLOG_REGISTRY.push({
 
 It functions as a retreat for creative pursuits and personal reflection — but only works when I leave it regularly for meaningful activities like socializing and outdoor time.
 
-**Sixteen practical recommendations for creating a personal sanctuary:**
+<b>Sixteen practical recommendations for creating a personal sanctuary:</b>
 
 1. Maintain cleanliness and organization — clutter competes for attention
 2. Optimize lighting — natural light where possible, warm artificial light where not
@@ -4470,31 +4470,31 @@ window.BLOG_REGISTRY.push({
   excerpt: "Academic skills alone are insufficient for a fulfilling life. Nine critical competencies that deserve development — but rarely appear in any curriculum.",
   content: `Academic skills alone are insufficient for a fulfilling life. Nine critical competencies that deserve deliberate development:
 
-**1. Self-Discipline**
+<b>1. Self-Discipline</b>
 Enables individuals to "establish positive habits" and maintain focus on personal objectives through consistent effort. Discipline is a skill, not a trait — it can be developed.
 
-**2. Active Lifestyle**
+<b>2. Active Lifestyle</b>
 Dedicating time to physical exercise provides health benefits including improved cardiovascular function and mental wellbeing. Movement affects thinking.
 
-**3. Meditation**
+<b>3. Meditation</b>
 Offers stress reduction and emotional regulation through brief daily practice. Even five minutes changes the quality of the day.
 
-**4. Personal Finance**
+<b>4. Personal Finance</b>
 Encompasses budgeting, expense tracking, and long-term investment strategies. Never taught formally, and the consequences of not knowing are significant.
 
-**5. Active Listening**
+<b>5. Active Listening</b>
 Requires approaching situations "with authentic curiosity" to better understand others. Most people listen to respond, not to understand.
 
-**6. Communication Skills**
+<b>6. Communication Skills</b>
 Facilitate meaningful connections through verbal expression, writing, and public speaking. The ability to communicate clearly multiplies the value of every other skill.
 
-**7. Honesty**
+<b>7. Honesty</b>
 Involves acknowledging personal imperfections and confronting challenges directly to build confidence. Self-honesty is the foundation.
 
-**8. Leadership**
+<b>8. Leadership</b>
 Centers on uniting people toward shared objectives through commitment and dedication. Leadership is not a position — it's a practice.
 
-**9. Decision-Making**
+<b>9. Decision-Making</b>
 Demands evaluating options and assessing risks to create meaningful life progress. Most schools teach what to think, not how to decide.
 
 Integrating these elements cultivates personal growth and professional achievement in ways that grades and credentials cannot.`
@@ -4535,7 +4535,7 @@ These practices reinforce shared values. They signal to everyone involved: we ar
 
 During demanding times, people often give family members "our leftovers rather than our best." We arrive home tired from work and depleted from the day's demands. Intentional traditions help counter this tendency by protecting dedicated family time before it gets consumed by everything else.
 
-**Occasions worth marking:**
+<b>Occasions worth marking:</b>
 - Mother's Day and Father's Day outings
 - Annual birthday celebrations
 - Thanksgiving as a full family gathering
@@ -4556,16 +4556,16 @@ window.BLOG_REGISTRY.push({
   excerpt: "Life planning can be summarized into four levels: degree is bronze, ability is silver, social network is gold, and thinking is trump.",
   content: `A four-level framework for life planning, using precious metals as metaphors:
 
-**Bronze: Education**
+<b>Bronze: Education</b>
 Establishing foundational knowledge and critical thinking skills. A degree or formal education provides credentials and baseline competence. It opens doors — but it is only the beginning.
 
-**Silver: Ability**
+<b>Silver: Ability</b>
 Developing practical expertise and domain-specific proficiency. What you can actually do matters more than what you studied. Skills compound over time.
 
-**Gold: Social Network**
+<b>Gold: Social Network</b>
 Building meaningful relationships and community support. "Social network is gold" — not in the transactional sense, but in the genuine sense: the people who know you, trust your work, and will advocate for you. Relationships are the currency that funds opportunity.
 
-**Trump: Thinking**
+<b>Trump: Thinking</b>
 Cultivating a strategic mindset and problem-solving resilience. The highest level is not knowledge or skill or connections — it is the quality of your thinking. How you frame problems, how you respond to failure, how you see what others miss.
 
 "Life planning can be summarized into four levels: degree is a bronze, ability is silver, social network is gold, and thinking is trump."
@@ -4596,16 +4596,16 @@ The tradition where "children excitedly place their lost teeth under their pillo
 
 Beyond the folklore, the occasion is worth using as a reminder about dental hygiene:
 
-**Brushing**
+<b>Brushing</b>
 Use naturally flavored toothpaste. Start at the gum-tooth junction and brush along the seams — this is where plaque accumulates most. Two minutes minimum, twice daily.
 
-**Flossing**
+<b>Flossing</b>
 Daily use of PFAS-free floss without harmful chemicals. Scrape deep along the gumline, not just between teeth. Flossing addresses the places brushing cannot reach.
 
-**Professional care**
+<b>Professional care</b>
 Dental checkups and cleanings every six months. Many dental issues are caught early in routine cleanings and cost much less to treat than when discovered late.
 
-**Prevention**
+<b>Prevention</b>
 Oil pulling with coconut oil or using alcohol-free mouthwash can help prevent periodontal disease.
 
 Oral health connects to overall health in ways that are still being understood — connections to cardiovascular disease, diabetes, and cognitive health have all been studied. The investment in dental hygiene is not cosmetic; it is foundational.`
@@ -4624,7 +4624,7 @@ The movement emerged from Reboot, a non-profit established in 2003 by Jewish cre
 
 Reboot launched the first National Day of Unplugging in 2010 as a dedicated 24-hour digital detox.
 
-**Ten practical ways to participate:**
+<b>Ten practical ways to participate:</b>
 
 1. Establish device-free home zones (bedroom, dining table, a designated room)
 2. Spend time outdoors — walks, parks, nature
@@ -4653,10 +4653,10 @@ window.BLOG_REGISTRY.push({
 
 The video covers "15 design trends" with visual examples and explanations of the underlying aesthetic principles behind each style.
 
-**Why this matters for AI tools:**
+<b>Why this matters for AI tools:</b>
 Familiarizing yourself with these design style names significantly improves results when using AI-generated creative tools like ChatGPT, Midjourney, or similar platforms. When you can name a design style precisely — "brutalist," "Swiss International," "neo-baroque" — you can direct AI tools with much greater specificity and get results that match your actual vision.
 
-**Recommendations:**
+<b>Recommendations:</b>
 - Watch the video to understand each design trend and its underlying meaning, not just its appearance
 - Learn the descriptive terminology to enhance creative expression in prompts
 - Apply this vocabulary for better design project outcomes with AI assistance
@@ -4676,16 +4676,16 @@ window.BLOG_REGISTRY.push({
   excerpt: "Extended use of immersive devices like Apple's Vision Pro could intensify social isolation, reward instant gratification, and reduce productive focus. A case for slow living.",
   content: `Examining potential negative effects of Apple's Vision Pro technology on human wellbeing.
 
-**Social isolation**
+<b>Social isolation</b>
 Users absorbed in virtual experiences may withdraw from real-world interactions — similar to current smartphone usage patterns at social gatherings. Research on sensory deprivation demonstrates how lack of physical contact with others damages mental health. The more immersive the technology, the greater the pull away from the physical world.
 
-**Multitasking risks**
+<b>Multitasking risks</b>
 Multiple screens encourage divided attention, leading to "intense mental stress and reduced productivity." The antidote is single-task focus — which immersive computing environments work against rather than for.
 
-**Instant gratification conditioning**
+<b>Instant gratification conditioning</b>
 Technology conditions people to expect immediate satisfaction. Constant need-fulfillment weakens human resilience and motivation for growth. Behavioral psychology research suggests that when every impulse can be satisfied immediately, the capacity for sustained effort atrophies.
 
-**Rapid technological change**
+<b>Rapid technological change</b>
 The accelerating pace of innovation demands cautious consideration of its social consequences. Each new platform appears before the effects of the last are understood.
 
 The piece advocates for "slow living" as a counterbalance — not as technophobia, but as a deliberate choice to maintain human depth and connection in an environment designed to capture attention.
@@ -4738,7 +4738,7 @@ window.BLOG_REGISTRY.push({
 
 The initiative encourages residents to build emergency preparedness kits by temporarily waiving state sales tax on essential disaster-preparation items.
 
-**Items commonly exempted from sales tax:**
+<b>Items commonly exempted from sales tax:</b>
 - Batteries
 - Flashlights
 - Generators
@@ -4748,7 +4748,7 @@ The initiative encourages residents to build emergency preparedness kits by temp
 
 This holiday makes it more affordable for families to prepare for natural disasters including hurricanes, floods, and wildfires. It also serves as an annual community reminder about proactive emergency planning.
 
-**Why this matters:**
+<b>Why this matters:</b>
 Emergency preparedness is one of those investments that feels unnecessary until the moment it becomes essential. Having supplies on hand before a storm or disaster — not while scrambling during one — makes an enormous difference in outcomes.
 
 For Texas-specific details on qualifying items and dollar limits, check the Texas Comptroller's official information page.`
@@ -4765,30 +4765,30 @@ window.BLOG_REGISTRY.push({
 
 "Contributions to your HSA are tax-deductible, meaning they lower your taxable income."
 
-**2023 contribution limits:**
+<b>2023 contribution limits:</b>
 - $3,650 for single coverage
 - $7,300 for families
 - Additional $1,000 catch-up contribution for those 55+
 
-**Core benefits:**
+<b>Core benefits:</b>
 - Tax-deductible contributions
 - Tax-free growth on investments within the account
 - Tax-free withdrawals for qualified medical expenses
 - No deadline for reporting expenses (keep documentation)
 - After age 65: can withdraw for any purpose (taxed as income, like a traditional IRA)
 
-**Four strategies for maximizing HSA value:**
+<b>Four strategies for maximizing HSA value:</b>
 
-**1. Maximize contributions**
+<b>1. Maximize contributions</b>
 Contribute up to the annual limit to maximize the tax deduction.
 
-**2. Delay expense reporting**
+<b>2. Delay expense reporting</b>
 Pay medical expenses out of pocket when possible and let the HSA grow as an investment. Report expenses for reimbursement years later — after the account has grown.
 
-**3. Continue contributions past 65 while still working**
+<b>3. Continue contributions past 65 while still working</b>
 Special rules apply upon Medicare enrollment — coordinate timing carefully.
 
-**4. Prioritize HSAs for legacy planning**
+<b>4. Prioritize HSAs for legacy planning</b>
 Heirs who receive HSA assets receive tax-advantaged treatment, making it a valuable estate planning tool.
 
 Consult IRS Publication 502 for the complete list of qualified medical expenses. An HSA used strategically is one of the few accounts that provides tax advantages on contribution, growth, and withdrawal.`
@@ -4803,34 +4803,34 @@ window.BLOG_REGISTRY.push({
   excerpt: "Ten insights from '101 Essays That Will Change The Way You Think' — on presence, self-approval, non-attachment, and managing the mind's stories about itself.",
   content: `Ten insights from *101 Essays That Will Change The Way You Think* for morning reflection:
 
-**1. Be Present**
+<b>1. Be Present</b>
 Recognize irrational thoughts as separate from your identity. You can observe a thought without becoming it. This empowers change.
 
-**2. Dealing with Negativity**
+<b>2. Dealing with Negativity</b>
 "We're naturally drawn to negative things because we don't understand them." Understanding dissolves the pull.
 
-**3. Self-Approval**
+<b>3. Self-Approval</b>
 "You have to stop believing that you need other people's permission to be okay with yourself." Others' approval is real but not foundational.
 
-**4. Self-Love**
+<b>4. Self-Love</b>
 Healing requires narrating your life from the perspective of someone who truly loves you — then acting from that perspective.
 
-**5. Non-Attachment**
+<b>5. Non-Attachment</b>
 The path to happiness involves releasing attachment to outcomes. Preference, yes. Attachment, no.
 
-**6. Facing Challenges**
+<b>6. Facing Challenges</b>
 Difficult experiences serve a purpose — they teach and enable deeper healing and growth. They are not interruptions to life; they are part of it.
 
-**7. Doing Nothing**
+<b>7. Doing Nothing</b>
 Beyond meditation: allowing time to rest and reflect is essential. You are not defined by productivity.
 
-**8. Thought Selection**
+<b>8. Thought Selection</b>
 You have the capacity to choose which thoughts to cultivate. Recognizing this is transformative.
 
-**9. Problem Perspective**
+<b>9. Problem Perspective</b>
 How you think about a problem matters more than the problem itself. Reframe before you act.
 
-**10. Health Management**
+<b>10. Health Management</b>
 Daily wellness contributions, however small, demonstrate meaningful self-care. Consistency matters more than intensity.`
 });
 window.BLOG_REGISTRY.push({
@@ -4867,23 +4867,23 @@ window.BLOG_REGISTRY.push({
   excerpt: "Six essential Mac keyboard shortcuts and two settings changes that make daily work significantly faster.",
   content: `Six essential MacBook keyboard shortcuts:
 
-**Command + Space** — Spotlight search. Find files, launch apps, perform calculations, look up definitions, convert units. The most versatile shortcut on the Mac.
+<b>Command + Space</b> — Spotlight search. Find files, launch apps, perform calculations, look up definitions, convert units. The most versatile shortcut on the Mac.
 
-**Option + Close (on images in Preview)** — Batch close all open Preview images at once rather than closing them one by one.
+<b>Option + Close (on images in Preview)</b> — Batch close all open Preview images at once rather than closing them one by one.
 
-**Command + Option + Shift + V** — Paste and match formatting. Removes the source formatting and pastes as plain text — invaluable when copying from websites or documents with unwanted styles.
+<b>Command + Option + Shift + V</b> — Paste and match formatting. Removes the source formatting and pastes as plain text — invaluable when copying from websites or documents with unwanted styles.
 
-**Command + I** — File information. Opens the info panel showing file size, creation date, permissions, and other metadata.
+<b>Command + I</b> — File information. Opens the info panel showing file size, creation date, permissions, and other metadata.
 
-**Command + Shift + 3/4/5** — Screenshot tools. 3 captures the full screen, 4 allows selection, 5 opens the screenshot toolbar with recording options.
+<b>Command + Shift + 3/4/5</b> — Screenshot tools. 3 captures the full screen, 4 allows selection, 5 opens the screenshot toolbar with recording options.
 
-**Command + Control + Space** — Emoji picker. Opens the emoji window in any text field.
+<b>Command + Control + Space</b> — Emoji picker. Opens the emoji window in any text field.
 
-**Two settings worth changing:**
+<b>Two settings worth changing:</b>
 
-**Finder > View > Show Path Bar and Status Bar** — adds useful folder hierarchy and file count details while navigating. Makes it easy to see exactly where you are and how many items are present.
+<b>Finder > View > Show Path Bar and Status Bar</b> — adds useful folder hierarchy and file count details while navigating. Makes it easy to see exactly where you are and how many items are present.
 
-**Keyboard Preferences > Text > Add text replacement** — create shortcuts for things you type repeatedly. Example: ".st" auto-expands to your full website address. Saves meaningful time over the course of a workday.`
+<b>Keyboard Preferences > Text > Add text replacement</b> — create shortcuts for things you type repeatedly. Example: ".st" auto-expands to your full website address. Saves meaningful time over the course of a workday.`
 });
 window.BLOG_REGISTRY.push({
   id: "2023-05-21-reviews-restaurants-for-brunch-in-austin",
@@ -4895,16 +4895,16 @@ window.BLOG_REGISTRY.push({
   excerpt: "Four Austin brunch spots worth visiting: Aba Austin (Mediterranean, South Congress), Elizabeth Street Café (Vietnamese French), First Watch, and La Madeleine.",
   content: `Four Austin brunch restaurants worth visiting:
 
-**Aba Austin** — Mediterranean, South Congress Avenue area
+<b>Aba Austin</b> — Mediterranean, South Congress Avenue area
 Contemporary Mediterranean cuisine by Top Chef winner CJ Jacobson. The environment is calm and suited to quiet dining — good for extended conversations. The menu emphasizes fresh, ingredient-forward preparation.
 
-**Elizabeth Street Café** — Vietnamese French
+<b>Elizabeth Street Café</b> — Vietnamese French
 Breakfast served on weekends starting at 8 AM. Specialties include Vietnamese coffee and pho — an unusual and excellent combination of culinary traditions. Worth arriving early on weekends.
 
-**First Watch** — American brunch
+<b>First Watch</b> — American brunch
 An extensive menu with healthier dining options. Suited for casual brunch gatherings where the group has varied tastes. Good coffee program.
 
-**La Madeleine** — French breakfast
+<b>La Madeleine</b> — French breakfast
 Traditional French breakfast fare in a relaxed setting, featuring croissants and egg dishes. Appropriate for morning conversations — the pace is unhurried.
 
 Austin's brunch scene rewards exploration. These four cover different styles and price points, all offering the kind of environment where a good conversation can happen alongside a good meal.`
@@ -4919,17 +4919,17 @@ window.BLOG_REGISTRY.push({
   excerpt: "Two Texas sales tax holidays during Memorial Day weekend: Energy Star appliances and water-efficient products both qualify for state sales tax exemption.",
   content: `Two Texas sales tax holidays occur during Memorial Day weekend:
 
-**Energy Star Sales Tax Holiday**
+<b>Energy Star Sales Tax Holiday</b>
 Running since 2008, this holiday exempts qualifying energy-efficient appliances from state sales tax — including air conditioners, refrigerators, washing machines, and other Energy Star certified products.
 
 The initiative encourages consumers to "purchase energy-efficient items, saving money and reducing their environmental impact."
 
-**Water-Efficient Products Sales Tax Holiday**
+<b>Water-Efficient Products Sales Tax Holiday</b>
 Similarly promotes conservation by waiving sales tax on items such as low-flow toilets, showerheads, and other water-efficient fixtures.
 
 Given Texas's recurring drought challenges, this program aims to empower residents to contribute to water preservation while building "a more sustainable future for Texas."
 
-**Practical approach:**
+<b>Practical approach:</b>
 If you've been considering replacing an old appliance or making a home efficiency upgrade, Memorial Day weekend in Texas is the time to do it. The sales tax savings on larger appliances can be meaningful.
 
 Both holidays represent annual efforts to incentivize environmentally conscious purchasing while reducing costs for Texas residents.`
@@ -4946,15 +4946,15 @@ window.BLOG_REGISTRY.push({
 
 Four ways to observe the occasion:
 
-**Flavor experimentation** — Try classic preparations with lemon or adventurous combinations like "fruity infusions like peach, raspberry, or mango" with herbal additions.
+<b>Flavor experimentation</b> — Try classic preparations with lemon or adventurous combinations like "fruity infusions like peach, raspberry, or mango" with herbal additions.
 
-**Hosting gatherings** — Organize a tea party featuring "a variety of iced teas, sweeteners, and garnishes" along with tea-themed treats.
+<b>Hosting gatherings</b> — Organize a tea party featuring "a variety of iced teas, sweeteners, and garnishes" along with tea-themed treats.
 
-**Exploring local venues** — Visit tea establishments where staff can guide discovery of new flavors.
+<b>Exploring local venues</b> — Visit tea establishments where staff can guide discovery of new flavors.
 
-**Supporting causes** — Contribute to organizations promoting "sustainable tea farming, fair trade practices, or educational programs."
+<b>Supporting causes</b> — Contribute to organizations promoting "sustainable tea farming, fair trade practices, or educational programs."
 
-**Basil Iced Tea Recipe:**
+<b>Basil Iced Tea Recipe:</b>
 Steep basil leaves in 160°F water, cool, refrigerate, and serve over ice. Adjust sweetness to taste.`
 });
 window.BLOG_REGISTRY.push({
@@ -4967,22 +4967,22 @@ window.BLOG_REGISTRY.push({
   excerpt: "Four influential commencement addresses and their key takeaways — from Michelle Yeoh's Harvard Law speech to Steve Jobs's 2005 Stanford address.",
   content: `Four influential commencement addresses worth examining:
 
-**Michelle Yeoh — Harvard Law School**
+<b>Michelle Yeoh — Harvard Law School</b>
 Three core principles:
 - *Stay loose:* Embrace life's uncertainties. "The safest thing one can do is remain calm, even curious, about the shifting world around you."
 - *Know your limits while pushing boundaries:* Boundaries clarify where genuine growth happens.
 - *Find your people:* Collaboration is not optional — it is how meaningful work gets done.
 
-**Steve Jobs — Stanford, 2005**
+<b>Steve Jobs — Stanford, 2005</b>
 Three themes:
 - *Connecting dots:* Trust that present experiences will connect to future possibilities, even without seeing how.
 - *Do what you love:* "The only way to do great work is to love what you do." This is both aspiration and instruction.
 - *Life is finite:* Recognizing that time is limited clarifies what actually deserves it.
 
-**Mark Rober — MIT, 2023**
+<b>Mark Rober — MIT, 2023</b>
 Promoted naive optimism and meaningful relationships as foundations for innovation and a good life.
 
-**J.K. Rowling — Harvard, 2008**
+<b>J.K. Rowling — Harvard, 2008</b>
 On perseverance and finding strength through adversity — failure is not the opposite of success but part of the path to it.
 
 The overarching message across all four: embrace uncertainty, bring full effort to becoming your best self, and invest in the relationships and communities that sustain you.`
@@ -5021,27 +5021,27 @@ window.BLOG_REGISTRY.push({
   excerpt: "100 essential items for minimalist living, organized by category. 'We should prioritize our time, energy, and resources for the things that really matter. Let the stuff serve our purpose rather than become a burden.'",
   content: `A curated list of 100 essential items for minimalist living. "The selected things are based on quality over quantity and what we need to stay healthy and safe."
 
-**Seven categories:**
+<b>Seven categories:</b>
 
-**Bedroom**
+<b>Bedroom</b>
 Pillows, bedding, mattress, and sleep-related items — prioritizing quality sleep over quantity of objects.
 
-**Bathroom**
+<b>Bathroom</b>
 Towels, grooming supplies, and hygiene essentials. One set well-chosen replaces many sets poorly chosen.
 
-**Closet**
+<b>Closet</b>
 Clothing basics for work, fitness, casual wear, and special occasions. Capsule wardrobe thinking: fewer pieces, more combinations, less decision fatigue.
 
-**Transition**
+<b>Transition</b>
 Transportation and travel gear: backpacks, luggage, everyday carry essentials.
 
-**Tools**
+<b>Tools</b>
 Basic hardware supplies. What's needed to maintain and repair, rather than to accumulate.
 
-**Kitchen**
+<b>Kitchen</b>
 Cookware, utensils, and food preparation equipment that handle 90% of cooking tasks.
 
-**Household & Office**
+<b>Household & Office</b>
 Cleaning supplies, furniture, electronics, and work essentials. Each item earns its space by serving a clear purpose.
 
 The underlying philosophy: "We should prioritize our time, energy, and resources for the things that really matter. Let the stuff serve our purpose rather than become a burden."
@@ -5058,25 +5058,25 @@ window.BLOG_REGISTRY.push({
   excerpt: "Six practical applications of ChatGPT — plus honest acknowledgment of its significant limitations. Users must critically evaluate outputs rather than accepting them uncritically.",
   content: `Six practical applications of ChatGPT for enhancing productivity:
 
-**1. Copy Editing**
+<b>1. Copy Editing</b>
 A cost-effective alternative to expensive professional editing services. Wordsmithing and grammar checking on demand.
 
-**2. Learning Assistance**
+<b>2. Learning Assistance</b>
 Creating book reviews, finding information, tutoring support for studies and homework. Particularly useful for getting oriented in unfamiliar subjects.
 
-**3. Personal Assistant**
+<b>3. Personal Assistant</b>
 Scheduling, travel planning, fitness advice, cooking suggestions, life coaching for personal development. The breadth of application is genuinely surprising.
 
-**4. Role Play**
+<b>4. Role Play</b>
 Practicing communication and interviewing skills through simulated scenarios with specific personalities. Safe to fail, easy to repeat.
 
-**5. Coding**
+<b>5. Coding</b>
 Assisting with programming challenges in languages like JavaScript, Python, and Excel formulas. Especially useful for debugging and explaining what code does.
 
-**6. Content Creation**
+<b>6. Content Creation</b>
 Brainstorming and generating ideas for articles, blog posts, social media content, and product descriptions.
 
-**Important limitations:**
+<b>Important limitations:</b>
 ChatGPT struggles with mathematical reasoning, may misinterpret information in prompts, and can produce biased responses due to training data constraints. These are not edge cases — they are consistent failure modes.
 
 Users must critically evaluate outputs rather than accepting them uncritically. ChatGPT now cites sources in some configurations, enabling readers to evaluate trustworthiness independently.
@@ -5095,15 +5095,15 @@ window.BLOG_REGISTRY.push({
 
 Ice cream options range from traditional flavors like vanilla and chocolate to creative variations such as "ice cream sundaes, ice cream cakes, ice cream rolls, and ice cream sandwiches."
 
-**Five Austin-area destinations:**
+<b>Five Austin-area destinations:</b>
 
-- **Amy's Ice Creams** — rated 5 stars
-- **Museum of Ice Cream** — an interactive art experience
-- **Gelatoro Gelato & Coffee & Bakery** — specializing in Italian gelato
-- **Dip Dip Dip** — combining hot pot dining with dessert options
-- **All Things Kids - Scoop** — located in Georgetown, known for unique flavors
+- <b>Amy's Ice Creams</b> — rated 5 stars
+- <b>Museum of Ice Cream</b> — an interactive art experience
+- <b>Gelatoro Gelato & Coffee & Bakery</b> — specializing in Italian gelato
+- <b>Dip Dip Dip</b> — combining hot pot dining with dessert options
+- <b>All Things Kids - Scoop</b> — located in Georgetown, known for unique flavors
 
-**Health Considerations:** Moderation is recommended due to sugar content. Alternatives like frozen yogurt or sorbet are available for those with dietary restrictions.
+<b>Health Considerations:</b> Moderation is recommended due to sugar content. Alternatives like frozen yogurt or sorbet are available for those with dietary restrictions.
 
 Visit an ice cream shop with family and friends, or choose healthier alternatives if preferred.`
 });
@@ -5119,7 +5119,7 @@ window.BLOG_REGISTRY.push({
 
 A related incident at Zion National Park: an elderly visitor fell severely while hiking the Narrows without proper precautions or equipment. A reminder that terrain and preparedness must match each other.
 
-**Protective practices:**
+<b>Protective practices:</b>
 - Gradual warm-ups with stretching before activity
 - Adequate rest breaks during exercise
 - Cool-down periods after activity
@@ -5183,11 +5183,11 @@ Traditional Chinese medicine, which considers the entire body as an interconnect
 
 The observation extends beyond medicine:
 
-**In academia:** Compartmentalized fields limit problem-solving capacity. The most interesting problems exist at the intersections between disciplines — where none of the specialists feel at home.
+<b>In academia:</b> Compartmentalized fields limit problem-solving capacity. The most interesting problems exist at the intersections between disciplines — where none of the specialists feel at home.
 
-**In business:** Cross-departmental collaboration between development, marketing, sales, and operations teams is essential. When each department optimizes for its own metrics without understanding the whole, the system underperforms even when each part performs.
+<b>In business:</b> Cross-departmental collaboration between development, marketing, sales, and operations teams is essential. When each department optimizes for its own metrics without understanding the whole, the system underperforms even when each part performs.
 
-**In decision-making:** Incremental minor decisions can accumulate into significant negative outcomes — a principle related to the slippery slope. Maintaining long-term perspective is essential even when each individual choice seems small.
+<b>In decision-making:</b> Incremental minor decisions can accumulate into significant negative outcomes — a principle related to the slippery slope. Maintaining long-term perspective is essential even when each individual choice seems small.
 
 The bigger picture is not always visible from inside the specialized view. Sometimes you have to step back to see what the parts are doing to the whole.`
 });
@@ -5242,22 +5242,22 @@ window.BLOG_REGISTRY.push({
   excerpt: "Four note-taking tools, each with a distinct purpose: Apple Notes for quick capture, Quip for work collaboration, Evernote for personal documents, and Notion for project planning.",
   content: `A practical note-taking system using four tools, each serving a distinct purpose:
 
-**Apple Notes** — Quick and temporary notes
+<b>Apple Notes</b> — Quick and temporary notes
 For saved reading, to-do lists, and quick reference for offline access. The fastest way to capture something before it disappears. Syncs across Apple devices instantly.
 
-**Quip** — Work collaboration
+<b>Quip</b> — Work collaboration
 Used at work for "content collaboration, project documents, and reports." Particularly useful when content needs to be co-authored or reviewed by colleagues.
 
-**Evernote** — Personal documents and contacts
+<b>Evernote</b> — Personal documents and contacts
 Stores personal reference documents and contact information. The long-term repository for things that need to be found again years later.
 
-**Notion** — Project planning
+<b>Notion</b> — Project planning
 Manages project planning with task management capabilities. Database features enable more structured organization than flat notes allow.
 
-**The workflow:**
+<b>The workflow:</b>
 Regularly review Apple Notes and transfer relevant items to Evernote. This prevents accumulation without curation.
 
-Apply the **4Rs method** (from the 5Rs note-taking framework) to distill and organize the Evernote collection: Reduce, Recite, Reflect, and Review. This ensures information remains systematized and actually accessible — not just stored.
+Apply the <b>4Rs method</b> (from the 5Rs note-taking framework) to distill and organize the Evernote collection: Reduce, Recite, Reflect, and Review. This ensures information remains systematized and actually accessible — not just stored.
 
 The tool choice matters less than the system. A consistent review and transfer workflow turns captured notes into usable knowledge.`
 });
@@ -5273,7 +5273,7 @@ window.BLOG_REGISTRY.push({
 
 La Madeleine is a French bakery franchise emphasizing authentic French culinary traditions, with convenient online ordering and in-store pickup.
 
-**Key Recommendations:**
+<b>Key Recommendations:</b>
 
 Rather than the pricey catering option, purchase two "Mini Tart and Parfait 6-Pack" orders for approximately $23.18 — offering identical dessert selections at significant savings. Individual cheesecake and "Caramel Crème Brûlée" items add variety, plus fresh-baked bread for a fuller spread.
 
@@ -5293,7 +5293,7 @@ window.BLOG_REGISTRY.push({
 
 Passion fruit is native to South America — Paraguay, southern Brazil, and northern Argentina.
 
-**Single-Serving Iced Passion Fruit Tea Recipe:**
+<b>Single-Serving Iced Passion Fruit Tea Recipe:</b>
 - 1 passion fruit tea bag
 - Fresh juice or canned passion fruit pulp
 - Water
@@ -5301,7 +5301,7 @@ Passion fruit is native to South America — Paraguay, southern Brazil, and nort
 
 Steep the tea bag for five minutes, add the fruit component, cool, and serve over ice. Adjust sweetness and garnish with fresh fruit as desired.
 
-**Health benefits:** Passion fruit tea is rich in vitamin C and contains anti-inflammatory and antibacterial properties that may reduce chronic inflammation and heart-related health concerns.`
+<b>Health benefits:</b> Passion fruit tea is rich in vitamin C and contains anti-inflammatory and antibacterial properties that may reduce chronic inflammation and heart-related health concerns.`
 });
 window.BLOG_REGISTRY.push({
   id: "2023-08-16-personal-garden",
@@ -5329,13 +5329,13 @@ window.BLOG_REGISTRY.push({
   excerpt: "The Proctor Gallagher Institute framework: M1 (96% of people — trading time for money), M2 (3% — leveraging capital), M3 (1% — multiplying time through multiple income sources).",
   content: `An income framework from the Proctor Gallagher Institute identifies three earning levels:
 
-**M1 — Time for Money (96% of people)**
+<b>M1 — Time for Money (96% of people)</b>
 Exchange time directly for compensation. A direct trade: hours for dollars. The most common arrangement, but fundamentally capped by available hours.
 
-**M2 — Capital for Returns (approx. 3%)**
+<b>M2 — Capital for Returns (approx. 3%)</b>
 Leverage existing capital to generate returns. Money working instead of you working. Requires accumulated capital to begin.
 
-**M3 — Multiplied Time (approx. 1%)**
+<b>M3 — Multiplied Time (approx. 1%)</b>
 "Multiply their time with multiple sources of income," creating diversified revenue streams rather than relying on a single employment source. Time invested once generates income repeatedly.
 
 The insight is not that M3 is better than M1 — it's that understanding which level you're operating at clarifies what options are available and what transitions are possible.`
@@ -5352,13 +5352,13 @@ window.BLOG_REGISTRY.push({
 
 Three reasons money is spiritual:
 
-**Emotional spending reflects values**
+<b>Emotional spending reflects values</b>
 Purchases reflect personal values and bring happiness beyond mere functionality. What we spend on reveals what we believe matters.
 
-**Money-making as service**
+<b>Money-making as service</b>
 Financial earnings represent the tangible value and positive impact of one's work. Earning money is not extraction — it's exchange.
 
-**Wealth building through restraint and generosity**
+<b>Wealth building through restraint and generosity</b>
 Accumulating resources by living within means, then sharing with others after meeting personal needs. The spiritual dimension of wealth is not in its accumulation but in how it flows.
 
 Recommended: an interview with Rabbi Daniel Lapin on prosperity and Jewish financial traditions for deeper perspective on money's relationship to meaning.`
@@ -5373,7 +5373,7 @@ window.BLOG_REGISTRY.push({
   excerpt: "Leon Megginson: 'It is not the strongest of the species that survives, but the one that is able best to adapt and adjust to the changing environment.' The peppered moth story shows this in action.",
   content: `Leon Megginson: "It is not the most intellectual of the species that survives; it is not the strongest that survives; but the species that survives is the one that is able best to adapt and adjust to the changing environment in which it finds itself."
 
-**The peppered moth story — from *Super Thinking*:**
+<b>The peppered moth story — from *Super Thinking*:</b>
 
 Before industrialization in Manchester, England, peppered moths were predominantly light-colored. They used pale tree bark as camouflage against predators. The first dark moth appeared in records from 1811, though concrete evidence didn't emerge until 1848, when dark moths represented just 0.01% of the population.
 
@@ -5397,20 +5397,20 @@ window.BLOG_REGISTRY.push({
   excerpt: "Tea time serves as an opportunity to 'slow down, relax, and find inner peace' — three primary benefits: stress relief, social connection, and health.",
   content: `Tea time is an opportunity to "slow down, relax, and find inner peace" while supporting health priorities and personal reflection.
 
-**Three primary benefits:**
+<b>Three primary benefits:</b>
 
-**Stress Relief & Mindfulness**
+<b>Stress Relief & Mindfulness</b>
 Tea time functions as a meditative practice, allowing individuals to escape daily chaos and cultivate present-moment awareness.
 
-**Social Connection**
+<b>Social Connection</b>
 Tea naturally facilitates meaningful conversations, strengthening relationships and fostering new ideas among friends and family members.
 
-**Health Benefits**
+<b>Health Benefits</b>
 Drawing from traditional Chinese philosophy, tea possesses anti-inflammatory properties, supports digestion, boosts immunity, and calms the mind through its antioxidants and nutrients.
 
 Tea also carries cultural significance — tea rituals worldwide shape cultural identities in ways that extend far beyond the beverage itself.
 
-**Two ideal tea times:**
+<b>Two ideal tea times:</b>
 - A morning break for planning and refreshment
 - A 3 PM social break to restore energy for the remainder of the day`
 });
@@ -5444,11 +5444,11 @@ window.BLOG_REGISTRY.push({
   excerpt: "LEGO lost £217 million in 2004 — more than 40% of yearly revenue. Then CEO Knudstorp implemented aggressive recovery measures. During the 2007-2011 recession, pre-tax profits quadrupled.",
   content: `Between 1932 and 1998, LEGO remained consistently profitable. After 1998, losses escalated annually, culminating in a £217 million loss in 2004 — exceeding 40% of yearly revenue.
 
-**The recovery under CEO Knudstorp:**
+<b>The recovery under CEO Knudstorp:</b>
 
 Rather than pursuing long-term strategy, Knudstorp focused on immediate cash management. His approach: aggressive short-term recovery first, then sustainable growth.
 
-**Key initiatives:**
+<b>Key initiatives:</b>
 - Established a 13.5% return-on-sales benchmark with product profitability tracking
 - Reduced workforce by 4,500 jobs
 - Outsourced non-core processes
@@ -5456,9 +5456,9 @@ Rather than pursuing long-term strategy, Knudstorp focused on immediate cash man
 - Accelerated product-to-market timelines
 - Sold theme parks
 - Slowed retail expansion
-- **Cut components from nearly 7,000 down to roughly 3,000** — a dramatic simplification of the product line
+- <b>Cut components from nearly 7,000 down to roughly 3,000</b> — a dramatic simplification of the product line
 
-**The result:**
+<b>The result:</b>
 
 During the 2007-2011 recession, "LEGO's pre-tax profits quadrupled." Profit growth outpaced Apple's during 2008-2010. LEGO became the world's most profitable and fastest-growing toy company.
 
@@ -5476,11 +5476,11 @@ window.BLOG_REGISTRY.push({
   excerpt: "Timing makes a trip. Florida: February–May. Disneyland: avoid December 26–31. Hawaii: no blackout dates — any time works.",
   content: `Timing a trip well matters as much as choosing the destination.
 
-**Florida:** Visit between February and May to avoid cold months. A winter visit can be surprisingly chilly, and Florida isn't ideal for Christmas travel.
+<b>Florida:</b> Visit between February and May to avoid cold months. A winter visit can be surprisingly chilly, and Florida isn't ideal for Christmas travel.
 
-**Disneyland:** Avoid major holidays, particularly December 26–31, due to extreme crowds and long wait times. If traveling during peak periods, purchase fast passes. Shoulder seasons offer a much better experience.
+<b>Disneyland:</b> Avoid major holidays, particularly December 26–31, due to extreme crowds and long wait times. If traveling during peak periods, purchase fast passes. Shoulder seasons offer a much better experience.
 
-**Hawaii:** A key advantage — "there is no blackout date. Hawaii's pleasant weather offers a perfect escape for you at any time." No specific window to optimize for or avoid.
+<b>Hawaii:</b> A key advantage — "there is no blackout date. Hawaii's pleasant weather offers a perfect escape for you at any time." No specific window to optimize for or avoid.
 
 The principle: match your destination to what you're trying to experience. Florida in February for warmth, Disneyland in a quiet window, Hawaii whenever you're ready.`
 });
@@ -5496,7 +5496,7 @@ window.BLOG_REGISTRY.push({
 
 Exercise options include brisk walks, cycling, or gym sessions — the specific activity matters less than the consistency.
 
-**Benefits of daily 30-minute exercise:**
+<b>Benefits of daily 30-minute exercise:</b>
 - Improved cardiovascular function
 - Enhanced sleep quality
 - Greater mental sharpness
@@ -5515,18 +5515,18 @@ window.BLOG_REGISTRY.push({
   excerpt: "October is National Breast Cancer Awareness Month; October 13th is Metastatic Breast Cancer Awareness Day. Preventative measures through holistic wellness and dietary choices.",
   content: `October is National Breast Cancer Awareness Month. October 13th is Metastatic Breast Cancer Awareness Day.
 
-**Key recommendations for holistic wellness:**
+<b>Key recommendations for holistic wellness:</b>
 
 - Regular exercise and at least 6,000 daily steps
 - "More than 20 varieties of colorful, anti-inflammatory, plant-based foods daily"
 
-**Dietary approach:**
+<b>Dietary approach:</b>
 Two-thirds of food intake from plant-based sources: vegetables, whole grains, legumes, fruits, nuts, seeds, and tofu. The remaining third from organic meats, particularly fish. Vitamin D+K supplementation is also advised.
 
-**Mental wellness:**
+<b>Mental wellness:</b>
 Visualization techniques can support positivity — imagining "a stream of cooling water washing out any sick cells" or visualizing "the sun shining through the body."
 
-**Essential steps:**
+<b>Essential steps:</b>
 Regular breast cancer screenings and physical examinations for early detection.
 
 Prevention and awareness work together. Holistic wellness practices reduce risk; early detection improves outcomes.`
@@ -5545,7 +5545,7 @@ The narrative traces the author's relationship with TV from childhood in a count
 
 A memorable moment: watching shows on the family's first black-and-white television, and the discovery of a neighbor's color TV revealing a favorite cartoon character in vivid hues — a poignant reminder that "we can't always have what we want."
 
-**Modern consumption:**
+<b>Modern consumption:</b>
 Video media now pervades every device: smartphones, tablets, and computers. The author watches approximately six to seven hours of video content daily and uses videos to maintain connections with distant family members. Despite investing heavily in a high-end television years ago, large screens are no longer luxury items.
 
 Television transcends its physical form; it represents a gateway to stories and human connection.
@@ -5564,10 +5564,10 @@ window.BLOG_REGISTRY.push({
 
 Four primary practices for maintaining mental wellness:
 
-**Journaling**
+<b>Journaling</b>
 A therapeutic writing exercise that helps declutter the mind and manage worries by expressing them tangibly.
 
-**Meditation**
+<b>Meditation</b>
 Multiple techniques serve different needs:
 - Concentration meditation (focusing on breath or objects)
 - Transcendental meditation (silent mantra repetition)
@@ -5577,10 +5577,10 @@ Multiple techniques serve different needs:
 - Body scans (mindful physical awareness)
 - Progressive muscular relaxation (tension relief)
 
-**Visualization**
+<b>Visualization</b>
 Creating mental images to foster relaxation and mentally rehearse desired outcomes.
 
-**Mindfulness**
+<b>Mindfulness</b>
 Maintaining nonjudgmental awareness of thoughts and emotions moment-to-moment, emphasizing present-moment living without judgment.
 
 Each practice serves distinct purposes in enhancing self-awareness and overall well-being.`
@@ -5607,17 +5607,17 @@ window.BLOG_REGISTRY.push({
 
 Six key areas of letting go:
 
-**Letting Go of the Past** — Extract wisdom from all experiences — painful or joyful — to foster personal growth and move forward confidently.
+<b>Letting Go of the Past</b> — Extract wisdom from all experiences — painful or joyful — to foster personal growth and move forward confidently.
 
-**Letting Go of Self-Criticism** — Replace "should" with "could" to shift perspective from obligation to choice.
+<b>Letting Go of Self-Criticism</b> — Replace "should" with "could" to shift perspective from obligation to choice.
 
-**Letting Go of Blaming** — Learn from mistakes rather than dwelling on regret. Imperfection is universal.
+<b>Letting Go of Blaming</b> — Learn from mistakes rather than dwelling on regret. Imperfection is universal.
 
-**Letting Go of Anger** — Acknowledge the emotion's message without allowing it to control one's actions.
+<b>Letting Go of Anger</b> — Acknowledge the emotion's message without allowing it to control one's actions.
 
-**Letting Go of Sorrow** — Honor loved ones through joyful memories rather than prolonged sadness.
+<b>Letting Go of Sorrow</b> — Honor loved ones through joyful memories rather than prolonged sadness.
 
-**Letting Go of Stress** — Stress is a natural signal requiring effective coping: exercise, mindfulness, tea breaks, professional support.
+<b>Letting Go of Stress</b> — Stress is a natural signal requiring effective coping: exercise, mindfulness, tea breaks, professional support.
 
 Combining guided meditation practices with self-compassion and community support enables emotional resilience and peace.`
 });
@@ -5647,13 +5647,13 @@ window.BLOG_REGISTRY.push({
 
 Four essential components of effective parenting:
 
-**Encouragement** — Helps children overcome obstacles and achieve growth.
+<b>Encouragement</b> — Helps children overcome obstacles and achieve growth.
 
-**Care** — Provides comfort and establishes trust through consistent presence.
+<b>Care</b> — Provides comfort and establishes trust through consistent presence.
 
-**Support** — Offers structure and guidance while allowing independent learning.
+<b>Support</b> — Offers structure and guidance while allowing independent learning.
 
-**Love** — Binds these elements together, creating relationships based on understanding and acceptance.
+<b>Love</b> — Binds these elements together, creating relationships based on understanding and acceptance.
 
 When children grow up in such nurturing environments, they develop into confident individuals who feel valued and capable. They also learn to extend these same qualities to others, fostering a broader cycle of kindness and empathy throughout society.`
 });
@@ -5672,7 +5672,7 @@ Reframe past experiences as opportunities for development rather than sources of
 - Release what cannot be changed
 - Redirect energy toward constructive goals
 
-**A structured journaling approach — six reflective questions:**
+<b>A structured journaling approach — six reflective questions:</b>
 
 1. What triggers regretful feelings?
 2. What emotions are associated, and how intense are they?
@@ -5693,12 +5693,12 @@ window.BLOG_REGISTRY.push({
   excerpt: "Two books on the hidden machinery of the mind: 'The Elephant in the Brain' reveals our concealed motivations; 'The Feeling is the Secret' explores consciousness and prayer.",
   content: `A reading session exploring literature on subconscious mental processes and practical self-improvement.
 
-**The Elephant in the Brain: Hidden Motives in Everyday Life**
+<b>The Elephant in the Brain: Hidden Motives in Everyday Life</b>
 by Kevin Simler and Robin Hanson
 
 The subconscious "motivates, influences, and interferes with our decisions." The authors use education as an example — why do students pursue easier paths or celebrate class cancellations? Our true motivations often remain hidden even from ourselves.
 
-**The Feeling is the Secret**
+<b>The Feeling is the Secret</b>
 by Neville Goddard
 
 Examines the spiritual dimensions of consciousness, emphasizing "the importance of sleep, prayer, and mindfulness in connecting with our higher self and the subconscious mind."
@@ -5747,11 +5747,11 @@ window.BLOG_REGISTRY.push({
   excerpt: "The paradox of feeling isolated despite being surrounded by people. Social gatherings often feel exhausting when everyone is focused on self-expression and performance rather than genuine connection.",
   content: `The paradox of feeling isolated despite being surrounded by people. Social gatherings often feel exhausting when everyone is focused on self-expression and performance rather than genuine connection.
 
-**Authentic connection** means "meaningful conversations" with close friends rather than blending into crowds, emphasizing quality over quantity in relationships.
+<b>Authentic connection</b> means "meaningful conversations" with close friends rather than blending into crowds, emphasizing quality over quantity in relationships.
 
-**Introversion & self-care:** Solitary activities like reading and tea-drinking are valid. Drawing on Louise Hay's self-healing philosophy: disconnecting from external noise enables deeper self-reflection.
+<b>Introversion & self-care:</b> Solitary activities like reading and tea-drinking are valid. Drawing on Louise Hay's self-healing philosophy: disconnecting from external noise enables deeper self-reflection.
 
-**Personal empowerment:** "Embarking on a journey of self-discovery" to release negative emotions and cultivate inner peace and self-love.
+<b>Personal empowerment:</b> "Embarking on a journey of self-discovery" to release negative emotions and cultivate inner peace and self-love.
 
 "If we don't like something, it's perfectly okay to walk away from it."
 
@@ -5769,7 +5769,7 @@ window.BLOG_REGISTRY.push({
 
 Soft drink options were similarly problematic: ginger ale contained "140 calories per can and sugar."
 
-**The practical response:**
+<b>The practical response:</b>
 When flight attendants ask "Do you need anything?" respond by requesting water only. This allows travelers to maintain better control over nutritional intake during air travel rather than accepting pre-selected options that may conflict with personal health goals.
 
 Bringing your own snacks is the cleaner solution — it removes the decision entirely.`
@@ -5812,16 +5812,16 @@ window.BLOG_REGISTRY.push({
   excerpt: "An annual collection of 365 fifteen-minute tea break activities — each designed to promote relaxation and mindfulness across time management, energy, physical wellness, mental health, social connection, and financial awareness.",
   content: `365 fifteen-minute tea break activities designed to promote relaxation and mindfulness. "Tea time ritual allows for a moment of calm, fostering mindfulness and reducing anxiety" — positioning daily tea breaks as wellness anchors paired with intentional lifestyle habits.
 
-**Categories covered:**
+<b>Categories covered:</b>
 
-**Time management** — to-do lists, scheduling reviews
-**Energy** — morning sunbathing before 10 a.m. for health benefits, organizing workspaces
-**Physical wellness** — indoor running, walks, yoga, brief exercise sessions and stretching
-**Mental health** — reading, meditation, journaling
-**Social connection** — messaging friends, video calls
-**Financial awareness** — expense reviews
+<b>Time management</b> — to-do lists, scheduling reviews
+<b>Energy</b> — morning sunbathing before 10 a.m. for health benefits, organizing workspaces
+<b>Physical wellness</b> — indoor running, walks, yoga, brief exercise sessions and stretching
+<b>Mental health</b> — reading, meditation, journaling
+<b>Social connection</b> — messaging friends, video calls
+<b>Financial awareness</b> — expense reviews
 
-**Notable activities include:**
+<b>Notable activities include:</b>
 - Plant care and gardening
 - Creative pursuits: sketching, crafting, photography
 - Board games, stargazing, museum visits
@@ -5839,19 +5839,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "Job search anxiety after layoffs or graduation is common. A structured approach using IKIGAI, daily applications, and skill-gap identification makes the process manageable.",
   content: `Job search anxiety following layoffs or graduation difficulties is a common life experience. Adopting a positive mindset and viewing challenges as growth opportunities is the foundation.
 
-**A structured approach:**
+<b>A structured approach:</b>
 
-1. **IKIGAI framework** — Identify target companies and industries by considering personal passions, livelihood, world needs, and personal strengths. The intersection of these four is where to focus.
+1. <b>IKIGAI framework</b> — Identify target companies and industries by considering personal passions, livelihood, world needs, and personal strengths. The intersection of these four is where to focus.
 
-2. **Curated job site list** — Maintain a list of job websites for regular monitoring.
+2. <b>Curated job site list</b> — Maintain a list of job websites for regular monitoring.
 
-3. **Active networking** — Seek company references and connections.
+3. <b>Active networking</b> — Seek company references and connections.
 
-4. **Application volume** — Set a goal to "apply for 15 positions every day" to maintain momentum.
+4. <b>Application volume</b> — Set a goal to "apply for 15 positions every day" to maintain momentum.
 
-5. **Skill gap identification** — Develop a learning strategy while awaiting employer responses. Don't wait idle.
+5. <b>Skill gap identification</b> — Develop a learning strategy while awaiting employer responses. Don't wait idle.
 
-6. **Physical health** — Maintain regular activity throughout the search.
+6. <b>Physical health</b> — Maintain regular activity throughout the search.
 
 "Staying positive and organized will help you find a new job faster." The structure keeps anxiety from becoming paralysis.`
 });
@@ -5865,19 +5865,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "Introducing a Minimalist Contacts application that uses Dunbar circle categories — close friends, friends, acquaintances — to help maintain connections without social exhaustion.",
   content: `"Social interaction is an essential part of our lives" yet maintaining numerous connections given limited time and energy is genuinely difficult. A Minimalist Contacts application addresses this.
 
-**Application capabilities:**
+<b>Application capabilities:</b>
 
-**Contact Organization** — Import existing contacts and apply tags using Dunbar circle categories (close friends, friends, acquaintances, social circles) to better track interaction frequency.
+<b>Contact Organization</b> — Import existing contacts and apply tags using Dunbar circle categories (close friends, friends, acquaintances, social circles) to better track interaction frequency.
 
-**Daily Suggestions** — The app recommends ten contacts daily to help maintain consistent engagement without overwhelming the day.
+<b>Daily Suggestions</b> — The app recommends ten contacts daily to help maintain consistent engagement without overwhelming the day.
 
-**Communication Tools** — Batch email functionality with customizable templates for personalized outreach.
+<b>Communication Tools</b> — Batch email functionality with customizable templates for personalized outreach.
 
-**Event Management** — Create events triggering multiple interactions within a network.
+<b>Event Management</b> — Create events triggering multiple interactions within a network.
 
-**Calendar Integration** — A visual calendar shows daily connection targets and contact information.
+<b>Calendar Integration</b> — A visual calendar shows daily connection targets and contact information.
 
-**Reciprocity Tracking** — Record assistance provided or connections made. Give-and-take relationships require tracking both directions.
+<b>Reciprocity Tracking</b> — Record assistance provided or connections made. Give-and-take relationships require tracking both directions.
 
 Managing social circles isn't about reducing them — it's about maintaining them intentionally rather than accidentally.`
 });
@@ -5911,13 +5911,13 @@ window.BLOG_REGISTRY.push({
 
 The core message: "we only control what we can control. If we cannot control something, we accept it and find a way to deal with it."
 
-**Personal agency:** Despite limited control over external circumstances, individuals always retain the power to choose — time management, relationships, decisions, thoughts. These choices define who we become.
+<b>Personal agency:</b> Despite limited control over external circumstances, individuals always retain the power to choose — time management, relationships, decisions, thoughts. These choices define who we become.
 
-**Learning from mistakes:** Past errors may bring regret, but they provide valuable growth opportunities. Embrace consequences as stepping stones rather than viewing them as failures.
+<b>Learning from mistakes:</b> Past errors may bring regret, but they provide valuable growth opportunities. Embrace consequences as stepping stones rather than viewing them as failures.
 
-**Accepting natural forces:** Life's overwhelming challenges are like an elephant — too powerful to force. Instead of resistance, find courage and wisdom to navigate. "Do things at your own pace. Life's not a race."
+<b>Accepting natural forces:</b> Life's overwhelming challenges are like an elephant — too powerful to force. Instead of resistance, find courage and wisdom to navigate. "Do things at your own pace. Life's not a race."
 
-**Wisdom and self-reflection:** Developing wisdom to distinguish controllable from uncontrollable elements. Through continuous learning and reflection, individuals can find inner peace and freedom despite external pressures.
+<b>Wisdom and self-reflection:</b> Developing wisdom to distinguish controllable from uncontrollable elements. Through continuous learning and reflection, individuals can find inner peace and freedom despite external pressures.
 
 Seven years later, the concept has the same shape but a different weight.`
 });
@@ -5949,7 +5949,7 @@ window.BLOG_REGISTRY.push({
   excerpt: "From Brianna Wiest: 'Set goals to enjoy what you have, not to chase what you don't have.' Enjoyable experiences don't require spending money.",
   content: `From Brianna Wiest's "101 Essays That Will Change The Way You Think": "Set goals to enjoy what you have, not to chase what you don't have."
 
-**Cost-free activities that genuinely satisfy:**
+<b>Cost-free activities that genuinely satisfy:</b>
 
 - Borrowing books from libraries
 - Walking outdoors (or using a walking pad indoors if weather or allergies interfere)
@@ -5970,25 +5970,25 @@ window.BLOG_REGISTRY.push({
   excerpt: "Ten essential frameworks: SWOT, Gantt Charts, Tuckman's model, Kotter's 8-Step, 7 Cs, Pyramid Principle, AIDA Model, McKinsey's 7S, Six Sigma DMAIC, and Design Thinking.",
   content: `Ten essential frameworks for management consulting professionals:
 
-1. **Strategic Planning** — SWOT Analysis and Porter's Five Forces evaluate competitive environments and internal/external business factors.
+1. <b>Strategic Planning</b> — SWOT Analysis and Porter's Five Forces evaluate competitive environments and internal/external business factors.
 
-2. **Project Management** — Gantt Charts "create a visual timeline of the execution workflow, facilitating project planning and progress tracking."
+2. <b>Project Management</b> — Gantt Charts "create a visual timeline of the execution workflow, facilitating project planning and progress tracking."
 
-3. **Team Development** — Tuckman's model describes five natural team progression stages from formation through completion.
+3. <b>Team Development</b> — Tuckman's model describes five natural team progression stages from formation through completion.
 
-4. **Change Management** — Kotter's 8-Step approach for implementing organizational transformation systematically.
+4. <b>Change Management</b> — Kotter's 8-Step approach for implementing organizational transformation systematically.
 
-5. **Communication** — The 7 Cs framework emphasizing clarity, conciseness, and professionalism in messaging.
+5. <b>Communication</b> — The 7 Cs framework emphasizing clarity, conciseness, and professionalism in messaging.
 
-6. **Decision-Making** — The Pyramid Principle for "logically structuring communication and arguments" effectively.
+6. <b>Decision-Making</b> — The Pyramid Principle for "logically structuring communication and arguments" effectively.
 
-7. **Sales & Marketing** — The AIDA Model (Attention, Interest, Desire, Action) for campaign development.
+7. <b>Sales & Marketing</b> — The AIDA Model (Attention, Interest, Desire, Action) for campaign development.
 
-8. **Organizational Development** — McKinsey's 7S Framework examining strategy, structure, systems, shared values, style, staff, and skills.
+8. <b>Organizational Development</b> — McKinsey's 7S Framework examining strategy, structure, systems, shared values, style, staff, and skills.
 
-9. **Quality Management** — Six Sigma's DMAIC methodology for process improvement and defect reduction.
+9. <b>Quality Management</b> — Six Sigma's DMAIC methodology for process improvement and defect reduction.
 
-10. **Innovation** — Design Thinking: a user-centered iterative approach to product development.`
+10. <b>Innovation</b> — Design Thinking: a user-centered iterative approach to product development.`
 });
 window.BLOG_REGISTRY.push({
   id: "2024-03-03-sukees-pick-the-shawshank-redemption-movie",
@@ -6012,15 +6012,15 @@ window.BLOG_REGISTRY.push({
   excerpt: "'Productivity doesn't mean getting more things done. It means getting more results, effective results, delivered.' True productivity connects to personal core values.",
   content: `"Productivity doesn't mean getting more things done. It means getting more results, effective results, delivered."
 
-**Key themes:**
+<b>Key themes:</b>
 
-**Values-aligned work:** True productivity connects to personal core values and beliefs, delivering outcomes we genuinely care about rather than busywork.
+<b>Values-aligned work:</b> True productivity connects to personal core values and beliefs, delivering outcomes we genuinely care about rather than busywork.
 
-**Avoiding over-organization:** The piece warns against becoming "buried in the work of organizing," where productivity-boosting systems themselves become burdensome. The system should serve the work, not replace it.
+<b>Avoiding over-organization:</b> The piece warns against becoming "buried in the work of organizing," where productivity-boosting systems themselves become burdensome. The system should serve the work, not replace it.
 
-**Happiness as metric:** Productivity should contribute to personal fulfillment and the sense of contributing meaningfully to the world and relationships.
+<b>Happiness as metric:</b> Productivity should contribute to personal fulfillment and the sense of contributing meaningfully to the world and relationships.
 
-**Four practical tactics:**
+<b>Four practical tactics:</b>
 1. The five-minute rule for quick tasks (do it immediately)
 2. Brain dumping and batching related items
 3. Structuring work as rolling projects rather than endless tasks
@@ -6050,17 +6050,17 @@ window.BLOG_REGISTRY.push({
   excerpt: "Dale Carnegie's nearly 60-year-old classic continues to influence modern relationship literature. Every follow-up book repeats his suggestions — each version helps different readers find their 'enlightenment moment.'",
   content: `Dale Carnegie's "How to Win Friends and Influence People" continues to influence modern relationship literature after nearly 60 years. Many follow-up books repeat Carnegie's suggestions, but each version helps different readers find their "enlightenment moment."
 
-**Key principles for building meaningful connections:**
+<b>Key principles for building meaningful connections:</b>
 
-**Genuine Interest** — "people always like themselves much better than anybody else," so demonstrating authentic curiosity about others builds rapport more reliably than being interesting yourself.
+<b>Genuine Interest</b> — "people always like themselves much better than anybody else," so demonstrating authentic curiosity about others builds rapport more reliably than being interesting yourself.
 
-**Acceptance** — Avoid imposing your values on people. Listen and observe to help others feel valued.
+<b>Acceptance</b> — Avoid imposing your values on people. Listen and observe to help others feel valued.
 
-**Sincerity and Kindness** — Practice empathy, gratitude, and forgiveness. Positive treatment typically generates reciprocal responses.
+<b>Sincerity and Kindness</b> — Practice empathy, gratitude, and forgiveness. Positive treatment typically generates reciprocal responses.
 
-**Perspective-Taking** — Consider others' viewpoints and interests during conversations.
+<b>Perspective-Taking</b> — Consider others' viewpoints and interests during conversations.
 
-**Integrity** — Follow through on commitments and acknowledge mistakes honestly.
+<b>Integrity</b> — Follow through on commitments and acknowledge mistakes honestly.
 
 The principles are simple. Applying them consistently is not.`
 });
@@ -6153,7 +6153,7 @@ window.BLOG_REGISTRY.push({
 
 Gardening offers multiple benefits: fostering nature connections, supporting mental wellness, and providing hands-on horticultural engagement.
 
-**Three ways to participate:**
+<b>Three ways to participate:</b>
 
 1. Visit a local plant nursery and spend time gardening
 2. Read gardening-related literature
@@ -6171,7 +6171,7 @@ window.BLOG_REGISTRY.push({
   excerpt: "Conversations function as platforms where individuals showcase their capabilities and worthiness — referencing 'The Elephant in the Brain' on the hidden social motivations behind dialogue.",
   content: `Discussions serve as a venue for demonstrating intelligence and establishing social standing, as explored in "The Elephant in the Brain."
 
-**Key observations:**
+<b>Key observations:</b>
 
 - Conversations function as platforms where individuals showcase their capabilities and worthiness
 - Building alliances and creating positive impressions are central to human interaction
@@ -6193,12 +6193,12 @@ window.BLOG_REGISTRY.push({
 
 "Each year, Earth Day centers around a specific theme to address pressing environmental issues, such as climate change, plastic pollution, and conservation efforts."
 
-**2024 theme: "Planet vs Plastics"**
+<b>2024 theme: "Planet vs Plastics"</b>
 Encourages sustainable alternatives like reusable shopping bags and eco-friendly materials: "paper envelopes, glass or ceramic jars, or bamboo plates."
 
 Earth Day has driven environmental legislation protecting air quality, water resources, and endangered species.
 
-**2025 theme:** Renewable energy initiatives.
+<b>2025 theme:</b> Renewable energy initiatives.
 
 Small changes in daily material choices accumulate into meaningful environmental impact.`
 });
@@ -6240,15 +6240,15 @@ window.BLOG_REGISTRY.push({
   excerpt: "'Quality is subjective, varying from person to person.' Three stages for constructing a meaningful life despite its finite nature: basic necessities, quality in basics, and self-realization.",
   content: `"Quality is subjective, varying from person to person" — so any framework must respect these differences rather than impose a single definition.
 
-**Three stages:**
+<b>Three stages:</b>
 
-**Basic Necessities**
+<b>Basic Necessities</b>
 Drawing from Maslow's hierarchy, securing shelter, food, and clothing must come before any quality lifestyle. This foundation isn't glamorous but is non-negotiable.
 
-**Quality in Basics**
+<b>Quality in Basics</b>
 Once survival needs are met, wise judgment becomes crucial. Minimalist principles apply: own only necessary items, invest in quality garments, choose whole foods and non-GMO options, create a comfortable and well-appointed living space.
 
-**Self-Realization**
+<b>Self-Realization</b>
 The pinnacle involves pursuing personal aspirations and living according to one's values. "Creating a bucket list and starting to check off those items now" through consistent goal-setting and contribution to values that inspire personal pride.
 
 This pursuit of self-actualization while honoring daily values represents the genuine essence of a quality existence — lived within its finite duration rather than deferred until some imagined later.`
@@ -6263,15 +6263,15 @@ window.BLOG_REGISTRY.push({
   excerpt: "Reading comprehension provides a competitive advantage. 'Few people read' — those who do are ahead of 80% of the population. Four examples where reading matters.",
   content: `Reading comprehension provides a competitive advantage. "Few people read" — and those who do are "ahead of 80% of the population."
 
-**Four practical examples where reading makes the difference:**
+<b>Four practical examples where reading makes the difference:</b>
 
-**Game Instructions** — Understanding complete Monopoly rules enhances gameplay and winning potential. Most people play by folk rules.
+<b>Game Instructions</b> — Understanding complete Monopoly rules enhances gameplay and winning potential. Most people play by folk rules.
 
-**App Privacy Policies** — Users often unknowingly surrender significant rights by not reading terms they agree to.
+<b>App Privacy Policies</b> — Users often unknowingly surrender significant rights by not reading terms they agree to.
 
-**Food Labels** — "Organic" products frequently contain non-organic ingredients, and "healthy" foods often have excessive sugar and calories that become apparent only upon checking serving sizes.
+<b>Food Labels</b> — "Organic" products frequently contain non-organic ingredients, and "healthy" foods often have excessive sugar and calories that become apparent only upon checking serving sizes.
 
-**Consultant Proposals** — Fine print containing assumptions and conditions forms the foundation of professional conclusions and warrants careful attention.
+<b>Consultant Proposals</b> — Fine print containing assumptions and conditions forms the foundation of professional conclusions and warrants careful attention.
 
 Reading demands effort. Its practical benefits are proportional to that effort — and to how few other people bother.`
 });
@@ -6315,25 +6315,25 @@ window.BLOG_REGISTRY.push({
   excerpt: "Ten key strategies for sound financial management: budgeting, emergency fund, debt management, savings goals, investing, credit score, insurance, retirement planning, tax planning, and mindful spending.",
   content: `Sound financial management is essential for achieving stability and prosperity. Ten key strategies:
 
-1. **Budgeting** — Track income and expenses to plan spending and prevent debt accumulation.
+1. <b>Budgeting</b> — Track income and expenses to plan spending and prevent debt accumulation.
 
-2. **Emergency Fund** — Establish reserves covering 3-6 months of living costs for unexpected situations.
+2. <b>Emergency Fund</b> — Establish reserves covering 3-6 months of living costs for unexpected situations.
 
-3. **Debt Management** — Prioritize eliminating high-interest obligations. Dave Ramsey's debt-elimination philosophy is a useful reference.
+3. <b>Debt Management</b> — Prioritize eliminating high-interest obligations. Dave Ramsey's debt-elimination philosophy is a useful reference.
 
-4. **Savings Goals** — Establish both short and long-term financial targets.
+4. <b>Savings Goals</b> — Establish both short and long-term financial targets.
 
-5. **Investing** — Build diversified holdings across stocks, bonds, and real estate.
+5. <b>Investing</b> — Build diversified holdings across stocks, bonds, and real estate.
 
-6. **Credit Score** — Maintain healthy credit to secure favorable borrowing terms.
+6. <b>Credit Score</b> — Maintain healthy credit to secure favorable borrowing terms.
 
-7. **Insurance** — Obtain appropriate coverage against significant financial risks.
+7. <b>Insurance</b> — Obtain appropriate coverage against significant financial risks.
 
-8. **Retirement Planning** — Begin early to leverage compound interest benefits.
+8. <b>Retirement Planning</b> — Begin early to leverage compound interest benefits.
 
-9. **Tax Planning** — Optimize tax strategies to maximize personal wealth retention.
+9. <b>Tax Planning</b> — Optimize tax strategies to maximize personal wealth retention.
 
-10. **Mindful Spending** — Differentiate between essential needs and discretionary wants.
+10. <b>Mindful Spending</b> — Differentiate between essential needs and discretionary wants.
 
 "Continuous enhancement of financial literacy forms the foundation for effective money management and accomplishing financial objectives."`
 });
@@ -6367,13 +6367,13 @@ An invitation to find peace before starting the day: "Do you feel excited and lo
 
 The book functions as a "practical guide for self-healing, recognizing destructive patterns, processing past trauma, and creating a healthier, more fulfilling life."
 
-**Key practices:**
+<b>Key practices:</b>
 - Self-awareness and mindfulness
 - Journaling
 - Breathwork
 - Nervous system regulation
 
-**Central themes:** Personal accountability, boundary-setting, and holistic wellness.
+<b>Central themes:</b> Personal accountability, boundary-setting, and holistic wellness.
 
 "Healing is not an end state; it is a lifelong journey" — personal growth requires ongoing, consistent effort toward emotional balance and inner peace.`
 });
@@ -6387,7 +6387,7 @@ window.BLOG_REGISTRY.push({
   excerpt: "Enhance tea time through digital sketching using Keynote software — select an image, upload it, lock it in place, trace over it, then add animation to bring the sketch to life.",
   content: `A creative approach to enhancing tea time through digital sketching using Keynotes software.
 
-**The process:**
+<b>The process:</b>
 1. Select an online image
 2. Upload it to Keynotes
 3. Lock the image in place
@@ -6412,7 +6412,7 @@ Visual elements — including color schemes, imagery, diagrams, and data charts 
 
 Part of an ongoing series with 105 discussions on visualization methods, focusing particularly on creating and interpreting data visualizations.
 
-**Three key discussion areas:**
+<b>Three key discussion areas:</b>
 - Color palettes and their psychological effects
 - Presentation techniques from Harvard Business Review
 - Methods for displaying group distribution
@@ -6431,17 +6431,17 @@ window.BLOG_REGISTRY.push({
 
 The Wheel of Life framework is a visual assessment tool covering six life dimensions:
 
-**Family** — "Prioritize spending more quality time with our loved ones by planning regular outings or activities."
+<b>Family</b> — "Prioritize spending more quality time with our loved ones by planning regular outings or activities."
 
-**Finance** — Creating budgets to save for significant purchases, supporting values of security and independence.
+<b>Finance</b> — Creating budgets to save for significant purchases, supporting values of security and independence.
 
-**Health** — Committing to exercise and balanced nutrition for physical vitality.
+<b>Health</b> — Committing to exercise and balanced nutrition for physical vitality.
 
-**Work** — Pursuing professional development to enhance skills and satisfaction.
+<b>Work</b> — Pursuing professional development to enhance skills and satisfaction.
 
-**Interests** — Dedicating weekly time to hobbies like journaling or reading.
+<b>Interests</b> — Dedicating weekly time to hobbies like journaling or reading.
 
-**Personal Development** — Continuous learning and self-reflection.
+<b>Personal Development</b> — Continuous learning and self-reflection.
 
 Meaningful goal-setting connects achievements to personal values, making "the journey just as rewarding as the destination when your goals reflect what you truly value."
 
@@ -6457,19 +6457,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "A structured monthly review process using five key questions: review the plan, what worked well, challenges, improvement areas, and SMART goal setting for the next month.",
   content: `Reflection is the engine of productivity management. A structured monthly review using five key questions:
 
-**1. Review the Plan**
+<b>1. Review the Plan</b>
 "Reiterate our values and goals, and ensure that the actions and plans are aligned with the objectives."
 
-**2. What Works Well**
+<b>2. What Works Well</b>
 Identify achievements, successful strategies, and factors contributing to productive days versus less productive ones.
 
-**3. Challenges**
+<b>3. Challenges</b>
 Examine obstacles encountered and brainstorm alternative approaches for future situations.
 
-**4. Improvement Areas**
+<b>4. Improvement Areas</b>
 Integrate lessons from both successes and setbacks into upcoming plans.
 
-**5. Goal Setting**
+<b>5. Goal Setting</b>
 Establish new objectives for the coming month using the SMART framework (specific, measurable, achievable, relevant, and time-bound), aligned with quarterly OKRs.
 
 Consistent monthly reflection creates a "cycle of continuous learning, which will help you consistently improve and achieve your goals." The review itself is the compounding mechanism.`
@@ -6484,13 +6484,13 @@ window.BLOG_REGISTRY.push({
   excerpt: "Digital decluttering as a minimalist response to information overload. Organize Apple Notes into year-based folders with four subfolders — projects, knowledge, journals, contacts.",
   content: `Digital decluttering as a minimalist response to information overload. Practical strategies for managing notes effectively in Apple Notes:
 
-**Organization system:**
+<b>Organization system:</b>
 - Year-based folders with four subfolders: projects, knowledge, journals, contacts
 - Regularly delete outdated items
 - Leverage Apple Notes' tagging system for easy retrieval
 - Name items chronologically for automatic sorting
 
-**Key practices:**
+<b>Key practices:</b>
 - "Convert lists into checklists to make your notes actionable"
 - Consolidate similar notes
 - Maintain regular decluttering routines
@@ -6509,16 +6509,16 @@ window.BLOG_REGISTRY.push({
   excerpt: "A streamlined note-organization system using four main folders in Apple Notes: Contact, Journal, Project, and Knowledge — each with a distinct purpose and search strategy.",
   content: `A streamlined note-organization system using four main folders in Apple Notes:
 
-**Contact Folder**
+<b>Contact Folder</b>
 Stores personal and business contact information, with tags distinguishing different contact types.
 
-**Journal Folder**
+<b>Journal Folder</b>
 Collects time-sensitive entries, with each journal entry dated for easy reference.
 
-**Project Folder**
+<b>Project Folder</b>
 Contains subfolders organized by year and project name, allowing you to "easily filter out what year we have done what project."
 
-**Knowledge Folder**
+<b>Knowledge Folder</b>
 Archives shared content from videos, websites, and quick notes, utilizing Apple Notes' Smart Folder feature to categorize by creation date, update date, and tags.
 
 This four-folder structure eliminates complexity while maintaining proper categorization and searchability across all personal notes. Four buckets is few enough to be memorable and sufficient to handle most information needs.`
@@ -6533,19 +6533,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "August is National Water Quality Month. Practical steps: clean up after pets, properly dispose of medications, paint, oil, batteries, and chemicals — never pour them down drains.",
   content: `August is National Water Quality Month. Practical steps for maintaining water quality:
 
-**Proper pet cleanup** — Clean up after pets to prevent runoff contamination.
+<b>Proper pet cleanup</b> — Clean up after pets to prevent runoff contamination.
 
-**Medication disposal:** Mix with unappealing substances like coffee grounds before sealing in a bag and throwing in the trash. Never flush.
+<b>Medication disposal:</b> Mix with unappealing substances like coffee grounds before sealing in a bag and throwing in the trash. Never flush.
 
-**Paint disposal:** Let latex paint dry before disposal. Take oil-based paint to hazardous waste facilities.
+<b>Paint disposal:</b> Let latex paint dry before disposal. Take oil-based paint to hazardous waste facilities.
 
-**Oil, antifreeze, batteries:** Take to recycling centers.
+<b>Oil, antifreeze, batteries:</b> Take to recycling centers.
 
-**Electronics:** Require e-waste facilities.
+<b>Electronics:</b> Require e-waste facilities.
 
-**Home maintenance:** Maintain home water and wastewater lines to prevent leaks.
+<b>Home maintenance:</b> Maintain home water and wastewater lines to prevent leaks.
 
-**Fertilizers:** Use phosphorus-free options to prevent algae blooms in water sources.
+<b>Fertilizers:</b> Use phosphorus-free options to prevent algae blooms in water sources.
 
 Never pour chemicals down drains. Check local disposal guidelines — they vary by municipality.`
 });
@@ -6559,18 +6559,18 @@ window.BLOG_REGISTRY.push({
   excerpt: "Three interconnected practices: the Law of Attraction ('similar energies attract each other'), Manifestation (bringing desires into reality), and Visualization (mental rehearsal of achieved goals).",
   content: `Three interconnected spiritual concepts for personal development:
 
-**Law of Attraction**
+<b>Law of Attraction</b>
 "The philosophical principle suggesting that similar energies attract each other" — positive thinking theorized to draw favorable outcomes.
 
-**Manifestation**
+<b>Manifestation</b>
 The overarching practice of bringing desires into reality through focused intention and belief. Techniques include affirmations, meditation, and gratitude work.
 
-**Visualization**
+<b>Visualization</b>
 A specific technique within manifestation — "creating mental images or scenarios that depict one's goals as already achieved." This mental rehearsal prepares individuals to work toward their envisioned outcomes.
 
 These practices help shape one's destiny consciously across health, career, and relationships.
 
-**Seven recommended books:**
+<b>Seven recommended books:</b>
 Works by Eckhart Tolle, Dr. Joe Dispenza, and others. These resources offer valuable personal development knowledge regardless of personal beliefs.`
 });
 window.BLOG_REGISTRY.push({
@@ -6583,19 +6583,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "Seven strategies for becoming engaging in professional settings. Being genuinely fun requires authenticity and cannot be faked — 'actual knowledge, confidence, and helpfulness.'",
   content: `Seven strategies for becoming engaging in professional settings:
 
-**Be knowledgeable** — Authentic expertise naturally draws others in. Project managers especially benefit from this.
+<b>Be knowledgeable</b> — Authentic expertise naturally draws others in. Project managers especially benefit from this.
 
-**Be relaxed and authentic** — People can sense inauthenticity. Relaxation enables genuine connection.
+<b>Be relaxed and authentic</b> — People can sense inauthenticity. Relaxation enables genuine connection.
 
-**Take your time** — Speaking at your own pace while allowing others to wait demonstrates self-assurance rather than anxiety.
+<b>Take your time</b> — Speaking at your own pace while allowing others to wait demonstrates self-assurance rather than anxiety.
 
-**Listen more than you talk** — "20% talk, and 80% listen." Ask others about themselves through eye contact and acknowledgment.
+<b>Listen more than you talk</b> — "20% talk, and 80% listen." Ask others about themselves through eye contact and acknowledgment.
 
-**Ask targeted questions** — About future plans, past experiences, observed changes, action details, and decision-making rationales.
+<b>Ask targeted questions</b> — About future plans, past experiences, observed changes, action details, and decision-making rationales.
 
-**Tell stories** — Create memorable impressions through vivid descriptions of settings, characters, and emotions.
+<b>Tell stories</b> — Create memorable impressions through vivid descriptions of settings, characters, and emotions.
 
-**Use strategic pauses** — For audience comprehension and response facilitation.
+<b>Use strategic pauses</b> — For audience comprehension and response facilitation.
 
 Being genuinely fun requires authenticity and cannot be faked. The foundation is actual knowledge, confidence, and helpfulness — not performance.`
 });
@@ -6611,7 +6611,7 @@ window.BLOG_REGISTRY.push({
 
 The philosophy traces its artistic origins to Frank Stella in the late 1950s. Modern practitioners include Steve Jobs and Google, who embodied this through simple design and presentation.
 
-**Practical framework — Danshari (Japanese):**
+<b>Practical framework — Danshari (Japanese):</b>
 Three principles:
 1. Refuse unnecessary purchases
 2. Dispose of unused items
@@ -6619,7 +6619,7 @@ Three principles:
 
 Additional resources: theminimalists.com
 
-**Implementation strategies:**
+<b>Implementation strategies:</b>
 - The "One in One Out" approach to prevent accumulation
 - Purchasing quality items initially to avoid replacements
 - Systematically minimizing spaces (living room, closet, kitchen)
@@ -6637,13 +6637,13 @@ window.BLOG_REGISTRY.push({
   excerpt: "Regular writing helps improve self-awareness, emotional well-being, and communication skills. 'The key to a helpful journal is consistency, honesty with oneself, and offloading our minds.'",
   content: `Regular writing helps improve self-awareness, emotional well-being, and communication skills by allowing us to "release negative experiences and move forward with a positive attitude."
 
-**Three journal types:**
+<b>Three journal types:</b>
 
-**Thought journals** — Diaries, blogs, stream-of-consciousness writing.
+<b>Thought journals</b> — Diaries, blogs, stream-of-consciousness writing.
 
-**Experience journals** — Travel, gratitude, nature journals that document the world outside.
+<b>Experience journals</b> — Travel, gratitude, nature journals that document the world outside.
 
-**Self-management journals** — Bullet journals, habit trackers, planning systems.
+<b>Self-management journals</b> — Bullet journals, habit trackers, planning systems.
 
 "The key to a helpful journal is consistency, honesty with oneself, and offloading our minds."
 
@@ -6675,15 +6675,15 @@ window.BLOG_REGISTRY.push({
   excerpt: "The Zeigarnik effect: incomplete tasks remain more memorable than finished ones, creating mental stress. A systematic approach to to-do list management removes that burden.",
   content: `The Zeigarnik effect: incomplete tasks remain more memorable than finished ones. This psychological phenomenon creates mental stress, making task management essential for productivity.
 
-**A systematic approach to effective to-do list management:**
+<b>A systematic approach to effective to-do list management:</b>
 
-- **Initial filtering:** Use the 5-minute rule — complete quick tasks immediately, or capture longer ones for later
-- **Task breakdown:** Divide larger projects into smaller, manageable steps
-- **Prioritization:** Rank tasks by importance and schedule high-priority work during peak performance times
-- **Task batching:** Group similar activities to minimize mental switching costs
-- **Daily reviews:** Establish routines to set morning goals and reflect on evening accomplishments
-- **Focus limitation:** Aim to complete 3-5 tasks daily to prevent overwhelm
-- **Time blocking:** Transfer the to-do list to a calendar for structured scheduling
+- <b>Initial filtering:</b> Use the 5-minute rule — complete quick tasks immediately, or capture longer ones for later
+- <b>Task breakdown:</b> Divide larger projects into smaller, manageable steps
+- <b>Prioritization:</b> Rank tasks by importance and schedule high-priority work during peak performance times
+- <b>Task batching:</b> Group similar activities to minimize mental switching costs
+- <b>Daily reviews:</b> Establish routines to set morning goals and reflect on evening accomplishments
+- <b>Focus limitation:</b> Aim to complete 3-5 tasks daily to prevent overwhelm
+- <b>Time blocking:</b> Transfer the to-do list to a calendar for structured scheduling
 
 "A to-do list can become a powerful tool for enhancing productivity, reducing stress, and keeping you focused on what matters most." The system captures the open loops so your brain doesn't have to hold them.`
 });
@@ -6719,7 +6719,7 @@ This repetitive approach serves a strategic purpose. Changing reader perspective
 
 Persistent repetition challenges thinking patterns until readers experience an "aha" moment when new ideas finally click into place.
 
-**A practical insight:** Understanding a book's central message allows readers to complete it more quickly, as the essential content remains constant across chapters presented from different narrative angles. Once you've found the core argument, the subsequent chapters are variations — valuable, but readable faster.
+<b>A practical insight:</b> Understanding a book's central message allows readers to complete it more quickly, as the essential content remains constant across chapters presented from different narrative angles. Once you've found the core argument, the subsequent chapters are variations — valuable, but readable faster.
 
 Books repeat because changing minds is hard. The repetition is not padding; it's the method.`
 });
@@ -6745,7 +6745,7 @@ window.BLOG_REGISTRY.push({
 
 Psychologists attribute this to "memory glitches in the brain, where it mistakenly interprets a new experience as familiar." This can result from brief processing errors or partial recollection of comparable past events.
 
-**The dream connection:**
+<b>The dream connection:</b>
 Déjà vu often connects to dreams. People frequently experience this sensation during moments resembling previous dreams, blurring boundaries between actual memory and imagination. The brain stores dreams and real memories similarly, strengthening the familiarity sensation.
 
 Déjà vu doesn't predict future events — but it prompts curiosity and introspection, leading people to wonder if their dreams foreshadow reality. The mystery adds texture to everyday experiences.`
@@ -6770,19 +6770,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "While inflammation is a protective bodily response, chronic inflammation causes health problems. Whole, unprocessed foods with no added sugar — fruits, vegetables, whole grains, legumes, fish, nuts, and olive oil.",
   content: `While inflammation is a protective bodily response, chronic inflammation can cause health problems. The dietary recommendation: consume "whole, unprocessed foods with no added sugar."
 
-**Core foods:** Fruits, vegetables, whole grains, legumes, fish, poultry, nuts, seeds, and olive oil.
+<b>Core foods:</b> Fruits, vegetables, whole grains, legumes, fish, poultry, nuts, seeds, and olive oil.
 
-**Key dietary strategies:**
+<b>Key dietary strategies:</b>
 
-**High-antioxidant foods:** Dark-colored fruits like blueberries and leafy greens such as spinach help lower inflammation levels.
+<b>High-antioxidant foods:</b> Dark-colored fruits like blueberries and leafy greens such as spinach help lower inflammation levels.
 
-**Healthy fats:** Plant-based oils, fatty fish like salmon, and nuts rich in omega-3 fatty acids reduce bodily inflammation.
+<b>Healthy fats:</b> Plant-based oils, fatty fish like salmon, and nuts rich in omega-3 fatty acids reduce bodily inflammation.
 
-**Adequate fiber:** Vegetables, fruits, whole grains, and legumes promote gut health and decrease chronic inflammation.
+<b>Adequate fiber:</b> Vegetables, fruits, whole grains, and legumes promote gut health and decrease chronic inflammation.
 
-**Spices and herbs:** Ginger, garlic, mint, turmeric, and black pepper offer anti-inflammatory benefits.
+<b>Spices and herbs:</b> Ginger, garlic, mint, turmeric, and black pepper offer anti-inflammatory benefits.
 
-**Hydration:** Adequate water supports normal bodily functions and inflammation reduction.
+<b>Hydration:</b> Adequate water supports normal bodily functions and inflammation reduction.
 
 Recommended resources: Pick A Lime, Downshiftology, Japanese and Korean cuisine YouTube channels.
 
@@ -6808,39 +6808,39 @@ window.BLOG_REGISTRY.push({
   excerpt: "If something can be changed — change it. If it can be influenced — influence it. If it cannot be changed, shift your mindset and accept it with peace. Twenty tea time ideas for 2025.",
   content: `Finding peace during uncertain times: "If something can be changed — change it. If it can be influenced — influence it. If it cannot be changed or influenced, shift your mindset and accept it with peace."
 
-**Twenty tea time ideas for 2025:**
+<b>Twenty tea time ideas for 2025:</b>
 
-**Reflective practices**
+<b>Reflective practices</b>
 - Write daily highlights — three things that went well today
 - Keep a gratitude list and add to it each session
 - Plan the week ahead with intention
 
-**Mindful moments**
+<b>Mindful moments</b>
 - Gaze out the window and simply observe
 - Watch nature videos without other screens competing
 - Sit with a cup of tea and nothing else — no device, no task
 
-**Creative pursuits**
+<b>Creative pursuits</b>
 - Sketch something in front of you
 - Try origami — simple folds work
 - Flower arranging with whatever is available
 
-**Physical activities**
+<b>Physical activities</b>
 - Do a brief cardio sequence between sessions
 - Walk around the block deliberately and slowly
 - Tidy one small space
 
-**Learning opportunities**
+<b>Learning opportunities</b>
 - Read a chapter of something currently interesting
 - Research one topic you've been curious about
 - Listen to a podcast episode on an unfamiliar subject
 
-**Self-care and growth**
+<b>Self-care and growth</b>
 - Update a resume or portfolio — small improvements over time
 - Try one new food this week
 - Tend to a plant
 
-**Interpersonal gestures**
+<b>Interpersonal gestures</b>
 - Write a thank-you note to someone who deserves it
 
 Tea time is not just a break — it is a practice. These twenty ideas are invitations to make the pause meaningful.`
@@ -6875,7 +6875,7 @@ window.BLOG_REGISTRY.push({
 
 These audio experiences are increasingly popular for relaxation, focus, meditation, and sleep. They help listeners "slow down, stay present, and reconnect with your environment — even if you're indoors."
 
-**Where to explore soundscapes:**
+<b>Where to explore soundscapes:</b>
 Spotify, YouTube, Calm, Noisli
 
 A simple tea break can evolve into discovering calming soundscape practices — and these two pair naturally together.`
@@ -6936,11 +6936,11 @@ window.BLOG_REGISTRY.push({
   excerpt: "In a competitive job market, demonstrate capabilities rather than listing them. Data visualization skills? Show previous projects. Communication skills? Share presentation recordings.",
   content: `In a competitive job market, candidates benefit from creating portfolios or personal websites that showcase actual work — not just listing skills.
 
-**By field:**
+<b>By field:</b>
 
-- **Data visualization:** Display previous projects rather than stating experience
-- **Communication:** Share presentation recordings
-- **Development:** Share code samples via GitHub
+- <b>Data visualization:</b> Display previous projects rather than stating experience
+- <b>Communication:</b> Share presentation recordings
+- <b>Development:</b> Share code samples via GitHub
 
 "Presenting your work in this way is much more compelling in today's job market."
 
@@ -6956,19 +6956,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "John Doerr's OKRs (Objectives and Key Results) — a structured goal-setting framework. Key distinction: OKRs push toward significant improvement and innovation; KPIs just track organizational health.",
   content: `John Doerr's *Measure What Matters* introduces OKRs (Objectives and Key Results) as "a structured goal-setting framework" designed to align organizations toward measurable achievement.
 
-**Two components:**
+<b>Two components:</b>
 
-**Objectives** — provide directional clarity.
-**Key Results** — deliver "specific, quantifiable outcomes that indicate progress."
+<b>Objectives</b> — provide directional clarity.
+<b>Key Results</b> — deliver "specific, quantifiable outcomes that indicate progress."
 
 Unlike vague aspirations or task lists, OKRs demand "clear definitions and measurable benchmarks."
 
-**OKRs vs. KPIs:**
+<b>OKRs vs. KPIs:</b>
 KPIs track organizational health. OKRs "push teams toward significant improvement and innovation." This distinction matters: health maintenance versus ambitious advancement.
 
-**CFRs** (Conversations, Feedback, and Recognition) complement OKRs by fostering ongoing growth rather than static evaluations.
+<b>CFRs</b> (Conversations, Feedback, and Recognition) complement OKRs by fostering ongoing growth rather than static evaluations.
 
-**Core principles:** Focus, alignment, commitment, tracking, and stretching.
+<b>Core principles:</b> Focus, alignment, commitment, tracking, and stretching.
 
 OKRs encourage autonomy and agility rather than top-down control — driving meaningful progress in business, social impact, and personal development.`
 });
@@ -6986,7 +6986,7 @@ Words trigger sensory and emotional responses — "sour" activates taste, "warm"
 
 Rather than simply calling a meal "delicious," describing it as "warm and comforting" creates a richer experience. Feeling-driven language helps audiences visualize and emotionally engage with content, adding texture and temperature to communication.
 
-**Emotionally grounding vocabulary:**
+<b>Emotionally grounding vocabulary:</b>
 Warm, cozy, safe, reassuring, gentle, calm, soothing, soft, light, peaceful, grounding, steady, supportive, familiar, kindly.
 
 Each word fosters environments where people feel valued and at ease.
@@ -7043,13 +7043,13 @@ window.BLOG_REGISTRY.push({
   excerpt: "An elderly woman at Zion National Park ignored safety recommendations, forgoing proper footwear and walking sticks — then fell and required rescue. Ignorance of danger poses greater risk than the danger itself.",
   content: `Parental responsibility for child safety during risky activities, through several cautionary scenarios:
 
-**Skiing:** Children lacking proper technique and equipment knowledge from insufficient instruction caused accidents.
+<b>Skiing:</b> Children lacking proper technique and equipment knowledge from insufficient instruction caused accidents.
 
-**Motorboat:** Allowing children on a motorboat without professional guidance resulted in a collision and $1,200 in damages.
+<b>Motorboat:</b> Allowing children on a motorboat without professional guidance resulted in a collision and $1,200 in damages.
 
-**Zion National Park:** An elderly woman ignored safety recommendations, forgoing proper footwear and walking sticks. She subsequently fell, sustained serious injuries, and required rescue assistance in difficult mountain conditions.
+<b>Zion National Park:</b> An elderly woman ignored safety recommendations, forgoing proper footwear and walking sticks. She subsequently fell, sustained serious injuries, and required rescue assistance in difficult mountain conditions.
 
-**The positive contrast:** Renting proper equipment for a water trail hike made the experience safe and enjoyable.
+<b>The positive contrast:</b> Renting proper equipment for a water trail hike made the experience safe and enjoyable.
 
 The central message: ignorance of danger poses greater risk than the danger itself.
 
@@ -7111,16 +7111,16 @@ window.BLOG_REGISTRY.push({
   excerpt: "Four key areas for professional development in the age of AI: soft skills, professional AI integration, building AI-driven systems, and interdisciplinary exploration.",
   content: `Addressing anxiety about career relevance amid rapid AI advancement: four key areas for professional development.
 
-**Soft Skills**
+<b>Soft Skills</b>
 "Critical thinking, problem-solving, emotional intelligence, leadership, communication, and storytelling" remain valuable despite technological progress. Creating YouTube videos or other public content can strengthen the ability to articulate ideas clearly.
 
-**Professional AI Integration**
+<b>Professional AI Integration</b>
 Explore how artificial intelligence can enhance your specific field — business analytics, healthcare diagnostics, financial services, or creative industries. Rather than fearing obsolescence, integrate.
 
-**Building AI-Driven Systems**
+<b>Building AI-Driven Systems</b>
 Foundational technical knowledge (Python, SQL, software engineering) is essential for those entering tech roles. Even while leveraging AI tools, understanding the foundations enables better use of them.
 
-**Interdisciplinary Exploration**
+<b>Interdisciplinary Exploration</b>
 Emerging fields like quantum computing, robotics, and neuroscience represent future innovation opportunities that intersect with AI development.
 
 Adaptation through strategic skill-building — rather than passive worry about automation — is the available path forward.`
@@ -7135,19 +7135,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "A comprehensive guide addressing motherhood across seven life stages — from pregnancy through becoming a grandparent. The conclusion emphasizes 'respect, grace, emotional availability, and connection over control.'",
   content: `A comprehensive guide to motherhood across seven life stages:
 
-**Pregnancy** — Maintain health and emotional well-being. Avoid large gatherings, do gentle exercise, prioritize rest. Select a trustworthy hospital with a competent physician (emergencies may mean your regular doctor isn't available). Pain management during labor is acceptable and beneficial.
+<b>Pregnancy</b> — Maintain health and emotional well-being. Avoid large gatherings, do gentle exercise, prioritize rest. Select a trustworthy hospital with a competent physician (emergencies may mean your regular doctor isn't available). Pain management during labor is acceptable and beneficial.
 
-**Baby Stage (0-12 months)** — Breastfeeding, bonding, burping, diaper changing, safe sleep positioning, soothing strategies, recognizing illness signs. Create a baby-safe home environment.
+<b>Baby Stage (0-12 months)</b> — Breastfeeding, bonding, burping, diaper changing, safe sleep positioning, soothing strategies, recognizing illness signs. Create a baby-safe home environment.
 
-**Toddler Stage (1-3 years)** — Language development, potty training readiness, routines, fostering safe independence, managing behavioral challenges.
+<b>Toddler Stage (1-3 years)</b> — Language development, potty training readiness, routines, fostering safe independence, managing behavioral challenges.
 
-**Preschool to Early School (4-7 years)** — Encourage curiosity, emotional literacy, the importance of play, consistent routines without overstimulation.
+<b>Preschool to Early School (4-7 years)</b> — Encourage curiosity, emotional literacy, the importance of play, consistent routines without overstimulation.
 
-**Middle Childhood (8-12 years)** — Balanced extracurricular involvement, avoiding unhelpful pressure regarding academic performance.
+<b>Middle Childhood (8-12 years)</b> — Balanced extracurricular involvement, avoiding unhelpful pressure regarding academic performance.
 
-**Teen Stage (13-18 years)** — Maintain open communication, respect emerging independence, provide emotional support.
+<b>Teen Stage (13-18 years)</b> — Maintain open communication, respect emerging independence, provide emotional support.
 
-**Young Adult and Beyond** — Transition from authority figure to trusted advisor. Respect autonomy. Maintain appropriate boundaries.
+<b>Young Adult and Beyond</b> — Transition from authority figure to trusted advisor. Respect autonomy. Maintain appropriate boundaries.
 
 The conclusion: respect, grace, emotional availability, and connection over control.`
 });
@@ -7183,16 +7183,16 @@ window.BLOG_REGISTRY.push({
   excerpt: "Since 2017, adopting minimalist principles has eliminated the need for strict budgeting — four key strategies: selective purchasing, values-aligned spending, intentional decisions, automated investing.",
   content: `Since 2017, minimalist principles have replaced strict budgeting. Four key strategies:
 
-**Selective Purchasing**
+<b>Selective Purchasing</b>
 "Only Buy What is Truly Needed" — maintaining high-quality essentials that last longer and get fully utilized eliminates the constant replacement cycle.
 
-**Values-Aligned Spending**
+<b>Values-Aligned Spending</b>
 Redirect money toward basic needs, genuine happiness, and experiences rather than status-seeking purchases.
 
-**Intentional Decisions**
+<b>Intentional Decisions</b>
 Use a "cooling-off" period before any purchase to distinguish genuine needs from impulse desires. The pause is the filter.
 
-**Automated Investing**
+<b>Automated Investing</b>
 Consistently allocate income portions for wealth accumulation without needing to decide each time.
 
 By maintaining the principle of spending less than earned, individuals can redirect time away from budget tracking toward more fulfilling activities. Financial health through lifestyle choices rather than meticulous expense monitoring.`
@@ -7229,9 +7229,9 @@ window.BLOG_REGISTRY.push({
 
 This transformation — phase polyphenism — converts isolated insects into highly coordinated migratory swarms.
 
-**Historical scale:** The 1875 Rocky Mountain locust swarm covered roughly 198,000 square miles across North America, containing 12.5 trillion locusts and destroying nearly three-fourths of U.S. crop production that year.
+<b>Historical scale:</b> The 1875 Rocky Mountain locust swarm covered roughly 198,000 square miles across North America, containing 12.5 trillion locusts and destroying nearly three-fourths of U.S. crop production that year.
 
-**Key prevention strategy:** "Monitoring the gathering" — tracking hatching patterns to prevent sudden large-scale transformations before they occur.
+<b>Key prevention strategy:</b> "Monitoring the gathering" — tracking hatching patterns to prevent sudden large-scale transformations before they occur.
 
 The lesson extends beyond entomology: many dangerous phenomena begin as small, manageable patterns. Early detection — before the threshold is crossed — is far cheaper than response after transformation.
 
@@ -7247,17 +7247,17 @@ window.BLOG_REGISTRY.push({
   excerpt: "Sahil Bloom's 2025 book: a fulfilling life requires five elements — competing with time, building connections, fostering curiosity, maintaining health, and achieving financial security. 'You cannot see if you're not opening up your eyes.'",
   content: `Sahil Bloom's *The Five Types of Wealth* (2025) — recommended for loved ones for its accessible life philosophy.
 
-**Five elements of a fulfilling life:**
+<b>Five elements of a fulfilling life:</b>
 
-1. **Time** — competing with time itself, using it intentionally rather than letting it pass
-2. **Relationships** — building meaningful connections that sustain and enrich
-3. **Curiosity** — fostering intellectual exploration and openness
-4. **Health** — maintaining physical vitality as the foundation for everything else
-5. **Financial security** — achieving stability that enables pursuit of genuine aspirations
+1. <b>Time</b> — competing with time itself, using it intentionally rather than letting it pass
+2. <b>Relationships</b> — building meaningful connections that sustain and enrich
+3. <b>Curiosity</b> — fostering intellectual exploration and openness
+4. <b>Health</b> — maintaining physical vitality as the foundation for everything else
+5. <b>Financial security</b> — achieving stability that enables pursuit of genuine aspirations
 
 These foundations together enable people to pursue what they actually care about.
 
-**Curiosity as cornerstone:** Without it, opportunities go unnoticed. "You cannot see if you're not opening up your eyes."
+<b>Curiosity as cornerstone:</b> Without it, opportunities go unnoticed. "You cannot see if you're not opening up your eyes."
 
 Bloom's philosophy centers on growth through daily improvement and input-focused effort rather than seeking perfection. Practical rather than idealistic — this is what makes it valuable for diverse audiences seeking guidance on living meaningfully.`
 });
@@ -7271,13 +7271,13 @@ window.BLOG_REGISTRY.push({
   excerpt: "'Habits are the building blocks of the life system' — once actions become automatic, goals are accomplished with minimal effort. Three strategies: simplicity, action bundling, and tracking systems.",
   content: `"Habits are the building blocks of the life system" — they enable people to accomplish goals with minimal effort once actions become automatic.
 
-**Three strategies for habit formation:**
+<b>Three strategies for habit formation:</b>
 
-**Simplicity** — Start with manageable changes. Limit simultaneous habit modifications to no more than five. The temptation to overhaul everything at once is the enemy of sustained change.
+<b>Simplicity</b> — Start with manageable changes. Limit simultaneous habit modifications to no more than five. The temptation to overhaul everything at once is the enemy of sustained change.
 
-**Action bundling** — Combine multiple beneficial practices into single activities. Example: incorporating exercise, audiobooks, and sunlight exposure into a morning walk.
+<b>Action bundling</b> — Combine multiple beneficial practices into single activities. Example: incorporating exercise, audiobooks, and sunlight exposure into a morning walk.
 
-**Tracking systems** — Implement effective monitoring mechanisms that demonstrate progress and provide motivation during the establishment phase.
+<b>Tracking systems</b> — Implement effective monitoring mechanisms that demonstrate progress and provide motivation during the establishment phase.
 
 Once habits integrate into daily routines, external tracking becomes unnecessary because these behaviors become intrinsic to one's identity.
 
@@ -7295,13 +7295,13 @@ window.BLOG_REGISTRY.push({
 
 Robin Dunbar's research: people can maintain approximately 150 meaningful relationships, categorized as "5 close friends, 5 good friends, 50 acquaintances, and up to 150 social circle."
 
-**MiniContacts** offers pre-built Dunbar tags for organizing contacts by relationship type — a practical tool for managing these circles intentionally.
+<b>MiniContacts</b> offers pre-built Dunbar tags for organizing contacts by relationship type — a practical tool for managing these circles intentionally.
 
-**Benefits by life stage:**
+<b>Benefits by life stage:</b>
 - Professionals gain "fresh perspectives, career opportunities" from diverse networks
 - Retirees find that strong social bonds serve as a "longevity pill"
 
-**The Dunbar audit:**
+<b>The Dunbar audit:</b>
 1. List regular contacts
 2. Tag them by Dunbar category
 3. Evaluate relationship quality
@@ -7320,15 +7320,15 @@ window.BLOG_REGISTRY.push({
   excerpt: "A tiger raised in confinement refuses to explore freedom when released — trapped by its own history, not physical restraints. Learned helplessness: 'when every attempt failed, they eventually stopped trying altogether.'",
   content: `Two compelling narratives about invisible psychological barriers:
 
-**The captive tiger:** Raised in confinement, it refuses to explore freedom when released — remaining trapped by its own history rather than physical restraints. The cage is gone; the conditioning remains.
+<b>The captive tiger:</b> Raised in confinement, it refuses to explore freedom when released — remaining trapped by its own history rather than physical restraints. The cage is gone; the conditioning remains.
 
-**Learned helplessness:** "When every attempt failed, they eventually stopped trying altogether." Even when escape became possible, the conditioned subjects remained passive.
+<b>Learned helplessness:</b> "When every attempt failed, they eventually stopped trying altogether." Even when escape became possible, the conditioned subjects remained passive.
 
-**Three primary sources of self-imposed limitations:**
+<b>Three primary sources of self-imposed limitations:</b>
 
-- **Past Failures:** Emotional pain from previous setbacks creates avoidance
-- **Early Conditioning:** Restrictive messages received during childhood
-- **Fear of the Unknown:** Preferring familiar limitations over uncertain freedom
+- <b>Past Failures:</b> Emotional pain from previous setbacks creates avoidance
+- <b>Early Conditioning:</b> Restrictive messages received during childhood
+- <b>Fear of the Unknown:</b> Preferring familiar limitations over uncertain freedom
 
 "The door is open. The wilderness is waiting."
 
@@ -7344,18 +7344,18 @@ window.BLOG_REGISTRY.push({
   excerpt: "Bōm (봄 = 'spring') — a Michelin-starred Korean restaurant at 17 West 19th Street in New York, nested within Oiji Mi. An interactive U-shaped table around the chef's station, approximately $270/person.",
   content: `Bōm, a Michelin-starred Korean restaurant at 17 West 19th Street in New York City, nested within another Michelin establishment called Oiji Mi. "봄" means spring in Korean, representing "hope and renewal."
 
-**The experience:**
+<b>The experience:</b>
 An interactive U-shaped table arrangement where guests sit around the chef's cooking station, observing culinary preparation firsthand. A Korean BBQ grill at the table's center showcases signature sizzling meat preparation.
 
-**Culinary approach:**
+<b>Culinary approach:</b>
 Luxury ingredients like caviar, Wagyu beef, and truffle combined with traditional Korean cooking methods. Fermented pastes — gochujang (chili paste), doenjang (soybean paste), and ganjang (soy sauce) — create deep umami flavors. Kimchi features prominently.
 
-**Price:** Approximately $270 per person.
+<b>Price:</b> Approximately $270 per person.
 
-**At-home alternative:**
+<b>At-home alternative:</b>
 Purchase A5 Wagyu from warehouse clubs and grill with rice, soybean paste, and caviar. Or explore local Korean restaurants for bibimbap and tofu stew.
 
-**Caviar nutrition:** Rich in omega-3 fatty acids (DHA and EPA) supporting cardiovascular and brain health, plus vitamin B12 and selenium for immune function.`
+<b>Caviar nutrition:</b> Rich in omega-3 fatty acids (DHA and EPA) supporting cardiovascular and brain health, plus vitamin B12 and selenium for immune function.`
 });
 window.BLOG_REGISTRY.push({
   id: "2026-01-05-chat-eye-protection",

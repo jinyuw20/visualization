@@ -13,11 +13,11 @@ Schedule regular family gatherings — brunches, outings, games, or conversation
 
 Three core aspects of family worth protecting:
 
-**Love** — expressed through unconditional support and forgiveness. Love that shows up even when it's inconvenient.
+<b>Love</b> — expressed through unconditional support and forgiveness. Love that shows up even when it's inconvenient.
 
-**Safety** — family as a refuge from external pressures. A place where you can set down the performance and rest.
+<b>Safety</b> — family as a refuge from external pressures. A place where you can set down the performance and rest.
 
-**Foundation** — a base for personal growth. Knowing you are supported makes risk-taking and change possible.
+<b>Foundation</b> — a base for personal growth. Knowing you are supported makes risk-taking and change possible.
 
 Start social change at home by prioritizing loved ones' happiness. Establish family traditions. Create reasons to return to each other regularly. The people closest to us deserve our best hours, not the ones left over after everything else.`
 });

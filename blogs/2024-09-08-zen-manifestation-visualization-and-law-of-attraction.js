@@ -9,17 +9,17 @@ window.BLOG_REGISTRY.push({
   excerpt: "Three interconnected practices: the Law of Attraction ('similar energies attract each other'), Manifestation (bringing desires into reality), and Visualization (mental rehearsal of achieved goals).",
   content: `Three interconnected spiritual concepts for personal development:
 
-**Law of Attraction**
+<b>Law of Attraction</b>
 "The philosophical principle suggesting that similar energies attract each other" — positive thinking theorized to draw favorable outcomes.
 
-**Manifestation**
+<b>Manifestation</b>
 The overarching practice of bringing desires into reality through focused intention and belief. Techniques include affirmations, meditation, and gratitude work.
 
-**Visualization**
+<b>Visualization</b>
 A specific technique within manifestation — "creating mental images or scenarios that depict one's goals as already achieved." This mental rehearsal prepares individuals to work toward their envisioned outcomes.
 
 These practices help shape one's destiny consciously across health, career, and relationships.
 
-**Seven recommended books:**
+<b>Seven recommended books:</b>
 Works by Eckhart Tolle, Dr. Joe Dispenza, and others. These resources offer valuable personal development knowledge regardless of personal beliefs.`
 });

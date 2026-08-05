@@ -9,17 +9,17 @@ window.BLOG_REGISTRY.push({
   excerpt: "Sahil Bloom's 2025 book: a fulfilling life requires five elements — competing with time, building connections, fostering curiosity, maintaining health, and achieving financial security. 'You cannot see if you're not opening up your eyes.'",
   content: `Sahil Bloom's *The Five Types of Wealth* (2025) — recommended for loved ones for its accessible life philosophy.
 
-**Five elements of a fulfilling life:**
+<b>Five elements of a fulfilling life:</b>
 
-1. **Time** — competing with time itself, using it intentionally rather than letting it pass
-2. **Relationships** — building meaningful connections that sustain and enrich
-3. **Curiosity** — fostering intellectual exploration and openness
-4. **Health** — maintaining physical vitality as the foundation for everything else
-5. **Financial security** — achieving stability that enables pursuit of genuine aspirations
+1. <b>Time</b> — competing with time itself, using it intentionally rather than letting it pass
+2. <b>Relationships</b> — building meaningful connections that sustain and enrich
+3. <b>Curiosity</b> — fostering intellectual exploration and openness
+4. <b>Health</b> — maintaining physical vitality as the foundation for everything else
+5. <b>Financial security</b> — achieving stability that enables pursuit of genuine aspirations
 
 These foundations together enable people to pursue what they actually care about.
 
-**Curiosity as cornerstone:** Without it, opportunities go unnoticed. "You cannot see if you're not opening up your eyes."
+<b>Curiosity as cornerstone:</b> Without it, opportunities go unnoticed. "You cannot see if you're not opening up your eyes."
 
 Bloom's philosophy centers on growth through daily improvement and input-focused effort rather than seeking perfection. Practical rather than idealistic — this is what makes it valuable for diverse audiences seeking guidance on living meaningfully.`
 });

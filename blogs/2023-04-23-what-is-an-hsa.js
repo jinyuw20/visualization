@@ -11,30 +11,30 @@ window.BLOG_REGISTRY.push({
 
 "Contributions to your HSA are tax-deductible, meaning they lower your taxable income."
 
-**2023 contribution limits:**
+<b>2023 contribution limits:</b>
 - $3,650 for single coverage
 - $7,300 for families
 - Additional $1,000 catch-up contribution for those 55+
 
-**Core benefits:**
+<b>Core benefits:</b>
 - Tax-deductible contributions
 - Tax-free growth on investments within the account
 - Tax-free withdrawals for qualified medical expenses
 - No deadline for reporting expenses (keep documentation)
 - After age 65: can withdraw for any purpose (taxed as income, like a traditional IRA)
 
-**Four strategies for maximizing HSA value:**
+<b>Four strategies for maximizing HSA value:</b>
 
-**1. Maximize contributions**
+<b>1. Maximize contributions</b>
 Contribute up to the annual limit to maximize the tax deduction.
 
-**2. Delay expense reporting**
+<b>2. Delay expense reporting</b>
 Pay medical expenses out of pocket when possible and let the HSA grow as an investment. Report expenses for reimbursement years later — after the account has grown.
 
-**3. Continue contributions past 65 while still working**
+<b>3. Continue contributions past 65 while still working</b>
 Special rules apply upon Medicare enrollment — coordinate timing carefully.
 
-**4. Prioritize HSAs for legacy planning**
+<b>4. Prioritize HSAs for legacy planning</b>
 Heirs who receive HSA assets receive tax-advantaged treatment, making it a valuable estate planning tool.
 
 Consult IRS Publication 502 for the complete list of qualified medical expenses. An HSA used strategically is one of the few accounts that provides tax advantages on contribution, growth, and withdrawal.`

@@ -13,16 +13,16 @@ The tradition where "children excitedly place their lost teeth under their pillo
 
 Beyond the folklore, the occasion is worth using as a reminder about dental hygiene:
 
-**Brushing**
+<b>Brushing</b>
 Use naturally flavored toothpaste. Start at the gum-tooth junction and brush along the seams — this is where plaque accumulates most. Two minutes minimum, twice daily.
 
-**Flossing**
+<b>Flossing</b>
 Daily use of PFAS-free floss without harmful chemicals. Scrape deep along the gumline, not just between teeth. Flossing addresses the places brushing cannot reach.
 
-**Professional care**
+<b>Professional care</b>
 Dental checkups and cleanings every six months. Many dental issues are caught early in routine cleanings and cost much less to treat than when discovered late.
 
-**Prevention**
+<b>Prevention</b>
 Oil pulling with coconut oil or using alcohol-free mouthwash can help prevent periodontal disease.
 
 Oral health connects to overall health in ways that are still being understood — connections to cardiovascular disease, diabetes, and cognitive health have all been studied. The investment in dental hygiene is not cosmetic; it is foundational.`

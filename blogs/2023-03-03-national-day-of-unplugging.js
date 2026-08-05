@@ -13,7 +13,7 @@ The movement emerged from Reboot, a non-profit established in 2003 by Jewish cre
 
 Reboot launched the first National Day of Unplugging in 2010 as a dedicated 24-hour digital detox.
 
-**Ten practical ways to participate:**
+<b>Ten practical ways to participate:</b>
 
 1. Establish device-free home zones (bedroom, dining table, a designated room)
 2. Spend time outdoors — walks, parks, nature

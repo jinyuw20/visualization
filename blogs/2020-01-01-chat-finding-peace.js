@@ -15,17 +15,17 @@ Life brings emotional fluctuations, unexpected hardships, and occasional pessimi
 
 The modern world's fast pace creates stress through constant communications. But inner peace enables resilience when facing life's storms.
 
-**Five practical approaches:**
+<b>Five practical approaches:</b>
 
-1. **Mindful nature walks** — focus on each step's sensation and environmental details in wooded areas or parks
+1. <b>Mindful nature walks</b> — focus on each step's sensation and environmental details in wooded areas or parks
 
-2. **Conscious eating** — savor flavors and textures, appreciate nourishment rather than eating while distracted
+2. <b>Conscious eating</b> — savor flavors and textures, appreciate nourishment rather than eating while distracted
 
-3. **Digital detox** — screen-free time for offline activities and deeper real-world connections
+3. <b>Digital detox</b> — screen-free time for offline activities and deeper real-world connections
 
-4. **Gratitude journaling** — five minutes of writing three grateful reflections daily
+4. <b>Gratitude journaling</b> — five minutes of writing three grateful reflections daily
 
-5. **Breathwork** — intentional 4-second breathing cycles for nervous system regulation
+5. <b>Breathwork</b> — intentional 4-second breathing cycles for nervous system regulation
 
 Peace is not the absence of difficulty. It is the steadiness we can build underneath it.`
 });

@@ -9,16 +9,16 @@ window.BLOG_REGISTRY.push({
   excerpt: "Three fundamentals for understanding wine: differentiation by color, classification as sparkling or non-sparkling, and food pairing based on color matching.",
   content: `Three fundamentals for understanding wine rather than being confused by conflicting health opinions:
 
-**Color**
+<b>Color</b>
 Wine is differentiated primarily by color: red, white, rosé, and ice wine. Each has distinct characteristics, flavor profiles, and typical uses.
 
-**Sparkling or Still**
+<b>Sparkling or Still</b>
 Classification as sparkling or non-sparkling. Champagne and prosecco are the most familiar sparkling varieties; most wines are still.
 
-**Food Pairing**
+<b>Food Pairing</b>
 A practical rule: match wine color to food. White wines pair with lighter foods (fish, chicken, salads); red wines pair with heavier foods (red meat, robust pasta). Rosé bridges both.
 
-**Nutrition facts:**
+<b>Nutrition facts:</b>
 - A glass of red wine (148ml) provides around 120 calories
 - Sweet wines can reach up to 164 calories per glass
 - Red wine typically contains minimal sugar compared to dessert varieties

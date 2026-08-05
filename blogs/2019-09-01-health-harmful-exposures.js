@@ -9,33 +9,33 @@ window.BLOG_REGISTRY.push({
   excerpt: "Many everyday products contain chemicals capable of disrupting hormones and causing significant health issues. Understanding these ten substances helps protect personal wellness.",
   content: `Many everyday products contain chemicals capable of disrupting hormones and causing significant health issues. Understanding these substances helps protect personal wellness.
 
-**1. Bisphenol-A (BPA)**
+<b>1. Bisphenol-A (BPA)</b>
 Found in polycarbonate plastics and food can linings, BPA mimics estrogen and may affect reproductive development. Recommendations: avoid canned foods, use glass containers for hot foods, check recycling codes (3 and 7 contain more BPA), and request digital receipts.
 
-**2. Phthalates**
+<b>2. Phthalates</b>
 Present in PVC products, cosmetics, and fragrances. These endocrine disruptors link to breast cancer, fertility issues, obesity, and asthma.
 
-**3. Parabens**
+<b>3. Parabens</b>
 Found in personal care products. May mimic estrogen and connect to reproductive issues.
 
-**4. PFAS**
+<b>4. PFAS</b>
 Located in non-stick cookware and water-resistant textiles. May affect thyroid function and immunity. Purified water via reverse osmosis contains fewer PFAS than spring water.
 
-**5. Triclosan**
+<b>5. Triclosan</b>
 Present in antibacterial soaps and some toothpastes. May disrupt thyroid function.
 
-**6. PCBs**
+<b>6. PCBs</b>
 Found in older equipment and building materials. These banned chemicals persist in the environment.
 
-**7. Atrazine**
+<b>7. Atrazine</b>
 A widely-used agricultural herbicide functioning as an endocrine disruptor.
 
-**8. Lead**
+<b>8. Lead</b>
 Located in old paint and water pipes. This neurotoxin disrupts hormones and neurological development.
 
-**9. Mercury**
+<b>9. Mercury</b>
 Found in certain fish and dental amalgams. Alters hormonal signaling.
 
-**10. Organophosphate Pesticides**
+<b>10. Organophosphate Pesticides</b>
 Agricultural pesticides linked to reproductive and developmental impairment.`
 });

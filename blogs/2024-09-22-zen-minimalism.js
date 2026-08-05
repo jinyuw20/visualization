@@ -11,7 +11,7 @@ window.BLOG_REGISTRY.push({
 
 The philosophy traces its artistic origins to Frank Stella in the late 1950s. Modern practitioners include Steve Jobs and Google, who embodied this through simple design and presentation.
 
-**Practical framework — Danshari (Japanese):**
+<b>Practical framework — Danshari (Japanese):</b>
 Three principles:
 1. Refuse unnecessary purchases
 2. Dispose of unused items
@@ -19,7 +19,7 @@ Three principles:
 
 Additional resources: theminimalists.com
 
-**Implementation strategies:**
+<b>Implementation strategies:</b>
 - The "One in One Out" approach to prevent accumulation
 - Purchasing quality items initially to avoid replacements
 - Systematically minimizing spaces (living room, closet, kitchen)

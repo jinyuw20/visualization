@@ -11,14 +11,14 @@ window.BLOG_REGISTRY.push({
 
 Four ways to observe the occasion:
 
-**Flavor experimentation** — Try classic preparations with lemon or adventurous combinations like "fruity infusions like peach, raspberry, or mango" with herbal additions.
+<b>Flavor experimentation</b> — Try classic preparations with lemon or adventurous combinations like "fruity infusions like peach, raspberry, or mango" with herbal additions.
 
-**Hosting gatherings** — Organize a tea party featuring "a variety of iced teas, sweeteners, and garnishes" along with tea-themed treats.
+<b>Hosting gatherings</b> — Organize a tea party featuring "a variety of iced teas, sweeteners, and garnishes" along with tea-themed treats.
 
-**Exploring local venues** — Visit tea establishments where staff can guide discovery of new flavors.
+<b>Exploring local venues</b> — Visit tea establishments where staff can guide discovery of new flavors.
 
-**Supporting causes** — Contribute to organizations promoting "sustainable tea farming, fair trade practices, or educational programs."
+<b>Supporting causes</b> — Contribute to organizations promoting "sustainable tea farming, fair trade practices, or educational programs."
 
-**Basil Iced Tea Recipe:**
+<b>Basil Iced Tea Recipe:</b>
 Steep basil leaves in 160°F water, cool, refrigerate, and serve over ice. Adjust sweetness to taste.`
 });

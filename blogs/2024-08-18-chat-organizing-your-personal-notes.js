@@ -9,16 +9,16 @@ window.BLOG_REGISTRY.push({
   excerpt: "A streamlined note-organization system using four main folders in Apple Notes: Contact, Journal, Project, and Knowledge — each with a distinct purpose and search strategy.",
   content: `A streamlined note-organization system using four main folders in Apple Notes:
 
-**Contact Folder**
+<b>Contact Folder</b>
 Stores personal and business contact information, with tags distinguishing different contact types.
 
-**Journal Folder**
+<b>Journal Folder</b>
 Collects time-sensitive entries, with each journal entry dated for easy reference.
 
-**Project Folder**
+<b>Project Folder</b>
 Contains subfolders organized by year and project name, allowing you to "easily filter out what year we have done what project."
 
-**Knowledge Folder**
+<b>Knowledge Folder</b>
 Archives shared content from videos, websites, and quick notes, utilizing Apple Notes' Smart Folder feature to categorize by creation date, update date, and tags.
 
 This four-folder structure eliminates complexity while maintaining proper categorization and searchability across all personal notes. Four buckets is few enough to be memorable and sufficient to handle most information needs.`

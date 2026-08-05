@@ -11,7 +11,7 @@ window.BLOG_REGISTRY.push({
 
 A related incident at Zion National Park: an elderly visitor fell severely while hiking the Narrows without proper precautions or equipment. A reminder that terrain and preparedness must match each other.
 
-**Protective practices:**
+<b>Protective practices:</b>
 - Gradual warm-ups with stretching before activity
 - Adequate rest breaks during exercise
 - Cool-down periods after activity

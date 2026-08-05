@@ -9,15 +9,15 @@ window.BLOG_REGISTRY.push({
   excerpt: "A tiger raised in confinement refuses to explore freedom when released — trapped by its own history, not physical restraints. Learned helplessness: 'when every attempt failed, they eventually stopped trying altogether.'",
   content: `Two compelling narratives about invisible psychological barriers:
 
-**The captive tiger:** Raised in confinement, it refuses to explore freedom when released — remaining trapped by its own history rather than physical restraints. The cage is gone; the conditioning remains.
+<b>The captive tiger:</b> Raised in confinement, it refuses to explore freedom when released — remaining trapped by its own history rather than physical restraints. The cage is gone; the conditioning remains.
 
-**Learned helplessness:** "When every attempt failed, they eventually stopped trying altogether." Even when escape became possible, the conditioned subjects remained passive.
+<b>Learned helplessness:</b> "When every attempt failed, they eventually stopped trying altogether." Even when escape became possible, the conditioned subjects remained passive.
 
-**Three primary sources of self-imposed limitations:**
+<b>Three primary sources of self-imposed limitations:</b>
 
-- **Past Failures:** Emotional pain from previous setbacks creates avoidance
-- **Early Conditioning:** Restrictive messages received during childhood
-- **Fear of the Unknown:** Preferring familiar limitations over uncertain freedom
+- <b>Past Failures:</b> Emotional pain from previous setbacks creates avoidance
+- <b>Early Conditioning:</b> Restrictive messages received during childhood
+- <b>Fear of the Unknown:</b> Preferring familiar limitations over uncertain freedom
 
 "The door is open. The wilderness is waiting."
 

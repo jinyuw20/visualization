@@ -11,15 +11,15 @@ window.BLOG_REGISTRY.push({
 
 Ice cream options range from traditional flavors like vanilla and chocolate to creative variations such as "ice cream sundaes, ice cream cakes, ice cream rolls, and ice cream sandwiches."
 
-**Five Austin-area destinations:**
+<b>Five Austin-area destinations:</b>
 
-- **Amy's Ice Creams** — rated 5 stars
-- **Museum of Ice Cream** — an interactive art experience
-- **Gelatoro Gelato & Coffee & Bakery** — specializing in Italian gelato
-- **Dip Dip Dip** — combining hot pot dining with dessert options
-- **All Things Kids - Scoop** — located in Georgetown, known for unique flavors
+- <b>Amy's Ice Creams</b> — rated 5 stars
+- <b>Museum of Ice Cream</b> — an interactive art experience
+- <b>Gelatoro Gelato & Coffee & Bakery</b> — specializing in Italian gelato
+- <b>Dip Dip Dip</b> — combining hot pot dining with dessert options
+- <b>All Things Kids - Scoop</b> — located in Georgetown, known for unique flavors
 
-**Health Considerations:** Moderation is recommended due to sugar content. Alternatives like frozen yogurt or sorbet are available for those with dietary restrictions.
+<b>Health Considerations:</b> Moderation is recommended due to sugar content. Alternatives like frozen yogurt or sorbet are available for those with dietary restrictions.
 
 Visit an ice cream shop with family and friends, or choose healthier alternatives if preferred.`
 });

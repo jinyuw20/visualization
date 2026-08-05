@@ -9,17 +9,17 @@ window.BLOG_REGISTRY.push({
   excerpt: "Ignore unsolicited contact from strangers via text or phone. Delete the message and mark it as spam — don't engage.",
   content: `Practical guidance for protecting yourself from common scams and frauds: ignore unsolicited contact from strangers via text or phone. "Delete the message and mark it as spam" rather than engaging with suspicious callers.
 
-**Specific scenarios:**
+<b>Specific scenarios:</b>
 
-**Account alerts:** Don't click links in messages claiming your Netflix or Amazon account is suspended. Verify through official websites directly — type the URL yourself.
+<b>Account alerts:</b> Don't click links in messages claiming your Netflix or Amazon account is suspended. Verify through official websites directly — type the URL yourself.
 
-**Unexpected receipts:** Disregard emails about purchases you didn't make and block the sender. Don't call the phone number provided.
+<b>Unexpected receipts:</b> Disregard emails about purchases you didn't make and block the sender. Don't call the phone number provided.
 
-**Unwanted gifts:** Avoid accepting unsolicited gift cards from unknown sources. Gift card scams are particularly common.
+<b>Unwanted gifts:</b> Avoid accepting unsolicited gift cards from unknown sources. Gift card scams are particularly common.
 
-**Social media requests:** Decline friend requests from strangers and ask for verification if uncertain. Scammers create convincing profiles.
+<b>Social media requests:</b> Decline friend requests from strangers and ask for verification if uncertain. Scammers create convincing profiles.
 
-**Pop-up warnings:** When encountering suspicious virus warnings online, stay calm and avoid clicking any links or calling numbers provided. Close the browser tab directly.
+<b>Pop-up warnings:</b> When encountering suspicious virus warnings online, stay calm and avoid clicking any links or calling numbers provided. Close the browser tab directly.
 
 The pattern across all scams: urgency and fear. Legitimate organizations don't demand immediate action via unverified channels.
 

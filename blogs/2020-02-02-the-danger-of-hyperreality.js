@@ -11,21 +11,21 @@ window.BLOG_REGISTRY.push({
 
 Baudrillard defined hyperreality as "the generation by models of a real without origin or reality." Contemporary society operates as a simulacrum where artificial images have replaced authentic experiences to such a degree that distinguishing between real and fabricated becomes nearly impossible.
 
-**Evidence in Modern Culture**
+<b>Evidence in Modern Culture</b>
 
 Hyperreality permeates daily life through multiple channels: theme parks and wax museums provide constructed adventures; advanced film technology creates believable fantasy worlds; immersive gaming attracts devoted players for extended periods; virtual and augmented reality technologies expand beyond screens into dedicated spaces.
 
 The boundary further dissolves when considering photo-editing applications, metaverse business meetings, misinformation campaigns, and false online identities. Events occurring globally become abstract symbols rather than tangible realities.
 
-**Why We're Drawn to It**
+<b>Why We're Drawn to It</b>
 
 Virtual environments offer advantages: fewer restrictions, greater creative possibilities, customized satisfaction, and effortless accessibility. Users receive tailored content through algorithms, limiting independent thinking.
 
-**Potential Dangers**
+<b>Potential Dangers</b>
 
 Individuals risk disconnecting from physical reality entirely. Simulated worlds can manipulate perception so thoroughly that distinguishing fantasy from fact becomes impossible. Some users experience addiction severe enough to cause real-world harm.
 
-**Maintaining Grounded Perspective**
+<b>Maintaining Grounded Perspective</b>
 
 The author recommends intentional disconnection: share tea with friends, engage in face-to-face conversations, pursue unfiltered information sources, and resist algorithm-driven content consumption. These practices preserve remaining autonomy.`
 });

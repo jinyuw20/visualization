@@ -13,9 +13,9 @@ Since industrialization, time management has become crucial for coordinating com
 
 Two approaches worth distinguishing:
 
-**Clock time** — completing tasks within strict deadlines. Prioritizes adherence over quality. Clear and measurable.
+<b>Clock time</b> — completing tasks within strict deadlines. Prioritizes adherence over quality. Clear and measurable.
 
-**Event time** — allowing flexible completion periods that prioritize quality and thoroughness. Outcomes prove harder to quantify, but the results often run deeper.
+<b>Event time</b> — allowing flexible completion periods that prioritize quality and thoroughness. Outcomes prove harder to quantify, but the results often run deeper.
 
 A useful anecdote: German zoo visitors follow a planned itinerary systematically, while French visitors pursue their interests spontaneously. Both groups enjoy their experience despite employing opposite time-management philosophies.
 

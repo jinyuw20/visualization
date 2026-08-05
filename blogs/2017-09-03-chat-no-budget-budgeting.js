@@ -11,13 +11,13 @@ window.BLOG_REGISTRY.push({
 
 A simpler approach works better:
 
-**Minimalist philosophy.** Buy only what you genuinely need, in the best quality you can afford, and use it fully. Avoid spending on things that exist to impress others.
+<b>Minimalist philosophy.</b> Buy only what you genuinely need, in the best quality you can afford, and use it fully. Avoid spending on things that exist to impress others.
 
-**Mindset shift.** Align purchases with core personal values rather than external expectations. Focus spending on basic needs, genuine happiness, meaningful experiences, and time with people you love. Those purchases don't need tracking — they feel right when you make them.
+<b>Mindset shift.</b> Align purchases with core personal values rather than external expectations. Focus spending on basic needs, genuine happiness, meaningful experiences, and time with people you love. Those purchases don't need tracking — they feel right when you make them.
 
-**Thoughtful purchasing.** Before buying, pause and ask whether you actually need it, whether it is the best option available, and how often you will use it. A few questions at the moment of decision replace hours of spreadsheet maintenance.
+<b>Thoughtful purchasing.</b> Before buying, pause and ask whether you actually need it, whether it is the best option available, and how often you will use it. A few questions at the moment of decision replace hours of spreadsheet maintenance.
 
-**Invest the rest.** Whatever remains after covering necessities and meaningful spending should go toward investments.
+<b>Invest the rest.</b> Whatever remains after covering necessities and meaningful spending should go toward investments.
 
 This is not about deprivation. It is about taking control of the bigger picture — spending wisely, and consistently spending less than you earn.
 

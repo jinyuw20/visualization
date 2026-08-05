@@ -14,7 +14,7 @@ Reframe past experiences as opportunities for development rather than sources of
 - Release what cannot be changed
 - Redirect energy toward constructive goals
 
-**A structured journaling approach — six reflective questions:**
+<b>A structured journaling approach — six reflective questions:</b>
 
 1. What triggers regretful feelings?
 2. What emotions are associated, and how intense are they?

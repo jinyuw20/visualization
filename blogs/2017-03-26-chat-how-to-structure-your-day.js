@@ -11,15 +11,15 @@ window.BLOG_REGISTRY.push({
 
 Here is an example schedule that keeps the essentials protected:
 
-**Before 8 AM** — Personal time: breakfast, morning study, family.
-**8–10 AM** — Quiet study and preparation. Email only in the final thirty minutes.
-**10 AM–4 PM** — Open for meetings, with 12–1 PM blocked for lunch, one hour reserved for afternoon study, and 4–4:30 PM held for daily review.
-**4:30–5 PM** — Email.
-**5–6 PM** — Break and commute.
-**6–8 PM** — Dinner with family.
-**8–9 PM** — Exercise and social time.
-**9–10 PM** — Relaxation.
-**10–11 PM** — Wind down, aiming for sleep by 10:30 PM.
+<b>Before 8 AM</b> — Personal time: breakfast, morning study, family.
+<b>8–10 AM</b> — Quiet study and preparation. Email only in the final thirty minutes.
+<b>10 AM–4 PM</b> — Open for meetings, with 12–1 PM blocked for lunch, one hour reserved for afternoon study, and 4–4:30 PM held for daily review.
+<b>4:30–5 PM</b> — Email.
+<b>5–6 PM</b> — Break and commute.
+<b>6–8 PM</b> — Dinner with family.
+<b>8–9 PM</b> — Exercise and social time.
+<b>9–10 PM</b> — Relaxation.
+<b>10–11 PM</b> — Wind down, aiming for sleep by 10:30 PM.
 
 Benjamin Franklin asked himself each morning: "What do I want to achieve today, and what is most important in my life?" Reviewing yesterday's accomplishments against long-term objectives keeps daily choices aligned with larger intentions.
 

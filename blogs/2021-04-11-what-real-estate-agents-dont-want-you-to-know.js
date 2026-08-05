@@ -11,14 +11,14 @@ window.BLOG_REGISTRY.push({
 
 While buyer's agents represent your interests, both agents ultimately seek compensation and may prioritize closing deals. Information is negotiating power — protect it.
 
-**What to keep private:**
+<b>What to keep private:</b>
 - Urgency indicators — impending births, school deadlines, job start dates
 - Budget details and price preferences
 - How unfamiliar you are with the area
 - Emotional reactions to specific properties
 - Future renovation plans that might signal you love the place regardless of price
 
-**What to ask instead:**
+<b>What to ask instead:</b>
 - Why is the seller selling?
 - How long has the property been on the market?
 - What are the competing offers, if any?

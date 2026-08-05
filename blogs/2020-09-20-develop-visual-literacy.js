@@ -14,7 +14,7 @@ The practice involves understanding and communicating information through graphi
 - Visual encoding (color, length, position)
 - Annotations (labels, notes, titles)
 
-**Eight-Step Process for Reading Visuals:**
+<b>Eight-Step Process for Reading Visuals:</b>
 
 1. Examine the legend
 2. Learn the meaning and scale (X and Y axes)

@@ -11,9 +11,9 @@ window.BLOG_REGISTRY.push({
 
 This transformation — phase polyphenism — converts isolated insects into highly coordinated migratory swarms.
 
-**Historical scale:** The 1875 Rocky Mountain locust swarm covered roughly 198,000 square miles across North America, containing 12.5 trillion locusts and destroying nearly three-fourths of U.S. crop production that year.
+<b>Historical scale:</b> The 1875 Rocky Mountain locust swarm covered roughly 198,000 square miles across North America, containing 12.5 trillion locusts and destroying nearly three-fourths of U.S. crop production that year.
 
-**Key prevention strategy:** "Monitoring the gathering" — tracking hatching patterns to prevent sudden large-scale transformations before they occur.
+<b>Key prevention strategy:</b> "Monitoring the gathering" — tracking hatching patterns to prevent sudden large-scale transformations before they occur.
 
 The lesson extends beyond entomology: many dangerous phenomena begin as small, manageable patterns. Early detection — before the threshold is crossed — is far cheaper than response after transformation.
 

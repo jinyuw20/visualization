@@ -9,11 +9,11 @@ window.BLOG_REGISTRY.push({
   excerpt: "The paradox of feeling isolated despite being surrounded by people. Social gatherings often feel exhausting when everyone is focused on self-expression and performance rather than genuine connection.",
   content: `The paradox of feeling isolated despite being surrounded by people. Social gatherings often feel exhausting when everyone is focused on self-expression and performance rather than genuine connection.
 
-**Authentic connection** means "meaningful conversations" with close friends rather than blending into crowds, emphasizing quality over quantity in relationships.
+<b>Authentic connection</b> means "meaningful conversations" with close friends rather than blending into crowds, emphasizing quality over quantity in relationships.
 
-**Introversion & self-care:** Solitary activities like reading and tea-drinking are valid. Drawing on Louise Hay's self-healing philosophy: disconnecting from external noise enables deeper self-reflection.
+<b>Introversion & self-care:</b> Solitary activities like reading and tea-drinking are valid. Drawing on Louise Hay's self-healing philosophy: disconnecting from external noise enables deeper self-reflection.
 
-**Personal empowerment:** "Embarking on a journey of self-discovery" to release negative emotions and cultivate inner peace and self-love.
+<b>Personal empowerment:</b> "Embarking on a journey of self-discovery" to release negative emotions and cultivate inner peace and self-love.
 
 "If we don't like something, it's perfectly okay to walk away from it."
 

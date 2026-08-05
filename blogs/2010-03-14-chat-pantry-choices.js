@@ -11,9 +11,9 @@ window.BLOG_REGISTRY.push({
 
 Not every Trader Joe's product meets these standards — colored salmon, for example, is one to avoid. But a few items stand out:
 
-**Danish Kringle** (Oh Danish Bakery, around $7.99) — A seasonal frozen item, ideal for holiday mornings or when guests arrive unexpectedly.
+<b>Danish Kringle</b> (Oh Danish Bakery, around $7.99) — A seasonal frozen item, ideal for holiday mornings or when guests arrive unexpectedly.
 
-**Trader Joe's Gluten Free Organic Rolled Oats with Ancient Grains & Seeds** — Clean ingredients, genuinely healthy, and worth keeping stocked.
+<b>Trader Joe's Gluten Free Organic Rolled Oats with Ancient Grains & Seeds</b> — Clean ingredients, genuinely healthy, and worth keeping stocked.
 
 These are the kinds of conversations worth having casually — not as directives, but as shared discoveries. If something works well in your pantry, pass it along.`
 });

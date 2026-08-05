@@ -11,7 +11,7 @@ window.BLOG_REGISTRY.push({
 
 The result is a shortened, accurate shopping list accessible during weekend errands — no duplicates, no forgotten items.
 
-**Reverse-lookup approach:**
+<b>Reverse-lookup approach:</b>
 An alternative method: examine what groceries are already in stock (vegetables and meat), then determine which favorite recipes could be prepared with minimal additional purchases. Rather than starting from a meal plan and deriving a list, start from current inventory and derive a menu.
 
 This reverse approach reduces waste, uses what's already present, and makes the weekly grocery run smaller and more targeted.

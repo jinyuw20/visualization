@@ -9,12 +9,12 @@ window.BLOG_REGISTRY.push({
   excerpt: "Two books on the hidden machinery of the mind: 'The Elephant in the Brain' reveals our concealed motivations; 'The Feeling is the Secret' explores consciousness and prayer.",
   content: `A reading session exploring literature on subconscious mental processes and practical self-improvement.
 
-**The Elephant in the Brain: Hidden Motives in Everyday Life**
+<b>The Elephant in the Brain: Hidden Motives in Everyday Life</b>
 by Kevin Simler and Robin Hanson
 
 The subconscious "motivates, influences, and interferes with our decisions." The authors use education as an example — why do students pursue easier paths or celebrate class cancellations? Our true motivations often remain hidden even from ourselves.
 
-**The Feeling is the Secret**
+<b>The Feeling is the Secret</b>
 by Neville Goddard
 
 Examines the spiritual dimensions of consciousness, emphasizing "the importance of sleep, prayer, and mindfulness in connecting with our higher self and the subconscious mind."

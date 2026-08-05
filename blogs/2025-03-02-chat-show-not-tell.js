@@ -9,11 +9,11 @@ window.BLOG_REGISTRY.push({
   excerpt: "In a competitive job market, demonstrate capabilities rather than listing them. Data visualization skills? Show previous projects. Communication skills? Share presentation recordings.",
   content: `In a competitive job market, candidates benefit from creating portfolios or personal websites that showcase actual work — not just listing skills.
 
-**By field:**
+<b>By field:</b>
 
-- **Data visualization:** Display previous projects rather than stating experience
-- **Communication:** Share presentation recordings
-- **Development:** Share code samples via GitHub
+- <b>Data visualization:</b> Display previous projects rather than stating experience
+- <b>Communication:</b> Share presentation recordings
+- <b>Development:</b> Share code samples via GitHub
 
 "Presenting your work in this way is much more compelling in today's job market."
 

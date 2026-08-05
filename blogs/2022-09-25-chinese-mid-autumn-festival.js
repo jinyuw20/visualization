@@ -13,7 +13,7 @@ This annual harvest festival falls on the 15th day of the 8th month of the Chine
 
 The celebration extends beyond China to Japan, Korea, Vietnam, and other countries in East and Southeast Asia — each culture with its own traditions and variations on the themes of harvest, family reunion, and the appreciation of the full moon.
 
-**Common traditions:**
+<b>Common traditions:</b>
 - Eating mooncakes, dense pastries filled with lotus seed paste, red bean, or other fillings
 - Family gathering and reunion dinners
 - Lantern displays and lighting

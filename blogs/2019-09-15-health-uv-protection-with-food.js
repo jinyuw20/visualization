@@ -11,13 +11,13 @@ window.BLOG_REGISTRY.push({
 
 Three types of foods that reinforce the skin's defense against sunburn:
 
-**Carotenoids**
+<b>Carotenoids</b>
 Found in carrots, pumpkin, squash, and pepper. These pigments combat sun-accelerated free radicals, helping prevent premature aging and skin damage.
 
-**Lycopene**
+<b>Lycopene</b>
 Present in watermelon, tomatoes, and papayas. This antioxidant reduces the risk of sunburn and may also guard against prostate cancer.
 
-**Resveratrol**
+<b>Resveratrol</b>
 Found in red grapes. Known for promoting heart health and defending the skin against UV rays.
 
 These foods work best as a complement to — not a replacement for — sunscreen. Always use sunscreen to stay safe in the sun.

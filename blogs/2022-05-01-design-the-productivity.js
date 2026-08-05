@@ -9,19 +9,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "Productivity means getting the most out of time. Five principles: prioritization, focus, simplicity, organization, and reflection.",
   content: `Productivity means "getting the most out of time." Five practical principles that support it:
 
-**1. Prioritization**
+<b>1. Prioritization</b>
 Avoid wasting time on unimportant matters that distract from what truly matters most. Not everything deserves your attention — distinguishing high-value tasks from low-value noise is the first skill.
 
-**2. Focus**
+<b>2. Focus</b>
 Direct concentrated energy and attention to the present task to produce optimal results. Multitasking is mostly a myth that produces mediocre work across several fronts rather than excellent work on one.
 
-**3. Simplicity**
+<b>3. Simplicity</b>
 Keep systems straightforward with basic to-do lists and calendar time-blocking rather than excessive planning. Elaborate productivity systems often become their own form of procrastination.
 
-**4. Organization**
+<b>4. Organization</b>
 Develop a bigger-picture view: group tasks logically, schedule intentionally, and eliminate distractions from physical and mental spaces. A clear workspace supports a clear mind.
 
-**5. Reflection**
+<b>5. Reflection</b>
 Review outcomes regularly to identify improvement areas and accelerate progress. Without reflection, the same inefficiencies repeat indefinitely.
 
 Awareness of time and present-moment immersion are essential foundations. These principles only work when applied with genuine attention — they are not shortcuts but habits of mind.`

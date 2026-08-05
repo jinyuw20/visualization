@@ -11,21 +11,21 @@ window.BLOG_REGISTRY.push({
 
 Jewish tradition provides fascinating insights into one of the world's oldest monotheistic religions. Its customs and rituals remain central to adherents' lives while offering valuable lessons about faith and community.
 
-**Shabbat: A Time of Rest and Reflection**
+<b>Shabbat: A Time of Rest and Reflection</b>
 Shabbat, meaning "to rest" in Hebrew, runs from Friday sundown through Saturday nightfall. This sacred day emphasizes family, prayer, and separation from weekly labor, symbolizing life's sanctity and the importance of rest.
 
-**The Jewish Calendar and Major Festivals**
+<b>The Jewish Calendar and Major Festivals</b>
 The lunar-based Jewish calendar features significant observances. Passover commemorates liberation from Egyptian slavery, while Rosh Hashanah (Jewish New Year) and Yom Kippur (Day of Atonement) serve as periods for introspection and repentance.
 
-**Kashrut: Dietary Laws**
+<b>Kashrut: Dietary Laws</b>
 Jewish dietary laws distinguish permissible from forbidden foods, prohibiting pork and shellfish — demonstrating how faith intertwines with daily living.
 
-**Rites of Passage**
+<b>Rites of Passage</b>
 Brit Milah (circumcision covenant) marks male infants' entry into the Jewish covenant with God. Bar and Bat Mitzvah ceremonies signify coming of age and communal responsibilities.
 
-**Learning and Prayer**
+<b>Learning and Prayer</b>
 Torah study holds high cultural esteem, with the Shema prayer encapsulating Judaism's monotheistic devotion.
 
-**Synagogue and Community**
+<b>Synagogue and Community</b>
 Synagogues function as worship and community centers. Tzedakah (charity) reflects deep commitment to social justice and care for others.`
 });

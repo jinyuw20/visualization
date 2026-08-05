@@ -11,17 +11,17 @@ window.BLOG_REGISTRY.push({
 
 Six key areas of letting go:
 
-**Letting Go of the Past** — Extract wisdom from all experiences — painful or joyful — to foster personal growth and move forward confidently.
+<b>Letting Go of the Past</b> — Extract wisdom from all experiences — painful or joyful — to foster personal growth and move forward confidently.
 
-**Letting Go of Self-Criticism** — Replace "should" with "could" to shift perspective from obligation to choice.
+<b>Letting Go of Self-Criticism</b> — Replace "should" with "could" to shift perspective from obligation to choice.
 
-**Letting Go of Blaming** — Learn from mistakes rather than dwelling on regret. Imperfection is universal.
+<b>Letting Go of Blaming</b> — Learn from mistakes rather than dwelling on regret. Imperfection is universal.
 
-**Letting Go of Anger** — Acknowledge the emotion's message without allowing it to control one's actions.
+<b>Letting Go of Anger</b> — Acknowledge the emotion's message without allowing it to control one's actions.
 
-**Letting Go of Sorrow** — Honor loved ones through joyful memories rather than prolonged sadness.
+<b>Letting Go of Sorrow</b> — Honor loved ones through joyful memories rather than prolonged sadness.
 
-**Letting Go of Stress** — Stress is a natural signal requiring effective coping: exercise, mindfulness, tea breaks, professional support.
+<b>Letting Go of Stress</b> — Stress is a natural signal requiring effective coping: exercise, mindfulness, tea breaks, professional support.
 
 Combining guided meditation practices with self-compassion and community support enables emotional resilience and peace.`
 });

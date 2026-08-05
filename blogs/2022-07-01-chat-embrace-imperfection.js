@@ -13,9 +13,9 @@ Steve Jobs's famous keynote presentations — so polished in memory — containe
 
 Perfection is unnecessary for success. Two key takeaways:
 
-1. **Avoid demanding perfection from yourself.** Imperfection is acceptable, and demanding flawlessness often prevents completion entirely. A finished work with imperfections beats a perfect work never released.
+1. <b>Avoid demanding perfection from yourself.</b> Imperfection is acceptable, and demanding flawlessness often prevents completion entirely. A finished work with imperfections beats a perfect work never released.
 
-2. **Recognize varied strengths and weaknesses.** Not everyone needs to be high-achieving in every area. People contribute differently.
+2. <b>Recognize varied strengths and weaknesses.</b> Not everyone needs to be high-achieving in every area. People contribute differently.
 
 Completing work while acknowledging limitations matters more than eliminating flaws. Sharing values and conviction proves sufficient for meaningful impact.
 

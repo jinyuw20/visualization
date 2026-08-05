@@ -11,25 +11,25 @@ window.BLOG_REGISTRY.push({
 
 Fifty years of living offer a particular kind of knowledge — not necessarily more accurate than younger perspective, but more seasoned. Seven essential principles distilled from the journey:
 
-**Stay Active**
+<b>Stay Active</b>
 Movement is not optional — it is foundational to everything else. The body in motion supports the mind in motion.
 
-**Stay Focused**
+<b>Stay Focused</b>
 Concentrate on what you can control. External circumstances shift constantly; internal responses are where real agency lives.
 
-**Listen First**
+<b>Listen First</b>
 Active listening is foundational to every good relationship and good decision. "Listening and understanding are more important than expressing what we think."
 
-**Do Your Best**
+<b>Do Your Best</b>
 Apply full effort without fixating on outcomes. Celebrate incremental progress as genuine success.
 
-**Prioritize Family**
+<b>Prioritize Family</b>
 The most valuable investment of time is in the people who matter most. No achievement compensates for neglected relationships.
 
-**Keep Learning**
+<b>Keep Learning</b>
 Curiosity sustains meaning. Seek out what you don't understand — journaling preserves memories and maintains consciousness of time passing.
 
-**Seek Better Opportunities**
+<b>Seek Better Opportunities</b>
 Don't stay where you've outgrown your place. Develop the skills needed for what's next.
 
 The plan: revisit these lessons five years from now, to see which ones deepened and which ones needed revision. Life as an ongoing journey of growth.`

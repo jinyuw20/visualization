@@ -13,19 +13,19 @@ There is wisdom in seeking guidance from those with more life experience — not
 
 Five key lessons worth learning from others' experience:
 
-**1. Prioritize Health**
+<b>1. Prioritize Health</b>
 Maintain physical wellness through regular activity, preventive medical care, and stress management. Health cannot be replaced. Other resources can be rebuilt — physical capacity often cannot.
 
-**2. Stay Focused**
+<b>2. Stay Focused</b>
 Concentrate on controllable elements — personal responses, values, effort — rather than external circumstances beyond your influence. Energy spent on what you cannot change is wasted.
 
-**3. Listen First**
+<b>3. Listen First</b>
 Emphasize understanding others through active listening and questioning before expressing your own thoughts. "Listening and understanding are more important than expressing what we think." Most people listen to respond, not to understand.
 
-**4. Do Your Best**
+<b>4. Do Your Best</b>
 Apply maximum effort without fixating on outcomes. Celebrate incremental progress and growth as valid markers of success. The outcome is only partially yours to control.
 
-**5. Pursue Better Opportunities**
+<b>5. Pursue Better Opportunities</b>
 Continuously seek work that aligns with your capabilities and ambitions. Develop the necessary skills to get there. Staying where you've outgrown something is its own kind of mistake.
 
 What lessons have you learned from others that saved you from learning them the hard way?`

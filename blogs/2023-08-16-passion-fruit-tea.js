@@ -11,7 +11,7 @@ window.BLOG_REGISTRY.push({
 
 Passion fruit is native to South America — Paraguay, southern Brazil, and northern Argentina.
 
-**Single-Serving Iced Passion Fruit Tea Recipe:**
+<b>Single-Serving Iced Passion Fruit Tea Recipe:</b>
 - 1 passion fruit tea bag
 - Fresh juice or canned passion fruit pulp
 - Water
@@ -19,5 +19,5 @@ Passion fruit is native to South America — Paraguay, southern Brazil, and nort
 
 Steep the tea bag for five minutes, add the fruit component, cool, and serve over ice. Adjust sweetness and garnish with fresh fruit as desired.
 
-**Health benefits:** Passion fruit tea is rich in vitamin C and contains anti-inflammatory and antibacterial properties that may reduce chronic inflammation and heart-related health concerns.`
+<b>Health benefits:</b> Passion fruit tea is rich in vitamin C and contains anti-inflammatory and antibacterial properties that may reduce chronic inflammation and heart-related health concerns.`
 });

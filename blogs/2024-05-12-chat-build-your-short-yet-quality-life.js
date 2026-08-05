@@ -9,15 +9,15 @@ window.BLOG_REGISTRY.push({
   excerpt: "'Quality is subjective, varying from person to person.' Three stages for constructing a meaningful life despite its finite nature: basic necessities, quality in basics, and self-realization.",
   content: `"Quality is subjective, varying from person to person" — so any framework must respect these differences rather than impose a single definition.
 
-**Three stages:**
+<b>Three stages:</b>
 
-**Basic Necessities**
+<b>Basic Necessities</b>
 Drawing from Maslow's hierarchy, securing shelter, food, and clothing must come before any quality lifestyle. This foundation isn't glamorous but is non-negotiable.
 
-**Quality in Basics**
+<b>Quality in Basics</b>
 Once survival needs are met, wise judgment becomes crucial. Minimalist principles apply: own only necessary items, invest in quality garments, choose whole foods and non-GMO options, create a comfortable and well-appointed living space.
 
-**Self-Realization**
+<b>Self-Realization</b>
 The pinnacle involves pursuing personal aspirations and living according to one's values. "Creating a bucket list and starting to check off those items now" through consistent goal-setting and contribution to values that inspire personal pride.
 
 This pursuit of self-actualization while honoring daily values represents the genuine essence of a quality existence — lived within its finite duration rather than deferred until some imagined later.`

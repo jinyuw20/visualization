@@ -17,9 +17,9 @@ To overcome these boundaries, people must actively seek learning through books, 
 
 Two critical decisions when learning begins:
 
-**What to learn** — determined by personality, interests, and honest assessment of where gaps exist.
+<b>What to learn</b> — determined by personality, interests, and honest assessment of where gaps exist.
 
-**How to learn** — through focus and presence, not passive consumption. Reading while distracted produces less than reading slowly with attention.
+<b>How to learn</b> — through focus and presence, not passive consumption. Reading while distracted produces less than reading slowly with attention.
 
 This process transforms ignorance into wisdom — not all at once, but step by step, as each new layer of understanding reveals the next boundary to cross.`
 });

@@ -9,19 +9,19 @@ window.BLOG_REGISTRY.push({
   excerpt: "While inflammation is a protective bodily response, chronic inflammation causes health problems. Whole, unprocessed foods with no added sugar — fruits, vegetables, whole grains, legumes, fish, nuts, and olive oil.",
   content: `While inflammation is a protective bodily response, chronic inflammation can cause health problems. The dietary recommendation: consume "whole, unprocessed foods with no added sugar."
 
-**Core foods:** Fruits, vegetables, whole grains, legumes, fish, poultry, nuts, seeds, and olive oil.
+<b>Core foods:</b> Fruits, vegetables, whole grains, legumes, fish, poultry, nuts, seeds, and olive oil.
 
-**Key dietary strategies:**
+<b>Key dietary strategies:</b>
 
-**High-antioxidant foods:** Dark-colored fruits like blueberries and leafy greens such as spinach help lower inflammation levels.
+<b>High-antioxidant foods:</b> Dark-colored fruits like blueberries and leafy greens such as spinach help lower inflammation levels.
 
-**Healthy fats:** Plant-based oils, fatty fish like salmon, and nuts rich in omega-3 fatty acids reduce bodily inflammation.
+<b>Healthy fats:</b> Plant-based oils, fatty fish like salmon, and nuts rich in omega-3 fatty acids reduce bodily inflammation.
 
-**Adequate fiber:** Vegetables, fruits, whole grains, and legumes promote gut health and decrease chronic inflammation.
+<b>Adequate fiber:</b> Vegetables, fruits, whole grains, and legumes promote gut health and decrease chronic inflammation.
 
-**Spices and herbs:** Ginger, garlic, mint, turmeric, and black pepper offer anti-inflammatory benefits.
+<b>Spices and herbs:</b> Ginger, garlic, mint, turmeric, and black pepper offer anti-inflammatory benefits.
 
-**Hydration:** Adequate water supports normal bodily functions and inflammation reduction.
+<b>Hydration:</b> Adequate water supports normal bodily functions and inflammation reduction.
 
 Recommended resources: Pick A Lime, Downshiftology, Japanese and Korean cuisine YouTube channels.
 

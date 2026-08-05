@@ -11,16 +11,16 @@ window.BLOG_REGISTRY.push({
 
 Approximately 39.6% of American adults experience obesity. Weight management is an ongoing challenge for many — and the solutions offered by the market are often more complicated than the fundamentals require.
 
-**Food Selection**
+<b>Food Selection</b>
 Limit sodium and sugar intake. Increase low-carb options like vegetables and oatmeal. Portion control matters more than elimination.
 
-**Eating Schedule**
+<b>Eating Schedule</b>
 Regular meal timing helps prevent impulse eating when hungry. When meals are predictable, snacking decisions become easier.
 
-**Calorie Tracking**
+<b>Calorie Tracking</b>
 Monitoring overall intake supports weight management efforts — not obsessively, but with enough awareness to understand patterns.
 
-**Mindful Eating**
+<b>Mindful Eating</b>
 Avoid unconscious consumption. Keep tempting foods out of sight. Find alternative activities for stress-eating triggers.
 
 The fundamentals are not complicated, but they require consistency. Recommended exercise resources: Walk with Leslie Sansone and JUNGDAYEON (both available on YouTube) — accessible, home-friendly options that work across fitness levels.`

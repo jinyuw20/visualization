@@ -11,7 +11,7 @@ window.BLOG_REGISTRY.push({
 
 Soft drink options were similarly problematic: ginger ale contained "140 calories per can and sugar."
 
-**The practical response:**
+<b>The practical response:</b>
 When flight attendants ask "Do you need anything?" respond by requesting water only. This allows travelers to maintain better control over nutritional intake during air travel rather than accepting pre-selected options that may conflict with personal health goals.
 
 Bringing your own snacks is the cleaner solution — it removes the decision entirely.`

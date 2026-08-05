@@ -9,7 +9,7 @@ window.BLOG_REGISTRY.push({
   excerpt: "Conversations function as platforms where individuals showcase their capabilities and worthiness — referencing 'The Elephant in the Brain' on the hidden social motivations behind dialogue.",
   content: `Discussions serve as a venue for demonstrating intelligence and establishing social standing, as explored in "The Elephant in the Brain."
 
-**Key observations:**
+<b>Key observations:</b>
 
 - Conversations function as platforms where individuals showcase their capabilities and worthiness
 - Building alliances and creating positive impressions are central to human interaction

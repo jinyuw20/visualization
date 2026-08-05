@@ -11,16 +11,16 @@ window.BLOG_REGISTRY.push({
 
 Four recommended book summary services:
 
-**1. Sukee's Two Minutes Read**
+<b>1. Sukee's Two Minutes Read</b>
 Condensed book summaries with discussion topics suited for tea-time conversation and entertainment.
 
-**2. Blinkist Daily**
+<b>2. Blinkist Daily</b>
 Delivers one complimentary book summary daily. Readers can skip uninteresting topics and discover unexpected titles that match their curiosity.
 
-**3. Quick Read**
+<b>3. Quick Read</b>
 Human-narrated summaries of non-fiction works covering self-improvement, history, and economics across multiple platforms. Summaries typically take 15–20 minutes and feature high-quality narration.
 
-**4. Productivity Game**
+<b>4. Productivity Game</b>
 A YouTube channel specializing in non-fiction self-improvement book summaries — a good option for those who prefer video format.
 
 A book summary is not the same as reading the book — but it is an excellent way to decide which books deserve your full attention, and to sample ideas you might not otherwise encounter. Come for the summary, stay for the conversation.`

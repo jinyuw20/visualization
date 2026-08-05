@@ -11,16 +11,16 @@ window.BLOG_REGISTRY.push({
 
 Three key elements for effective note-taking:
 
-**1. Discipline and Perseverance**
+<b>1. Discipline and Perseverance</b>
 Consistently capturing ideas from various sources — books, podcasts, videos, conversations. The habit matters more than the tool.
 
-**2. Organization Process**
+<b>2. Organization Process</b>
 The Zettelkasten Method is worth exploring: capture ideas in a fleet note, paraphrase fleet notes into literature notes, and create permanent notes written entirely in your own words. The final form should be your synthesis, not a copy.
 
-**3. Sense of Purpose**
+<b>3. Sense of Purpose</b>
 Maintain laser-focused attention on materials that align with your values. Time is limited — every note should have a reason to exist.
 
-**What a good tool needs:**
+<b>What a good tool needs:</b>
 - Accessibility across devices
 - Reliable storage and backup
 - Quick search functionality
