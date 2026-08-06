@@ -617,17 +617,27 @@ function playArticle(index) {
   const ytIframe = document.querySelector('#modalContent .yt-embed iframe');
   if (ytIframe && state.openBlog && state.openBlog.id === article.id) {
     const baseSrc = ytIframe.src.split('?')[0];
-    ytIframe.src = baseSrc + '?autoplay=1&enablejsapi=1';
+    ytIframe.src = baseSrc + '?autoplay=1&enablejsapi=1&mute=0';
     _ytHandler = function(e) {
       let data;
       try { data = JSON.parse(e.data); } catch(err) { return; }
-      if (data.event === 'onStateChange' && data.info === 0) {
+      // On ready, send explicit play command (belt-and-suspenders with autoplay=1)
+      if (data.event === 'onReady') {
+        const fr = document.querySelector('#modalContent .yt-embed iframe');
+        if (fr) fr.contentWindow.postMessage(
+          JSON.stringify({event: 'command', func: 'playVideo', args: []}), '*'
+        );
+      }
+      // Handle both old and new YouTube postMessage formats for video ended
+      const ended = (data.event === 'onStateChange' && data.info === 0) ||
+                    (data.event === 'infoDelivery' && data.info && data.info.playerState === 0);
+      if (ended) {
         _clearYt();
         if (state.isPlaying && !state.isPaused) _doSpeakArticle(article, index);
       }
     };
     window.addEventListener('message', _ytHandler);
-    // Safety fallback: after 60 min, speak anyway (very long video)
+    // Safety fallback: after 60 min, speak anyway
     _ytFallback = setTimeout(() => { _clearYt(); _doSpeakArticle(article, index); }, 60 * 60 * 1000);
   } else {
     _doSpeakArticle(article, index);
