@@ -5,7 +5,7 @@ window.BLOG_REGISTRY.push({
   author: "Sukee Parker",
   date: "2025-11-30",
   category: "Books",
-  tags: ["Books", "Wealth", "Sahil Bloom", "Life Philosophy"],
+  tags: ["Books", "Wealth", "Sahil Bloom", "Philosophy"],
   excerpt: "Sahil Bloom's 2025 book: a fulfilling life requires five elements — competing with time, building connections, fostering curiosity, maintaining health, and achieving financial security. 'You cannot see if you're not opening up your eyes.'",
   content: `Sahil Bloom's *The Five Types of Wealth* (2025) — recommended for loved ones for its accessible life philosophy.
 
