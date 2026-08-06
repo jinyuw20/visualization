@@ -943,7 +943,8 @@ window.addEventListener('hashchange', function() {
 /* === Calendar === */
 
 function articlesDateSet() {
-  return new Set(activeRegistry().map(b => b.date));
+  const today = new Date().toISOString().slice(0, 10);
+  return new Set(activeRegistry().filter(b => b.date <= today).map(b => b.date));
 }
 
 function renderCalendar() {
