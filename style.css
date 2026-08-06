@@ -793,6 +793,21 @@ body.player-active main { padding-bottom: 5.5rem; }
 .modal-body ol { counter-reset: item; }
 .modal-body ol > li::before { content: counter(item) "."; counter-increment: item; position: absolute; left: 0; }
 
+.yt-embed {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin: 1.25rem 0;
+  border-radius: 8px;
+}
+.yt-embed iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  border: 0;
+}
+
 .modal-body blockquote,
 .post-body blockquote {
   font-style: italic;
