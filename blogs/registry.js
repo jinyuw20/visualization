@@ -7863,8 +7863,8 @@ window.BLOG_REGISTRY.push({
   "pinned": false
 });
 window.BLOG_REGISTRY.push({
-  "id": "2026-08-06-a-problematic-customer-service",
-  "title": "A Problematic Customer Service",
+  "id": "2026-08-06-problematic-customer-services",
+  "title": "Problematic Customer Services",
   "author": "Sukee Parker",
   "date": "2026-08-06",
   "category": "Life Story",
