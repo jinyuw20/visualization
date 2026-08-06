@@ -215,7 +215,6 @@ window.BLOG_META = {
     "Life Decisions",
     "Life Design",
     "Life Lessons",
-    "Life Philosophy",
     "Life Planning",
     "Life Skills",
     "Life System",

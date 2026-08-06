@@ -849,9 +849,11 @@ function updateSentinel() {
 }
 
 function renderFeed() {
-  let blogs = state.filterCategory === 'All'
+  const today = new Date().toISOString().slice(0, 10);
+  let blogs = (state.filterCategory === 'All'
     ? deduped()
-    : deduped().filter(b => b.category === state.filterCategory);
+    : deduped().filter(b => b.category === state.filterCategory)
+  ).filter(b => b.date <= today);
   if (state.calYearFilter) {
     blogs = blogs.filter(b => b.date.startsWith(state.calYearFilter));
   }
