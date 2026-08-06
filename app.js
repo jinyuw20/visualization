@@ -447,6 +447,26 @@ function buildQueue(minutes) {
 /* === Speech === */
 let _currentUtt = null;
 let _currentSpeechArticle = null;
+let _ytHandler = null;
+let _ytFallback = null;
+
+function _clearYt() {
+  if (_ytHandler) { window.removeEventListener('message', _ytHandler); _ytHandler = null; }
+  if (_ytFallback) { clearTimeout(_ytFallback); _ytFallback = null; }
+}
+
+function _doSpeakArticle(article, index) {
+  const text = `${article.title}. By ${article.author}. ${stripHtml(article.content)}`;
+  const utt = speak(text, () => {
+    _currentUtt = null;
+    _currentSpeechArticle = null;
+    clearSpeechHighlight();
+    if (state.isPlaying && !state.isPaused) {
+      setTimeout(() => playArticle(index + 1), 600);
+    }
+  });
+  if (utt) setupSpeechHighlight(article, utt, text);
+}
 
 function speak(text, onEnd) {
   if (!window.speechSynthesis) {
@@ -592,16 +612,26 @@ function playArticle(index) {
   startProgress(article.wc);
 
   _currentSpeechArticle = article;
-  const text = `${article.title}. By ${article.author}. ${stripHtml(article.content)}`;
-  const utt = speak(text, () => {
-    _currentUtt = null;
-    _currentSpeechArticle = null;
-    clearSpeechHighlight();
-    if (state.isPlaying && !state.isPaused) {
-      setTimeout(() => playArticle(index + 1), 600);
-    }
-  });
-  if (utt) setupSpeechHighlight(article, utt, text);
+
+  // If the open modal has a YouTube embed, play it first then speak
+  const ytIframe = document.querySelector('#modalContent .yt-embed iframe');
+  if (ytIframe && state.openBlog && state.openBlog.id === article.id) {
+    const baseSrc = ytIframe.src.split('?')[0];
+    ytIframe.src = baseSrc + '?autoplay=1&enablejsapi=1';
+    _ytHandler = function(e) {
+      let data;
+      try { data = JSON.parse(e.data); } catch(err) { return; }
+      if (data.event === 'onStateChange' && data.info === 0) {
+        _clearYt();
+        if (state.isPlaying && !state.isPaused) _doSpeakArticle(article, index);
+      }
+    };
+    window.addEventListener('message', _ytHandler);
+    // Safety fallback: after 60 min, speak anyway (very long video)
+    _ytFallback = setTimeout(() => { _clearYt(); _doSpeakArticle(article, index); }, 60 * 60 * 1000);
+  } else {
+    _doSpeakArticle(article, index);
+  }
 }
 
 function startSession() {
@@ -645,6 +675,7 @@ function pauseSession() {
 
 function skipArticle() {
   if (!state.isPlaying) return;
+  _clearYt();
   clearInterval(progressInterval);
   state.isPlaying = false; // block onend auto-advance while cancelling
   window.speechSynthesis.cancel();
@@ -677,6 +708,7 @@ function _closeModalUI() {
 }
 
 function stopSession() {
+  _clearYt();
   const wasSession = state.isSession;
   state.isPlaying = false;
   state.isPaused = false;
