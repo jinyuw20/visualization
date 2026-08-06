@@ -389,6 +389,11 @@ window.BLOG_META = {
   ],
   "posts": [
     {
+      "id": "2026-08-06-the-crunch-gym",
+      "title": "The Crunch Gym",
+      "date": "2026-08-06"
+    },
+    {
       "id": "2026-08-05-the-blue-whale-challenge",
       "title": "The Blue Whale Challenge",
       "date": "2026-08-05"
