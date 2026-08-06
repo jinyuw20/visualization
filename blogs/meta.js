@@ -388,6 +388,11 @@ window.BLOG_META = {
   ],
   "posts": [
     {
+      "id": "2026-08-07-changes-are-constant",
+      "title": "Changes are Constant",
+      "date": "2026-08-07"
+    },
+    {
       "id": "2026-08-06-a-problematic-customer-service",
       "title": "A Problematic Customer Service",
       "date": "2026-08-06"
