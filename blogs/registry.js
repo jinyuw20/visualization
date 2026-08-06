@@ -1043,14 +1043,19 @@ Mantras work best when repeated slowly, with attention. During tea time, they be
 Worth exploring if stillness is what you are after.`
 });
 window.BLOG_REGISTRY.push({
-  id: "2017-01-01-music-10000-reasons",
-  title: "Music: 10000 Reasons",
-  author: "Sukee Parker",
-  date: "2017-01-01",
-  category: "Lifestyle",
-  tags: ["Music"],
-  excerpt: "A tea time music pick to start the new year with.",
-  content: `A quiet piece of music to begin the year with. Put it on, pour something warm, and let the day start gently.`
+  "id": "2017-01-01-music-10000-reasons",
+  "title": "Music: 10000 Reasons",
+  "author": "Sukee Parker",
+  "date": "2017-01-01",
+  "category": "Lifestyle",
+  "tags": [
+    "Music"
+  ],
+  "excerpt": "A soothing piece of music to kick off the new year. Let the day begin gently with a warm beverage and this calming tune.",
+  "content": "<p><iframe src=\"https://www.youtube.com/embed/XtwIT8JjddM\" title=\"YouTube video\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe><br></p>",
+  "contentType": "html",
+  "autoRead": true,
+  "pinned": false
 });
 window.BLOG_REGISTRY.push({
   id: "2017-02-12-story-how-long-can-we-stay-away-from-sunlight",
@@ -6276,14 +6281,22 @@ window.BLOG_REGISTRY.push({
 Reading demands effort. Its practical benefits are proportional to that effort — and to how few other people bother.`
 });
 window.BLOG_REGISTRY.push({
-  id: "2024-05-26-music-country-music-from-luke-combs",
-  title: "Music | Country Music from Luke Combs",
-  author: "Sukee Parker",
-  date: "2024-05-26",
-  category: "Music",
-  tags: ["Music", "Country Music", "Luke Combs", "Tea Time"],
-  excerpt: "Country music from Luke Combs — a tea time listening moment.",
-  content: `Country music from Luke Combs — a tea time listening moment.`
+  "id": "2024-05-26-music-country-music-from-luke-combs",
+  "title": "Music | Country Music from Luke Combs",
+  "author": "Sukee Parker",
+  "date": "2024-05-26",
+  "category": "Music",
+  "tags": [
+    "Music",
+    "Country Music",
+    "Luke Combs",
+    "Tea Time"
+  ],
+  "excerpt": "Country music from Luke Combs — a tea time listening moment.",
+  "content": "<p><iframe src=\"https://www.youtube.com/embed/aoJwvnDuAR0\" title=\"YouTube video\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe><br></p>",
+  "contentType": "html",
+  "autoRead": true,
+  "pinned": false
 });
 window.BLOG_REGISTRY.push({
   id: "2024-06-02-chat-be-your-own-person",
@@ -7074,14 +7087,22 @@ Should change prove impossible, the shift is to adjusting your perspective and r
 This balanced philosophy acknowledges both the power of direct action and the wisdom of acceptance when circumstances resist modification. The question is always: which is actually in my control here?`
 });
 window.BLOG_REGISTRY.push({
-  id: "2025-06-15-music-pop-music-2024-hit",
-  title: "Music | Pop Music - 2024 Hit",
-  author: "Sukee Parker",
-  date: "2025-06-15",
-  category: "Music",
-  tags: ["Music", "Pop Music", "2024", "Tea Time"],
-  excerpt: "Pop music hits from 2024 for a tea time listening moment.",
-  content: `Pop music hits from 2024 for a tea time listening moment.`
+  "id": "2025-06-15-pop-music-from-2024-hit",
+  "title": "Pop Music from 2024 Hit",
+  "author": "Sukee Parker",
+  "date": "2025-06-15",
+  "category": "Music",
+  "tags": [
+    "Music",
+    "Pop Music",
+    "2024",
+    "Tea Time"
+  ],
+  "excerpt": "Pop music hits from 2024 for a tea time listening moment.",
+  "content": "<p><iframe src=\"https://www.youtube.com/embed/t7bQwwqW-Hc\" title=\"YouTube video\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe><br></p>",
+  "contentType": "html",
+  "autoRead": true,
+  "pinned": false
 });
 window.BLOG_REGISTRY.push({
   id: "2025-06-29-chat-happy-copycats",
@@ -7872,7 +7893,7 @@ window.BLOG_REGISTRY.push({
     "Customer Service"
   ],
   "excerpt": "What customer service should learn.",
-  "content": "<div class=\"yt-embed\"><iframe src=\"https://www.youtube.com/embed/SjZ56mFZ5bo\" title=\"YouTube video\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe></div><p><span>Crunch Gym recently opened up in my neighborhood. The convenient location and the brand new quality facility lured me into a membership. The gym is crowded, as many may think the same. However, my experience quickly turned sour when I encountered a serious issue with their service.</span></p><p>As I patiently waited for my hydration massage after exercise, I noticed that at least three people came after me &nbsp;get served before me. This was after an already significantly longer wait time. When I pointed out the error, “Why are people ahead of me getting the service first?” They simply ignored my request and still allowed one more person who come after me to receive the service before me again.</p><p>Frustrated, I requested that they check and explain the mistakes. They continued to insist they were correct and forced me to walk away.&nbsp; A young server eventually started to point at me and asked me to show them respect, giving me a look. I am furious because instead of addressing the customer issue immediately, they instead tried to bully and intimidate their customers. Who teach them that attitude? Moreover, I was simply pointing out the issue without raising my voice. They couldn’t even accept such a complaint?&nbsp;&nbsp;</p><p>Then, they started their excuse that I had been placed in the wrong queue for another service. However, I never requested that. I suggested that they check the surveillance recording to validate my claim. It was clearly their mistake. I can't stand this, so I stood my ground and gave a clear message that this is not acceptable and demanded an apology. After that, their attitude started to change. They apologized, and I walked away. It's such an unpleasant moment.&nbsp;</p><p>What makes this suspicious is that when I complained about them letting others in before me, all of them took the hydration message. Wouldn't they know what I am waiting for? Is this just a mistake or an attitude issue?&nbsp;</p><p>I hope Crunch Gym takes the feedback seriously, as good business can't last if they put customers at the second place.&nbsp;</p>",
+  "content": "<p>Crunch Gym recently opened up in my neighborhood. The convenient location and the brand new quality facility lured me into a membership. The gym is crowded, as many may think the same. However, my experience quickly turned sour when I encountered a serious issue with their service.</span></p><p>As I patiently waited for my hydration massage after exercise, I noticed that at least three people came after me &nbsp;get served before me. This was after an already significantly longer wait time. When I pointed out the error, “Why are people ahead of me getting the service first?” They simply ignored my request and still allowed one more person who come after me to receive the service before me again.</p><p>Frustrated, I requested that they check and explain the mistakes. They continued to insist they were correct and forced me to walk away.&nbsp; A young server eventually started to point at me and asked me to show them respect, giving me a look. I am furious because instead of addressing the customer issue immediately, they instead tried to bully and intimidate their customers. Who teach them that attitude? Moreover, I was simply pointing out the issue without raising my voice. They couldn’t even accept such a complaint?&nbsp;&nbsp;</p><p>Then, they started their excuse that I had been placed in the wrong queue for another service. However, I never requested that. I suggested that they check the surveillance recording to validate my claim. It was clearly their mistake. I can't stand this, so I stood my ground and gave a clear message that this is not acceptable and demanded an apology. After that, their attitude started to change. They apologized, and I walked away. It's such an unpleasant moment.&nbsp;</p><p>What makes this suspicious is that when I complained about them letting others in before me, all of them took the hydration message. Wouldn't they know what I am waiting for? Is this just a mistake or an attitude issue?&nbsp;</p><p>I hope Crunch Gym takes the feedback seriously, as good business can't last if they put customers at the second place.&nbsp;</p>",
   "contentType": "html",
   "autoRead": true,
   "pinned": false
