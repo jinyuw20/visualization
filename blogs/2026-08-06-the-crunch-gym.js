@@ -1,7 +1,7 @@
 window.BLOG_REGISTRY = window.BLOG_REGISTRY || [];
 window.BLOG_REGISTRY.push({
-  "id": "2026-08-06-the-crunch-gym",
-  "title": "The Crunch Gym",
+  "id": "2026-08-06-a-problematic-customer-service",
+  "title": "A Problematic Customer Service",
   "author": "Sukee Parker",
   "date": "2026-08-06",
   "category": "Life Story",
