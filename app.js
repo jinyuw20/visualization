@@ -447,13 +447,32 @@ function buildQueue(minutes) {
 /* === Speech === */
 let _currentUtt = null;
 let _currentSpeechArticle = null;
-let _ytHandler = null;
+let _ytPlayer = null;
 let _ytFallback = null;
+let _ytApiLoaded = false;
+let _ytApiPending = [];
 
 function _clearYt() {
-  if (_ytHandler) { window.removeEventListener('message', _ytHandler); _ytHandler = null; }
   if (_ytFallback) { clearTimeout(_ytFallback); _ytFallback = null; }
+  if (_ytPlayer) {
+    try { _ytPlayer.stopVideo(); _ytPlayer.destroy(); } catch(e) {}
+    _ytPlayer = null;
+  }
 }
+
+function _loadYtApi(cb) {
+  if (window.YT && window.YT.Player) { cb(); return; }
+  _ytApiPending.push(cb);
+  if (!_ytApiLoaded) {
+    _ytApiLoaded = true;
+    const s = document.createElement('script');
+    s.src = 'https://www.youtube.com/iframe_api';
+    document.head.appendChild(s);
+  }
+}
+window.onYouTubeIframeAPIReady = function() {
+  _ytApiPending.splice(0).forEach(function(cb) { cb(); });
+};
 
 function _doSpeakArticle(article, index) {
   const text = `${article.title}. By ${article.author}. ${stripHtml(article.content)}`;
@@ -616,29 +635,32 @@ function playArticle(index) {
   // If the open modal has a YouTube embed, play it first then speak
   const ytIframe = document.querySelector('#modalContent .yt-embed iframe');
   if (ytIframe && state.openBlog && state.openBlog.id === article.id) {
-    const baseSrc = ytIframe.src.split('?')[0];
-    ytIframe.src = baseSrc + '?autoplay=1&enablejsapi=1&mute=0';
-    _ytHandler = function(e) {
-      let data;
-      try { data = JSON.parse(e.data); } catch(err) { return; }
-      // On ready, send explicit play command (belt-and-suspenders with autoplay=1)
-      if (data.event === 'onReady') {
-        const fr = document.querySelector('#modalContent .yt-embed iframe');
-        if (fr) fr.contentWindow.postMessage(
-          JSON.stringify({event: 'command', func: 'playVideo', args: []}), '*'
-        );
-      }
-      // Handle both old and new YouTube postMessage formats for video ended
-      const ended = (data.event === 'onStateChange' && data.info === 0) ||
-                    (data.event === 'infoDelivery' && data.info && data.info.playerState === 0);
-      if (ended) {
-        _clearYt();
-        if (state.isPlaying && !state.isPaused) _doSpeakArticle(article, index);
-      }
-    };
-    window.addEventListener('message', _ytHandler);
-    // Safety fallback: after 60 min, speak anyway
-    _ytFallback = setTimeout(() => { _clearYt(); _doSpeakArticle(article, index); }, 60 * 60 * 1000);
+    const m = (ytIframe.src || '').match(/embed\/([A-Za-z0-9_-]{11})/);
+    if (m) {
+      const videoId = m[1];
+      const wrapper = ytIframe.closest('.yt-embed');
+      if (wrapper) wrapper.innerHTML = '<div id="_yt_tmp"></div>';
+      _ytFallback = setTimeout(function() { _clearYt(); _doSpeakArticle(article, index); }, 60 * 60 * 1000);
+      _loadYtApi(function() {
+        _ytPlayer = new YT.Player('_yt_tmp', {
+          videoId: videoId,
+          width: '100%',
+          height: '100%',
+          playerVars: { autoplay: 1, rel: 0, modestbranding: 1 },
+          events: {
+            onReady: function(e) { e.target.playVideo(); },
+            onStateChange: function(e) {
+              if (e.data === 0) { // YT.PlayerState.ENDED
+                _clearYt();
+                if (state.isPlaying && !state.isPaused) _doSpeakArticle(article, index);
+              }
+            }
+          }
+        });
+      });
+    } else {
+      _doSpeakArticle(article, index);
+    }
   } else {
     _doSpeakArticle(article, index);
   }
