@@ -451,13 +451,39 @@ let _ytPlayer = null;
 let _ytFallback = null;
 let _ytApiLoaded = false;
 let _ytApiPending = [];
+let _ytPlayOverlayTimer = null;
 
 function _clearYt() {
   if (_ytFallback) { clearTimeout(_ytFallback); _ytFallback = null; }
+  _hideYtTapOverlay();
   if (_ytPlayer) {
     try { _ytPlayer.stopVideo(); _ytPlayer.destroy(); } catch(e) {}
     _ytPlayer = null;
   }
+}
+
+function _showYtTapOverlay(article, index) {
+  if (document.getElementById('_yt_overlay')) return;
+  const ref = document.getElementById('_yt_tmp') || document.querySelector('#modalContent .yt-embed iframe');
+  if (!ref) return;
+  const parent = ref.parentElement;
+  if (!parent) return;
+  parent.style.position = 'relative';
+  const ov = document.createElement('div');
+  ov.id = '_yt_overlay';
+  ov.style.cssText = 'position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:rgba(0,0,0,0.6);border-radius:8px;cursor:pointer;z-index:10;gap:8px;';
+  ov.innerHTML = '<div style="background:rgba(220,50,50,0.92);border-radius:50%;width:56px;height:56px;display:flex;align-items:center;justify-content:center;font-size:26px;color:#fff;">&#9654;</div><span style="color:#fff;font-size:13px;font-weight:500;letter-spacing:.02em;">Tap to play video</span>';
+  parent.appendChild(ov);
+  ov.addEventListener('click', function() {
+    _hideYtTapOverlay();
+    if (_ytPlayer && typeof _ytPlayer.playVideo === 'function') _ytPlayer.playVideo();
+  }, { once: true });
+}
+
+function _hideYtTapOverlay() {
+  if (_ytPlayOverlayTimer) { clearTimeout(_ytPlayOverlayTimer); _ytPlayOverlayTimer = null; }
+  const ov = document.getElementById('_yt_overlay');
+  if (ov) ov.remove();
 }
 
 function _loadYtApi(cb) {
@@ -465,9 +491,12 @@ function _loadYtApi(cb) {
   _ytApiPending.push(cb);
   if (!_ytApiLoaded) {
     _ytApiLoaded = true;
-    const s = document.createElement('script');
-    s.src = 'https://www.youtube.com/iframe_api';
-    document.head.appendChild(s);
+    // Only inject the script if it isn't already in the page (e.g. pre-loaded in index.html)
+    if (!document.querySelector('script[src*="youtube.com/iframe_api"]')) {
+      const s = document.createElement('script');
+      s.src = 'https://www.youtube.com/iframe_api';
+      document.head.appendChild(s);
+    }
   }
 }
 window.onYouTubeIframeAPIReady = function() {
@@ -642,15 +671,31 @@ function playArticle(index) {
       if (wrapper) wrapper.innerHTML = '<div id="_yt_tmp"></div>';
       _ytFallback = setTimeout(function() { _clearYt(); _doSpeakArticle(article, index); }, 60 * 60 * 1000);
       _loadYtApi(function() {
+        if (!document.getElementById('_yt_tmp')) {
+          // Modal was updated before API resolved; fall through to TTS
+          _clearYt();
+          _doSpeakArticle(article, index);
+          return;
+        }
         _ytPlayer = new YT.Player('_yt_tmp', {
           videoId: videoId,
           width: '100%',
           height: '100%',
           playerVars: { autoplay: 1, rel: 0, modestbranding: 1 },
           events: {
-            onReady: function(e) { e.target.playVideo(); },
+            onReady: function(e) {
+              e.target.playVideo();
+              // If not visibly playing within 2.5 s, show tap-to-play overlay (mobile fallback)
+              _ytPlayOverlayTimer = setTimeout(function() {
+                try { if (_ytPlayer && _ytPlayer.getPlayerState() !== 1) _showYtTapOverlay(article, index); }
+                catch(ex) { _showYtTapOverlay(article, index); }
+              }, 2500);
+            },
             onStateChange: function(e) {
-              if (e.data === 0) { // YT.PlayerState.ENDED
+              if (e.data === 1) { // PLAYING — autoplay succeeded, dismiss overlay
+                _hideYtTapOverlay();
+              }
+              if (e.data === 0) { // ENDED
                 _clearYt();
                 if (state.isPlaying && !state.isPaused) _doSpeakArticle(article, index);
               }

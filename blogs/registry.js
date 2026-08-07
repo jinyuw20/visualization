@@ -6208,14 +6208,22 @@ Earth Day has driven environmental legislation protecting air quality, water res
 Small changes in daily material choices accumulate into meaningful environmental impact.`
 });
 window.BLOG_REGISTRY.push({
-  id: "2024-04-28-music-andrea-bocellis-song",
-  title: "Music | Andrea Bocelli's Song",
-  author: "Sukee Parker",
-  date: "2024-04-28",
-  category: "Music",
-  tags: ["Music", "Andrea Bocelli", "Opera", "Tea Time"],
-  excerpt: "Andrea Bocelli is an Italian tenor — check his global tour dates in your city.",
-  content: `Andrea Bocelli is an Italian tenor. Check his global tour dates in your city.`
+  "id": "2024-04-28-music-andrea-bocellis-song",
+  "title": "Music | Andrea Bocelli's Song",
+  "author": "Sukee Parker",
+  "date": "2024-04-28",
+  "category": "Music",
+  "tags": [
+    "Music",
+    "Andrea Bocelli",
+    "Opera",
+    "Tea Time"
+  ],
+  "excerpt": "Andrea Bocelli is an Italian tenor — check his global tour dates in your city.",
+  "content": "<p><iframe src=\"https://www.youtube.com/embed/aAly0LdU13I\" title=\"YouTube video\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\"></iframe><br></p>",
+  "contentType": "html",
+  "autoRead": true,
+  "pinned": false
 });
 window.BLOG_REGISTRY.push({
   id: "2024-05-05-story-ask-questions-a-50-million-lesson",
