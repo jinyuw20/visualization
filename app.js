@@ -166,9 +166,14 @@ function listenMins(blog) {
 
 function contentToHtml(blog) {
   if (blog.contentType === 'html') {
-    return blog.content
+    let html = blog.content
       .replace(/&nbsp;/g, ' ')
       .replace(/<img(?![^>]*\bloading=)/g, '<img loading="lazy"');
+    // Normalize: strip any existing .yt-embed wrapper then re-wrap all YouTube iframes
+    // so the responsive CSS and JS selector work regardless of how the content was saved
+    html = html.replace(/<div[^>]*class="[^"]*\byt-embed\b[^"]*"[^>]*>\s*(<iframe[^>]*youtube\.com\/embed[^>]*>(?:<\/iframe>)?)\s*<\/div>/gi, '$1');
+    html = html.replace(/(<iframe[^>]*youtube\.com\/embed[^>]*>(?:<\/iframe>)?)/gi, '<div class="yt-embed">$1</div>');
+    return html;
   }
   return blog.content.split(/\n+/).filter(p => p.trim()).map(p => `<p>${p.trim()}</p>`).join('');
 }
@@ -662,12 +667,12 @@ function playArticle(index) {
   _currentSpeechArticle = article;
 
   // If the open modal has a YouTube embed, play it first then speak
-  const ytIframe = document.querySelector('#modalContent .yt-embed iframe');
+  const ytIframe = document.querySelector('#modalContent iframe[src*="youtube.com/embed"]');
   if (ytIframe && state.openBlog && state.openBlog.id === article.id) {
     const m = (ytIframe.src || '').match(/embed\/([A-Za-z0-9_-]{11})/);
     if (m) {
       const videoId = m[1];
-      const wrapper = ytIframe.closest('.yt-embed');
+      const wrapper = ytIframe.closest('.yt-embed') || ytIframe.parentElement;
       if (wrapper) wrapper.innerHTML = '<div id="_yt_tmp"></div>';
       _ytFallback = setTimeout(function() { _clearYt(); _doSpeakArticle(article, index); }, 60 * 60 * 1000);
       _loadYtApi(function() {
